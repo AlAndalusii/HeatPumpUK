@@ -1,0 +1,125 @@
+"use client"
+
+export function Logo({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 200 44" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+      {/* Minimalist icon - circular energy flow with perfect geometry */}
+      <g>
+        {/* Outer circle - subtle background */}
+        <circle 
+          cx="22" 
+          cy="22" 
+          r="20" 
+          fill="url(#iconBg)" 
+          opacity="0.08"
+        />
+        
+        {/* Main icon shape - three-quarter circle representing continuous energy flow */}
+        <circle 
+          cx="22" 
+          cy="22" 
+          r="14" 
+          stroke="url(#mainGradient)" 
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          fill="none"
+          strokeDasharray="66 22"
+          strokeDashoffset="0"
+          transform="rotate(-90 22 22)"
+        />
+        
+        {/* Inner accent circle - represents core efficiency */}
+        <circle 
+          cx="22" 
+          cy="22" 
+          r="8" 
+          stroke="url(#innerGradient)" 
+          strokeWidth="2"
+          strokeLinecap="round"
+          fill="none"
+          strokeDasharray="38 12"
+          strokeDashoffset="0"
+          transform="rotate(45 22 22)"
+        />
+        
+        {/* Center dot - focal point */}
+        <circle 
+          cx="22" 
+          cy="22" 
+          r="2.5" 
+          fill="url(#centerGradient)"
+        />
+        
+        {/* Elegant arrow indicator - subtle directional element */}
+        <path
+          d="M 28 15 L 31 12 L 28 9"
+          stroke="url(#accentGradient)"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+      </g>
+
+      {/* Wordmark - Apple-style typography */}
+      <g>
+        <text
+          x="52"
+          y="30"
+          fontFamily="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
+          fontSize="20"
+          fontWeight="600"
+          fill="#1d1d1f"
+          letterSpacing="-0.5"
+        >
+          HeatPump
+        </text>
+        <text
+          x="145"
+          y="30"
+          fontFamily="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
+          fontSize="20"
+          fontWeight="400"
+          fill="#86868b"
+          letterSpacing="-0.3"
+        >
+          UK
+        </text>
+      </g>
+
+      {/* Gradient definitions - Premium and refined */}
+      <defs>
+        {/* Icon background - soft blue */}
+        <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#0071e3" />
+          <stop offset="100%" stopColor="#0066cc" />
+        </linearGradient>
+        
+        {/* Main gradient - primary brand blue to vibrant cyan */}
+        <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#0071e3" />
+          <stop offset="50%" stopColor="#00a2ff" />
+          <stop offset="100%" stopColor="#0071e3" />
+        </linearGradient>
+        
+        {/* Inner gradient - blue to green transition */}
+        <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#00b8ff" />
+          <stop offset="100%" stopColor="#34c759" />
+        </linearGradient>
+        
+        {/* Center gradient - bright focal point */}
+        <radialGradient id="centerGradient">
+          <stop offset="0%" stopColor="#0071e3" />
+          <stop offset="100%" stopColor="#0056b3" />
+        </radialGradient>
+        
+        {/* Accent gradient - green energy indicator */}
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#34c759" />
+          <stop offset="100%" stopColor="#30d158" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
