@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
@@ -10,75 +10,82 @@ import Link from "next/link"
 const questions = [
   {
     id: 1,
-    question: "Do you own the property?",
-    options: ["Yes", "No"],
+    question: "What brings you here today?",
+    options: ["Get heat pump quotes (installation)", "Check grant eligibility", "Heat pump repair/service"],
     type: "choice",
-    warningMessage: "Grants usually require property ownership",
-    showWarningFor: "No",
   },
   {
     id: 2,
-    question: "Where is the property located?",
+    question: "Do you own this property?",
+    options: ["Yes", "No"],
+    type: "choice",
+    warningMessage: "Grant requires ownership",
+    showWarningFor: "No",
+  },
+  {
+    id: 3,
+    question: "Property location?",
     options: ["England", "Wales", "Scotland", "Northern Ireland"],
     type: "choice",
   },
   {
-    id: 3,
-    question: "What is your current heating system?",
-    options: ["Gas boiler", "Oil boiler", "Electric heating (no heat pump)", "Already have a heat pump", "Not sure"],
-    type: "choice",
-  },
-  {
     id: 4,
-    question: "What type of property is it?",
-    options: ["House", "Bungalow", "Flat / Apartment", "Other"],
+    question: "Current heating system?",
+    options: ["Gas boiler", "Oil", "LPG", "Electric", "Already have heat pump", "Other"],
     type: "choice",
   },
   {
     id: 5,
-    question: "Roughly how many bedrooms?",
-    options: ["1–2", "3", "4+", "Not sure"],
+    question: "Property type?",
+    options: ["House", "Bungalow", "Flat", "Other"],
     type: "choice",
   },
   {
     id: 6,
-    question: "When was the property built?",
-    options: ["Before 1990", "1990–2010", "After 2010", "Not sure"],
+    question: "Bedrooms?",
+    options: ["1-2", "3", "4+", "Not sure"],
     type: "choice",
   },
   {
     id: 7,
-    question: "When would you ideally want installation?",
-    options: ["ASAP", "1–3 months", "3–6 months", "Just researching"],
+    question: "Built when?",
+    options: ["Before 1990", "1990-2010", "After 2010", "Not sure"],
     type: "choice",
   },
   {
     id: 8,
-    question: "Enter the first part of your postcode",
-    options: [],
-    type: "text",
-    placeholder: "e.g. SW1A",
-    helperText: "This helps us match you with local installers",
+    question: "Installation timeline?",
+    options: ["ASAP", "1-3 months", "3-6 months", "Just researching"],
+    type: "choice",
   },
   {
     id: 9,
-    question: "Your details to check eligibility & send results",
+    question: "Postcode (first half)",
+    options: [],
+    type: "text",
+    placeholder: "e.g. SW1A",
+    optional: false,
+    helperText: "This helps us match you with local installers",
+  },
+  {
+    id: 10,
+    question: "Name + Email",
     options: [],
     type: "combined",
     fields: [
       { name: "name", type: "text", placeholder: "Your full name", label: "Name" },
       { name: "email", type: "email", placeholder: "you@example.com", label: "Email" },
     ],
-    microcopy: "We'll email your eligibility result and next steps. No spam.",
+    microcopy: "We'll email your results",
   },
   {
-    id: 10,
+    id: 11,
     question: "What's the best phone number to reach you?",
     options: [],
     type: "tel",
     placeholder: "07123 456789",
     optional: false,
-    helperText: "Installers will contact you within 24 hours",
+    helperText: "Required - Installers will contact you within 48 hours",
   },
 ]
 
@@ -93,6 +100,24 @@ export default function QuizPage() {
 
   const currentQuestion = questions[currentStep]
   const progress = ((currentStep + 1) / questions.length) * 100
+
+  // Restore previous answers when navigating back
+  useEffect(() => {
+    const currentAnswer = answers[currentQuestion.id]
+    
+    if (currentAnswer) {
+      if (currentQuestion.type === "text" || currentQuestion.type === "tel") {
+        setTextInput(currentAnswer)
+      } else if (currentQuestion.type === "combined") {
+        const [name, email] = currentAnswer.split("|")
+        setCombinedInputs({ name: name || "", email: email || "" })
+      }
+    } else {
+      // Clear inputs if no previous answer
+      setTextInput("")
+      setCombinedInputs({ name: "", email: "" })
+    }
+  }, [currentStep, currentQuestion.id, currentQuestion.type, answers])
 
   const handleAnswer = (answer: string) => {
     const newAnswers = { ...answers, [currentQuestion.id]: answer }
@@ -114,6 +139,25 @@ export default function QuizPage() {
     } else {
       // All questions answered
       setTimeout(() => setSubmitted(true), 300)
+    }
+  }
+
+  const handleBack = () => {
+    if (currentStep > 0) {
+      setCurrentStep(currentStep - 1)
+      setValidationError("")
+      setShowWarning(false)
+      
+      // Restore previous answer if it exists
+      const previousQuestion = questions[currentStep - 1]
+      const previousAnswer = answers[previousQuestion.id]
+      
+      if (previousQuestion.type === "text" || previousQuestion.type === "tel") {
+        setTextInput(previousAnswer || "")
+      } else if (previousQuestion.type === "combined" && previousAnswer) {
+        const [name, email] = previousAnswer.split("|")
+        setCombinedInputs({ name: name || "", email: email || "" })
+      }
     }
   }
 
@@ -177,45 +221,88 @@ export default function QuizPage() {
   }
 
   const checkGrantEligibility = () => {
-    // Improved eligibility logic
-    const ownsHome = answers[1] === "Yes"
-    const hasGasOrOil = answers[3] === "Gas boiler" || answers[3] === "Oil boiler"
-    const propertyType = answers[4] !== "Flat / Apartment"
-    const notAlreadyHeatPump = answers[3] !== "Already have a heat pump"
+    // Check if user is clearly NOT eligible
+    const ownsHome = answers[2] === "Yes"
+    const hasEligibleHeating = answers[4] === "Gas boiler" || answers[4] === "Oil" || answers[4] === "LPG" || answers[4] === "Electric"
+    const notAlreadyHeatPump = answers[4] !== "Already have heat pump"
+    const isInEligibleLocation = answers[3] === "England" || answers[3] === "Wales"
     
-    // Most owners with gas/oil and houses are likely eligible
-    return ownsHome && hasGasOrOil && propertyType && notAlreadyHeatPump
+    // Return true if potentially eligible (will need further assessment)
+    // Return false if clearly not eligible
+    return ownsHome && hasEligibleHeating && notAlreadyHeatPump && isInEligibleLocation
   }
 
   if (submitted) {
-    const isEligible = checkGrantEligibility()
+    const isPotentiallyEligible = checkGrantEligibility()
+    
+    // Determine specific ineligibility reasons
+    const ownsHome = answers[2] === "Yes"
+    const alreadyHasHeatPump = answers[4] === "Already have heat pump"
+    const isInEligibleLocation = answers[3] === "England" || answers[3] === "Wales"
+    const hasEligibleHeating = answers[4] === "Gas boiler" || answers[4] === "Oil" || answers[4] === "LPG" || answers[4] === "Electric"
     
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#0071e3] to-[#0056b3] flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20">
         <div className="max-w-2xl mx-auto text-center">
-          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white flex items-center justify-center mx-auto mb-6 sm:mb-8 shadow-2xl">
-            <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#34C759]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
+          <div className={`w-16 h-16 sm:w-20 sm:h-20 rounded-full ${isPotentiallyEligible ? 'bg-white' : 'bg-white/90'} flex items-center justify-center mx-auto mb-6 sm:mb-8 shadow-2xl`}>
+            {isPotentiallyEligible ? (
+              <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#34C759]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            ) : (
+              <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#FF3B30]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            )}
           </div>
           
-          {isEligible ? (
+          {isPotentiallyEligible ? (
             <>
               <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-4 sm:mb-6 tracking-tight leading-[1.1]">
-                You may qualify for £7,500 grant
+                Good news! We'll assess your eligibility
               </h1>
               <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-8 sm:mb-10 md:mb-12 leading-[1.4]">
-                Great news! Based on your answers, you may be eligible for the government grant. Vetted installers will contact you within 24 hours with personalized quotes.
+                Based on your answers, you may qualify for the £7,500 grant. An installer will contact you within 48 hours to confirm your eligibility and provide a detailed assessment.
               </p>
             </>
           ) : (
             <>
               <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-4 sm:mb-6 tracking-tight leading-[1.1]">
-                Get quotes for direct installation
+                You are not eligible for the grant
               </h1>
-              <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-8 sm:mb-10 md:mb-12 leading-[1.4]">
-                Thank you for your interest! Vetted installers will contact you within 24 hours with personalized quotes for your heat pump installation.
+              <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-6 sm:mb-8 leading-[1.4]">
+                {!ownsHome && "The Boiler Upgrade Scheme requires property ownership."}
+                {alreadyHasHeatPump && "You cannot receive a grant for replacing an existing heat pump."}
+                {!isInEligibleLocation && "The Boiler Upgrade Scheme is only available in England and Wales. Scotland and Northern Ireland have separate schemes."}
+                {!hasEligibleHeating && !alreadyHasHeatPump && "The grant requires replacing a fossil fuel or electric heating system."}
               </p>
+              {!isPotentiallyEligible && !ownsHome && (
+                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 sm:p-6 mb-8 border border-white/20 text-left">
+                  <p className="text-[15px] sm:text-[16px] text-white/90">
+                    <strong>Note for renters:</strong> You'll need your landlord's permission to install a heat pump. Speak to your landlord about the benefits of upgrading to a low-carbon heating system.
+                  </p>
+                </div>
+              )}
+              {!isPotentiallyEligible && (ownsHome || alreadyHasHeatPump || !isInEligibleLocation) && (
+                <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 sm:p-6 mb-8 border border-white/20 text-left">
+                  <p className="text-[15px] sm:text-[16px] text-white/90 mb-3">
+                    <strong>Alternative options:</strong>
+                  </p>
+                  <ul className="text-[14px] sm:text-[15px] text-white/80 space-y-2 list-disc pl-5">
+                    {!isInEligibleLocation && answers[3] === "Scotland" && (
+                      <li>Check <a href="https://www.homeenergyscotland.org/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Home Energy Scotland</a> for Scottish grants</li>
+                    )}
+                    {!isInEligibleLocation && answers[3] === "Northern Ireland" && (
+                      <li>Check the Northern Ireland Sustainable Energy Programme (NISEP) for local support</li>
+                    )}
+                    {alreadyHasHeatPump && (
+                      <li>Consider a service or repair for your existing heat pump instead</li>
+                    )}
+                    <li>You can still get free installation quotes without the grant</li>
+                    <li>Consider energy-efficient home improvements to reduce running costs</li>
+                  </ul>
+                </div>
+              )}
             </>
           )}
 
@@ -226,13 +313,23 @@ export default function QuizPage() {
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm font-semibold">1</span>
                 </div>
-                <p className="text-[15px] sm:text-[17px] text-white/90">Up to 3 vetted installers will review your details</p>
+                <p className="text-[15px] sm:text-[17px] text-white/90">
+                  {isPotentiallyEligible 
+                    ? "Up to 3 MCS-certified installers will review your details and confirm eligibility"
+                    : "Up to 3 vetted installers will review your details for installation quotes"
+                  }
+                </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
                   <span className="text-white text-sm font-semibold">2</span>
                 </div>
-                <p className="text-[15px] sm:text-[17px] text-white/90">They'll contact you to arrange a free survey</p>
+                <p className="text-[15px] sm:text-[17px] text-white/90">
+                  {isPotentiallyEligible
+                    ? "They'll contact you within 48 hours to arrange a free survey and verify grant eligibility"
+                    : "They'll contact you to arrange a free survey and discuss installation options"
+                  }
+                </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
@@ -280,12 +377,30 @@ export default function QuizPage() {
       {/* Quiz Content */}
       <div className="flex items-center justify-center min-h-screen px-4 sm:px-6 pt-20 sm:pt-24 pb-8 sm:pb-12">
         <div className="max-w-2xl w-full animate-fade-in-up">
+          {/* Back button */}
+          {currentStep > 0 && (
+            <div className="mb-4 sm:mb-6">
+              <button
+                onClick={handleBack}
+                className="inline-flex items-center gap-2 text-[14px] sm:text-[15px] text-[#0071e3] hover:text-[#0077ed] font-medium transition-colors min-h-[44px] px-2"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                Back
+              </button>
+            </div>
+          )}
+          
           <div className="text-center mb-8 sm:mb-10">
             <p className="text-[14px] sm:text-[15px] font-medium text-[#0071e3] mb-2 sm:mb-3">
               Question {currentStep + 1} of {questions.length}
             </p>
             <h1 className="text-[26px] sm:text-[32px] md:text-[40px] lg:text-[48px] font-semibold text-[#1d1d1f] mb-2 tracking-tight leading-[1.1] px-2">
               {currentQuestion.question}
+              {(currentQuestion.type === "tel" || currentQuestion.type === "text" || currentQuestion.type === "combined") && !currentQuestion.optional && (
+                <span className="text-[#FF3B30] ml-1">*</span>
+              )}
             </h1>
             {currentQuestion.helperText && (
               <p className="text-[14px] sm:text-[15px] text-[#6e6e73] mt-2 sm:mt-3 px-2">{currentQuestion.helperText}</p>
