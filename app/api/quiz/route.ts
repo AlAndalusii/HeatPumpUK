@@ -1,8 +1,6 @@
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -13,6 +11,9 @@ export async function POST(request: NextRequest) {
     const [name, email] = nameEmailField.split('|');
     const phone = answers[11] || 'Not provided';
     const postcode = answers[9] || 'Not provided';
+
+    // Initialize Resend client at runtime
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // Build a readable summary of all answers
     const answersSummary = `
