@@ -151,6 +151,14 @@ export default function HomePage() {
                     Get Free Quotes
                   </Button>
                 </Link>
+                <Link href="/urgent-inquiry" className="w-full sm:w-auto">
+                  <Button
+                    size="lg"
+                    className="w-full sm:w-auto bg-[#FF3B30] hover:bg-[#FF2D1F] text-white px-8 sm:px-10 py-3 sm:py-5 text-[17px] sm:text-[19px] rounded-full h-auto font-semibold transition-all duration-300 hover:scale-[1.03] border-0 shadow-lg min-h-[44px] animate-pulse"
+                  >
+                    Urgent Callback
+                  </Button>
+                </Link>
               </div>
             </div>
 
@@ -468,6 +476,14 @@ export default function HomePage() {
                 className="w-full sm:w-auto bg-white hover:bg-gray-100 text-[#0071e3] px-8 sm:px-10 md:px-12 py-3 sm:py-5 md:py-6 text-[18px] sm:text-[19px] md:text-[21px] rounded-full h-auto font-semibold transition-all duration-300 hover:scale-[1.03] border-0 shadow-xl min-h-[44px]"
               >
                 Get Free Quotes →
+              </Button>
+            </Link>
+            <Link href="/urgent-inquiry" className="w-full sm:w-auto">
+              <Button
+                size="lg"
+                className="w-full sm:w-auto bg-[#FF3B30] hover:bg-[#FF2D1F] text-white px-8 sm:px-10 md:px-12 py-3 sm:py-5 md:py-6 text-[18px] sm:text-[19px] md:text-[21px] rounded-full h-auto font-semibold transition-all duration-300 hover:scale-[1.03] border-0 shadow-xl min-h-[44px]"
+              >
+                Urgent Callback
               </Button>
             </Link>
           </div>

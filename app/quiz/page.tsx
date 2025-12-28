@@ -97,6 +97,7 @@ export default function QuizPage() {
   const [submitted, setSubmitted] = useState(false)
   const [showWarning, setShowWarning] = useState(false)
   const [validationError, setValidationError] = useState("")
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const currentQuestion = questions[currentStep]
   const progress = ((currentStep + 1) / questions.length) * 100
@@ -137,8 +138,31 @@ export default function QuizPage() {
         setValidationError("")
       }, 300)
     } else {
-      // All questions answered
-      setTimeout(() => setSubmitted(true), 300)
+      // All questions answered - submit to API
+      setTimeout(async () => {
+        setIsSubmitting(true)
+        try {
+          const response = await fetch('/api/quiz', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ answers: newAnswers }),
+          })
+
+          if (!response.ok) {
+            throw new Error('Failed to submit quiz')
+          }
+
+          setSubmitted(true)
+        } catch (error) {
+          console.error('Error submitting quiz:', error)
+          // Still show success page even if email fails
+          setSubmitted(true)
+        } finally {
+          setIsSubmitting(false)
+        }
+      }, 300)
     }
   }
 

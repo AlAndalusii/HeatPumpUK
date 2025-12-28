@@ -17,6 +17,8 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
   const [scrollY, setScrollY] = useState(0)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState("")
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY)
@@ -60,9 +62,31 @@ export default function ContactPage() {
     return () => observer.disconnect()
   }, [submitted])
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSubmitted(true)
+    setIsSubmitting(true)
+    setSubmitError("")
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to submit contact form')
+      }
+
+      setSubmitted(true)
+    } catch (error) {
+      console.error('Error submitting contact form:', error)
+      setSubmitError('Failed to send message. Please try again or call us directly.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   if (submitted) {
@@ -285,12 +309,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-[15px] sm:text-[17px] font-semibold text-[#1d1d1f] mb-1 sm:mb-2">Email Us</h3>
-                    <a 
-                      href="mailto:info@heatpumpresource.co.uk" 
-                      className="text-[15px] sm:text-[17px] text-[#0071e3] hover:text-[#0077ed] transition-colors duration-200"
-                    >
-                      info@heatpumpresource.co.uk
-                    </a>
+                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">
+                      Use the contact form to send us a message and we'll respond within 24 hours
+                    </p>
                   </div>
                 </div>
 
@@ -306,15 +327,9 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-[15px] sm:text-[17px] font-semibold text-[#1d1d1f] mb-1 sm:mb-2">Call Us</h3>
-                    <a 
-                      href="tel:08001234567" 
-                      className="text-[15px] sm:text-[17px] text-[#0071e3] hover:text-[#0077ed] transition-colors duration-200"
-                    >
-                      0800 123 4567
-                    </a>
-                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73] mt-1">
-                      Free to call from landlines and mobiles
+                    <h3 className="text-[15px] sm:text-[17px] font-semibold text-[#1d1d1f] mb-1 sm:mb-2">Phone Support</h3>
+                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">
+                      Our team is available to help you Monday - Friday: 9am - 6pm
                     </p>
                   </div>
                 </div>
@@ -415,11 +430,20 @@ export default function ContactPage() {
                     />
                   </div>
 
+                  {submitError && (
+                    <div className="p-4 bg-red-50 border border-red-200 rounded-xl">
+                      <p className="text-[14px] sm:text-[15px] text-red-600 font-medium">
+                        {submitError}
+                      </p>
+                    </div>
+                  )}
+
                   <Button
                     type="submit"
-                    className="w-full bg-[#0071e3] hover:bg-[#0077ed] text-white px-8 py-4 sm:py-5 text-[17px] sm:text-[19px] rounded-full font-semibold transition-all duration-300 hover:scale-[1.02] border-0 shadow-lg min-h-[44px]"
+                    disabled={isSubmitting}
+                    className="w-full bg-[#0071e3] hover:bg-[#0077ed] text-white px-8 py-4 sm:py-5 text-[17px] sm:text-[19px] rounded-full font-semibold transition-all duration-300 hover:scale-[1.02] border-0 shadow-lg min-h-[44px] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                   >
-                    Send Message
+                    {isSubmitting ? 'Sending...' : 'Send Message'}
                   </Button>
                 </form>
               </div>
@@ -529,4 +553,8 @@ export default function ContactPage() {
     </div>
   )
 }
+
+
+
+
 
