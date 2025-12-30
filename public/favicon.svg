@@ -1,0 +1,83 @@
+<svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Outer circle - subtle background -->
+    <circle 
+      cx="22" 
+      cy="22" 
+      r="20" 
+      fill="url(#iconBg)" 
+      opacity="0.08"
+    />
+    <!-- Main icon shape - three-quarter circle representing continuous energy flow -->
+    <circle 
+      cx="22" 
+      cy="22" 
+      r="14" 
+      stroke="url(#mainGradient)" 
+      stroke-width="2.5"
+      stroke-linecap="round"
+      fill="none"
+      stroke-dasharray="66 22"
+      stroke-dashoffset="0"
+      transform="rotate(-90 22 22)"
+    />
+    <!-- Inner accent circle - represents core efficiency -->
+    <circle 
+      cx="22" 
+      cy="22" 
+      r="8" 
+      stroke="url(#innerGradient)" 
+      stroke-width="2"
+      stroke-linecap="round"
+      fill="none"
+      stroke-dasharray="38 12"
+      stroke-dashoffset="0"
+      transform="rotate(45 22 22)"
+    />
+    <!-- Center dot - focal point -->
+    <circle 
+      cx="22" 
+      cy="22" 
+      r="2.5" 
+      fill="url(#centerGradient)"
+    />
+    <!-- Elegant arrow indicator - subtle directional element -->
+    <path
+      d="M 28 15 L 31 12 L 28 9"
+      stroke="url(#accentGradient)"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+  <defs>
+    <!-- Icon background - soft blue -->
+    <linearGradient id="iconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0071e3" />
+      <stop offset="100%" stop-color="#0066cc" />
+    </linearGradient>
+    <!-- Main gradient - primary brand blue to vibrant cyan -->
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0071e3" />
+      <stop offset="50%" stop-color="#00a2ff" />
+      <stop offset="100%" stop-color="#0071e3" />
+    </linearGradient>
+    <!-- Inner gradient - blue to green transition -->
+    <linearGradient id="innerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b8ff" />
+      <stop offset="100%" stop-color="#34c759" />
+    </linearGradient>
+    <!-- Center gradient - bright focal point -->
+    <radialGradient id="centerGradient">
+      <stop offset="0%" stop-color="#0071e3" />
+      <stop offset="100%" stop-color="#0056b3" />
+    </radialGradient>
+    <!-- Accent gradient - green energy indicator -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34c759" />
+      <stop offset="100%" stop-color="#30d158" />
+    </linearGradient>
+  </defs>
+</svg>
+
