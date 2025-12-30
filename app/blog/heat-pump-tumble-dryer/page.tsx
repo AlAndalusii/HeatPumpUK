@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import Head from "next/head"
 
 export default function HeatPumpTumbleDryerPage() {
   const [scrollY, setScrollY] = useState(0)
@@ -15,7 +16,13 @@ export default function HeatPumpTumbleDryerPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>What is a Heat Pump Tumble Dryer? Complete Guide 2025 | How They Work</title>
+        <meta name="description" content="What is a heat pump tumble dryer? Learn how heat pump dryers work, their benefits, costs, and efficiency. Complete guide to heat pump vs condenser dryers with expert advice and recommendations." />
+        <meta name="keywords" content="what is a heat pump tumble dryer, how do heat pump dryers work, heat pump vs condenser dryer, heat pump dryer benefits, energy efficient dryers, heat pump dryer guide" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -735,6 +742,7 @@ export default function HeatPumpTumbleDryerPage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
 

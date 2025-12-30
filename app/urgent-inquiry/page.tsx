@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Head from "next/head"
 
 export default function UrgentInquiryPage() {
   const [formData, setFormData] = useState({
@@ -151,7 +152,13 @@ export default function UrgentInquiryPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
+    <>
+      <Head>
+        <title>Urgent Heat Pump Inquiry | Emergency Callback Request | Heat Pump Resource</title>
+        <meta name="description" content="Need urgent heat pump assistance? Request an emergency callback from our MCS-certified installers. Fast response for heat pump repairs, breakdowns, and urgent installations across the UK." />
+        <meta name="keywords" content="urgent heat pump repair, emergency heat pump service, heat pump breakdown, urgent callback, emergency heating repair, heat pump emergency" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -319,6 +326,7 @@ export default function UrgentInquiryPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

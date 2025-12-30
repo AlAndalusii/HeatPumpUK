@@ -6,6 +6,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
 import Link from "next/link"
+import Head from "next/head"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -198,7 +199,13 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>Contact Heat Pump Resource | Get Expert Heat Pump Advice | Free Consultation</title>
+        <meta name="description" content="Contact Heat Pump Resource for expert advice on heat pumps and government grants. Get free consultation from MCS-certified installers. Call, email, or use our contact form for personalized heat pump guidance." />
+        <meta name="keywords" content="contact heat pump experts, heat pump advice, heat pump consultation, MCS installers contact, heat pump support, heat pump questions" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header - Clean navigation */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -551,8 +558,12 @@ export default function ContactPage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
+
+
+
 
 
 

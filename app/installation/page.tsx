@@ -6,6 +6,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
+import Head from "next/head"
 
 export default function InstallationPage() {
   const [formData, setFormData] = useState({
@@ -47,7 +48,13 @@ export default function InstallationPage() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Head>
+        <title>Heat Pump Installation Service | Professional MCS Installers | Heat Pump Resource</title>
+        <meta name="description" content="Professional heat pump installation service from MCS-certified installers. Get quotes for air source and ground source heat pump installation. Expert fitting, commissioning, and aftercare support across the UK." />
+        <meta name="keywords" content="heat pump installation, MCS installers, air source heat pump fitting, ground source installation, professional heat pump service, heat pump commissioning" />
+      </Head>
+      <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -146,5 +153,6 @@ export default function InstallationPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }

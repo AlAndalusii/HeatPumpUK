@@ -6,6 +6,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
+import Head from "next/head"
 
 const questions = [
   {
@@ -378,7 +379,13 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
+    <>
+      <Head>
+        <title>Heat Pump Eligibility Quiz | Check Your £7,500 Grant Eligibility | Heat Pump Resource</title>
+        <meta name="description" content="Take our 2-minute heat pump eligibility quiz to check if you qualify for the £7,500 government grant. Get matched with MCS-certified installers and receive free heat pump quotes for your home." />
+        <meta name="keywords" content="heat pump eligibility quiz, heat pump grant eligibility, £7500 grant quiz, heat pump assessment, government grant checker, MCS installers, heat pump suitability" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -546,5 +553,6 @@ export default function QuizPage() {
         </div>
       </div>
     </div>
+    </>
   )
 }

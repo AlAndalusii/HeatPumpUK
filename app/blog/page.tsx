@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import Head from "next/head"
 
 const blogPosts = [
   {
@@ -66,7 +67,13 @@ export default function BlogPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>Heat Pump Blog | Expert Guides & Tips | Heat Pump Resource</title>
+        <meta name="description" content="Expert heat pump guides, tips, and news. Learn about heat pump grants, installation, efficiency, and costs. Read our comprehensive guides on heat pump tumble dryers and government incentives." />
+        <meta name="keywords" content="heat pump blog, heat pump guides, heat pump tips, heat pump news, heat pump grants, heat pump installation guides, energy efficiency tips" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -243,5 +250,6 @@ export default function BlogPage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }

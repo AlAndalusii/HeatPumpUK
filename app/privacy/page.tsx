@@ -2,6 +2,7 @@
 
 import { Logo } from "@/components/logo"
 import Link from "next/link"
+import Head from "next/head"
 import { useState, useEffect } from "react"
 
 export default function PrivacyPage() {
@@ -14,7 +15,13 @@ export default function PrivacyPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>Privacy Policy | Heat Pump Resource | Data Protection & Privacy</title>
+        <meta name="description" content="Heat Pump Resource privacy policy. Learn how we protect your personal data, use cookies, and handle information when you request heat pump quotes and use our services." />
+        <meta name="keywords" content="privacy policy, data protection, GDPR compliance, heat pump data privacy, personal information security" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -326,6 +333,7 @@ export default function PrivacyPage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
 

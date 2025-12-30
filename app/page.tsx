@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import Head from "next/head"
 
 export default function HomePage() {
   const [scrollY, setScrollY] = useState(0)
@@ -52,7 +53,13 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>Free Heat Pump Quotes UK | £7,500 Government Grant Available | Heat Pump Resource</title>
+        <meta name="description" content="Get free heat pump quotes from MCS-certified installers. Check eligibility for the £7,500 government heat pump grant. Compare air source & ground source heat pump prices. Save up to 75% on heating bills with heat pumps in England, Scotland & Wales." />
+        <meta name="keywords" content="heat pump quotes, heat pump grant UK, government heat pump grant, air source heat pump, ground source heat pump, MCS certified installers, heat pump cost, heat pump installation, free quotes" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header - Clean navigation */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -565,5 +572,6 @@ export default function HomePage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }

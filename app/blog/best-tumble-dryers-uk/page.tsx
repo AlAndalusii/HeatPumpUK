@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import Head from "next/head"
 
 export default function BestTumbleDryersPage() {
   const [scrollY, setScrollY] = useState(0)
@@ -15,7 +16,13 @@ export default function BestTumbleDryersPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>Best Tumble Dryers UK 2025 | Heat Pump Dryer Reviews & Buying Guide</title>
+        <meta name="description" content="Best tumble dryers UK 2025 guide. Compare top heat pump dryers from Bosch, Samsung, Miele & Beko. Expert reviews, prices, and energy ratings. Find the best rated tumble dryer for your home." />
+        <meta name="keywords" content="best tumble dryers UK, best heat pump tumble dryer, best rated tumble dryer UK, heat pump dryer reviews, tumble dryer buying guide, energy efficient dryers" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -853,6 +860,7 @@ export default function BestTumbleDryersPage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
 

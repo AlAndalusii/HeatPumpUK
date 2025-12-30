@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import Head from "next/head"
 
 export default function BlogPostPage() {
   const [scrollY, setScrollY] = useState(0)
@@ -15,7 +16,13 @@ export default function BlogPostPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white text-[#1d1d1f]">
+    <>
+      <Head>
+        <title>£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide</title>
+        <meta name="description" content="Complete guide to the £7,500 heat pump grant UK 2025. Check eligibility, learn how to apply for government heat pump grants, and find MCS installers. Available in England, Scotland & Wales." />
+        <meta name="keywords" content="£7500 heat pump grant, heat pump grant UK, government heat pump grant, heat pump grant eligibility, air source heat pump grant, Boiler Upgrade Scheme, MCS installers" />
+      </Head>
+      <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
       <header
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
@@ -643,6 +650,7 @@ export default function BlogPostPage() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
 
