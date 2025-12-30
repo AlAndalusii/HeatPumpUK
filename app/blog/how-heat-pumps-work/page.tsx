@@ -194,7 +194,7 @@ export default function HowHeatPumpsWorkPage() {
             </p>
 
             {/* Reason 1 */}
-            <div className="bg-gradient-to-r from-[#0071e3]/10 to-[#34c759]/10 rounded-2xl p-6 mb-6">
+            <div className="bg-linear-to-r from-[#0071e3]/10 to-[#34c759]/10 rounded-2xl p-6 mb-6">
               <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">🌍 Reason 1: They're Better for the Planet</h3>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
                 Normal boilers burn gas or oil to make heat. This creates pollution that's not great for the environment. Heat pumps just move heat around using electricity, which can come from clean sources like wind or solar power.
@@ -202,7 +202,7 @@ export default function HowHeatPumpsWorkPage() {
             </div>
 
             {/* Reason 2 */}
-            <div className="bg-gradient-to-r from-[#34c759]/10 to-[#ff9500]/10 rounded-2xl p-6 mb-6">
+            <div className="bg-linear-to-r from-[#34c759]/10 to-[#ff9500]/10 rounded-2xl p-6 mb-6">
               <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">💷 Reason 2: The Government Is Giving Away Money</h3>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
                 This is a big one. <strong>Right now, the UK government is giving people £7,500 to help pay for a heat pump</strong>. That's a lot of money! It's called the Boiler Upgrade Scheme.
@@ -213,7 +213,7 @@ export default function HowHeatPumpsWorkPage() {
             </div>
 
             {/* Reason 3 */}
-            <div className="bg-gradient-to-r from-[#ff9500]/10 to-[#af52de]/10 rounded-2xl p-6">
+            <div className="bg-linear-to-r from-[#ff9500]/10 to-[#af52de]/10 rounded-2xl p-6">
               <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">⚡ Reason 3: Energy Bills</h3>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
                 Gas prices went really high recently, making it expensive to heat homes with gas boilers. Heat pumps use electricity, and because they're so efficient, they can work out cheaper to run. Though it depends on your home and how you use them.
@@ -264,7 +264,7 @@ export default function HowHeatPumpsWorkPage() {
 
             <div className="space-y-4">
               <div className="flex items-start gap-4 p-6 bg-[#34c759]/5 rounded-xl">
-                <span className="text-[32px] flex-shrink-0">⚡</span>
+                <span className="text-[32px] shrink-0">⚡</span>
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">They're Super Efficient</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
@@ -274,7 +274,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-[#0071e3]/5 rounded-xl">
-                <span className="text-[32px] flex-shrink-0">⏱️</span>
+                <span className="text-[32px] shrink-0">⏱️</span>
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">They Last a Long Time</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
@@ -284,7 +284,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-[#ff9500]/5 rounded-xl">
-                <span className="text-[32px] flex-shrink-0">❄️</span>
+                <span className="text-[32px] shrink-0">❄️</span>
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">They Work as Air Conditioning Too</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
@@ -294,7 +294,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-[#af52de]/5 rounded-xl">
-                <span className="text-[32px] flex-shrink-0">🌱</span>
+                <span className="text-[32px] shrink-0">🌱</span>
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Lower Carbon Footprint</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
@@ -304,7 +304,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-[#34c759]/10 rounded-xl border-2 border-[#34c759]">
-                <span className="text-[32px] flex-shrink-0">💚</span>
+                <span className="text-[32px] shrink-0">💚</span>
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">That £7,500 Grant</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
@@ -442,7 +442,7 @@ export default function HowHeatPumpsWorkPage() {
               So that's how heat pumps work. They're basically <strong>heat-stealing machines</strong> that are way more efficient than normal boilers, better for the environment, and might save you money – especially with the government grant.
             </p>
 
-            <p className="text-[17px] text-[#1d1d1f] leading-[1.6] font-semibold text-[#34c759]">
+            <p className="text-[17px] leading-[1.6] font-semibold text-[#34c759]">
               Not as complicated as you thought, was it?
             </p>
           </div>
