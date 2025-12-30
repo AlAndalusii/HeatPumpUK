@@ -224,3 +224,4 @@ The email integration is now fully functional and ready for testing. Simply:
 
 All emails will be sent using your Resend API key to the configured admin email address, with confirmation emails sent to the user's email address.
 
+

@@ -170,3 +170,4 @@ For Resend support and documentation:
 - [Resend API Reference](https://resend.com/docs/api-reference)
 - [Resend Support](https://resend.com/support)
 
+
