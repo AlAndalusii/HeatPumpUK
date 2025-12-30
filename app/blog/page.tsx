@@ -31,30 +31,6 @@ const blogPosts = [
     image: "/energy-efficiency-comparison-chart.jpg",
     date: "March 10, 2025",
   },
-  {
-    id: 4,
-    title: "5 Signs Your Home is Ready for a Heat Pump",
-    excerpt:
-      "Learn the key indicators that your property is suitable for heat pump installation and what improvements might be needed.",
-    image: "/modern-uk-house-exterior.jpg",
-    date: "February 28, 2025",
-  },
-  {
-    id: 5,
-    title: "The Environmental Impact of Heat Pumps",
-    excerpt:
-      "Discover how switching to a heat pump can reduce your carbon footprint by up to 75% and contribute to the UK's net zero goals.",
-    image: "/green-energy-environment-nature.jpg",
-    date: "February 20, 2025",
-  },
-  {
-    id: 6,
-    title: "Heat Pump Installation: What to Expect",
-    excerpt:
-      "A step-by-step guide to the installation process, from initial survey to commissioning, including timelines and what happens on installation day.",
-    image: "/technician-installing-hvac-system.jpg",
-    date: "February 15, 2025",
-  },
 ]
 
 export default function BlogPage() {
