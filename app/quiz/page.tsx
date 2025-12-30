@@ -99,6 +99,7 @@ export default function QuizPage() {
   const [showWarning, setShowWarning] = useState(false)
   const [validationError, setValidationError] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [earlyResults, setEarlyResults] = useState(false)
 
   const currentQuestion = questions[currentStep]
   const progress = ((currentStep + 1) / questions.length) * 100
@@ -257,7 +258,11 @@ export default function QuizPage() {
     return ownsHome && hasEligibleHeating && notAlreadyHeatPump && isInEligibleLocation
   }
 
-  if (submitted) {
+  const handleEarlyResults = () => {
+    setEarlyResults(true)
+  }
+
+  if (submitted || earlyResults) {
     const isPotentiallyEligible = checkGrantEligibility()
     
     // Determine specific ineligibility reasons
@@ -283,23 +288,30 @@ export default function QuizPage() {
           
           {isPotentiallyEligible ? (
             <>
-              <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-4 sm:mb-6 tracking-tight leading-[1.1]">
-                Good news! We'll assess your eligibility
-              </h1>
+              <div className="flex items-center justify-center gap-3 mb-6 sm:mb-8">
+                <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#34c759]" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white tracking-tight leading-[1.1]">
+                  Great News! You May Qualify for £7,500 in Grant Funding
+                </h1>
+              </div>
               <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-8 sm:mb-10 md:mb-12 leading-[1.4]">
-                Based on your answers, you may qualify for the £7,500 grant. An installer will contact you within 48 hours to confirm your eligibility and provide a detailed assessment.
+                Based on your answers, you meet the basic eligibility criteria. Installers will confirm final eligibility and provide exact quotes.
               </p>
             </>
           ) : (
             <>
-              <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-4 sm:mb-6 tracking-tight leading-[1.1]">
-                You are not eligible for the grant
-              </h1>
+              <div className="flex items-center justify-center gap-3 mb-6 sm:mb-8">
+                <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#0071e3]" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                </svg>
+                <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white tracking-tight leading-[1.1]">
+                  You Don't Qualify for the Grant—But We Can Still Save You Money
+                </h1>
+              </div>
               <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-6 sm:mb-8 leading-[1.4]">
-                {!ownsHome && "The Boiler Upgrade Scheme requires property ownership."}
-                {alreadyHasHeatPump && "You cannot receive a grant for replacing an existing heat pump."}
-                {!isInEligibleLocation && "The Boiler Upgrade Scheme is only available in England and Wales. Scotland and Northern Ireland have separate schemes."}
-                {!hasEligibleHeating && !alreadyHasHeatPump && "The grant requires replacing a fossil fuel or electric heating system."}
+                Get competitive quotes for direct installation. Most customers save £1,500-3,000 by comparing multiple installers.
               </p>
               {!isPotentiallyEligible && !ownsHome && (
                 <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 sm:p-6 mb-8 border border-white/20 text-left">
@@ -451,19 +463,34 @@ export default function QuizPage() {
           )}
 
           {currentQuestion.type === "choice" ? (
-            <div className="grid gap-3 sm:gap-4 max-w-lg mx-auto">
-              {currentQuestion.options.map((option) => (
-                <button
-                  key={option}
-                  onClick={() => handleAnswer(option)}
-                  className="group px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-xl sm:rounded-2xl bg-white border-2 border-gray-200 hover:border-[#0071e3] hover:shadow-lg transition-all duration-300 text-left active:scale-[0.98] min-h-[44px]"
-                >
-                  <span className="text-[16px] sm:text-[17px] md:text-[19px] font-medium text-[#1d1d1f] group-hover:text-[#0071e3] transition-colors">
-                    {option}
-                  </span>
-                </button>
-              ))}
-            </div>
+            <>
+              <div className="grid gap-3 sm:gap-4 max-w-lg mx-auto">
+                {currentQuestion.options.map((option) => (
+                  <button
+                    key={option}
+                    onClick={() => handleAnswer(option)}
+                    className="group px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-xl sm:rounded-2xl bg-white border-2 border-gray-200 hover:border-[#0071e3] hover:shadow-lg transition-all duration-300 text-left active:scale-[0.98] min-h-[44px]"
+                  >
+                    <span className="text-[16px] sm:text-[17px] md:text-[19px] font-medium text-[#1d1d1f] group-hover:text-[#0071e3] transition-colors">
+                      {option}
+                    </span>
+                  </button>
+                ))}
+              </div>
+              
+              {/* Early Results Buttons after Q3 and Q6 */}
+              {(currentStep === 2 || currentStep === 5) && (
+                <div className="mt-8 sm:mt-10 max-w-lg mx-auto pt-6 border-t border-gray-200">
+                  <p className="text-[14px] sm:text-[15px] text-[#6e6e73] text-center mb-4">Want to see preliminary results now?</p>
+                  <Button
+                    onClick={handleEarlyResults}
+                    className="w-full bg-gradient-to-r from-[#34c759] to-[#30a14e] hover:from-[#2eb350] hover:to-[#289645] text-white py-3 sm:py-4 text-[15px] sm:text-[16px] rounded-xl sm:rounded-2xl font-semibold transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] min-h-[44px]"
+                  >
+                    {currentStep === 2 ? "See Preliminary Results →" : "Get Personalized Report →"}
+                  </Button>
+                </div>
+              )}
+            </>
           ) : currentQuestion.type === "combined" ? (
             <div className="max-w-lg mx-auto">
               <div className="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-200 p-4 sm:p-6 space-y-4">

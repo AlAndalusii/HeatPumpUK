@@ -4,11 +4,11 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "£7,500 Heat Pump Grant UK | Government Heat Pump Grant Eligibility",
+  title: "Heat Pump Grant Checker UK - Check £7,500 Eligibility in 90s",
   description:
-    "Check your heat pump grant eligibility in 2 minutes. Get up to £7,500 government heat pump grant for air source heat pumps & ground source systems. Available in England, Scotland & Wales. Heat pump grants UK, air source heat pump grants, heat pump cost covered.",
+    "Free heat pump grant eligibility checker. Find out if you qualify for £7,500 government funding in 90 seconds. Compare quotes from vetted UK installers. Used by 1,247 homeowners.",
   keywords:
-    "heat pump grant, heat pump grant uk, government heat pump grant, air source heat pump grants, heat pump grant eligibility, £7500 heat pump grant, heat pump grants scotland, heat pump grants wales, heat pump grant england, air source heat pump grant, ground source heat pump grant, heat pump cost, heat pump government grant",
+    "heat pump grant UK, heat pump grant checker, £7,500 grant eligibility, government heat pump grant, air source heat pump, heat pump installation costs, heat pump quotes, MCS certified installers, heat pump cost comparison",
   generator: "v0.app",
   viewport: {
     width: "device-width",
