@@ -9,20 +9,20 @@ import Head from "next/head"
 
 const blogPosts = [
   {
+    id: "how-heat-pumps-work",
+    title: "How Do Heat Pumps Work? The Simple Guide",
+    excerpt:
+      "Understand how heat pumps work in plain English. Learn the simple steps from taking heat from outside air to warming your home efficiently.",
+    image: "/modern-heat-pump-installation.jpg",
+    date: "March 18, 2025",
+  },
+  {
     id: "heat-pump-grant-guide",
     title: "Everything You Need to Know About the £7,500 Heat Pump Grant",
     excerpt:
       "The UK government is giving away up to £7,500 to help you get a heat pump. Learn who qualifies, how to apply, and how much you could save.",
     image: "/modern-heat-pump-installation.jpg",
     date: "March 15, 2025",
-  },
-  {
-    id: "heat-pump-tumble-dryer",
-    title: "What is a Heat Pump Tumble Dryer? Complete Guide",
-    excerpt:
-      "Discover how heat pump tumble dryers work, why they're so efficient, and whether they're worth the extra cost. Simple explanations and honest advice.",
-    image: "/technician-installing-hvac-system.jpg",
-    date: "March 12, 2025",
   },
   {
     id: "best-tumble-dryers-uk",

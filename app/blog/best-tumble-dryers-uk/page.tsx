@@ -771,16 +771,7 @@ export default function BestTumbleDryersPage() {
           <h2 className="text-[32px] md:text-[40px] font-semibold text-[#1d1d1f] mb-8 tracking-tight">
             Keep Reading
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/blog/heat-pump-tumble-dryer">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer">
-                <img src="/technician-installing-hvac-system.jpg" alt="Heat pump dryer" className="w-full h-48 object-cover" />
-                <div className="p-6">
-                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">What is a Heat Pump Tumble Dryer?</h3>
-                  <p className="text-[15px] text-[#6e6e73]">Learn how they work and why they're so efficient</p>
-                </div>
-              </div>
-            </Link>
+          <div className="grid md:grid-cols-2 gap-8">
             <Link href="/blog/heat-pump-grant-guide">
               <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="/modern-heat-pump-installation.jpg" alt="Heat pump installation" className="w-full h-48 object-cover" />
