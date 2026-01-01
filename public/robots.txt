@@ -1,0 +1,114 @@
+# Robots.txt for GetHeatPumpQuotes.co.uk
+# Generated: January 1, 2026
+# Purpose: Guide search engine crawlers and control crawl budget
+
+# ============================================================================
+# DEFAULT RULES FOR ALL BOTS
+# ============================================================================
+
+User-agent: *
+Allow: /
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.woff$
+Allow: /*.woff2$
+
+# Disallow crawling of API endpoints (not meant for search engines)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*page=* # Avoid duplicate pagination
+
+# Disallow files that shouldn't be indexed
+Disallow: /private/
+Disallow: /*.pdf$
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /.git/
+Disallow: /.env*
+
+# Crawl delay for general bots (allow aggressive crawling for Googlebot)
+Crawl-delay: 0
+
+# ============================================================================
+# GOOGLE-SPECIFIC RULES
+# ============================================================================
+
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /api/
+
+# ============================================================================
+# BING-SPECIFIC RULES
+# ============================================================================
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Crawl-delay: 1
+Request-rate: 30/1m # Limit to 30 requests per minute
+
+# ============================================================================
+# BLOCK AGGRESSIVE/UNWANTED BOTS
+# ============================================================================
+
+# Block SEO tools and aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: Seekbot
+Disallow: /
+
+User-agent: SurveyBot
+Disallow: /
+
+# ============================================================================
+# IMPORTANT: SITEMAP LOCATION
+# ============================================================================
+# This tells Google where to find your complete site structure
+Sitemap: https://www.getheatpumpquotes.co.uk/sitemap.xml
+
+# ============================================================================
+# ADDITIONAL SITEMAPS (if you have multiple)
+# ============================================================================
+# Sitemap: https://www.getheatpumpquotes.co.uk/sitemap-blog.xml
+# Sitemap: https://www.getheatpumpquotes.co.uk/sitemap-pages.xml
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# - This file is automatically served from /public/robots.txt
+# - Changes take effect immediately (no cache)
+# - Google checks this file every few days
+# - Test with: Google Search Console > Settings > Crawlers
+# - Verify with: https://www.seobility.net/en/robotstester/
+

@@ -1,0 +1,414 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║         🎯 PHASE 1 TECHNICAL SEO AUDIT - PRINT & POST CHECKLIST           ║
+║            GetHeatPumpQuotes.co.uk - Phase 1 of 6                         ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+PRINT THIS DOCUMENT AND POST IT ON YOUR WALL
+
+═══════════════════════════════════════════════════════════════════════════════
+⏰ WEEK 1: CRITICAL ACTIONS (This Week)
+═══════════════════════════════════════════════════════════════════════════════
+
+□ ACTION 1: Create robots.txt (5 minutes)
+  Status: ✅ ALREADY DONE
+  Verify: curl https://getheatpumpquotes.co.uk/robots.txt
+  
+□ ACTION 2: Register Google Search Console (5 minutes)
+  Go to: https://search.google.com/search-console
+  Enter: https://www.getheatpumpquotes.co.uk
+  Method: DNS TXT record verification
+  Wait: 24-48 hours for verification
+  
+□ ACTION 3: Submit XML Sitemap (2 minutes after GSC verified)
+  In GSC: Go to Sitemaps section
+  Enter: sitemap.xml
+  Wait: 24 hours for processing
+  
+□ ACTION 4: Test SSL Certificate (5 minutes)
+  Go to: https://www.ssllabs.com/ssltest/
+  Enter: getheatpumpquotes.co.uk
+  Expected Result: Grade A or A+
+  Record Grade: ___
+  
+□ ACTION 5: Measure Core Web Vitals (15 minutes)
+  Go to: https://pagespeed.web.dev
+  Test: https://getheatpumpquotes.co.uk (Desktop)
+  Record Performance Score: ___ /100
+  Test: https://getheatpumpquotes.co.uk (Mobile)
+  Record Performance Score: ___ /100
+  Record LCP: ___ ms (Target: <2500)
+  Record FID: ___ ms (Target: <100)
+  Record CLS: ___ (Target: <0.1)
+  
+□ ACTION 6: Fix Image Optimization (5 minutes)
+  File: next.config.mjs
+  Change: images.unoptimized = false
+  Verify: npm run build (no errors)
+  
+□ ACTION 7: Test Mobile Responsiveness (15 minutes)
+  Device 1: iPhone SE
+    Text readable? ☐
+    Buttons clickable? ☐
+    Images scale? ☐
+  Device 2: iPhone 14
+    Text readable? ☐
+    Buttons clickable? ☐
+    Images scale? ☐
+  Device 3: Android
+    Text readable? ☐
+    Buttons clickable? ☐
+    Images scale? ☐
+    
+□ ACTION 8: Crawl for Broken Links (20 minutes)
+  Tool: Screaming Frog or Online Tool
+  Crawl URL: https://getheatpumpquotes.co.uk
+  Broken Links Found: ___
+  Result: Should be 0
+
+WEEK 1 TOTAL TIME: ~90 minutes
+WEEK 1 DEADLINE: Friday End of Week
+
+═══════════════════════════════════════════════════════════════════════════════
+⏰ WEEK 2: HIGH PRIORITY ACTIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+□ ACTION 9: Add Canonical URLs (5 minutes)
+  File: app/layout.tsx
+  Add to metadata: metadataBase and alternates.canonical
+  Test: npm run dev
+  Verify: Page source shows <link rel="canonical">
+  
+□ ACTION 10: Add Open Graph Tags (10 minutes)
+  File: app/layout.tsx
+  Add to metadata: openGraph and twitter objects
+  Test: https://developers.facebook.com/tools/debug/
+  Verify: Shows title, description, image preview
+  
+□ ACTION 11: Create 404 Page (15 minutes)
+  Create: app/not-found.tsx
+  Contains: Helpful message, back to home link
+  Test: Visit non-existent page
+  Verify: Shows custom 404 page
+  
+□ ACTION 12: Create Error Boundary (10 minutes)
+  Create: app/error.tsx
+  Contains: Error message, retry button, home link
+  Test: npm run dev (no errors)
+  Verify: Component loads without errors
+
+WEEK 2 TOTAL TIME: ~40 minutes
+WEEK 2 DEADLINE: Wednesday
+
+═══════════════════════════════════════════════════════════════════════════════
+⏰ WEEK 3-4: MEDIUM PRIORITY ACTIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+□ ACTION 13: Setup Error Tracking (30 minutes)
+  Option 1: Use Sentry (https://sentry.io)
+  Option 2: Use Vercel Analytics (already enabled)
+  If Sentry: npm install @sentry/nextjs
+  Configure: next.config.mjs
+  Test: npm run dev
+  
+□ ACTION 14: Configure Caching Headers (20 minutes)
+  File: next.config.mjs
+  Add: headers configuration
+  Test: npm run dev
+  Verify: curl -I https://getheatpumpquotes.co.uk (check headers)
+  
+□ ACTION 15: Remove Unused Dependencies (30 minutes)
+  Review: /components/ui/ (60+ components)
+  List used: ___________________________
+  List unused: ___________________________
+  Remove unused
+  Test: npm install && npm run build
+  Verify: No errors or warnings
+
+WEEKS 3-4 TOTAL TIME: ~80 minutes
+WEEKS 3-4 DEADLINE: Completion by January 31
+
+═══════════════════════════════════════════════════════════════════════════════
+📊 DAILY CHECKLIST
+═══════════════════════════════════════════════════════════════════════════════
+
+TODAY (RIGHT NOW - 30 minutes):
+  ☐ Read PHASE_1_QUICK_START.txt
+  ☐ Read PHASE_1_COMPLETE_SUMMARY.txt (sections 1-2)
+  ☐ Bookmark Google Search Console
+  ☐ Bookmark PageSpeed Insights
+  ☐ Bookmark Screaming Frog
+
+TOMORROW:
+  ☐ Register Google Search Console
+  ☐ Add DNS TXT record
+  ☐ Start Core Web Vitals test
+
+THIS WEEK:
+  ☐ Complete all 8 Priority 1 actions
+  ☐ Verify each action
+  ☐ Document baseline metrics
+  ☐ Check robots.txt is live
+
+NEXT WEEK:
+  ☐ Verify GSC domain verified
+  ☐ Submit sitemap to Google
+  ☐ Complete 4 Priority 2 actions
+  ☐ Deploy code changes
+
+WEEK 3:
+  ☐ Monitor GSC for crawl activity
+  ☐ Complete Priority 3 actions
+  ☐ Update status tracker
+  ☐ Check indexing progress
+
+═══════════════════════════════════════════════════════════════════════════════
+✅ SUCCESS CRITERIA (Check When Complete)
+═══════════════════════════════════════════════════════════════════════════════
+
+BY END OF WEEK 1:
+  ☐ robots.txt deployed and validated
+  ☐ Google Search Console registered
+  ☐ Domain verification in progress
+  ☐ Core Web Vitals measured (baseline recorded)
+  ☐ Mobile responsiveness tested
+  ☐ Broken links checked (0 found)
+  ☐ SSL certificate verified
+  ☐ All Priority 1 actions complete
+
+BY END OF WEEK 2:
+  ☐ Canonical URLs added and deployed
+  ☐ Open Graph tags added and deployed
+  ☐ 404 page created and tested
+  ☐ Error boundary created and tested
+  ☐ All Priority 2 actions complete
+  ☐ Changes committed to repo
+  ☐ Site tested locally
+
+BY END OF WEEK 3:
+  ☐ GSC domain verification complete
+  ☐ Sitemap submitted to Google
+  ☐ Initial crawl activity visible
+  ☐ Priority 3 actions begun
+  ☐ Status tracker updated
+  ☐ Progress documented
+
+BY END OF MONTH 1:
+  ☐ Pages appearing in Google index
+  ☐ 50+ URLs indexed
+  ☐ No crawl errors
+  ☐ Core Web Vitals stabilized
+  ☐ All Priority 1-3 actions complete
+  ☐ Ready for Phase 2
+
+═══════════════════════════════════════════════════════════════════════════════
+🔗 QUICK REFERENCE LINKS
+═══════════════════════════════════════════════════════════════════════════════
+
+CRITICAL TOOLS (Bookmark These):
+  Google Search Console:
+    https://search.google.com/search-console
+
+  PageSpeed Insights:
+    https://pagespeed.web.dev
+
+  SSL Labs (Certificate Check):
+    https://www.ssllabs.com/ssltest/
+
+  Mobile-Friendly Test:
+    https://search.google.com/test/mobile-friendly
+
+  Screaming Frog (Link Crawler):
+    https://www.screamingfrog.co.uk/seo-spider/
+
+  robots.txt Validator:
+    https://www.seobility.net/en/robotstester/
+
+YOUR WEBSITE:
+  Homepage:
+    https://getheatpumpquotes.co.uk
+
+  Sitemap:
+    https://getheatpumpquotes.co.uk/sitemap.xml
+
+  robots.txt:
+    https://getheatpumpquotes.co.uk/robots.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+📋 IMPORTANT METRICS TO RECORD
+═══════════════════════════════════════════════════════════════════════════════
+
+BASELINE METRICS (Record Now):
+  
+  Core Web Vitals (Desktop):
+    Performance Score: ___/100
+    Accessibility Score: ___/100
+    Best Practices Score: ___/100
+    SEO Score: ___/100
+  
+  Core Web Vitals (Mobile):
+    Performance Score: ___/100
+    LCP (Largest Contentful Paint): ___ ms
+    FID (First Input Delay): ___ ms
+    CLS (Cumulative Layout Shift): ___
+  
+  SSL Certificate:
+    Grade: ___
+    Expiration Date: ___
+  
+  Broken Links:
+    Total Found: ___
+  
+  Mobile Test:
+    Result: Mobile Friendly / Issues Found
+    Issues: ___________________________
+
+WEEK 2 CHECK (After Changes):
+  
+  Performance Change:
+    Before: ___/100 → After: ___/100
+    Change: ___ points
+  
+  Mobile Score Change:
+    Before: ___/100 → After: ___/100
+    Change: ___ points
+
+ONGOING MONITORING (Weekly):
+  
+  Week of __________:
+    GSC Status: ________
+    Pages Indexed: ___
+    Crawl Errors: ___
+    Performance Score: ___/100
+
+  Week of __________:
+    GSC Status: ________
+    Pages Indexed: ___
+    Crawl Errors: ___
+    Performance Score: ___/100
+
+  Week of __________:
+    GSC Status: ________
+    Pages Indexed: ___
+    Crawl Errors: ___
+    Performance Score: ___/100
+
+═══════════════════════════════════════════════════════════════════════════════
+🎯 PRIORITY MATRIX
+═══════════════════════════════════════════════════════════════════════════════
+
+URGENT & IMPORTANT (Do First):
+  ☐ Register Google Search Console
+  ☐ Submit Sitemap
+  ☐ Test Core Web Vitals
+  ☐ Test Mobile Responsiveness
+
+IMPORTANT (Do This Week):
+  ☐ Add Canonical URLs
+  ☐ Add Open Graph Tags
+  ☐ Create Custom Error Pages
+  ☐ Fix Image Optimization
+
+CAN WAIT (Next Week):
+  ☐ Setup Error Tracking
+  ☐ Configure Caching
+  ☐ Remove Unused Dependencies
+
+═══════════════════════════════════════════════════════════════════════════════
+⚠️ RED FLAGS & BLOCKERS
+═══════════════════════════════════════════════════════════════════════════════
+
+IF THIS HAPPENS                    DO THIS
+
+robots.txt returns 404        → Check /public/robots.txt exists
+                              → Verify it's committed to repo
+
+GSC won't verify              → Wait 48 hours for DNS propagation
+                              → Check DNS TXT record at registrar
+                              → Try alternative verification method
+
+Core Web Vitals score <60     → Check PHASE_1_TECHNICAL_SEO_AUDIT.md
+                              → Review performance optimization tips
+                              → Plan optimization for Phase 2
+
+Mobile test fails             → Test on actual device, not just browser
+                              → Check viewport meta tag
+                              → Review responsive design
+
+Broken links found            → Fix or redirect each one
+                              → Verify internal links
+                              → Test external links
+
+Pages not indexing (after     → Check Search Console for errors
+1+ week)                       → Verify sitemap submitted
+                              → Check robots.txt isn't blocking
+                              → Test URL Inspection tool
+
+═══════════════════════════════════════════════════════════════════════════════
+✨ YOU'VE GOT EVERYTHING YOU NEED
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ 15 Clear Actions
+✅ Time Estimates for Each
+✅ Exact Verification Steps
+✅ Terminal Commands (Copy-Paste Ready)
+✅ Code Snippets (Production-Ready)
+✅ Success Criteria
+✅ Resource Links
+✅ robots.txt (Already Created)
+✅ Weekly Tracker
+✅ Timeline & Milestones
+
+EVERYTHING IS READY. START TODAY.
+
+═══════════════════════════════════════════════════════════════════════════════
+📅 TIMELINE AT A GLANCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Jan 1-7:    Week 1 - Critical actions (8 items)
+Jan 8-14:   Week 2 - High priority actions (4 items)
+Jan 15-21:  Week 3 - Monitoring & medium priority
+Jan 22-31:  Week 4 - More monitoring & Phase 2 prep
+Feb 1+:     Month 2 - Initial indexing appears
+Feb+:       Month 3+ - Phase 2 Site Cleanup begins
+
+═══════════════════════════════════════════════════════════════════════════════
+🎓 REMEMBER
+═══════════════════════════════════════════════════════════════════════════════
+
+→ Follow the checklist exactly (no shortcuts)
+→ Test each action before moving to the next
+→ Document your baseline metrics
+→ Check your work against expected outputs
+→ Update the tracker weekly
+→ Monitor Google Search Console daily (Week 2+)
+→ Don't expect instant rankings (takes time)
+→ Focus on completing Phase 1 first
+→ Then prepare for Phase 2
+
+═══════════════════════════════════════════════════════════════════════════════
+
+                            🚀 LET'S GET STARTED 🚀
+
+                    Print this checklist and post it on your wall.
+                    Cross off items as you complete them.
+                    Check in daily for the first week.
+                    Update weekly thereafter.
+
+                        Your site will be indexed soon.
+                        Your traffic will start flowing.
+                        Your rankings will begin building.
+
+                          Start with Action #2 today:
+                    Register Google Search Console (5 minutes)
+
+                            YOU'VE GOT THIS! 🎯
+
+═══════════════════════════════════════════════════════════════════════════════
+Date: January 1, 2026
+Framework: 6-Phase SEO Prioritization
+Phase: 1 of 6
+Status: Ready to Implement
+═══════════════════════════════════════════════════════════════════════════════
+

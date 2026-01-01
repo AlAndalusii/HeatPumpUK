@@ -9,6 +9,22 @@ import Head from "next/head"
 
 const blogPosts = [
   {
+    id: "heat-pump-installation-cost-uk",
+    title: "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025",
+    excerpt:
+      "Complete breakdown of heat pump installation costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
+    image: "/modern-heat-pump-installation.jpg",
+    date: "January 1, 2026",
+  },
+  {
+    id: "are-heat-pumps-worth-it",
+    title: "Are Heat Pumps Worth It? The Honest Answer for UK Homes",
+    excerpt:
+      "Get the straight answer about whether heat pumps are worth it. Real costs, genuine savings, and who they're perfect for.",
+    image: "/modern-heat-pump-installation.jpg",
+    date: "January 1, 2026",
+  },
+  {
     id: "how-heat-pumps-work",
     title: "How Do Heat Pumps Work? The Simple Guide",
     excerpt:
@@ -23,14 +39,6 @@ const blogPosts = [
       "The UK government is giving away up to £7,500 to help you get a heat pump. Learn who qualifies, how to apply, and how much you could save.",
     image: "/modern-heat-pump-installation.jpg",
     date: "March 15, 2025",
-  },
-  {
-    id: "best-tumble-dryers-uk",
-    title: "Best Tumble Dryers UK 2025: Complete Buying Guide",
-    excerpt:
-      "Our top picks for the best heat pump tumble dryers and other models. Honest reviews, real prices, and expert advice to help you choose.",
-    image: "/energy-efficiency-comparison-chart.jpg",
-    date: "March 10, 2025",
   },
 ]
 
@@ -137,7 +145,7 @@ export default function BlogPage() {
                   <div className="p-6">
                     <p className="text-[13px] font-medium text-[#0071e3] mb-3 uppercase tracking-wide">{post.date}</p>
                     <h2 className="text-[22px] font-semibold text-[#1d1d1f] mb-3 leading-tight text-balance">{post.title}</h2>
-                    <p className="text-[15px] text-[#6e6e73] leading-[1.5] mb-4">{post.excerpt}</p>
+                    <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">{post.excerpt}</p>
                     <div className="flex items-center text-[#0071e3] font-medium text-[15px] group">
                       Read more
                       <svg className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

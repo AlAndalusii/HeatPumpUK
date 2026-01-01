@@ -465,15 +465,6 @@ export default function HowHeatPumpsWorkPage() {
                 </div>
               </div>
             </Link>
-            <Link href="/blog/best-tumble-dryers-uk">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer">
-                <img src="/energy-efficiency-comparison-chart.jpg" alt="Tumble dryers" className="w-full h-48 object-cover" />
-                <div className="p-6">
-                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Best Tumble Dryers UK 2025</h3>
-                  <p className="text-[15px] text-[#6e6e73]">Expert reviews and buying guide for energy-efficient dryers</p>
-                </div>
-              </div>
-            </Link>
           </div>
         </div>
       </section>

@@ -18,7 +18,7 @@ export default function BlogPostPage() {
   return (
     <>
       <Head>
-        <title>£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide</title>
+        <title>£7,500 Heat Pump Grant UK | Eligibility Guide</title>
         <meta name="description" content="Complete guide to the £7,500 heat pump grant UK 2025. Check eligibility, learn how to apply for government heat pump grants, and find MCS installers. Available in England, Scotland & Wales." />
         <meta name="keywords" content="£7500 heat pump grant, heat pump grant UK, government heat pump grant, heat pump grant eligibility, air source heat pump grant, Boiler Upgrade Scheme, MCS installers" />
       </Head>

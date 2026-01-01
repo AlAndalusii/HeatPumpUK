@@ -1,0 +1,62 @@
+<svg viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Apple Touch Icon - optimized for iOS home screen -->
+  <rect width="180" height="180" fill="#0071e3" rx="40"/>
+  
+  <g>
+    <!-- Outer circle - subtle background -->
+    <circle 
+      cx="90" 
+      cy="90" 
+      r="65" 
+      fill="white" 
+      opacity="0.1"
+    />
+    
+    <!-- Main icon shape - three-quarter circle representing continuous energy flow -->
+    <circle 
+      cx="90" 
+      cy="90" 
+      r="45" 
+      stroke="white" 
+      stroke-width="8"
+      stroke-linecap="round"
+      fill="none"
+      stroke-dasharray="212 71"
+      stroke-dashoffset="0"
+      transform="rotate(-90 90 90)"
+    />
+    
+    <!-- Inner accent circle - represents core efficiency -->
+    <circle 
+      cx="90" 
+      cy="90" 
+      r="28" 
+      stroke="#34c759" 
+      stroke-width="6"
+      stroke-linecap="round"
+      fill="none"
+      stroke-dasharray="132 44"
+      stroke-dashoffset="0"
+      transform="rotate(45 90 90)"
+    />
+    
+    <!-- Center dot - focal point -->
+    <circle 
+      cx="90" 
+      cy="90" 
+      r="8" 
+      fill="white"
+    />
+    
+    <!-- Elegant arrow indicator - subtle directional element -->
+    <path
+      d="M 112 68 L 122 58 L 112 48"
+      stroke="#34c759"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+</svg>
+
