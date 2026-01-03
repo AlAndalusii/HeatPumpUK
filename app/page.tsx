@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import Head from "next/head"
@@ -1715,7 +1716,7 @@ export default function HomePage() {
       <section id="how-it-works" className="py-12 sm:py-16 md:py-20 bg-[#f5f5f7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[32px] sm:text-[36px] md:text-[44px] lg:text-[56px] font-semibold text-center mb-4 sm:mb-6 tracking-tight text-[#1d1d1f] opacity-0 animate-fade-in-up-scroll">
-            How it works
+            How it Works
           </h2>
           <p className="text-[16px] sm:text-[17px] md:text-[19px] text-[#6e6e73] text-center mb-10 sm:mb-12 md:mb-16 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll px-4" style={{ animationDelay: "0.1s" }}>
             Get quotes from vetted installers in 3 simple steps
@@ -1787,7 +1788,7 @@ export default function HomePage() {
               Why Homeowners Choose Us
             </p>
             <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.1] mb-6">
-              Built on trust, not commissions
+              Built on Trust, Not Commissions
             </h2>
             <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-normal max-w-2xl mx-auto">
               We're independent, transparent, and focused entirely on helping you find the right heat pump.
@@ -1978,7 +1979,7 @@ export default function HomePage() {
       <section id="faq" className="py-12 sm:py-16 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-[32px] sm:text-[40px] md:text-[56px] font-semibold text-center mb-4 tracking-tight text-[#1d1d1f] opacity-0 animate-fade-in-up-scroll">
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <p className="text-[16px] sm:text-[17px] md:text-[19px] text-[#6e6e73] text-center mb-10 sm:mb-12 md:mb-16 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
             Everything you need to know about the heat pump grant
@@ -2082,81 +2083,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="relative border-t border-[#d2d2d7] py-10 sm:py-12 bg-[#f5f5f7]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-8">
-            {/* Brand */}
-            <div className="sm:col-span-2 md:col-span-1">
-              <Logo className="h-10 sm:h-11 w-auto mb-3 sm:mb-4" />
-              <p className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-2">Get Heat Pump Quotes – Independent Comparison Service</p>
-              <p className="text-[13px] sm:text-[14px] text-[#6e6e73]">
-                Helping UK homeowners check £7,500 grant eligibility and compare quotes from vetted MCS-certified installers. Independent, unbiased, completely free.
-              </p>
-            </div>
-
-            {/* Quick links */}
-            <div>
-              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Quick Links</h4>
-              <div className="space-y-2">
-                <Link href="/quiz" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Check Eligibility
-                </Link>
-                <Link href="/installation" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Get Quote
-                </Link>
-                <Link href="#how-it-works" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  How It Works
-                </Link>
-              </div>
-            </div>
-
-            {/* Resources */}
-            <div>
-              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Resources</h4>
-              <div className="space-y-2">
-                <Link href="#faq" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  FAQ
-                </Link>
-                <Link href="/blog" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Blog
-                </Link>
-                <Link href="/about" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  About Us
-                </Link>
-              </div>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Contact</h4>
-              <div className="space-y-2">
-                <Link href="/contact" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Contact Us
-                </Link>
-                <Link href="/contact" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Support
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-[#d2d2d7] pt-6 sm:pt-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4">
-              <p className="text-[11px] sm:text-[12px] text-[#86868b] text-center sm:text-left">
-                © 2025 Get Heat Pump Quotes. All rights reserved.
-              </p>
-              <div className="flex gap-4 sm:gap-6">
-                <Link href="/privacy" className="text-[11px] sm:text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms" className="text-[11px] sm:text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Terms of Service
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
 
       {/* PDF Download Modal */}
       <PDFDownloadModal isOpen={showPDFModal} onClose={() => setShowPDFModal(false)} />

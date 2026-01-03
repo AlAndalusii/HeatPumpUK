@@ -1,6 +1,7 @@
 "use client"
 
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import Head from "next/head"
 import { useState, useEffect } from "react"
@@ -274,64 +275,7 @@ export default function PrivacyPage() {
       </div>
 
       {/* Footer */}
-      <footer className="relative border-t border-[#d2d2d7] py-12 bg-[#f5f5f7]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <Logo className="h-11 w-auto mb-4" />
-              <p className="text-[14px] text-[#6e6e73]">
-                Free heat pump quotes from trusted installers. Save up to £7,500.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Quick Links</h4>
-              <div className="space-y-2">
-                <Link href="/quiz" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Check Eligibility
-                </Link>
-                <Link href="/#how-it-works" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  How It Works
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Resources</h4>
-              <div className="space-y-2">
-                <Link href="/#faq" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  FAQ
-                </Link>
-                <Link href="/blog" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Blog
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Legal</h4>
-              <div className="space-y-2">
-                <Link href="/privacy" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/contact" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Contact Us
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-[#d2d2d7] pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-[12px] text-[#86868b]">© 2025 HeatPump UK. All rights reserved.</p>
-              <div className="flex gap-6">
-                <Link href="/privacy" className="text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms" className="text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Terms of Service
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
     </>
   )

@@ -5,6 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import Head from "next/head"
 
@@ -111,7 +112,7 @@ export default function ContactPage() {
               {/* Desktop Navigation */}
               <nav className="hidden md:flex items-center gap-8">
                 <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                  How it works
+                  How It Works
                 </Link>
                 <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                   FAQ
@@ -151,7 +152,7 @@ export default function ContactPage() {
                   className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  How it works
+                  How It Works
                 </Link>
                 <Link 
                   href="/#faq" 
@@ -224,7 +225,7 @@ export default function ContactPage() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
               <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How it works
+                How It Works
               </Link>
               <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                 FAQ
@@ -264,7 +265,7 @@ export default function ContactPage() {
                 className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                How it works
+                How It Works
               </Link>
               <Link 
                 href="/#faq" 
@@ -486,81 +487,12 @@ export default function ContactPage() {
       </section>
 
       {/* Footer */}
-      <footer className="relative border-t border-[#d2d2d7] py-10 sm:py-12 bg-[#f5f5f7]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-8">
-            {/* Brand */}
-            <div className="sm:col-span-2 md:col-span-1">
-              <Logo className="h-10 sm:h-11 w-auto mb-3 sm:mb-4" />
-              <p className="text-[13px] sm:text-[14px] text-[#6e6e73]">
-                Free heat pump quotes from trusted installers. Save up to £7,500.
-              </p>
-            </div>
-
-            {/* Quick links */}
-            <div>
-              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Quick Links</h4>
-              <div className="space-y-2">
-                <Link href="/quiz" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Check Eligibility
-                </Link>
-                <Link href="/installation" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Get Quote
-                </Link>
-                <Link href="/#how-it-works" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  How It Works
-                </Link>
-              </div>
-            </div>
-
-            {/* Resources */}
-            <div>
-              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Resources</h4>
-              <div className="space-y-2">
-                <Link href="/#faq" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  FAQ
-                </Link>
-                <Link href="/blog" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Blog
-                </Link>
-              </div>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Contact</h4>
-              <div className="space-y-2">
-                <Link href="/contact" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Contact Us
-                </Link>
-                <Link href="/contact" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Support
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-[#d2d2d7] pt-6 sm:pt-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4">
-              <p className="text-[11px] sm:text-[12px] text-[#86868b] text-center sm:text-left">
-                © 2025 HeatPump UK. All rights reserved.
-              </p>
-              <div className="flex gap-4 sm:gap-6">
-                <Link href="/privacy" className="text-[11px] sm:text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms" className="text-[11px] sm:text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Terms of Service
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
     </>
   )
 }
+
 
 
 

@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import Head from "next/head"
@@ -39,7 +40,7 @@ export default function HeatPumpInstallationCostPage() {
             </Link>
             <nav className="hidden md:flex items-center gap-8">
               <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How it works
+                How It Works
               </Link>
               <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                 FAQ
@@ -67,7 +68,7 @@ export default function HeatPumpInstallationCostPage() {
             Heat Pump Installation Cost UK: What You'll Actually Pay in 2025
           </h1>
           <div className="flex items-center gap-4 text-white/80">
-            <span className="text-[15px]">January 1, 2026</span>
+            <span className="text-[15px]">October 26, 2025</span>
             <span>•</span>
             <span className="text-[15px]">12 min read</span>
           </div>
@@ -637,62 +638,7 @@ export default function HeatPumpInstallationCostPage() {
       </article>
 
       {/* Footer */}
-      <footer className="border-t border-[#d2d2d7] py-12 px-6 bg-[#f5f5f7]">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-            <div className="md:col-span-1">
-              <Logo className="h-11 w-auto mb-4" />
-              <p className="text-[14px] text-[#6e6e73]">
-                Independent heat pump comparison service for UK homeowners.
-              </p>
-            </div>
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Quick Links</h4>
-              <div className="space-y-2">
-                <Link href="/quiz" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Check Eligibility
-                </Link>
-                <Link href="/#how-it-works" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  How It Works
-                </Link>
-                <Link href="/blog" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Blog
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Resources</h4>
-              <div className="space-y-2">
-                <Link href="/blog/heat-pump-grant-guide" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Grant Guide
-                </Link>
-                <Link href="/blog/how-heat-pumps-work" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  How They Work
-                </Link>
-                <Link href="/blog/are-heat-pumps-worth-it" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Are They Worth It?
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Contact</h4>
-              <div className="space-y-2">
-                <Link href="/contact" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Contact Us
-                </Link>
-                <Link href="/privacy" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Privacy Policy
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-[#d2d2d7] pt-8">
-            <p className="text-[12px] text-[#86868b] text-center">
-              © 2025 Get Heat Pump Quotes. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
     </>
   )

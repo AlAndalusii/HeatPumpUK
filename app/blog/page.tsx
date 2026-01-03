@@ -3,6 +3,7 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import Head from "next/head"
@@ -98,7 +99,7 @@ export default function BlogPage() {
             </Link>
             <nav className="hidden md:flex items-center gap-8">
               <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How it works
+                How It Works
               </Link>
               <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                 FAQ
@@ -186,77 +187,7 @@ export default function BlogPage() {
       </section>
 
       {/* Footer */}
-      <footer className="relative border-t border-[#d2d2d7] py-12 bg-[#f5f5f7]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            {/* Brand */}
-            <div>
-              <Logo className="h-11 w-auto mb-4" />
-              <p className="text-[14px] text-[#6e6e73]">
-                Free heat pump quotes from trusted installers. Save up to £7,500.
-              </p>
-            </div>
-
-            {/* Quick links */}
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Quick Links</h4>
-              <div className="space-y-2">
-                <Link href="/quiz" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Check Eligibility
-                </Link>
-                <Link href="/installation" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Get Quote
-                </Link>
-                <Link href="/#how-it-works" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  How It Works
-                </Link>
-              </div>
-            </div>
-
-            {/* Resources */}
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Resources</h4>
-              <div className="space-y-2">
-                <Link href="/#faq" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  FAQ
-                </Link>
-                <Link href="/blog" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Blog
-                </Link>
-              </div>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="text-[14px] font-semibold text-[#1d1d1f] mb-4">Contact</h4>
-              <div className="space-y-2">
-                <Link href="/contact" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Contact Us
-                </Link>
-                <Link href="/contact" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                  Support
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-[#d2d2d7] pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-[12px] text-[#86868b]">
-                © 2025 HeatPump UK. All rights reserved.
-              </p>
-              <div className="flex gap-6">
-                <Link href="/privacy" className="text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms" className="text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                  Terms of Service
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
     </>
   )

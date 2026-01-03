@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 
@@ -67,7 +68,7 @@ export default function AboutPage() {
               
               <nav className="hidden md:flex items-center gap-8">
                 <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                  How it works
+                  How It Works
                 </Link>
                 <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                   FAQ
@@ -104,7 +105,7 @@ export default function AboutPage() {
             <div className="md:hidden fixed inset-0 top-16 bg-white z-40 animate-fade-in-up">
               <nav className="flex flex-col px-4 py-6 gap-4">
                 <Link href="/#how-it-works" className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>
-                  How it works
+                  How It Works
                 </Link>
                 <Link href="/#faq" className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>
                   FAQ
@@ -143,8 +144,8 @@ export default function AboutPage() {
 
               {/* Main headline with premium spacing */}
               <h1 className="text-[44px] sm:text-[56px] md:text-[72px] lg:text-[80px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6 sm:mb-8">
-                <span className="block">Your trusted guide</span>
-                <span className="block bg-gradient-to-r from-[#0071e3] via-[#00a2ff] to-[#34c759] bg-clip-text text-transparent">to heat pump installation</span>
+                <span className="block">Your Trusted Guide</span>
+                <span className="block bg-gradient-to-r from-[#0071e3] via-[#00a2ff] to-[#34c759] bg-clip-text text-transparent">to Heat Pump Installation</span>
               </h1>
 
               {/* Premium subheading */}
@@ -182,7 +183,7 @@ export default function AboutPage() {
                 </div>
                 
                 <h2 className="text-[44px] sm:text-[52px] md:text-[60px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.1] mb-6">
-                  Independent, transparent, homeowner-first
+                  Independent, Transparent, Homeowner-First
                 </h2>
                 
                 <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-6">
@@ -272,7 +273,7 @@ export default function AboutPage() {
                 <span className="px-3 py-1 rounded-full bg-[#0071e3]/10 text-[#0071e3] text-[12px] font-semibold uppercase tracking-wider">Our Services</span>
               </div>
               <h2 className="text-[44px] sm:text-[52px] md:text-[60px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.1] mb-6">
-                Everything you need, in one place
+                Everything You Need, In One Place
               </h2>
               <p className="text-[18px] sm:text-[20px] text-[#6e6e73] leading-[1.6] max-w-2xl mx-auto">
                 From grant eligibility checks to installer recommendations—we've designed every service to save you time and money.
@@ -369,7 +370,7 @@ export default function AboutPage() {
                 <span className="px-3 py-1 rounded-full bg-[#34c759]/10 text-[#34c759] text-[12px] font-semibold uppercase tracking-wider">Quality & Trust</span>
               </div>
               <h2 className="text-[44px] sm:text-[52px] md:text-[60px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.1] mb-6">
-                Standards you can trust
+                Standards You Can Trust
               </h2>
               <p className="text-[18px] sm:text-[20px] text-[#6e6e73] leading-[1.6] max-w-2xl mx-auto">
                 We've built robust vetting criteria and quality standards that protect you at every step.
@@ -546,7 +547,7 @@ export default function AboutPage() {
             <div className="opacity-0 animate-fade-in-up-scroll">
               {/* Heading */}
               <h2 className="text-[44px] sm:text-[56px] md:text-[64px] lg:text-[72px] font-semibold text-white tracking-tight leading-[1.1] mb-6 sm:mb-8">
-                Ready to make the switch?
+                Ready to Make the Switch?
               </h2>
 
               {/* Subheading */}
@@ -601,70 +602,7 @@ export default function AboutPage() {
         </section>
 
         {/* Footer */}
-        <footer className="relative border-t border-[#d2d2d7] py-10 sm:py-12 bg-[#f5f5f7]">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-8">
-              <div className="sm:col-span-2 md:col-span-1">
-                <Logo className="h-10 sm:h-11 w-auto mb-3 sm:mb-4" />
-                <p className="text-[13px] sm:text-[14px] text-[#6e6e73]">
-                  Independent heat pump comparison for UK homeowners.
-                </p>
-              </div>
-
-              <div>
-                <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Quick Links</h4>
-                <div className="space-y-2">
-                  <Link href="/quiz" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                    Check Eligibility
-                  </Link>
-                  <Link href="/#how-it-works" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                    How It Works
-                  </Link>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Resources</h4>
-                <div className="space-y-2">
-                  <Link href="/#faq" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                    FAQ
-                  </Link>
-                  <Link href="/blog" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                    Blog
-                  </Link>
-                  <Link href="/about" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                    About Us
-                  </Link>
-                </div>
-              </div>
-
-              <div>
-                <h4 className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-3 sm:mb-4">Contact</h4>
-                <div className="space-y-2">
-                  <Link href="/contact" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
-                    Contact Us
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="border-t border-[#d2d2d7] pt-6 sm:pt-8">
-              <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4">
-                <p className="text-[11px] sm:text-[12px] text-[#86868b] text-center sm:text-left">
-                  © 2025 HeatPump UK. All rights reserved.
-                </p>
-                <div className="flex gap-4 sm:gap-6">
-                  <Link href="/privacy" className="text-[11px] sm:text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                    Privacy Policy
-                  </Link>
-                  <Link href="/terms" className="text-[11px] sm:text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors">
-                    Terms of Service
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
     </div>
   )
 }

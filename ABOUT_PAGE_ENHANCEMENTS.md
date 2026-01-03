@@ -200,3 +200,4 @@ The redesigned About Us page now reflects:
 **Target Audience:** UK homeowners seeking professional heat pump guidance
 **Overall Aesthetic:** British premium energy company (British Gas, etc.)
 
+

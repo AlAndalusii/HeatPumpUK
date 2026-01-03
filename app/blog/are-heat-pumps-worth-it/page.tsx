@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
+import { Footer } from "@/components/footer"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import Head from "next/head"
@@ -39,7 +40,7 @@ export default function AreHeatPumpsWorthItPage() {
             </Link>
             <nav className="hidden md:flex items-center gap-8">
               <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How it works
+                How It Works
               </Link>
               <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                 FAQ
@@ -474,127 +475,8 @@ export default function AreHeatPumpsWorthItPage() {
         </div>
       </section>
 
-      {/* Enhanced Footer */}
-      <footer className="relative border-t border-[#d2d2d7] bg-[#f5f5f7]">
-        {/* Main Footer Content */}
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 lg:py-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-6">
-            
-            {/* Brand Section - Takes more space */}
-            <div className="lg:col-span-4 space-y-4">
-              <Logo className="h-12 w-auto" />
-              <p className="text-[15px] font-semibold text-[#1d1d1f] leading-snug">
-                HeatPump UK – Independent Heat Pump Comparison
-              </p>
-              <p className="text-[14px] text-[#6e6e73] leading-relaxed max-w-xs">
-                Helping UK homeowners check £7,500 grant eligibility and compare quotes from vetted MCS-certified installers. Independent, unbiased, completely free.
-              </p>
-              
-              {/* Trust Badges */}
-              <div className="flex items-center gap-4 pt-2">
-                <div className="flex items-center gap-2 text-[13px] text-[#6e6e73]">
-                  <svg className="w-4 h-4 text-[#34c759]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>MCS Certified</span>
-                </div>
-                <div className="flex items-center gap-2 text-[13px] text-[#6e6e73]">
-                  <svg className="w-4 h-4 text-[#34c759]" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span>100% Free</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Quick Links */}
-            <div className="lg:col-span-2 lg:col-start-6">
-              <h4 className="text-[13px] font-semibold text-[#1d1d1f] uppercase tracking-wider mb-4">
-                Quick Links
-              </h4>
-              <nav className="space-y-3">
-                <Link href="/quiz" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  Check Eligibility
-                </Link>
-                <Link href="/installation" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  Get Quote
-                </Link>
-                <Link href="/#how-it-works" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  How It Works
-                </Link>
-                <Link href="/#faq" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  FAQ
-                </Link>
-              </nav>
-            </div>
-
-            {/* Resources */}
-            <div className="lg:col-span-2">
-              <h4 className="text-[13px] font-semibold text-[#1d1d1f] uppercase tracking-wider mb-4">
-                Resources
-              </h4>
-              <nav className="space-y-3">
-                <Link href="/blog" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  Blog
-                </Link>
-                <Link href="/blog/heat-pump-grant-guide" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  Grant Guide
-                </Link>
-                <Link href="/blog/how-heat-pumps-work" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  How Heat Pumps Work
-                </Link>
-                <Link href="/about" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  About Us
-                </Link>
-              </nav>
-            </div>
-
-            {/* Contact */}
-            <div className="lg:col-span-2">
-              <h4 className="text-[13px] font-semibold text-[#1d1d1f] uppercase tracking-wider mb-4">
-                Get In Touch
-              </h4>
-              <nav className="space-y-3">
-                <Link href="/contact" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  Contact Us
-                </Link>
-                <Link href="/contact" className="block text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors duration-200">
-                  Support
-                </Link>
-              </nav>
-              
-              {/* CTA Button */}
-              <div className="mt-6">
-                <Link href="/quiz">
-                  <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-[13px] px-5 py-2.5 rounded-full transition-all duration-300 hover:scale-105">
-                    Get Free Quotes
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="border-t border-[#d2d2d7]">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-              <p className="text-[12px] text-[#86868b] text-center sm:text-left">
-                © 2026 HeatPump UK. All rights reserved. Helping UK homeowners make informed decisions.
-              </p>
-              <div className="flex items-center gap-6">
-                <Link href="/privacy" className="text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors duration-200">
-                  Privacy Policy
-                </Link>
-                <span className="text-[#d2d2d7]">|</span>
-                <Link href="/terms" className="text-[12px] text-[#86868b] hover:text-[#1d1d1f] transition-colors duration-200">
-                  Terms of Service
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      {/* Footer */}
+      <Footer />
     </div>
     </>
   )
