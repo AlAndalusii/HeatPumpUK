@@ -114,6 +114,66 @@
   </url>
 
   <!-- ============================================================================
+       LONDON INSTALLER PAGES - LOCAL SEO
+       ============================================================================ -->
+
+  <!-- London Installers Hub Page -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- East London Installers -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london/east-london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- North London Installers -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london/north-london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- South East London Installers -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london/south-east-london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- South London Installers -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london/south-london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- South West London Installers -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london/south-west-london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- West London Installers -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/london/west-london</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ============================================================================
        LEGAL/FOOTER PAGES - LOW PRIORITY
        ============================================================================ -->
 
@@ -131,14 +191,14 @@
        
        Sitemap Specification: 1.0 (Google Standard)
        Last Updated: January 1, 2026
-       Total URLs: 16
+       Total URLs: 23
        
        PRIORITY GUIDELINES USED:
        - 1.0:   Homepage (entry point)
        - 0.95:  Primary conversion pages (quiz, CTAs)
-       - 0.9:   Secondary conversion pages (installation)
-       - 0.85:  High-value content (SEO blog articles)
-       - 0.8:   Important informational pages
+       - 0.9:   Secondary conversion pages (installation, blog index)
+       - 0.85:  High-value content (SEO blog articles, location hubs)
+       - 0.8:   Important informational pages (location pages, about)
        - 0.7:   Contact/standard pages
        - 0.3:   Legal/footer pages
        
