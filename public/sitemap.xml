@@ -174,6 +174,18 @@
   </url>
 
   <!-- ============================================================================
+       MANCHESTER INSTALLER PAGES - LOCAL SEO
+       ============================================================================ -->
+
+  <!-- Manchester Installers Hub Page -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/installers/manchester</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ============================================================================
        LEGAL/FOOTER PAGES - LOW PRIORITY
        ============================================================================ -->
 
@@ -191,7 +203,7 @@
        
        Sitemap Specification: 1.0 (Google Standard)
        Last Updated: January 1, 2026
-       Total URLs: 23
+       Total URLs: 24
        
        PRIORITY GUIDELINES USED:
        - 1.0:   Homepage (entry point)
@@ -233,4 +245,3 @@
        ========================================================================== -->
 
 </urlset>
-
