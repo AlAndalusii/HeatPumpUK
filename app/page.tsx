@@ -1559,7 +1559,7 @@ export default function HomePage() {
             {/* Left content */}
             <div className="text-white py-6 sm:py-12 opacity-0 animate-fade-in-up">
               <h1 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold mb-6 sm:mb-8 tracking-tight leading-[1.1]">
-                Find Out If You Qualify for £7,500 Grant + Compare Installer Quotes
+                Compare Heat Pump Installers & Check £7,500 Grant Eligibility
               </h1>
               
               {/* Social Proof Banner - Positioned prominently */}
