@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
 
     // Send email to admin
     const { data: adminEmailData, error: adminError } = await resend.emails.send({
-      from: process.env.FROM_EMAIL || 'Heat Pump Resource <onboarding@resend.dev>',
+      from: process.env.FROM_EMAIL || 'Air Source Heat Pump Resource <onboarding@resend.dev>',
       to: [process.env.ADMIN_EMAIL || 'info@heatpumpresource.co.uk'],
       subject: `New Quiz Submission - ${name}`,
       html: answersSummary,
@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
         <p style="font-size: 16px; line-height: 1.5; color: #1d1d1f;">Hi ${name},</p>
         
         <p style="font-size: 16px; line-height: 1.5; color: #1d1d1f;">
-          Thank you for completing our heat pump eligibility quiz. We've received your information and our team of MCS-certified installers will review your details.
+          Thank you for completing our Air Source Heat Pump eligibility quiz. We've received your information and our team of MCS-certified installers will review your details.
         </p>
         
         <div style="background-color: #f5f5f7; border-radius: 12px; padding: 20px; margin: 20px 0;">
@@ -81,21 +81,21 @@ export async function POST(request: NextRequest) {
         
         <p style="font-size: 16px; line-height: 1.5; color: #1d1d1f;">
           Best regards,<br/>
-          <strong>Heat Pump Resource Team</strong>
+          <strong>Air Source Heat Pump Resource Team</strong>
         </p>
         
         <hr style="border: none; border-top: 1px solid #d2d2d7; margin: 30px 0;" />
         
         <p style="font-size: 12px; color: #86868b; line-height: 1.5;">
-          This email was sent because you completed a quiz on Heat Pump Resource. If you didn't submit this form, please ignore this email.
+          This email was sent because you completed a quiz on Air Source Heat Pump Resource. If you didn't submit this form, please ignore this email.
         </p>
       </div>
     `;
 
     const { data: userEmailData, error: userError } = await resend.emails.send({
-      from: process.env.FROM_EMAIL || 'Heat Pump Resource <onboarding@resend.dev>',
+      from: process.env.FROM_EMAIL || 'Air Source Heat Pump Resource <onboarding@resend.dev>',
       to: [email],
-      subject: 'Thank You - Your Heat Pump Quote Request',
+      subject: 'Thank You - Your Air Source Heat Pump Quote Request',
       html: userConfirmation,
     });
 

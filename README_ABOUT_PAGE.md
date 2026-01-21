@@ -338,7 +338,7 @@ Your About Us page has been transformed into a world-class digital experience th
 
 ## 🌟 The Result
 
-You now have an **About Us page that matches the premium aesthetic of industry leaders** while clearly communicating your value proposition to UK homeowners seeking heat pump solutions.
+You now have an **About Us page that matches the premium aesthetic of industry leaders** while clearly communicating your value proposition to UK homeowners seeking Air Source Heat Pump solutions.
 
 **Status:** ✅ Complete & Production Ready
 **Quality:** ⭐⭐⭐⭐⭐ World-Class

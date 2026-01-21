@@ -1,7 +1,7 @@
 # 🏗️ PHASE 2: SITE STRUCTURE & ORGANIZATION AUDIT
 ## GetHeatPumpQuotes.co.uk - Crawler Efficiency & Information Architecture
 
-**Project:** Heat Pump Resource Landing Page  
+**Project:** Air Source Heat Pump Resource Landing Page  
 **Domain:** GetHeatPumpQuotes.co.uk  
 **Audit Date:** January 1, 2026  
 **Framework:** 6-Phase SEO Prioritization  
@@ -31,8 +31,8 @@ Your site has a **logical structure** with clear information architecture, but t
 ### TIER 1: HOMEPAGE (Root)
 ```
 https://getheatpumpquotes.co.uk/
-├─ Title: "Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility" ✅
-├─ H1: "Find the perfect heat pump installer..." (inferred from layout)
+├─ Title: "Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility" ✅
+├─ H1: "Find the perfect Air Source Heat Pump installer..." (inferred from layout)
 ├─ Meta Description: Present ✅
 ├─ Purpose: Primary conversion hub
 ├─ Clicks to Key Pages: 1 click
@@ -53,7 +53,7 @@ https://getheatpumpquotes.co.uk/
 #### ✅ /quiz (Grant Eligibility & Quote Matching)
 ```
 URL: https://getheatpumpquotes.co.uk/quiz
-├─ Title: "Heat Pump Grant Eligibility Quiz | Free Quote Comparison" (inferred)
+├─ Title: "Air Source Heat Pump Grant Eligibility Quiz | Free Quote Comparison" (inferred)
 ├─ H1: Visible from page structure
 ├─ Meta Description: Present ✅
 ├─ Purpose: PRIMARY CONVERSION GOAL
@@ -75,9 +75,9 @@ URL: https://getheatpumpquotes.co.uk/quiz
 #### ✅ /installation (Installation Service Page)
 ```
 URL: https://getheatpumpquotes.co.uk/installation
-├─ Title: "Heat Pump Installation Service | Professional MCS Installers | Heat Pump Resource" ✅
+├─ Title: "Air Source Heat Pump Installation Service | Professional MCS Installers | Air Source Heat Pump Resource" ✅
 ├─ H1: "Get Your Free Quote" (explicit)
-├─ Meta Description: "Professional heat pump installation service..." ✅
+├─ Meta Description: "Professional Air Source Heat Pump installation service..." ✅
 ├─ Purpose: SECONDARY CONVERSION (direct booking)
 ├─ Form Fields: Name, Email, Phone, Postcode, Heating System
 ├─ Status: ✅ OPTIMIZED
@@ -110,8 +110,8 @@ URL: https://getheatpumpquotes.co.uk/contact
 #### ✅ /about (About Us - Premium Page)
 ```
 URL: https://getheatpumpquotes.co.uk/about
-├─ Title: "About Heat Pump Quotes UK - Trusted Heat Pump Installer Comparison" (inferred)
-├─ H1: "Your trusted guide to heat pump installation" ✅
+├─ Title: "About Air Source Heat Pump Quotes UK - Trusted Air Source Heat Pump Installer Comparison" (inferred)
+├─ H1: "Your trusted guide to Air Source Heat Pump installation" ✅
 ├─ Meta Description: Present ✅
 ├─ Purpose: Trust building & brand authority
 ├─ Content: Comprehensive (5+ sections)
@@ -127,9 +127,9 @@ URL: https://getheatpumpquotes.co.uk/about
 #### ✅ /blog (Blog Index)
 ```
 URL: https://getheatpumpquotes.co.uk/blog
-├─ Title: "Heat Pump Blog | Expert Guides & Tips | Heat Pump Resource" ✅
-├─ H1: "Heat Pump Blog" (inferred)
-├─ Meta Description: "Expert heat pump guides, tips, and news..." ✅
+├─ Title: "Air Source Heat Pump Blog | Expert Guides & Tips | Air Source Heat Pump Resource" ✅
+├─ H1: "Air Source Heat Pump Blog" (inferred)
+├─ Meta Description: "Expert Air Source Heat Pump guides, tips, and news..." ✅
 ├─ Purpose: SEO traffic generation & authority
 ├─ Blog Posts Shown: 4 featured posts
 ├─ Status: ✅ GOOD (Could be expanded)
@@ -137,10 +137,10 @@ URL: https://getheatpumpquotes.co.uk/blog
 ```
 
 **Blog Posts Visible:**
-1. "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025"
-2. "Are Heat Pumps Worth It? The Honest Answer for UK Homes"
-3. "How Do Heat Pumps Work? The Simple Guide"
-4. "Everything You Need to Know About the £7,500 Heat Pump Grant"
+1. "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025"
+2. "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes"
+3. "How Do Air Source Heat Pumps Work? The Simple Guide"
+4. "Everything You Need to Know About the £7,500 Air Source Heat Pump Grant"
 
 ---
 
@@ -149,10 +149,10 @@ URL: https://getheatpumpquotes.co.uk/blog
 #### ✅ /blog/heat-pump-installation-cost-uk
 ```
 URL: https://getheatpumpquotes.co.uk/blog/heat-pump-installation-cost-uk
-├─ Title: "Heat Pump Installation Cost UK: What You'll Actually Pay 2025" ✅
-├─ H1: "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" ✅
+├─ Title: "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay 2025" ✅
+├─ H1: "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" ✅
 ├─ Meta Description: "Heat pump installation cost UK ranges from £8,000-£15,000..." ✅
-├─ Keywords: "heat pump installation cost UK, heat pump cost, installation price..." ✅
+├─ Keywords: "Air Source Heat Pump installation cost UK, Air Source Heat Pump cost, installation price..." ✅
 ├─ Content: Comprehensive (600+ lines)
 ├─ Structure: Hero section + article content + CTA
 ├─ Status: ✅ OPTIMIZED
@@ -232,7 +232,7 @@ URL: https://getheatpumpquotes.co.uk/blog/best-tumble-dryers-uk
 ```
 
 **Why This Is a Problem:**
-- Not related to heat pumps
+- Not related to Air Source Heat Pumps
 - Off-topic for your business
 - Wastes crawl budget
 - Confuses internal linking structure
@@ -312,17 +312,17 @@ URL: https://getheatpumpquotes.co.uk/urgent-inquiry
 
 #### Homepage
 ```
-Title: "Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility"
+Title: "Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility"
 Length: 75 characters (target: 50-60)
 Grade: ✅ A (Slightly long but acceptable)
-Keywords: heat pump quotes, compare installers, grant eligibility
-Meta: "Independent heat pump comparison service..." (160+ characters)
+Keywords: Air Source Heat Pump quotes, compare installers, grant eligibility
+Meta: "Independent Air Source Heat Pump comparison service..." (160+ characters)
 Grade: ✅ A (Excellent length and description)
 ```
 
 #### /quiz
 ```
-Title: INFERRED (likely "Heat Pump Grant Eligibility Quiz")
+Title: INFERRED (likely "Air Source Heat Pump Grant Eligibility Quiz")
 Grade: ⚠️ B (Not explicitly set in layout)
 Issue: Uses client-side rendering - meta may not be visible
 Recommendation: Add explicit title tag and Head meta
@@ -330,10 +330,10 @@ Recommendation: Add explicit title tag and Head meta
 
 #### /installation
 ```
-Title: "Heat Pump Installation Service | Professional MCS Installers | Heat Pump Resource"
+Title: "Air Source Heat Pump Installation Service | Professional MCS Installers | Air Source Heat Pump Resource"
 Length: 88 characters (slightly long)
 Grade: ✅ A (Comprehensive, keyword-rich)
-Meta: "Professional heat pump installation service..." ✅
+Meta: "Professional Air Source Heat Pump installation service..." ✅
 Grade: ✅ A (Descriptive, includes unique value props)
 ```
 
@@ -346,16 +346,16 @@ Recommendation: Verify all client-side pages have explicit meta tags
 
 #### /blog
 ```
-Title: "Heat Pump Blog | Expert Guides & Tips | Heat Pump Resource"
+Title: "Air Source Heat Pump Blog | Expert Guides & Tips | Air Source Heat Pump Resource"
 Length: 61 characters ✅
 Grade: ✅ A (Perfect length, keyword-optimized)
-Meta: "Expert heat pump guides, tips, and news..."
+Meta: "Expert Air Source Heat Pump guides, tips, and news..."
 Grade: ✅ A (Descriptive and engaging)
 ```
 
 #### /blog/heat-pump-installation-cost-uk
 ```
-Title: "Heat Pump Installation Cost UK: What You'll Actually Pay 2025"
+Title: "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay 2025"
 Length: 65 characters ✅
 Grade: ✅ A (Excellent - main keyword focus)
 Meta: "Heat pump installation cost UK ranges from £8,000-£15,000..."
@@ -406,8 +406,8 @@ Grade: ✅ A
 | Installation | ✅ "Get Your Free Quote" | A |
 | Contact | ✅ Present | A |
 | About | ✅ "Your trusted guide..." | A |
-| Blog Index | ✅ "Heat Pump Blog" | A |
-| Cost Article | ✅ "Heat Pump Installation Cost UK..." | A |
+| Blog Index | ✅ "Air Source Heat Pump Blog" | A |
+| Cost Article | ✅ "Air Source Heat Pump Installation Cost UK..." | A |
 | Worth It | ✅ Unique H1 | A |
 | How They Work | ✅ Unique H1 | A |
 | Grant Guide | ✅ Unique H1 | A |
@@ -445,9 +445,9 @@ Grade: ✅ A
 - Example:
   ```
   Related Articles:
-  - Link to "Heat Pump Installation Cost UK"
-  - Link to "Are Heat Pumps Worth It"
-  - Link to "How Heat Pumps Work"
+  - Link to "Air Source Heat Pump Installation Cost UK"
+  - Link to "Are Air Source Heat Pumps Worth It"
+  - Link to "How Air Source Heat Pumps Work"
   ```
 
 **Issue #2: Quiz page lacks contextual links**
@@ -535,7 +535,7 @@ Other:        /urgent-inquiry
 
 3. **Missing Content** - Opportunities:
    - FAQ page dedicated section
-   - Comparison guides (heat pump vs boiler)
+   - Comparison guides (Air Source Heat Pump vs boiler)
    - Installation timeline guide
    - Maintenance tips
    - Regional cost breakdowns
@@ -549,7 +549,7 @@ Other:        /urgent-inquiry
 #### 1. Empty Blog Folder: `/blog/best-tumble-dryers-uk`
 ```
 Status: ❌ EMPTY (no page.tsx)
-Issue: Off-topic content (tumble dryers, not heat pumps)
+Issue: Off-topic content (tumble dryers, not Air Source Heat Pumps)
 Impact:
   - Wasted crawl budget
   - Confusing site structure
@@ -584,7 +584,7 @@ Action: EITHER DELETE OR COMPLETE
     - Write comprehensive article (800+ words)
     - Include title, meta, H1 tags
     - Add internal links
-    - Optimize for keyword "heat pump tumble dryer"
+    - Optimize for keyword "Air Source Heat Pump tumble dryer"
 
 Recommendation: DELETE (off-topic unless relevant to your service)
 ```
@@ -748,11 +748,11 @@ HOMEPAGE (/)
 #### 6. Expand Blog Content
 - Add 5-10 more articles on related topics
 - Examples:
-  - "Heat Pump Maintenance Guide"
+  - "Air Source Heat Pump Maintenance Guide"
   - "Government Grants Comparison (UK Regions)"
-  - "Heat Pump vs Gas Boiler: Complete Comparison"
-  - "Best Heat Pump Brands UK 2026"
-  - "Heat Pump Installation Timeline"
+  - "Air Source Heat Pump vs Gas Boiler: Complete Comparison"
+  - "Best Air Source Heat Pump Brands UK 2026"
+  - "Air Source Heat Pump Installation Timeline"
 
 #### 7. Create Dedicated FAQ Page
 - Compile FAQs from quiz and contact forms

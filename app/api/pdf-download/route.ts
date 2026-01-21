@@ -61,12 +61,12 @@ export async function POST(request: Request) {
               </div>
               
               <p style="color: #6e6e73; font-size: 14px; margin-top: 30px;">
-                This person has downloaded the Heat Pump vs Gas Boiler guide. Consider following up with them about their heat pump needs.
+                This person has downloaded the Air Source Heat Pump vs Gas Boiler guide. Consider following up with them about their Air Source Heat Pump needs.
               </p>
             </div>
             
             <div style="text-align: center; padding: 20px; color: #86868b; font-size: 12px;">
-              <p style="margin: 0;">Get Heat Pump Quotes</p>
+              <p style="margin: 0;">Get Air Source Heat Pump Quotes</p>
               <p style="margin: 5px 0 0 0;">getheatpumpquotes.co.uk</p>
             </div>
           </body>
@@ -78,7 +78,7 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from: process.env.EMAIL_FROM || "onboarding@resend.dev",
       to: [email],
-      subject: "Your Heat Pump Guide is Ready",
+      subject: "Your Air Source Heat Pump Guide is Ready",
       html: `
         <!DOCTYPE html>
         <html>
@@ -89,14 +89,14 @@ export async function POST(request: Request) {
           <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
             <div style="background: linear-gradient(135deg, #0071e3 0%, #0056b3 100%); color: white; padding: 40px; border-radius: 12px 12px 0 0; text-align: center;">
               <h1 style="margin: 0 0 10px 0; font-size: 28px; font-weight: 700;">Thank You!</h1>
-              <p style="margin: 0; font-size: 16px; opacity: 0.9;">Your Heat Pump Guide is Ready</p>
+              <p style="margin: 0; font-size: 16px; opacity: 0.9;">Your Air Source Heat Pump Guide is Ready</p>
             </div>
             
             <div style="background: #ffffff; padding: 40px; border: 1px solid #e5e5e5; border-top: none; border-radius: 0 0 12px 12px;">
               <p style="font-size: 16px; color: #1d1d1f; margin-top: 0;">Hi there,</p>
               
               <p style="font-size: 16px; color: #1d1d1f;">
-                Thanks for downloading our <strong>Heat Pump vs Gas Boiler Guide 2025</strong>. Your PDF should have started downloading automatically.
+                Thanks for downloading our <strong>Air Source Heat Pump vs Gas Boiler Guide 2025</strong>. Your PDF should have started downloading automatically.
               </p>
               
               <div style="background: #f5f5f7; padding: 25px; border-radius: 12px; margin: 30px 0;">
@@ -136,8 +136,8 @@ export async function POST(request: Request) {
             </div>
             
             <div style="text-align: center; padding: 20px; color: #86868b; font-size: 12px;">
-              <p style="margin: 0 0 5px 0;">Get Heat Pump Quotes</p>
-              <p style="margin: 0 0 10px 0;">Independent Heat Pump Comparison Service</p>
+              <p style="margin: 0 0 5px 0;">Get Air Source Heat Pump Quotes</p>
+              <p style="margin: 0 0 10px 0;">Independent Air Source Heat Pump Comparison Service</p>
               <p style="margin: 0;">
                 <a href="https://www.getheatpumpquotes.co.uk" style="color: #0071e3; text-decoration: none;">getheatpumpquotes.co.uk</a>
               </p>

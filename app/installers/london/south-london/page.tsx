@@ -53,8 +53,8 @@ export default function SouthLondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installers South London | Local MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in South London. Serving Wandsworth, Lambeth, Croydon, Wimbledon and all SW postcodes. £7,500 grant support." />
+        <title>Air Source Heat Pump Installers South London | Local MCS Quotes</title>
+        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in South London. Serving Wandsworth, Lambeth, Croydon, Wimbledon and all SW postcodes. £7,500 grant support." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london/south-london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -139,16 +139,16 @@ export default function SouthLondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#34c759]">South London Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#34c759]">South London Air Source Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Heat Pump Installers South London: Local MCS-Certified Quotes
+                Air Source Heat Pump Installers South London: Local MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                Looking for heat pump installers in South London? We connect homeowners across SW postcodes with vetted, MCS-certified installers who know South London properties inside out. Check your £7,500 grant eligibility and compare quotes from local professionals.
+                Looking for Air Source Heat Pump installers in South London? We connect homeowners across SW postcodes with vetted, MCS-certified installers who know South London properties inside out. Check your £7,500 grant eligibility and compare quotes from local professionals.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -167,7 +167,7 @@ export default function SouthLondonInstallersPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll">
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-6">
-                South London has some of the most diverse housing stock in the capital. From Victorian terraces in Clapham to modern flats in Nine Elms, from 1930s semis in Streatham to period conversions in Dulwich. Each property type brings its own considerations when installing a heat pump.
+                South London has some of the most diverse housing stock in the capital. From Victorian terraces in Clapham to modern flats in Nine Elms, from 1930s semis in Streatham to period conversions in Dulwich. Each property type brings its own considerations when installing a Air Source Heat Pump.
               </p>
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7]">
                 That's why we focus on connecting you with installers who've done this before in South London. They understand the area, the properties, and what works.
@@ -180,7 +180,7 @@ export default function SouthLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Heat Pump Installation Costs in South London
+              Air Source Heat Pump Installation Costs in South London
             </h2>
 
             <div className="max-w-5xl mx-auto">
@@ -243,7 +243,7 @@ export default function SouthLondonInstallersPage() {
                   These are everywhere in South London. Solid brick walls, high ceilings, sash windows. Beautiful houses that weren't built with energy efficiency in mind.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Most need better insulation before a heat pump goes in. Loft insulation is easy. Wall insulation is harder but doable. Windows might need upgrading from single to double glazing.
+                  Most need better insulation before a Air Source Heat Pump goes in. Loft insulation is easy. Wall insulation is harder but doable. Windows might need upgrading from single to double glazing.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £11,000 - £14,000</p>
@@ -276,7 +276,7 @@ export default function SouthLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Battersea, Nine Elms, Southwark</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  New developments in Battersea and Nine Elms often have balconies suitable for heat pump outdoor units. Well-insulated buildings. Underfloor heating is common, which works perfectly with heat pumps.
+                  New developments in Battersea and Nine Elms often have balconies suitable for Air Source Heat Pump outdoor units. Well-insulated buildings. Underfloor heating is common, which works perfectly with Air Source Heat Pumps.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Main challenge is getting freeholder permission and dealing with building management companies. Also need space for a hot water cylinder.
@@ -294,7 +294,7 @@ export default function SouthLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Dulwich, Herne Hill, Crystal Palace</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Dulwich has several conservation areas. Installing heat pumps here needs careful consideration of where the outdoor unit goes and how it looks from the street.
+                  Dulwich has several conservation areas. Installing Air Source Heat Pumps here needs careful consideration of where the outdoor unit goes and how it looks from the street.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Our installers have worked with Southwark Council's planning department many times. They know what gets approved and how to position units sensitively.
@@ -346,7 +346,7 @@ export default function SouthLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-12 text-center opacity-0 animate-fade-in-up-scroll">
-              Benefits of Local South London Heat Pump Installers
+              Benefits of Local South London Air Source Heat Pump Installers
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -407,7 +407,7 @@ export default function SouthLondonInstallersPage() {
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">What about conservation areas in Dulwich?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Dulwich has several conservation areas managed by Southwark Council. You might need planning permission depending on where your heat pump unit will go.
+                  Dulwich has several conservation areas managed by Southwark Council. You might need planning permission depending on where your Air Source Heat Pump unit will go.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   If the unit goes on a side or rear wall not visible from the street, you're often fine. If it's front-facing or in a prominent position, you'll need permission. Our installers know the local rules and can guide you through the process.
@@ -415,7 +415,7 @@ export default function SouthLondonInstallersPage() {
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Can flats in Battersea and Nine Elms get heat pumps?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Can flats in Battersea and Nine Elms get Air Source Heat Pumps?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, many can. Modern developments in these areas often have good outdoor space options. Balconies work well for smaller units.
                 </p>

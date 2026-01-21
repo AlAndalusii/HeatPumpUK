@@ -1,7 +1,7 @@
 # PDF Guide Redesign - Apple-Quality Professional Guide
 
 ## Overview
-Transformed the heat pump guide into a world-class, Apple-style professional PDF with perfect alignment, generous spacing, and premium design quality.
+Transformed the Air Source Heat Pump guide into a world-class, Apple-style professional PDF with perfect alignment, generous spacing, and premium design quality.
 
 ---
 
@@ -82,7 +82,7 @@ Transformed the heat pump guide into a world-class, Apple-style professional PDF
 - **Clean Design**: Light gray backgrounds
 - **Header Row**: Bold, uppercase, light gray text
 - **Divider Lines**: Subtle 0.5pt lines
-- **Highlighted Rows**: Light green background for heat pump row
+- **Highlighted Rows**: Light green background for Air Source Heat Pump row
 - **Right-Aligned Numbers**: Professional financial presentation
 
 ### 6. **Interactive Elements**
@@ -166,7 +166,7 @@ Transformed the heat pump guide into a world-class, Apple-style professional PDF
 - ✅ Professional grant highlight
 - ✅ Minimal footer
 
-### Page 2: How Heat Pumps Work
+### Page 2: How Air Source Heat Pumps Work
 - ✅ Full-width color header
 - ✅ Clean explanation box
 - ✅ Side-by-side comparison cards

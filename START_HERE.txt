@@ -132,9 +132,9 @@ RANKING READY:                  YES ✓
 
 BEFORE & AFTER:
   3 title tags fixed
-  • "Heat Pump Cost UK" → 54 chars (was 61)
-  • "Heat Pump Grant Guide" → 52 chars (was 72)
-  • "Heat Pump Installation Cost" → 56 chars (was 70)
+  • "Air Source Heat Pump Cost UK" → 54 chars (was 61)
+  • "Air Source Heat Pump Grant Guide" → 52 chars (was 72)
+  • "Air Source Heat Pump Installation Cost" → 56 chars (was 70)
 
 
 🎯 WHAT THIS MEANS

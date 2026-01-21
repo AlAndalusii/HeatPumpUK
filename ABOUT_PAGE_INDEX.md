@@ -269,8 +269,8 @@ Performance:          ✅ 60FPS
 
 ## 🌐 Created For
 
-- UK homeowners seeking heat pump solutions
-- Heat Pump UK brand and mission
+- UK homeowners seeking Air Source Heat Pump solutions
+- Air Source Heat Pump UK brand and mission
 - Professional, trustworthy experience
 - Conversion optimization
 - Industry-leading aesthetics

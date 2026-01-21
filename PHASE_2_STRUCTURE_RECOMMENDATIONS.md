@@ -14,7 +14,7 @@
 **What's Wrong:**
 - Folder `/app/blog/best-tumble-dryers-uk/` exists
 - No `page.tsx` file inside
-- Content is off-topic (tumble dryers ≠ heat pumps)
+- Content is off-topic (tumble dryers ≠ Air Source Heat Pumps)
 - Will confuse site structure
 
 **What To Do:**
@@ -28,7 +28,7 @@ rm -rf /app/blog/best-tumble-dryers-uk/
 **Why This Matters:**
 - Google crawls this folder, finds no content
 - Wastes precious crawl budget
-- Dilutes your topic focus (heat pumps only)
+- Dilutes your topic focus (Air Source Heat Pumps only)
 - Should be removed immediately
 
 ---
@@ -49,13 +49,13 @@ rm -rf /app/blog/heat-pump-tumble-dryer/
 ```
 
 **Option B: CREATE (If it should exist)**
-If heat pump tumble dryers are relevant to your business:
+If Air Source Heat Pump tumble dryers are relevant to your business:
 ```
 Create: /app/blog/heat-pump-tumble-dryer/page.tsx
-Write: 800+ word article about heat pump tumble dryers
+Write: 800+ word article about Air Source Heat Pump tumble dryers
 Include: Title tag, H1, meta description
 Add: Internal links to related articles
-Optimize: For keyword "heat pump tumble dryer UK"
+Optimize: For keyword "Air Source Heat Pump tumble dryer UK"
 ```
 
 **Recommendation:** DELETE if off-topic
@@ -89,10 +89,10 @@ After removing the empty folder sections, your sitemap will have 10 URLs:
 5. Contact (/contact)
 6. Privacy (/privacy)
 7. Blog (/blog)
-8. Heat Pump Cost UK (/blog/heat-pump-installation-cost-uk)
-9. Are Heat Pumps Worth It (/blog/are-heat-pumps-worth-it)
-10. How Heat Pumps Work (/blog/how-heat-pumps-work)
-11. Heat Pump Grant Guide (/blog/heat-pump-grant-guide)
+8. Air Source Heat Pump Cost UK (/blog/heat-pump-installation-cost-uk)
+9. Are Air Source Heat Pumps Worth It (/blog/are-heat-pumps-worth-it)
+10. How Air Source Heat Pumps Work (/blog/how-heat-pumps-work)
+11. Air Source Heat Pump Grant Guide (/blog/heat-pump-grant-guide)
 
 **Wait - That's 11, not 10!**
 
@@ -260,25 +260,25 @@ Add a "Related Articles" section to bottom of each blog post:
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
     <Link href="/blog/heat-pump-installation-cost-uk" className="hover:underline">
       <div className="p-4 border rounded hover:shadow-lg transition">
-        <h4 className="font-semibold">Heat Pump Installation Cost UK</h4>
+        <h4 className="font-semibold">Air Source Heat Pump Installation Cost UK</h4>
         <p className="text-sm text-gray-600">Complete price breakdown for 2025</p>
       </div>
     </Link>
     <Link href="/blog/are-heat-pumps-worth-it" className="hover:underline">
       <div className="p-4 border rounded hover:shadow-lg transition">
-        <h4 className="font-semibold">Are Heat Pumps Worth It?</h4>
+        <h4 className="font-semibold">Are Air Source Heat Pumps Worth It?</h4>
         <p className="text-sm text-gray-600">ROI and savings analysis</p>
       </div>
     </Link>
     <Link href="/blog/how-heat-pumps-work" className="hover:underline">
       <div className="p-4 border rounded hover:shadow-lg transition">
-        <h4 className="font-semibold">How Heat Pumps Work</h4>
+        <h4 className="font-semibold">How Air Source Heat Pumps Work</h4>
         <p className="text-sm text-gray-600">Simple technical explanation</p>
       </div>
     </Link>
     <Link href="/blog/heat-pump-grant-guide" className="hover:underline">
       <div className="p-4 border rounded hover:shadow-lg transition">
-        <h4 className="font-semibold">Heat Pump Grant Guide</h4>
+        <h4 className="font-semibold">Air Source Heat Pump Grant Guide</h4>
         <p className="text-sm text-gray-600">£7,500 eligibility and application</p>
       </div>
     </Link>
@@ -341,9 +341,9 @@ Homepage (/)
 Use this to verify each page:
 
 ### Homepage
-- [ ] Title: "Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility"
+- [ ] Title: "Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility"
 - [ ] Length: ~75 characters (A- grade)
-- [ ] Meta: "Independent heat pump comparison service..."
+- [ ] Meta: "Independent Air Source Heat Pump comparison service..."
 - [ ] H1: Present and unique
 
 ### /quiz
@@ -352,8 +352,8 @@ Use this to verify each page:
 - [ ] H1: Present
 
 ### /installation
-- [ ] Title: "Heat Pump Installation Service | Professional MCS Installers..."
-- [ ] Meta: "Professional heat pump installation service..."
+- [ ] Title: "Air Source Heat Pump Installation Service | Professional MCS Installers..."
+- [ ] Meta: "Professional Air Source Heat Pump installation service..."
 - [ ] H1: "Get Your Free Quote"
 
 ### /contact
@@ -362,14 +362,14 @@ Use this to verify each page:
 - [ ] H1: Present
 
 ### /about
-- [ ] Title: "About Heat Pump Quotes UK..."
+- [ ] Title: "About Air Source Heat Pump Quotes UK..."
 - [ ] Meta: Company/trust focused
 - [ ] H1: "Your trusted guide..."
 
 ### /blog
-- [ ] Title: "Heat Pump Blog | Expert Guides & Tips"
-- [ ] Meta: "Expert heat pump guides, tips, and news..."
-- [ ] H1: "Heat Pump Blog"
+- [ ] Title: "Air Source Heat Pump Blog | Expert Guides & Tips"
+- [ ] Meta: "Expert Air Source Heat Pump guides, tips, and news..."
+- [ ] H1: "Air Source Heat Pump Blog"
 
 ### Each Article
 - [ ] Title: Unique for each article
@@ -380,7 +380,7 @@ Use this to verify each page:
 
 ## 📊 DUPLICATE CONTENT CHECK
 
-### Heat Pump Cost Pages
+### Air Source Heat Pump Cost Pages
 
 You may have:
 1. `/blog/heat-pump-cost-uk` (VERIFY)

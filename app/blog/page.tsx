@@ -8,43 +8,60 @@ import Link from "next/link"
 import { useState, useEffect } from "react"
 import Head from "next/head"
 
-const blogPosts = [
+const guides = [
   {
     id: "heat-pump-installation-cost-uk",
-    title: "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025",
-    excerpt:
-      "Complete breakdown of heat pump installation costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
+    title: "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025",
+    excerpt: "Complete breakdown of Air Source Heat Pump installation costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
     image: "/modern-heat-pump-installation.jpg",
     date: "January 1, 2026",
+    category: "Guides",
   },
   {
     id: "are-heat-pumps-worth-it",
-    title: "Are Heat Pumps Worth It? The Honest Answer for UK Homes",
-    excerpt:
-      "Get the straight answer about whether heat pumps are worth it. Real costs, genuine savings, and who they're perfect for.",
+    title: "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes",
+    excerpt: "Get the straight answer about whether Air Source Heat Pumps are worth it. Real costs, genuine savings, and who they're perfect for.",
     image: "/modern-heat-pump-installation.jpg",
     date: "January 1, 2026",
+    category: "Guides",
   },
   {
     id: "how-heat-pumps-work",
-    title: "How Do Heat Pumps Work? The Simple Guide",
-    excerpt:
-      "Understand how heat pumps work in plain English. Learn the simple steps from taking heat from outside air to warming your home efficiently.",
+    title: "How Do Air Source Heat Pumps Work? The Simple Guide",
+    excerpt: "Understand how Air Source Heat Pumps work in plain English. Learn the simple steps from taking heat from outside air to warming your home efficiently.",
     image: "/modern-heat-pump-installation.jpg",
     date: "March 18, 2025",
+    category: "Guides",
   },
   {
     id: "heat-pump-grant-guide",
-    title: "Everything You Need to Know About the £7,500 Heat Pump Grant",
-    excerpt:
-      "The UK government is giving away up to £7,500 to help you get a heat pump. Learn who qualifies, how to apply, and how much you could save.",
+    title: "Everything You Need to Know About the £7,500 Air Source Heat Pump Grant",
+    excerpt: "The UK government is giving away up to £7,500 to help you get a Air Source Heat Pump. Learn who qualifies, how to apply, and how much you could save.",
     image: "/modern-heat-pump-installation.jpg",
     date: "March 15, 2025",
+    category: "Guides",
   },
 ]
 
-export default function BlogPage() {
+const installerLocations = [
+  { name: "London", path: "/installers/london", description: "Find vetted Air Source Heat Pump installers across all London areas" },
+  { name: "Manchester", path: "/installers/manchester", description: "Compare MCS-certified installers serving Greater Manchester" },
+]
+
+const cities = [
+  { name: "South London", path: "/installers/london/south-london", description: "Air source heat pump installers in South London" },
+  { name: "North London", path: "/installers/london/north-london", description: "Air source heat pump installers in North London" },
+  { name: "East London", path: "/installers/london/east-london", description: "Air source heat pump installers in East London" },
+  { name: "West London", path: "/installers/london/west-london", description: "Air source heat pump installers in West London" },
+  { name: "South East London", path: "/installers/london/south-east-london", description: "Air source heat pump installers in South East London" },
+  { name: "South West London", path: "/installers/london/south-west-london", description: "Air source heat pump installers in South West London" },
+]
+
+type TabType = "guides" | "blogs" | "installers" | "cities"
+
+export default function ResourceHubPage() {
   const [scrollY, setScrollY] = useState(0)
+  const [activeTab, setActiveTab] = useState<TabType>("guides")
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY)
@@ -78,9 +95,9 @@ export default function BlogPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Blog | Expert Guides & Tips | Heat Pump Resource</title>
-        <meta name="description" content="Expert heat pump guides, tips, and news. Learn about heat pump grants, installation, efficiency, and costs. Read our comprehensive guides on heat pump tumble dryers and government incentives." />
-        <meta name="keywords" content="heat pump blog, heat pump guides, heat pump tips, heat pump news, heat pump grants, heat pump installation guides, energy efficiency tips" />
+        <title>Air Source Heat Pump Resources | Guides, Blogs & Local Installers</title>
+        <meta name="description" content="Everything you need to know about Air Source Heat Pumps. Browse expert guides, read our blog, find local installers, or explore installers in your city." />
+        <meta name="keywords" content="Air Source Heat Pump guides, Air Source Heat Pump blog, Air Source Heat Pump installers, local heat pump installers, heat pump resources" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
@@ -105,7 +122,7 @@ export default function BlogPage() {
                 FAQ
               </Link>
               <Link href="/blog" className="text-sm font-medium text-[#0071e3]">
-                Blog
+                Resources
               </Link>
               <Link href="/quiz">
                 <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-sm px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
@@ -117,47 +134,194 @@ export default function BlogPage() {
         </div>
       </header>
 
-      {/* Blog Header */}
-      <section className="pt-32 pb-16 px-6 bg-linear-to-br from-[#f5f5f7] to-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-[48px] md:text-[72px] font-semibold text-[#1d1d1f] mb-6 tracking-tight leading-[1.1] text-balance opacity-0 animate-fade-in-up">
-            Heat Pump Insights
-          </h1>
-          <p className="text-[19px] md:text-[21px] text-[#6e6e73] leading-[1.4] opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            Expert guides, tips, and news about heat pumps and home energy efficiency
-          </p>
+      {/* Hero Section */}
+      <section className="pt-32 pb-20 px-6 bg-linear-to-br from-[#f5f5f7] to-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16 opacity-0 animate-fade-in-up">
+            <h1 className="text-[48px] md:text-[72px] font-semibold text-[#1d1d1f] mb-6 tracking-tight leading-[1.1] text-balance">
+              Air Source Heat Pump Resources
+            </h1>
+            <p className="text-[19px] md:text-[21px] text-[#6e6e73] leading-[1.4] max-w-2xl mx-auto">
+              Expert guides, installation tips, local installers, and everything you need to know about Air Source Heat Pumps
+            </p>
+          </div>
+
+          {/* Tab Navigation */}
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+            <button
+              onClick={() => setActiveTab("guides")}
+              className={`px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-[15px] sm:text-[16px] transition-all duration-300 ${
+                activeTab === "guides"
+                  ? "bg-[#0071e3] text-white shadow-lg"
+                  : "bg-white text-[#1d1d1f] border-2 border-gray-200 hover:border-[#0071e3]"
+              }`}
+            >
+              📚 Guides
+            </button>
+            <button
+              onClick={() => setActiveTab("blogs")}
+              className={`px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-[15px] sm:text-[16px] transition-all duration-300 ${
+                activeTab === "blogs"
+                  ? "bg-[#0071e3] text-white shadow-lg"
+                  : "bg-white text-[#1d1d1f] border-2 border-gray-200 hover:border-[#0071e3]"
+              }`}
+            >
+              📰 Blog
+            </button>
+            <button
+              onClick={() => setActiveTab("installers")}
+              className={`px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-[15px] sm:text-[16px] transition-all duration-300 ${
+                activeTab === "installers"
+                  ? "bg-[#0071e3] text-white shadow-lg"
+                  : "bg-white text-[#1d1d1f] border-2 border-gray-200 hover:border-[#0071e3]"
+              }`}
+            >
+              🔧 Installers
+            </button>
+            <button
+              onClick={() => setActiveTab("cities")}
+              className={`px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-[15px] sm:text-[16px] transition-all duration-300 ${
+                activeTab === "cities"
+                  ? "bg-[#0071e3] text-white shadow-lg"
+                  : "bg-white text-[#1d1d1f] border-2 border-gray-200 hover:border-[#0071e3]"
+              }`}
+            >
+              🏙️ Cities
+            </button>
+          </div>
         </div>
       </section>
 
-      {/* Blog Grid */}
+      {/* Content Sections */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post, index) => (
-              <Link href={`/blog/${post.id}`} key={post.id}>
-                <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-white opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
-                  <div className="relative h-56 overflow-hidden">
-                    <img 
-                      src={post.image || "/placeholder.svg"} 
-                      alt={post.title} 
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" 
-                    />
-                  </div>
-                  <div className="p-6">
-                    <p className="text-[13px] font-medium text-[#0071e3] mb-3 uppercase tracking-wide">{post.date}</p>
-                    <h2 className="text-[22px] font-semibold text-[#1d1d1f] mb-3 leading-tight text-balance">{post.title}</h2>
-                    <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">{post.excerpt}</p>
-                    <div className="flex items-center text-[#0071e3] font-medium text-[15px] group">
-                      Read more
-                      <svg className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </div>
-                </Card>
-              </Link>
-            ))}
-          </div>
+          {/* Guides Tab */}
+          {activeTab === "guides" && (
+            <div className="opacity-0 animate-fade-in-up">
+              <h2 className="text-[32px] md:text-[44px] font-semibold text-[#1d1d1f] mb-12 tracking-tight">
+                📚 Expert Guides
+              </h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {guides.map((post, index) => (
+                  <Link href={`/blog/${post.id}`} key={post.id}>
+                    <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-white opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
+                      <div className="relative h-56 overflow-hidden">
+                        <img 
+                          src={post.image || "/placeholder.svg"} 
+                          alt={post.title} 
+                          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" 
+                        />
+                      </div>
+                      <div className="p-6">
+                        <p className="text-[13px] font-medium text-[#0071e3] mb-3 uppercase tracking-wide">{post.date}</p>
+                        <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3 leading-tight text-balance">{post.title}</h3>
+                        <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">{post.excerpt}</p>
+                        <div className="flex items-center text-[#0071e3] font-medium text-[15px] group">
+                          Read guide
+                          <svg className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Blogs Tab */}
+          {activeTab === "blogs" && (
+            <div className="opacity-0 animate-fade-in-up">
+              <div className="text-center py-24">
+                <div className="mb-6">
+                  <svg className="w-16 h-16 mx-auto text-[#d2d2d7]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0013.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12a3.375 3.375 0 110-6.75M9.75 21H7.5a3.375 3.375 0 01-3.375-3.375V9.75" />
+                  </svg>
+                </div>
+                <h3 className="text-[32px] font-semibold text-[#1d1d1f] mb-3">Blog Coming Soon</h3>
+                <p className="text-[17px] text-[#6e6e73] max-w-md mx-auto mb-8">
+                  We're working on fresh, expert blog content about Air Source Heat Pumps. Check back soon for in-depth articles and industry insights.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link href="/blog/heat-pump-installation-cost-uk" className="inline-block">
+                    <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105">
+                      Read Our Guides Instead →
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Installers Tab */}
+          {activeTab === "installers" && (
+            <div className="opacity-0 animate-fade-in-up">
+              <h2 className="text-[32px] md:text-[44px] font-semibold text-[#1d1d1f] mb-12 tracking-tight">
+                🔧 Air Source Heat Pump Installers
+              </h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {installerLocations.map((location, index) => (
+                  <Link href={location.path} key={location.name}>
+                    <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-gradient-to-br from-[#0071e3]/5 to-[#00a2ff]/5 border-2 border-[#0071e3]/20 opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
+                      <div className="p-8 h-full flex flex-col justify-between">
+                        <div>
+                          <div className="w-14 h-14 bg-[#0071e3]/10 rounded-2xl flex items-center justify-center mb-6">
+                            <svg className="w-7 h-7 text-[#0071e3]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                          </div>
+                          <h3 className="text-[24px] font-semibold text-[#1d1d1f] mb-3">{location.name}</h3>
+                          <p className="text-[15px] text-[#6e6e73] leading-normal mb-6">{location.description}</p>
+                        </div>
+                        <div className="flex items-center text-[#0071e3] font-medium text-[15px] group">
+                          Find installers
+                          <svg className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Cities Tab */}
+          {activeTab === "cities" && (
+            <div className="opacity-0 animate-fade-in-up">
+              <h2 className="text-[32px] md:text-[44px] font-semibold text-[#1d1d1f] mb-12 tracking-tight">
+                🏙️ Local City Installers
+              </h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {cities.map((city, index) => (
+                  <Link href={city.path} key={city.name}>
+                    <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-gradient-to-br from-[#34c759]/5 to-[#30d158]/5 border-2 border-[#34c759]/20 opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
+                      <div className="p-8 h-full flex flex-col justify-between">
+                        <div>
+                          <div className="w-14 h-14 bg-[#34c759]/10 rounded-2xl flex items-center justify-center mb-6">
+                            <svg className="w-7 h-7 text-[#34c759]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                          </div>
+                          <h3 className="text-[24px] font-semibold text-[#1d1d1f] mb-3">{city.name}</h3>
+                          <p className="text-[15px] text-[#6e6e73] leading-normal mb-6">{city.description}</p>
+                        </div>
+                        <div className="flex items-center text-[#34c759] font-medium text-[15px] group">
+                          View installers
+                          <svg className="w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </Card>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -165,7 +329,7 @@ export default function BlogPage() {
       <section className="py-24 bg-linear-to-br from-[#0071e3] to-[#0056b3] text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-[40px] md:text-[56px] font-semibold mb-6 tracking-tight leading-[1.1] text-balance opacity-0 animate-fade-in-up-scroll">
-            Ready to get your heat pump quotes?
+            Ready to get your Air Source Heat Pump quotes?
           </h2>
           <p className="text-[19px] md:text-[24px] mb-12 leading-[1.3] opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
             Answer 10 quick questions and get free quotes from vetted installers

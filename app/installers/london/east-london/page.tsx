@@ -53,8 +53,8 @@ export default function EastLondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installers East London | Local MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in East London. Serving Hackney, Tower Hamlets, Stratford, Walthamstow and all E postcodes. £7,500 grant support." />
+        <title>Air Source Heat Pump Installers East London | Local MCS Quotes</title>
+        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in East London. Serving Hackney, Tower Hamlets, Stratford, Walthamstow and all E postcodes. £7,500 grant support." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london/east-london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -139,16 +139,16 @@ export default function EastLondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#ff9500]">East London Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#ff9500]">East London Air Source Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Heat Pump Installers East London: Local MCS-Certified Quotes
+                Air Source Heat Pump Installers East London: Local MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                Looking for heat pump installers in East London? We connect homeowners across E postcodes with vetted, MCS-certified installers. Check your £7,500 grant eligibility and compare quotes from local professionals serving Hackney, Stratford, Walthamstow, and beyond.
+                Looking for Air Source Heat Pump installers in East London? We connect homeowners across E postcodes with vetted, MCS-certified installers. Check your £7,500 grant eligibility and compare quotes from local professionals serving Hackney, Stratford, Walthamstow, and beyond.
               </p>
 
               <Link href="/quiz">
@@ -165,10 +165,10 @@ export default function EastLondonInstallersPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll">
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-6">
-                East London is changing fast. Stratford, Hackney, Walthamstow – these areas have seen massive development over the past decade. Mix of old Victorian terraces and brand new builds creates unique opportunities for heat pump installation.
+                East London is changing fast. Stratford, Hackney, Walthamstow – these areas have seen massive development over the past decade. Mix of old Victorian terraces and brand new builds creates unique opportunities for Air Source Heat Pump installation.
               </p>
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7]">
-                Young demographic, strong environmental awareness, and lots of new construction make East London perfect for heat pump adoption. New builds around Stratford often come ready for heat pumps.
+                Young demographic, strong environmental awareness, and lots of new construction make East London perfect for Air Source Heat Pump adoption. New builds around Stratford often come ready for Air Source Heat Pumps.
               </p>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function EastLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Heat Pump Installation Costs in East London
+              Air Source Heat Pump Installation Costs in East London
             </h2>
 
             <div className="max-w-5xl mx-auto">
@@ -231,10 +231,10 @@ export default function EastLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Stratford, Canary Wharf, Bow</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Olympic Park developments and Canary Wharf towers offer perfect conditions for heat pumps. Well-insulated, modern building standards, often with underfloor heating already installed.
+                  Olympic Park developments and Canary Wharf towers offer perfect conditions for Air Source Heat Pumps. Well-insulated, modern building standards, often with underfloor heating already installed.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Balconies work well for outdoor units. Main challenge is building management approval, but newer developments tend to be heat pump-friendly.
+                  Balconies work well for outdoor units. Main challenge is building management approval, but newer developments tend to be Air Source Heat Pump-friendly.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £9,000 - £12,000</p>
@@ -252,7 +252,7 @@ export default function EastLondonInstallersPage() {
                   Hackney and Walthamstow have thousands of Victorian terraces. Many have been renovated by younger homeowners who care about sustainability.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  These properties usually need insulation work before heat pumps go in. But once upgraded, they work brilliantly. Small gardens mean careful positioning of outdoor units.
+                  These properties usually need insulation work before Air Source Heat Pumps go in. But once upgraded, they work brilliantly. Small gardens mean careful positioning of outdoor units.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £11,000 - £14,000</p>
@@ -285,7 +285,7 @@ export default function EastLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Ilford, Romford, Woodford</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Outer East London has plenty of 1930s and 1950s semi-detached houses. These are ideal for heat pumps. Bigger gardens than inner-city terraces. Cavity walls make insulation easier.
+                  Outer East London has plenty of 1930s and 1950s semi-detached houses. These are ideal for Air Source Heat Pumps. Bigger gardens than inner-city terraces. Cavity walls make insulation easier.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Installation is typically straightforward. Good value for money in these areas.
@@ -341,16 +341,16 @@ export default function EastLondonInstallersPage() {
 
             <div className="space-y-8">
               <div className="opacity-0 animate-fade-in-up-scroll">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do new build flats in Stratford already support heat pumps?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do new build flats in Stratford already support Air Source Heat Pumps?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Many do, but not all. Some newer developments were built heat pump-ready with underfloor heating and good insulation. Others still use gas boilers. If you're in a new build around Olympic Park or Stratford, there's a good chance heat pumps will work well. Check with your building management to see if anyone else in the building has installed one.
+                  Many do, but not all. Some newer developments were built Air Source Heat Pump-ready with underfloor heating and good insulation. Others still use gas boilers. If you're in a new build around Olympic Park or Stratford, there's a good chance Air Source Heat Pumps will work well. Check with your building management to see if anyone else in the building has installed one.
                 </p>
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Victorian terraces in Hackney and Walthamstow suitable?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Yes, with preparation. Most Victorian terraces in these areas need better insulation first. Loft insulation is easy and cheap. Wall insulation is more involved but worth it. Many Hackney homeowners have done this work already because they care about efficiency. Once insulation is sorted, heat pumps work beautifully.
+                  Yes, with preparation. Most Victorian terraces in these areas need better insulation first. Loft insulation is easy and cheap. Wall insulation is more involved but worth it. Many Hackney homeowners have done this work already because they care about efficiency. Once insulation is sorted, Air Source Heat Pumps work beautifully.
                 </p>
               </div>
 

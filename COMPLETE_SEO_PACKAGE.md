@@ -285,11 +285,11 @@ To accelerate rankings, focus on:
 ### Article Compliance (All 5 Articles)
 | Article | Compliance | Grade |
 |---------|-----------|-------|
-| Are Heat Pumps Worth It? | 5/5 | ✅ |
-| How Heat Pumps Work? | 5/5 | ✅ |
-| Heat Pump Cost UK | 5/5 | ✅ |
-| Heat Pump Grant Guide | 5/5 | ✅ |
-| Heat Pump Installation Cost | 5/5 | ✅ |
+| Are Air Source Heat Pumps Worth It? | 5/5 | ✅ |
+| How Air Source Heat Pumps Work? | 5/5 | ✅ |
+| Air Source Heat Pump Cost UK | 5/5 | ✅ |
+| Air Source Heat Pump Grant Guide | 5/5 | ✅ |
+| Air Source Heat Pump Installation Cost | 5/5 | ✅ |
 
 **Overall Article Compliance: 100% ✅**
 

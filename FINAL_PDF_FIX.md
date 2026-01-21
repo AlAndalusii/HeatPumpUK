@@ -344,8 +344,8 @@ You'll see:
 - ✅ **Email buttons** also work with or without API key
 
 ### The PDF Will Look Like:
-- **Page 1**: Cover - "Heat Pump vs Gas Boiler"
-- **Page 2**: How heat pumps work
+- **Page 1**: Cover - "Air Source Heat Pump vs Gas Boiler"
+- **Page 2**: How Air Source Heat Pumps work
 - **Page 3**: Installation costs
 - **Page 4**: £7,500 grant eligibility
 - **Page 5**: Pros and cons

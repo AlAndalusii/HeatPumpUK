@@ -12,7 +12,7 @@ const questions = [
   {
     id: 1,
     question: "What brings you here today?",
-    options: ["Get heat pump quotes (installation)", "Check grant eligibility", "Heat pump repair/service"],
+    options: ["Get Air Source Heat Pump quotes (installation)", "Check grant eligibility", "Heat pump repair/service"],
     type: "choice",
   },
   {
@@ -32,7 +32,7 @@ const questions = [
   {
     id: 4,
     question: "Current heating system?",
-    options: ["Gas boiler", "Oil", "LPG", "Electric", "Already have heat pump", "Other"],
+    options: ["Gas boiler", "Oil", "LPG", "Electric", "Already have Air Source Heat Pump", "Other"],
     type: "choice",
   },
   {
@@ -250,7 +250,7 @@ export default function QuizPage() {
     // Check if user is clearly NOT eligible
     const ownsHome = answers[2] === "Yes"
     const hasEligibleHeating = answers[4] === "Gas boiler" || answers[4] === "Oil" || answers[4] === "LPG" || answers[4] === "Electric"
-    const notAlreadyHeatPump = answers[4] !== "Already have heat pump"
+    const notAlreadyHeatPump = answers[4] !== "Already have Air Source Heat Pump"
     const isInEligibleLocation = answers[3] === "England" || answers[3] === "Wales"
     
     // Return true if potentially eligible (will need further assessment)
@@ -267,7 +267,7 @@ export default function QuizPage() {
     
     // Determine specific ineligibility reasons
     const ownsHome = answers[2] === "Yes"
-    const alreadyHasHeatPump = answers[4] === "Already have heat pump"
+    const alreadyHasHeatPump = answers[4] === "Already have Air Source Heat Pump"
     const isInEligibleLocation = answers[3] === "England" || answers[3] === "Wales"
     const hasEligibleHeating = answers[4] === "Gas boiler" || answers[4] === "Oil" || answers[4] === "LPG" || answers[4] === "Electric"
     
@@ -316,7 +316,7 @@ export default function QuizPage() {
               {!isPotentiallyEligible && !ownsHome && (
                 <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 sm:p-6 mb-8 border border-white/20 text-left">
                   <p className="text-[15px] sm:text-[16px] text-white/90">
-                    <strong>Note for renters:</strong> You'll need your landlord's permission to install a heat pump. Speak to your landlord about the benefits of upgrading to a low-carbon heating system.
+                    <strong>Note for renters:</strong> You'll need your landlord's permission to install a Air Source Heat Pump. Speak to your landlord about the benefits of upgrading to a low-carbon heating system.
                   </p>
                 </div>
               )}
@@ -333,7 +333,7 @@ export default function QuizPage() {
                       <li>Check the Northern Ireland Sustainable Energy Programme (NISEP) for local support</li>
                     )}
                     {alreadyHasHeatPump && (
-                      <li>Consider a service or repair for your existing heat pump instead</li>
+                      <li>Consider a service or repair for your existing Air Source Heat Pump instead</li>
                     )}
                     <li>You can still get free installation quotes without the grant</li>
                     <li>Consider energy-efficient home improvements to reduce running costs</li>
@@ -393,9 +393,9 @@ export default function QuizPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Eligibility Quiz | Check Your £7,500 Grant Eligibility | Heat Pump Resource</title>
-        <meta name="description" content="Take our 2-minute heat pump eligibility quiz to check if you qualify for the £7,500 government grant. Get matched with MCS-certified installers and receive free heat pump quotes for your home." />
-        <meta name="keywords" content="heat pump eligibility quiz, heat pump grant eligibility, £7500 grant quiz, heat pump assessment, government grant checker, MCS installers, heat pump suitability" />
+        <title>Air Source Heat Pump Eligibility Quiz | Check Your £7,500 Grant Eligibility | Air Source Heat Pump Resource</title>
+        <meta name="description" content="Take our 2-minute Air Source Heat Pump eligibility quiz to check if you qualify for the £7,500 government grant. Get matched with MCS-certified installers and receive free Air Source Heat Pump quotes for your home." />
+        <meta name="keywords" content="Air Source Heat Pump eligibility quiz, Air Source Heat Pump grant eligibility, £7500 grant quiz, Air Source Heat Pump assessment, government grant checker, MCS installers, Air Source Heat Pump suitability" />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
       {/* Header */}

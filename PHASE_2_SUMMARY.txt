@@ -63,9 +63,9 @@ WHAT'S WORKING PERFECTLY ✅
 ✅ TITLE TAGS: Good
    Most pages have optimized titles
    Examples:
-   ├─ Homepage: "Heat Pump Quotes UK - Compare Installers..." ✅
-   ├─ Cost article: "Heat Pump Installation Cost UK..." ✅
-   ├─ Blog index: "Heat Pump Blog | Expert Guides..." ✅
+   ├─ Homepage: "Air Source Heat Pump Quotes UK - Compare Installers..." ✅
+   ├─ Cost article: "Air Source Heat Pump Installation Cost UK..." ✅
+   ├─ Blog index: "Air Source Heat Pump Blog | Expert Guides..." ✅
 
 ✅ NAVIGATION: Clear & Logical
    Header navigation is comprehensive
@@ -119,8 +119,8 @@ HOMEPAGE (/)
   Grade: B (Verify meta tags)
 
 /INSTALLATION (Installation Service Booking)
-  ✅ Title: "Heat Pump Installation Service | Professional MCS Installers..."
-  ✅ Meta: Descriptive ("Professional heat pump installation service...")
+  ✅ Title: "Air Source Heat Pump Installation Service | Professional MCS Installers..."
+  ✅ Meta: Descriptive ("Professional Air Source Heat Pump installation service...")
   ✅ H1: "Get Your Free Quote"
   ✅ Form: 5 fields, clear messaging
   Grade: A
@@ -135,14 +135,14 @@ HOMEPAGE (/)
 /ABOUT (Brand Trust & Authority)
   ✅ Title: Descriptive and optimized
   ✅ Meta: Brand-focused
-  ✅ H1: "Your trusted guide to heat pump installation"
+  ✅ H1: "Your trusted guide to Air Source Heat Pump installation"
   ✅ Content: Premium (5+ sections, 15+ animations)
   Grade: A+
 
 /BLOG (Blog Index & Content Hub)
-  ✅ Title: "Heat Pump Blog | Expert Guides & Tips"
-  ✅ Meta: "Expert heat pump guides, tips, and news..."
-  ✅ H1: "Heat Pump Blog"
+  ✅ Title: "Air Source Heat Pump Blog | Expert Guides & Tips"
+  ✅ Meta: "Expert Air Source Heat Pump guides, tips, and news..."
+  ✅ H1: "Air Source Heat Pump Blog"
   ⚠️ Content: Shows only 4 articles (could expand)
   Grade: A-
 
@@ -225,12 +225,12 @@ OPPORTUNITIES:
   Add related article links at end of each blog post
   Example structure:
     ├─ Cost article links to:
-    │  ├─ Are heat pumps worth it
+    │  ├─ Are Air Source Heat Pumps worth it
     │  └─ Heat pump grant guide
     │
     ├─ Worth it article links to:
     │  ├─ Installation cost UK
-    │  └─ How heat pumps work
+    │  └─ How Air Source Heat Pumps work
     │
     └─ etc.
 
@@ -268,16 +268,16 @@ Best practices for title tags:
 
 YOUR CURRENT TITLES:
   ✅ Homepage: 75 chars (slightly long, but acceptable)
-     "Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant..."
+     "Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant..."
 
   ✅ Installation: Well-optimized
-     "Heat Pump Installation Service | Professional MCS Installers..."
+     "Air Source Heat Pump Installation Service | Professional MCS Installers..."
 
   ✅ Blog: Well-optimized
-     "Heat Pump Blog | Expert Guides & Tips | Heat Pump Resource"
+     "Air Source Heat Pump Blog | Expert Guides & Tips | Air Source Heat Pump Resource"
 
   ✅ Cost Article: Excellent
-     "Heat Pump Installation Cost UK: What You'll Actually Pay 2025"
+     "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay 2025"
 
   ⚠️ Quiz/Contact: Verify (client-side pages)
 
@@ -292,8 +292,8 @@ Requirement: One unique H1 per page
 CURRENT STATUS:
   ✅ Homepage: Present & unique
   ✅ Installation: "Get Your Free Quote"
-  ✅ About: "Your trusted guide to heat pump installation"
-  ✅ Blog: "Heat Pump Blog"
+  ✅ About: "Your trusted guide to Air Source Heat Pump installation"
+  ✅ Blog: "Air Source Heat Pump Blog"
   ✅ All articles: Unique H1 tags
   ⚠️ Quiz/Contact: Verify (client-side)
 
@@ -397,7 +397,7 @@ Expansion ideas:
    Topics:
    - Heat pump maintenance guide
    - Heat pump vs gas boiler comparison
-   - Best heat pump brands UK 2026
+   - Best Air Source Heat Pump brands UK 2026
    - Heat pump installation timeline
    - Heat pump efficiency comparison
    - Ground source vs air source

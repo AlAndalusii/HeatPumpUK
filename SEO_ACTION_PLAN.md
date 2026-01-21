@@ -10,9 +10,9 @@
 ### ✅ COMPLETED - Title Tag Optimization
 - [x] Analyzed all 5 blog articles
 - [x] Identified 3 title tags needing optimization  
-- [x] Updated "Heat Pump Cost UK" title
-- [x] Updated "Heat Pump Grant Guide" title
-- [x] Updated "Heat Pump Installation Cost" title
+- [x] Updated "Air Source Heat Pump Cost UK" title
+- [x] Updated "Air Source Heat Pump Grant Guide" title
+- [x] Updated "Air Source Heat Pump Installation Cost" title
 - [x] Verified all titles under 60 characters
 - [x] Confirmed primary keywords preserved
 
@@ -140,26 +140,26 @@ EXPECTED OUTCOMES:
 **Primary Focus:** Create New High-Value Articles
 
 **Strategic Keywords to Target:**
-1. "heat pump efficiency" (high search volume)
-2. "heat pump maintenance" (commercial intent)
-3. "air source heat pump installation" (transactional)
-4. "heat pump running costs" (commercial)
-5. "heat pump reliability" (informational)
+1. "Air Source Heat Pump efficiency" (high search volume)
+2. "Air Source Heat Pump maintenance" (commercial intent)
+3. "Air Source Heat Pump installation" (transactional)
+4. "Air Source Heat Pump running costs" (commercial)
+5. "Air Source Heat Pump reliability" (informational)
 
 **New Articles to Create:**
 ```
-Article 1: "What is the Best Heat Pump for UK Homes?" (2,500 words)
-├─ Target Keyword: "best heat pump UK"
+Article 1: "What is the Best Air Source Heat Pump for UK Homes?" (2,500 words)
+├─ Target Keyword: "best Air Source Heat Pump UK"
 ├─ Focus: Product comparison, decision-making
 └─ Publish Week: Early Feb
 
-Article 2: "Heat Pump Maintenance Guide: Keep Your System Running" (2,000 words)
-├─ Target Keyword: "heat pump maintenance"
+Article 2: "Air Source Heat Pump Maintenance Guide: Keep Your System Running" (2,000 words)
+├─ Target Keyword: "Air Source Heat Pump maintenance"
 ├─ Focus: Homeowner education
 └─ Publish Week: Mid Feb
 
 Article 3: "Air Source Heat Pump Installation: What to Expect" (2,200 words)
-├─ Target Keyword: "air source heat pump installation"
+├─ Target Keyword: "Air Source Heat Pump installation"
 ├─ Focus: Process education
 └─ Publish Week: Late Feb
 ```
@@ -176,8 +176,8 @@ Article 3: "Air Source Heat Pump Installation: What to Expect" (2,200 words)
 
 **Tasks:**
 1. **Create Pillar Content** (Ultimate guides)
-   - "Complete Guide to Heat Pumps in 2026"
-   - "Heat Pump Buyer's Guide for UK Homeowners"
+   - "Complete Guide to Air Source Heat Pumps in 2026"
+   - "Air Source Heat Pump Buyer's Guide for UK Homeowners"
    
 2. **Build Cluster Content** (Support articles)
    - Link clusters to pillar articles
@@ -193,7 +193,7 @@ Article 3: "Air Source Heat Pump Installation: What to Expect" (2,200 words)
 4. **Social Promotion**
    - Share all blog posts on social
    - Create quote graphics
-   - Engage with heat pump communities
+   - Engage with Air Source Heat Pump communities
    - Build social signals
 
 ---
@@ -256,54 +256,54 @@ Article 3: "Air Source Heat Pump Installation: What to Expect" (2,200 words)
 
 ### Keyword Cluster Approach
 
-**Pillar Topic:** "Heat Pumps for UK Homes"
+**Pillar Topic:** "Air Source Heat Pumps for UK Homes"
 
 ```
 ├─ Pillar Article (PLANNED)
-│  └─ "Everything You Need to Know About UK Heat Pumps"
+│  └─ "Everything You Need to Know About UK Air Source Heat Pumps"
 │
 ├─ Current Articles (5)
-│  ├─ "Are Heat Pumps Worth It?" 
-│  ├─ "How Heat Pumps Work"
-│  ├─ "Heat Pump Cost UK"
-│  ├─ "Heat Pump Installation Cost"
-│  └─ "£7,500 Heat Pump Grant Guide"
+│  ├─ "Are Air Source Heat Pumps Worth It?" 
+│  ├─ "How Air Source Heat Pumps Work"
+│  ├─ "Air Source Heat Pump Cost UK"
+│  ├─ "Air Source Heat Pump Installation Cost"
+│  └─ "£7,500 Air Source Heat Pump Grant Guide"
 │
 └─ Future Articles (PLANNED - 12+)
-   ├─ "Best Heat Pump UK"
-   ├─ "Heat Pump Efficiency"
-   ├─ "Heat Pump Maintenance"
+   ├─ "Best Air Source Heat Pump UK"
+   ├─ "Air Source Heat Pump Efficiency"
+   ├─ "Air Source Heat Pump Maintenance"
    ├─ "Air Source Heat Pump"
-   ├─ "Ground Source Heat Pump"
-   ├─ "Heat Pump Vs Gas Boiler"
-   ├─ "Heat Pump Noise"
-   ├─ "Heat Pump Warranty"
-   ├─ "Heat Pump Lifespan"
-   ├─ "Heat Pump Reviews"
-   ├─ "Heat Pump Installer Tips"
-   └─ "Heat Pump FAQs"
+   ├─ "Ground Source Air Source Heat Pump"
+   ├─ "Air Source Heat Pump Vs Gas Boiler"
+   ├─ "Air Source Heat Pump Noise"
+   ├─ "Air Source Heat Pump Warranty"
+   ├─ "Air Source Heat Pump Lifespan"
+   ├─ "Air Source Heat Pump Reviews"
+   ├─ "Air Source Heat Pump Installer Tips"
+   └─ "Air Source Heat Pump FAQs"
 ```
 
 ### Publishing Schedule (Next 6 Months)
 
 ```
 MONTH 2 (February):
-└─ Week 1: "Best Heat Pump UK" → Pillar article
-└─ Week 2: "Heat Pump Maintenance"
+└─ Week 1: "Best Air Source Heat Pump UK" → Pillar article
+└─ Week 2: "Air Source Heat Pump Maintenance"
 └─ Week 3: "Air Source Heat Pump Installation"
-└─ Week 4: "Heat Pump Noise Levels"
+└─ Week 4: "Air Source Heat Pump Noise Levels"
 
 MONTH 3 (March):
-└─ Week 1: "Heat Pump Vs Gas Boiler"
-└─ Week 2: "Heat Pump Efficiency Guide"
-└─ Week 3: "Heat Pump Warranty Guide"
-└─ Week 4: "Heat Pump Lifespan"
+└─ Week 1: "Air Source Heat Pump Vs Gas Boiler"
+└─ Week 2: "Air Source Heat Pump Efficiency Guide"
+└─ Week 3: "Air Source Heat Pump Warranty Guide"
+└─ Week 4: "Air Source Heat Pump Lifespan"
 
 MONTH 4 (April):
-└─ Week 1: "Ground Source Heat Pump Guide"
-└─ Week 2: "Heat Pump Repairs & Troubleshooting"
-└─ Week 3: "Heat Pump Running Costs"
-└─ Week 4: "Heat Pump Installer Directory"
+└─ Week 1: "Ground Source Air Source Heat Pump Guide"
+└─ Week 2: "Air Source Heat Pump Repairs & Troubleshooting"
+└─ Week 3: "Air Source Heat Pump Running Costs"
+└─ Week 4: "Air Source Heat Pump Installer Directory"
 ```
 
 ---
@@ -338,8 +338,8 @@ MONTH 4 (April):
 ```
 1 Blog Article → 5+ Social Posts
 
-Blog: "How Heat Pumps Work"
-├─ Quote Graphic #1: "How heat pumps work"
+Blog: "How Air Source Heat Pumps Work"
+├─ Quote Graphic #1: "How Air Source Heat Pumps work"
 ├─ Quote Graphic #2: "3x more efficient than gas"
 ├─ Infographic: "Heat pump process"
 ├─ Video Clip: Key explanation (15 sec)

@@ -82,7 +82,7 @@ function generateHeatPumpGuide() {
   doc.setTextColor(...colors.text)
   doc.setFontSize(36)
   doc.setFont("helvetica", "bold")
-  doc.text("Heat Pump", pageWidth / 2, y, { align: "center" })
+  doc.text("Air Source Heat Pump", pageWidth / 2, y, { align: "center" })
   
   y += 14
   doc.text("vs Gas Boiler", pageWidth / 2, y, { align: "center" })
@@ -116,7 +116,7 @@ function generateHeatPumpGuide() {
   doc.setTextColor(...colors.textSecondary)
   
   const contents = [
-    "How heat pumps work",
+    "How Air Source Heat Pumps work",
     "Installation costs for 2025", 
     "Running costs comparison",
     "£7,500 government grant eligibility",
@@ -183,11 +183,11 @@ function generateHeatPumpGuide() {
   // Copyright with year
   doc.setFontSize(7)
   doc.setTextColor(...colors.textTertiary)
-  doc.text("© 2025 Get Heat Pump Quotes. All rights reserved.", pageWidth / 2, y, { align: "center" })
+  doc.text("© 2025 Get Air Source Heat Pump Quotes. All rights reserved.", pageWidth / 2, y, { align: "center" })
 
-  // ===== PAGE 2: HOW HEAT PUMPS WORK =====
+  // ===== PAGE 2: HOW AIR SOURCE HEAT PUMPS WORK =====
   addNewPage()
-  addSectionHeader("How Heat Pumps Work", colors.primary)
+  addSectionHeader("How Air Source Heat Pumps Work", colors.primary)
 
   // Simple Explanation - Clean and minimal
   drawBox(margin, y, contentWidth, 45, colors.lightBlue, colors.primary, 1)
@@ -200,18 +200,18 @@ function generateHeatPumpGuide() {
   doc.setFont("helvetica", "normal")
   doc.setFontSize(10)
   const wrappedText = doc.splitTextToSize(
-    "A heat pump is like a refrigerator in reverse. It extracts heat from outside air or ground and transfers it into your home. Even when it's cold outside, there's still heat energy that can be captured and amplified to warm your house and water.",
+    "A Air Source Heat Pump is like a refrigerator in reverse. It extracts heat from outside air or ground and transfers it into your home. Even when it's cold outside, there's still heat energy that can be captured and amplified to warm your house and water.",
     contentWidth - 24
   )
   doc.text(wrappedText, margin + 12, y + 26)
 
   y += 60
 
-  // Types of Heat Pumps - Elegant section
+  // Types of Air Source Heat Pumps - Elegant section
   doc.setTextColor(...colors.text)
   doc.setFontSize(14)
   doc.setFont("helvetica", "bold")
-  doc.text("Types of Heat Pumps", margin, y)
+  doc.text("Types of Air Source Heat Pumps", margin, y)
   y += 15
 
   // Air Source - Clean card design
@@ -232,7 +232,7 @@ function generateHeatPumpGuide() {
   doc.setFont("helvetica", "bold")
   doc.text("Air Source", margin + 12, y + 35)
   doc.setFontSize(10)
-  doc.text("Heat Pump", margin + 12, y + 44)
+  doc.text("Air Source Heat Pump", margin + 12, y + 44)
   
   doc.setTextColor(...colors.textSecondary)
   doc.setFontSize(9)
@@ -258,7 +258,7 @@ function generateHeatPumpGuide() {
   doc.setFont("helvetica", "bold")
   doc.text("Ground Source", margin + halfWidth + 20, y + 35)
   doc.setFontSize(10)
-  doc.text("Heat Pump", margin + halfWidth + 20, y + 44)
+  doc.text("Air Source Heat Pump", margin + halfWidth + 20, y + 44)
   
   doc.setTextColor(...colors.textSecondary)
   doc.setFontSize(9)
@@ -275,7 +275,7 @@ function generateHeatPumpGuide() {
   doc.setTextColor(...colors.warning)
   doc.setFontSize(12)
   doc.setFont("helvetica", "bold")
-  doc.text("Why Heat Pumps Are More Efficient", margin + 12, y + 16)
+  doc.text("Why Air Source Heat Pumps Are More Efficient", margin + 12, y + 16)
   
   doc.setTextColor(...colors.text)
   doc.setFontSize(10)
@@ -321,7 +321,7 @@ function generateHeatPumpGuide() {
   doc.setTextColor(...colors.success)
   doc.setFontSize(11)
   doc.setFont("helvetica", "bold")
-  doc.text("Ground Source Heat Pump", margin + costHalfWidth + 20, y + 16)
+  doc.text("Ground Source Air Source Heat Pump", margin + costHalfWidth + 20, y + 16)
   
   doc.setFontSize(26)
   doc.text("£15,000", margin + costHalfWidth + 20, y + 38)
@@ -406,13 +406,13 @@ function generateHeatPumpGuide() {
   doc.text("£850 - £1,100", margin + 90, y + 30, { align: "right" })
   doc.text("£4,250 - £5,500", margin + contentWidth - 12, y + 30, { align: "right" })
   
-  // Heat Pump Row (highlighted)
+  // Air Source Heat Pump Row (highlighted)
   doc.setFillColor(...colors.lightGreen)
   doc.roundedRect(margin + 4, y + 36, contentWidth - 8, 18, 2, 2, 'F')
   
   doc.setTextColor(...colors.success)
   doc.setFont("helvetica", "bold")
-  doc.text("Heat Pump", margin + 12, y + 48)
+  doc.text("Air Source Heat Pump", margin + 12, y + 48)
   doc.text("£650 - £900", margin + 90, y + 48, { align: "right" })
   doc.text("£3,250 - £4,500", margin + contentWidth - 12, y + 48, { align: "right" })
 
@@ -425,7 +425,7 @@ function generateHeatPumpGuide() {
   doc.setFontSize(11)
   doc.setFont("helvetica", "normal")
   const grantIntro = doc.splitTextToSize(
-    "The UK government provides up to £7,500 towards your heat pump installation. The grant is deducted directly from your final bill—no upfront payment or reimbursement needed.",
+    "The UK government provides up to £7,500 towards your Air Source Heat Pump installation. The grant is deducted directly from your final bill—no upfront payment or reimbursement needed.",
     contentWidth - 24
   )
   drawBox(margin, y, contentWidth, 42, colors.lightGreen, undefined as any)
@@ -526,11 +526,11 @@ function generateHeatPumpGuide() {
   addNewPage()
   addSectionHeader("Comparison", colors.primary)
 
-  // Heat Pumps Section
+  // Air Source Heat Pumps Section
   doc.setTextColor(...colors.text)
   doc.setFontSize(14)
   doc.setFont("helvetica", "bold")
-  doc.text("Heat Pumps", margin, y)
+  doc.text("Air Source Heat Pumps", margin, y)
   y += 15
 
   // Pros and Cons side by side
@@ -660,7 +660,7 @@ function generateHeatPumpGuide() {
   doc.setFontSize(10)
   doc.setFont("helvetica", "normal")
   const verdict = doc.splitTextToSize(
-    "With the £7,500 grant and lower running costs, heat pumps offer excellent long-term value for UK homeowners committed to sustainability.",
+    "With the £7,500 grant and lower running costs, Air Source Heat Pumps offer excellent long-term value for UK homeowners committed to sustainability.",
     contentWidth - 24
   )
   doc.text(verdict, margin + 12, y + 26)
@@ -697,9 +697,9 @@ function generateHeatPumpGuide() {
   
   const questions = [
     "Are you MCS-certified?",
-    "How many heat pumps have you installed?",
+    "How many Air Source Heat Pumps have you installed?",
     "Can you provide customer references?",
-    "What heat pump brands do you work with?",
+    "What Air Source Heat Pump brands do you work with?",
     "Will you conduct a full heat loss survey?",
     "What warranty coverage is included?",
     "How do you handle the grant application?",
@@ -845,9 +845,9 @@ function generateHeatPumpGuide() {
   // Footer text
   doc.setTextColor(...colors.textTertiary)
   doc.setFontSize(8)
-  doc.text("Get Heat Pump Quotes", pageWidth / 2, footerY + 6, { align: "center" })
+  doc.text("Get Air Source Heat Pump Quotes", pageWidth / 2, footerY + 6, { align: "center" })
   doc.setFontSize(7)
-  doc.text("© 2025 All rights reserved • Independent Heat Pump Comparison Service", pageWidth / 2, footerY + 12, { align: "center" })
+  doc.text("© 2025 All rights reserved • Independent Air Source Heat Pump Comparison Service", pageWidth / 2, footerY + 12, { align: "center" })
 
   return doc
 }
@@ -1007,7 +1007,7 @@ function PDFDownloadModal({ isOpen, onClose }: { isOpen: boolean; onClose: () =>
             </div>
 
             <p className="text-[15px] sm:text-[16px] text-[#6e6e73] mb-4">
-              Download the complete 2025 Heat Pump vs Gas Boiler comparison guide.
+                Download the complete 2025 Air Source Heat Pump vs Gas Boiler comparison guide.
             </p>
 
             {/* What's Included */}
@@ -1212,7 +1212,7 @@ function ExitIntentPopup({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
                   Wait! Before You Go...
                 </h2>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] mb-6 leading-relaxed">
-                  Download our free guide: <strong>5 Questions to Ask Every Heat Pump Installer</strong>
+                  Download our free guide: <strong>5 Questions to Ask Every Air Source Heat Pump Installer</strong>
                 </p>
 
                 {/* What's Included */}
@@ -1233,13 +1233,13 @@ function ExitIntentPopup({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
                     <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-[14px] sm:text-[15px] text-[#1d1d1f]">Grant application checklist</span>
+                    <span className="text-[14px] sm:text-[15px] text-[#1d1d1f]">Air source Air Source Heat Pump grant application checklist</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-[14px] sm:text-[15px] text-[#1d1d1f]">Installer comparison worksheet</span>
+                    <span className="text-[14px] sm:text-[15px] text-[#1d1d1f]">Air source Air Source Heat Pump installer comparison worksheet</span>
                   </div>
                 </div>
 
@@ -1269,7 +1269,7 @@ function ExitIntentPopup({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
                       onChange={(e) => setSubscribeTips(e.target.checked)}
                       className="w-5 h-5 rounded border-gray-300 text-[#0071e3] focus:ring-[#0071e3]"
                     />
-                    <span className="text-[14px] sm:text-[15px] text-[#6e6e73]">Send me heat pump tips & exclusive offers</span>
+                    <span className="text-[14px] sm:text-[15px] text-[#6e6e73]">Send me Air Source Heat Pump tips & exclusive offers</span>
                   </label>
 
                   <Button
@@ -1295,11 +1295,11 @@ function ExitIntentPopup({ isOpen, onClose }: { isOpen: boolean; onClose: () => 
 
 function SocialProofBanner() {
   const messages = [
-    { text: "Sarah from Manchester just checked", highlight: "Qualified for £7,500!" },
-    { text: "James from Bristol compared 3 installers", highlight: "Saved £2,100" },
     { text: "Emma from Leeds got quotes", highlight: "in 24 hours" },
-    { text: "1,247 homeowners used this checker", highlight: "this month" },
-    { text: "Michael from Glasgow found", highlight: "grant-approved installer" }
+    { text: "Sarah checked eligibility", highlight: "Qualified for £7,500!" },
+    { text: "James compared 3 installers", highlight: "Saved £2,100" },
+    { text: "1,247 homeowners used this", highlight: "this month" },
+    { text: "Michael found", highlight: "grant-approved installer" }
   ];
   const [current, setCurrent] = useState(0);
   const [fade, setFade] = useState(true);
@@ -1460,9 +1460,9 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Grant Checker UK - Check £7,500 Eligibility in 90s</title>
-        <meta name="description" content="Free heat pump grant eligibility checker. Find out if you qualify for £7,500 government funding in 90 seconds. Compare quotes from vetted UK installers. Used by 1,247 homeowners." />
-        <meta name="keywords" content="heat pump grant UK, heat pump grant checker, £7,500 grant eligibility, government heat pump grant, air source heat pump, heat pump installation costs, heat pump quotes, MCS certified installers, heat pump cost comparison" />
+        <title>Air Source Heat Pump Grant Checker UK - Check £7,500 Eligibility in 90s</title>
+        <meta name="description" content="Free Air Source Heat Pump grant eligibility checker. Find out if you qualify for £7,500 government funding in 90 seconds. Compare quotes from vetted UK installers. Used by 1,247 homeowners." />
+        <meta name="keywords" content="Air Source Heat Pump grant UK, Air Source Heat Pump grant checker, £7,500 grant eligibility, government Air Source Heat Pump grant, Air Source Heat Pump, Air Source Heat Pump installation costs, Air Source Heat Pump quotes, MCS certified installers, Air Source Heat Pump cost comparison" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header - Clean navigation */}
@@ -1482,6 +1482,9 @@ export default function HomePage() {
             
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
+              <Link href="/blog" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
+                Resources
+              </Link>
               <Link href="#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
                 How it works
               </Link>
@@ -1522,6 +1525,13 @@ export default function HomePage() {
           <div className="md:hidden fixed inset-0 top-16 bg-white z-40 animate-fade-in-up">
             <nav className="flex flex-col px-4 py-6 gap-4">
               <Link 
+                href="/blog" 
+                className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Resources
+              </Link>
+              <Link 
                 href="#how-it-works" 
                 className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100"
                 onClick={() => setMobileMenuOpen(false)}
@@ -1559,7 +1569,7 @@ export default function HomePage() {
             {/* Left content */}
             <div className="text-white py-6 sm:py-12 opacity-0 animate-fade-in-up">
               <h1 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] font-semibold mb-6 sm:mb-8 tracking-tight leading-[1.1]">
-                Compare Heat Pump Installers & Check £7,500 Grant Eligibility
+                Compare Air Source Heat Pump Installers & Check £7,500 Grant Eligibility
               </h1>
               
               {/* Social Proof Banner - Positioned prominently */}
@@ -1567,6 +1577,9 @@ export default function HomePage() {
 
               <p className="text-[17px] sm:text-[19px] md:text-[22px] lg:text-[24px] mb-8 sm:mb-10 leading-[1.4] opacity-85">
                 Check your eligibility in 90 seconds, then compare free quotes from 3 vetted installers near you.
+              </p>
+              <p className="text-[15px] sm:text-[17px] md:text-[18px] mb-8 sm:mb-10 leading-[1.4] opacity-80 font-medium">
+                We are an independent comparison service — not installers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/quiz" className="w-full sm:w-auto">
@@ -1609,7 +1622,7 @@ export default function HomePage() {
               Independent. Trusted. Free.
             </h2>
             <p className="text-[17px] sm:text-[19px] md:text-[21px] text-[#86868b] leading-relaxed max-w-xl mx-auto">
-              We help UK homeowners compare heat pump installers and access government grants — without pressure or bias.
+              We help UK homeowners compare Air Source Heat Pump installers and access government grants — without pressure or bias.
             </p>
           </div>
 
@@ -1791,7 +1804,7 @@ export default function HomePage() {
               Built on Trust, Not Commissions
             </h2>
             <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-normal max-w-2xl mx-auto">
-              We're independent, transparent, and focused entirely on helping you find the right heat pump.
+              We're independent, transparent, and focused entirely on helping you find the right Air Source Heat Pump.
             </p>
           </div>
 
@@ -1870,7 +1883,7 @@ export default function HomePage() {
                 Not Ready for Quotes Yet?
               </h2>
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] mb-8 sm:mb-10 leading-normal">
-                Download our free 2025 Heat Pump vs Gas Boiler cost comparison guide
+                Download our free 2025 Air Source Heat Pump vs Gas Boiler cost comparison guide
               </p>
 
               {/* Features List */}
@@ -1931,7 +1944,7 @@ export default function HomePage() {
 
                   <h3 className="text-[22px] sm:text-[24px] font-semibold text-[#1d1d1f] mb-3">2025 Comparison Guide</h3>
                   <p className="text-[15px] sm:text-[16px] text-[#6e6e73] mb-6 leading-relaxed">
-                    Expert analysis comparing heat pumps and gas boilers across cost, performance, and environmental impact.
+                    Expert analysis comparing Air Source Heat Pumps and gas boilers across cost, performance, and environmental impact.
                   </p>
 
                   <div className="space-y-3">
@@ -1982,13 +1995,13 @@ export default function HomePage() {
             Frequently Asked Questions
           </h2>
           <p className="text-[16px] sm:text-[17px] md:text-[19px] text-[#6e6e73] text-center mb-10 sm:mb-12 md:mb-16 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
-            Everything you need to know about the heat pump grant
+            Everything you need to know about the Air Source Heat Pump grant
           </p>
 
           <div className="space-y-3 sm:space-y-4">
             {/* FAQ 1 */}
             <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-              <h3 className="text-[18px] sm:text-[20px] font-semibold text-[#1d1d1f] mb-2 sm:mb-3">How much does a heat pump cost in the UK?</h3>
+              <h3 className="text-[18px] sm:text-[20px] font-semibold text-[#1d1d1f] mb-2 sm:mb-3">How much does an Air Source Heat Pump cost in the UK?</h3>
               <p className="text-[14px] sm:text-[15px] text-[#6e6e73] leading-[1.6]">
                 Installation costs range from £8,000-£15,000 depending on property size and system type. With the £7,500 government grant, most homeowners pay £5,000-£7,500.
               </p>
@@ -2012,9 +2025,9 @@ export default function HomePage() {
 
             {/* FAQ 4 */}
             <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.5s" }}>
-              <h3 className="text-[18px] sm:text-[20px] font-semibold text-[#1d1d1f] mb-2 sm:mb-3">Are heat pumps expensive to run?</h3>
+              <h3 className="text-[18px] sm:text-[20px] font-semibold text-[#1d1d1f] mb-2 sm:mb-3">Are Air Source Heat Pumps expensive to run?</h3>
               <p className="text-[14px] sm:text-[15px] text-[#6e6e73] leading-[1.6]">
-                Heat pumps are 3x more efficient than gas boilers. Average running costs: £500-800/year vs £1,200-1,500 for gas.
+                Air source heat pumps are 3x more efficient than gas boilers. Average running costs: £500-800/year vs £1,200-1,500 for gas.
               </p>
             </div>
 
@@ -2053,7 +2066,7 @@ export default function HomePage() {
       <section className="py-16 sm:py-20 md:py-24 bg-linear-to-br from-[#0071e3] to-[#0056b3] text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-[36px] sm:text-[48px] md:text-[64px] lg:text-[72px] font-semibold mb-4 sm:mb-6 tracking-tight leading-[1.1] text-balance opacity-0 animate-fade-in-up-scroll">
-            Ready To Compare Heat Pump Quotes?
+            Ready To Compare Air Source Heat Pump Quotes?
           </h2>
           <p className="text-[18px] sm:text-[21px] md:text-[24px] lg:text-[28px] mb-8 sm:mb-10 md:mb-12 leading-[1.3] opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
             Get free quotes from vetted installers in your area. Most customers qualify for £7,500 grant.

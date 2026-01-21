@@ -24,7 +24,7 @@ getheatpumpquotes.co.uk       [bold, primary text color]
 
 Independent  •  Unbiased  •  Free Service  [with micro-dots as separators]
 
-© 2025 Get Heat Pump Quotes. All rights reserved.  [small, light gray]
+© 2025 Get Air Source Heat Pump Quotes. All rights reserved.  [small, light gray]
 ```
 
 **Design Features:**
@@ -44,7 +44,7 @@ Independent  •  Unbiased  •  Free Service  [with micro-dots as separators]
 HeatPumpUK.co.uk
 [Trust badges]
 
-© 2025 HeatPumpUK • Independent Heat Pump Comparison
+© 2025 HeatPumpUK • Independent Air Source Heat Pump Comparison
 ```
 
 #### New Futuristic Design
@@ -62,8 +62,8 @@ HeatPumpUK.co.uk
                                        
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━  [subtle separator line]
 
-Get Heat Pump Quotes
-© 2025 All rights reserved • Independent Heat Pump Comparison Service
+Get Air Source Heat Pump Quotes
+© 2025 All rights reserved • Independent Air Source Heat Pump Comparison Service
 ```
 
 **Design Features:**
@@ -116,14 +116,14 @@ Get Heat Pump Quotes
 ### All References Updated
 ✅ **Cover page footer**: getheatpumpquotes.co.uk  
 ✅ **Final page CTA**: getheatpumpquotes.co.uk  
-✅ **Website footer**: Get Heat Pump Quotes  
-✅ **Copyright text**: Get Heat Pump Quotes  
+✅ **Website footer**: Get Air Source Heat Pump Quotes  
+✅ **Copyright text**: Get Air Source Heat Pump Quotes  
 
 ### Brand Name Standardization
 - **Old**: "HeatPump UK" or "HeatPumpUK"
-- **New**: "Get Heat Pump Quotes"
+- **New**: "Get Air Source Heat Pump Quotes"
 - **Domain**: getheatpumpquotes.co.uk
-- **Tagline**: Independent Heat Pump Comparison Service
+- **Tagline**: Independent Air Source Heat Pump Comparison Service
 
 ---
 

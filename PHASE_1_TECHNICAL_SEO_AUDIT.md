@@ -1,7 +1,7 @@
 # 🔍 PHASE 1: TECHNICAL SEO AUDIT REPORT
 ## GetHeatPumpQuotes.co.uk - Defensive Foundation
 
-**Project:** Heat Pump Resource Landing Page  
+**Project:** Air Source Heat Pump Resource Landing Page  
 **Domain:** GetHeatPumpQuotes.co.uk  
 **Audit Date:** January 1, 2026  
 **Framework:** 6-Phase SEO Prioritization  
@@ -108,7 +108,7 @@ Analytics: Vercel Analytics enabled
 - [ ] **Test crawler view of pages**
   ```bash
   curl -s https://getheatpumpquotes.co.uk/ | grep -A 5 "<title>"
-  # Should show: "Heat Pump Quotes UK - Compare Installers..."
+  # Should show: "Air Source Heat Pump Quotes UK - Compare Installers..."
   ```
 
 - [ ] **Verify meta tags in response**
@@ -655,22 +655,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://www.getheatpumpquotes.co.uk',
-    title: 'Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility',
-    description: 'Independent heat pump comparison service. Check if you qualify for £7,500 government grant in 90 seconds.',
-    siteName: 'Heat Pump Quotes UK',
+    title: 'Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility',
+    description: 'Independent Air Source Heat Pump comparison service. Check if you qualify for £7,500 government grant in 90 seconds.',
+    siteName: 'Air Source Heat Pump Quotes UK',
     images: [
       {
         url: 'https://www.getheatpumpquotes.co.uk/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heat Pump Quotes UK',
+        alt: 'Air Source Heat Pump Quotes UK',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Heat Pump Quotes UK',
-    description: 'Compare heat pump installers and check £7,500 grant eligibility.',
+    title: 'Air Source Heat Pump Quotes UK',
+    description: 'Compare Air Source Heat Pump installers and check £7,500 grant eligibility.',
     // images: ['https://www.getheatpumpquotes.co.uk/og-image.jpg'],
   },
 }

@@ -126,7 +126,7 @@ export default function AboutPage() {
         {/* Hero Section - Premium gradient with glassmorphism elements */}
         <section className="pt-32 pb-24 sm:pt-44 sm:pb-32 md:pt-56 md:pb-40 relative overflow-hidden">
           {/* Animated gradient background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#f5f5f7] via-white to-[#f9f9fb]" />
+          <div className="absolute inset-0 bg-linear-to-br from-[#f5f5f7] via-white to-[#f9f9fb]" />
           
           {/* Decorative blur elements - futuristic */}
           <div className="absolute top-20 right-10 w-72 h-72 bg-[#0071e3] rounded-full mix-blend-multiply filter blur-3xl opacity-8 animate-pulse" />
@@ -144,13 +144,18 @@ export default function AboutPage() {
 
               {/* Main headline with premium spacing */}
               <h1 className="text-[44px] sm:text-[56px] md:text-[72px] lg:text-[80px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6 sm:mb-8">
-                <span className="block">Your Trusted Guide</span>
-                <span className="block bg-gradient-to-r from-[#0071e3] via-[#00a2ff] to-[#34c759] bg-clip-text text-transparent">to Heat Pump Installation</span>
+                <span className="block">Your Trusted Guide to</span>
+                <span className="block bg-linear-to-r from-[#0071e3] via-[#00a2ff] to-[#34c759] bg-clip-text text-transparent">Air Source Heat Pump Installation</span>
               </h1>
 
               {/* Premium subheading */}
-              <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] max-w-3xl mx-auto font-light mb-8 sm:mb-10">
-                We're the independent voice helping UK homeowners navigate heat pump decisions with clarity, confidence, and access to vetted MCS-certified installers.
+              <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] max-w-3xl mx-auto font-light mb-4 sm:mb-5">
+                We help UK homeowners compare air source heat pump installers and heating engineers, check if they can get the £7,500 Boiler Upgrade Scheme grant, and get free quotes from trusted companies.
+              </p>
+
+              {/* Clear "not installers" statement */}
+              <p className="text-[17px] sm:text-[19px] text-[#1d1d1f] leading-[1.6] max-w-3xl mx-auto font-medium mb-8 sm:mb-10">
+                We don't install heat pumps ourselves – we're an independent comparison service for air source heat pumps.
               </p>
 
               {/* Enhanced trust indicators */}
@@ -173,13 +178,13 @@ export default function AboutPage() {
         </section>
 
         {/* Who We Are - Premium Section with glassmorphism */}
-        <section className="py-20 sm:py-28 md:py-32 bg-gradient-to-br from-white via-[#f9f9fb] to-white">
+        <section className="py-20 sm:py-28 md:py-32 bg-linear-to-br from-white via-[#f9f9fb] to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               {/* Left: Content */}
               <div className="opacity-0 animate-fade-in-up-scroll">
                 <div className="inline-block mb-6">
-                  <span className="px-3 py-1 rounded-full bg-[#0071e3]/10 text-[#0071e3] text-[12px] font-semibold uppercase tracking-wider">About HeatPump UK</span>
+                  <span className="px-3 py-1 rounded-full bg-[#0071e3]/10 text-[#0071e3] text-[12px] font-semibold uppercase tracking-wider">About Get Heat Pump Quotes</span>
                 </div>
                 
                 <h2 className="text-[44px] sm:text-[52px] md:text-[60px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.1] mb-6">
@@ -187,7 +192,11 @@ export default function AboutPage() {
                 </h2>
                 
                 <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-6">
-                  HeatPump UK is an independent service designed for UK homeowners like you. We're not installers. We don't sell equipment. We exist to demystify heat pumps and connect you directly with vetted, MCS-certified professionals who can deliver excellence.
+                  Get Heat Pump Quotes is an independent comparison service for UK homeowners. We don't install heat pumps. We don't sell equipment. We explain air source heat pumps in simple language and connect you with vetted, MCS-certified installers and heating engineers.
+                </p>
+
+                <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-6">
+                  We help you get and compare air source heat pump quotes from trusted UK installers.
                 </p>
                 
                 <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-10">
@@ -198,11 +207,11 @@ export default function AboutPage() {
                 <div className="grid grid-cols-2 gap-6 mb-10">
                   <div>
                     <div className="text-[28px] sm:text-[32px] font-bold text-[#0071e3] mb-2">Founded</div>
-                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">By energy industry veterans committed to transparency</p>
+                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">By energy and home heating specialists who wanted clear, honest advice for normal homeowners</p>
                   </div>
                   <div>
                     <div className="text-[28px] sm:text-[32px] font-bold text-[#34c759] mb-2">Mission</div>
-                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">Making heat pump transition clear, fair, and accessible</p>
+                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">Make the switch to air source heat pumps simple, fair, and affordable for UK homeowners</p>
                   </div>
                 </div>
 
@@ -218,7 +227,7 @@ export default function AboutPage() {
                 {/* Card 1 */}
                 <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-white/60 hover:border-[#0071e3]/40 transition-all duration-500 hover:shadow-xl hover:bg-white/95 hover:-translate-y-1">
                   <div className="flex items-start gap-5 mb-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#0071e3] to-[#00a2ff] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-14 h-14 bg-linear-to-br from-[#0071e3] to-[#00a2ff] rounded-xl flex items-center justify-center shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
@@ -233,7 +242,7 @@ export default function AboutPage() {
                 {/* Card 2 */}
                 <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-white/60 hover:border-[#34c759]/40 transition-all duration-500 hover:shadow-xl hover:bg-white/95 hover:-translate-y-1">
                   <div className="flex items-start gap-5 mb-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#34c759] to-[#30b55f] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-14 h-14 bg-linear-to-br from-[#34c759] to-[#30b55f] rounded-xl flex items-center justify-center shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                       </svg>
@@ -248,7 +257,7 @@ export default function AboutPage() {
                 {/* Card 3 */}
                 <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-white/60 hover:border-[#ff9500]/40 transition-all duration-500 hover:shadow-xl hover:bg-white/95 hover:-translate-y-1">
                   <div className="flex items-start gap-5 mb-4">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#ff9500] to-[#ff8c00] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-14 h-14 bg-linear-to-br from-[#ff9500] to-[#ff8c00] rounded-xl flex items-center justify-center shrink-0 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M8.16 5.314l4.897 7.308c.498.742.198 1.74-.675 2.236l-4.897 2.908c-.873.497-1.968.2-2.467-.543L.12 9.914c-.498-.743-.198-1.74.675-2.236l4.897-2.908c.873-.498 1.968-.199 2.467.544z" />
                       </svg>
@@ -284,9 +293,9 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-8 sm:gap-10">
               {/* Service 1 - Grant Check */}
               <div className="group opacity-0 animate-fade-in-up-scroll rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl" style={{ animationDelay: "0.1s" }}>
-                <div className="bg-gradient-to-br from-[#0071e3]/5 to-[#00a2ff]/5 hover:from-[#0071e3]/10 hover:to-[#00a2ff]/10 rounded-2xl p-8 sm:p-10 border border-[#e5e5e7] hover:border-[#0071e3]/30 transition-all duration-500 h-full">
+                <div className="bg-linear-to-br from-[#0071e3]/5 to-[#00a2ff]/5 hover:from-[#0071e3]/10 hover:to-[#00a2ff]/10 rounded-2xl p-8 sm:p-10 border border-[#e5e5e7] hover:border-[#0071e3]/30 transition-all duration-500 h-full">
                   <div className="mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#0071e3] to-[#00a2ff] rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-16 h-16 bg-linear-to-br from-[#0071e3] to-[#00a2ff] rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
@@ -309,9 +318,9 @@ export default function AboutPage() {
 
               {/* Service 2 - Installer Network */}
               <div className="group opacity-0 animate-fade-in-up-scroll rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl" style={{ animationDelay: "0.2s" }}>
-                <div className="bg-gradient-to-br from-[#34c759]/5 to-[#30d158]/5 hover:from-[#34c759]/10 hover:to-[#30d158]/10 rounded-2xl p-8 sm:p-10 border border-[#e5e5e7] hover:border-[#34c759]/30 transition-all duration-500 h-full">
+                <div className="bg-linear-to-br from-[#34c759]/5 to-[#30d158]/5 hover:from-[#34c759]/10 hover:to-[#30d158]/10 rounded-2xl p-8 sm:p-10 border border-[#e5e5e7] hover:border-[#34c759]/30 transition-all duration-500 h-full">
                   <div className="mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#34c759] to-[#30d158] rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-16 h-16 bg-linear-to-br from-[#34c759] to-[#30d158] rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" />
                         <path fillRule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zm5 4a2 2 0 11-4 0 2 2 0 014 0z" clipRule="evenodd" />
@@ -335,9 +344,9 @@ export default function AboutPage() {
 
               {/* Service 3 - Resources */}
               <div className="group opacity-0 animate-fade-in-up-scroll rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl" style={{ animationDelay: "0.3s" }}>
-                <div className="bg-gradient-to-br from-[#ff9500]/5 to-[#ffb84d]/5 hover:from-[#ff9500]/10 hover:to-[#ffb84d]/10 rounded-2xl p-8 sm:p-10 border border-[#e5e5e7] hover:border-[#ff9500]/30 transition-all duration-500 h-full">
+                <div className="bg-linear-to-br from-[#ff9500]/5 to-[#ffb84d]/5 hover:from-[#ff9500]/10 hover:to-[#ffb84d]/10 rounded-2xl p-8 sm:p-10 border border-[#e5e5e7] hover:border-[#ff9500]/30 transition-all duration-500 h-full">
                   <div className="mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#ff9500] to-[#ffb84d] rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-16 h-16 bg-linear-to-br from-[#ff9500] to-[#ffb84d] rounded-2xl flex items-center justify-center mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0L10 9.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                       </svg>
@@ -362,7 +371,7 @@ export default function AboutPage() {
         </section>
 
         {/* Why We Exist - Trust & Standards */}
-        <section className="py-20 sm:py-28 md:py-32 bg-gradient-to-b from-white to-[#f5f5f7]">
+        <section className="py-20 sm:py-28 md:py-32 bg-linear-to-b from-white to-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Section header */}
             <div className="text-center mb-16 sm:mb-20 opacity-0 animate-fade-in-up-scroll">
@@ -388,7 +397,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-[18px] font-bold text-[#1d1d1f] mb-3">MCS-Verified</h3>
-                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] flex-grow">
+                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] grow">
                     Every installer holds Microgeneration Certification Scheme credentials—required for government grants.
                   </p>
                 </div>
@@ -403,7 +412,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-[18px] font-bold text-[#1d1d1f] mb-3">UK Coverage</h3>
-                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] flex-grow">
+                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] grow">
                     Licensed, vetted professionals operating across all regions of the United Kingdom.
                   </p>
                 </div>
@@ -418,7 +427,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-[18px] font-bold text-[#1d1d1f] mb-3">Quality Assurance</h3>
-                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] flex-grow">
+                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] grow">
                     Strict vetting criteria with continuous monitoring. Installers who cut corners are immediately removed.
                   </p>
                 </div>
@@ -433,7 +442,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-[18px] font-bold text-[#1d1d1f] mb-3">Privacy Protected</h3>
-                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] flex-grow">
+                  <p className="text-[15px] text-[#6e6e73] leading-[1.6] grow">
                     Your data is yours alone. We never sell information or share details without your explicit consent.
                   </p>
                 </div>
@@ -469,7 +478,7 @@ export default function AboutPage() {
                 <div className="text-center sm:text-left">
                   <div className="w-12 h-12 bg-[#ff9500] rounded-full flex items-center justify-center mx-auto sm:mx-0 mb-4 text-white font-semibold text-lg">3</div>
                   <h3 className="text-[17px] font-semibold text-[#1d1d1f] mb-2">Installers pay us a referral fee</h3>
-                  <p className="text-[15px] text-[#6e6e73] leading-[1.6]">MCS-certified installers pay us for qualified leads. You pay nothing.</p>
+                  <p className="text-[15px] text-[#6e6e73] leading-[1.6]">MCS-certified installers pay us a referral fee for each qualified lead. You pay nothing.</p>
                 </div>
               </div>
 
@@ -490,7 +499,7 @@ export default function AboutPage() {
                 Our Commitment
               </h2>
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.6] max-w-2xl mx-auto">
-                We're dedicated to making heat pump installation transparent, fair, and homeowner-first.
+                We're dedicated to making Air Source Heat Pump installation transparent, fair, and homeowner-first.
               </p>
             </div>
 
@@ -499,7 +508,7 @@ export default function AboutPage() {
                 <div className="bg-white rounded-2xl p-7 sm:p-8 border border-[#e5e5e7] h-full">
                   <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Transparency</h3>
                   <p className="text-[16px] text-[#6e6e73] leading-[1.7]">
-                    No hidden costs. No jargon. We explain how heat pumps work, what they cost, and what the government grant covers. You make informed decisions.
+                    No hidden costs. No jargon. We explain how air source heat pumps work, what they cost, and what the government grant covers. You make informed decisions.
                   </p>
                 </div>
               </div>
@@ -537,7 +546,7 @@ export default function AboutPage() {
         {/* CTA Section - Premium gradient with motion */}
         <section className="py-24 sm:py-32 md:py-40 relative overflow-hidden">
           {/* Animated gradient background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0071e3] via-[#00a2ff] to-[#0071e3]" />
+          <div className="absolute inset-0 bg-linear-to-br from-[#0071e3] via-[#00a2ff] to-[#0071e3]" />
           
           {/* Decorative animated elements */}
           <div className="absolute top-20 right-20 w-96 h-96 bg-white rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-pulse" />

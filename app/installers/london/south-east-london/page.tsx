@@ -53,8 +53,8 @@ export default function SouthEastLondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installers South East London | Local MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in South East London. Serving Greenwich, Lewisham, Bromley, Bexley and all SE postcodes. £7,500 grant support." />
+        <title>Air Source Heat Pump Installers South East London | Local MCS Quotes</title>
+        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in South East London. Serving Greenwich, Lewisham, Bromley, Bexley and all SE postcodes. £7,500 grant support." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london/south-east-london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -139,16 +139,16 @@ export default function SouthEastLondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#00c7be]">South East London Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#00c7be]">South East London Air Source Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Heat Pump Installers South East London: Local MCS-Certified Quotes
+                Air Source Heat Pump Installers South East London: Local MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                Looking for heat pump installers in South East London? We connect homeowners across SE postcodes with vetted, MCS-certified installers. Check your £7,500 grant eligibility and compare quotes from professionals serving Greenwich, Lewisham, Bromley, and beyond.
+                Looking for Air Source Heat Pump installers in South East London? We connect homeowners across SE postcodes with vetted, MCS-certified installers. Check your £7,500 grant eligibility and compare quotes from professionals serving Greenwich, Lewisham, Bromley, and beyond.
               </p>
 
               <Link href="/quiz">
@@ -178,7 +178,7 @@ export default function SouthEastLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Heat Pump Installation Costs in South East London
+              Air Source Heat Pump Installation Costs in South East London
             </h2>
 
             <div className="max-w-5xl mx-auto">
@@ -252,7 +252,7 @@ export default function SouthEastLondonInstallersPage() {
                   Outer South East London has extensive suburban housing from the 1930s and 1950s. Cavity walls, bigger gardens, easier access for installers.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  These are perfect for heat pumps. Lower costs due to straightforward installations. Good value for money in these areas.
+                  These are perfect for Air Source Heat Pumps. Lower costs due to straightforward installations. Good value for money in these areas.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £9,500 - £12,000</p>
@@ -267,7 +267,7 @@ export default function SouthEastLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Deptford, Catford, New Cross</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Victorian houses converted into flats are common. Ground floor flats with gardens work best for heat pumps.
+                  Victorian houses converted into flats are common. Ground floor flats with gardens work best for Air Source Heat Pumps.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Upper floors need outdoor space access. Freeholder permission required. Space for hot water cylinders can be tight in smaller flats.
@@ -285,7 +285,7 @@ export default function SouthEastLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Orpington, Beckenham, Chislehurst</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Outer South East London has plenty of detached properties on larger plots. These offer excellent opportunities for heat pump installation.
+                  Outer South East London has plenty of detached properties on larger plots. These offer excellent opportunities for Air Source Heat Pump installation.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Plenty of positioning options for outdoor units. No shared walls means no neighbor concerns. Often well-insulated already.
@@ -347,16 +347,16 @@ export default function SouthEastLondonInstallersPage() {
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Victorian terraces in Blackheath suitable for heat pumps?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Victorian terraces in Blackheath suitable for Air Source Heat Pumps?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Yes, with preparation. Most Blackheath Victorian properties have solid walls needing insulation upgrades. Loft insulation is straightforward. External wall insulation works well if you can afford it. Once insulation is sorted, heat pumps work brilliantly in these period properties.
+                  Yes, with preparation. Most Blackheath Victorian properties have solid walls needing insulation upgrades. Loft insulation is straightforward. External wall insulation works well if you can afford it. Once insulation is sorted, Air Source Heat Pumps work brilliantly in these period properties.
                 </p>
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How do suburban Bromley properties compare for heat pump costs?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How do suburban Bromley properties compare for Air Source Heat Pump costs?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Bromley, Bexley, and Orpington offer some of the best value for heat pump installations in London. Properties tend to have cavity walls and bigger gardens. Installations are straightforward. Costs are typically £1,000-£2,000 less than inner London equivalents. After the grant, many homeowners pay £2,000-£4,000.
+                  Bromley, Bexley, and Orpington offer some of the best value for Air Source Heat Pump installations in London. Properties tend to have cavity walls and bigger gardens. Installations are straightforward. Costs are typically £1,000-£2,000 less than inner London equivalents. After the grant, many homeowners pay £2,000-£4,000.
                 </p>
               </div>
             </div>

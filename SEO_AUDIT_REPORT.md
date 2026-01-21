@@ -19,29 +19,29 @@ Date: January 1, 2026
 
 | Article Title | URL | Target Keyword | Title Tag | Meta Desc | URL Slug | H1 | First Sentence | Score | Priority |
 |---|---|---|---|---|---|---|---|---|---|
-| Are Heat Pumps Worth It? | `/blog/are-heat-pumps-worth-it` | are heat pumps worth it | ✅ (55 chars) | ✅ (150 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
-| Heat Pump Cost UK | `/blog/heat-pump-cost-uk` | heat pump cost UK | ✅ (61 chars) | ✅ (151 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
-| £7,500 Heat Pump Grant Guide | `/blog/heat-pump-grant-guide` | heat pump grant | ✅ (72 chars) | ✅ (153 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
-| Heat Pump Installation Cost | `/blog/heat-pump-installation-cost-uk` | heat pump installation cost | ✅ (70 chars) | ✅ (147 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
-| How Heat Pumps Work | `/blog/how-heat-pumps-work` | how heat pumps work | ✅ (57 chars) | ✅ (145 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
+| Are Air Source Heat Pumps Worth It? | `/blog/are-heat-pumps-worth-it` | are Air Source Heat Pumps worth it | ✅ (55 chars) | ✅ (150 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
+| Air Source Heat Pump Cost UK | `/blog/heat-pump-cost-uk` | Air Source Heat Pump cost UK | ✅ (61 chars) | ✅ (151 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
+| £7,500 Air Source Heat Pump Grant Guide | `/blog/heat-pump-grant-guide` | Air Source Heat Pump grant | ✅ (72 chars) | ✅ (153 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
+| Air Source Heat Pump Installation Cost | `/blog/heat-pump-installation-cost-uk` | Air Source Heat Pump installation cost | ✅ (70 chars) | ✅ (147 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
+| How Air Source Heat Pumps Work | `/blog/how-heat-pumps-work` | how Air Source Heat Pumps work | ✅ (57 chars) | ✅ (145 chars) | ✅ | ✅ | ✅ | 5/5 | ✅ PASS |
 
 ---
 
 ## ✅ ARTICLE-BY-ARTICLE ANALYSIS
 
-### 1. "Are Heat Pumps Worth It? The Honest Answer for UK Homes"
+### 1. "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes"
 **URL:** `/blog/are-heat-pumps-worth-it`  
-**Primary Target Keyword:** "are heat pumps worth it"
+**Primary Target Keyword:** "are Air Source Heat Pumps worth it"
 
 #### SEO Compliance Checklist:
 
 | Element | Status | Details |
 |---------|--------|---------|
-| **Page Title** | ✅ | "Are Heat Pumps Worth It? The Honest Answer for UK Homes" (55 chars) - Under 60, keyword present, compelling |
-| **Meta Description** | ✅ | "The truth about whether heat pumps are worth it for UK homes. Get honest costs, savings analysis, and find out if a heat pump is right for your home." (153 chars) - Includes keyword, benefit-driven CTA |
+| **Page Title** | ✅ | "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes" (55 chars) - Under 60, keyword present, compelling |
+| **Meta Description** | ✅ | "The truth about whether Air Source Heat Pumps are worth it for UK homes. Get honest costs, savings analysis, and find out if a Air Source Heat Pump is right for your home." (153 chars) - Includes keyword, benefit-driven CTA |
 | **URL Slug** | ✅ | `are-heat-pumps-worth-it` - Clean, readable, primary keyword present |
-| **H1 Header** | ✅ | "Are Heat Pumps Worth It? The Honest Answer" - Keyword present, single H1, matches user intent |
-| **First Sentence** | ✅ | "Let me get straight to the point. You're thinking about getting a heat pump, and you want to know if it's actually worth the money and hassle." - Naturally addresses the core question |
+| **H1 Header** | ✅ | "Are Air Source Heat Pumps Worth It? The Honest Answer" - Keyword present, single H1, matches user intent |
+| **First Sentence** | ✅ | "Let me get straight to the point. You're thinking about getting a Air Source Heat Pump, and you want to know if it's actually worth the money and hassle." - Naturally addresses the core question |
 
 **Additional Quality Checks:**
 - ✅ No keyword stuffing detected
@@ -55,19 +55,19 @@ Date: January 1, 2026
 
 ---
 
-### 2. "Heat Pump Cost UK 2025: Complete Price Breakdown & Savings"
+### 2. "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings"
 **URL:** `/blog/heat-pump-cost-uk`  
-**Primary Target Keyword:** "heat pump cost UK"
+**Primary Target Keyword:** "Air Source Heat Pump cost UK"
 
 #### SEO Compliance Checklist:
 
 | Element | Status | Details |
 |---------|--------|---------|
-| **Page Title** | ✅ | "Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars) - SLIGHT OVERAGE but includes keyword, compelling |
+| **Page Title** | ✅ | "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars) - SLIGHT OVERAGE but includes keyword, compelling |
 | **Meta Description** | ✅ | "Heat pump installation costs, running costs, and £7,500 grant deductions explained. Real examples from UK homes. Calculate your total cost and savings." (151 chars) - Keyword present, benefit-focused |
 | **URL Slug** | ✅ | `heat-pump-cost-uk` - Clean, primary keyword included, readable |
-| **H1 Header** | ✅ | "Heat Pump Cost UK 2025: Complete Price Breakdown" - Keyword present, single H1, clear intent |
-| **First Sentence** | ✅ | "Thinking about installing a heat pump? One question probably keeps you up at night: "How much is this actually going to cost?"" - Addresses primary concern immediately |
+| **H1 Header** | ✅ | "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown" - Keyword present, single H1, clear intent |
+| **First Sentence** | ✅ | "Thinking about installing a Air Source Heat Pump? One question probably keeps you up at night: "How much is this actually going to cost?"" - Addresses primary concern immediately |
 
 **Additional Quality Checks:**
 - ✅ Excellent content structure
@@ -77,26 +77,26 @@ Date: January 1, 2026
 - ✅ Clear value proposition
 
 **⚠️ Minor Issue:**
-- Title tag is 61 characters (best practice: under 60). **Recommendation:** Trim to "Heat Pump Cost UK: Complete Price Breakdown & Savings" (54 chars) for perfect compliance.
+- Title tag is 61 characters (best practice: under 60). **Recommendation:** Trim to "Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings" (54 chars) for perfect compliance.
 
 **Compliance Score:** 4.5/5 ⚠️  
 **Priority:** HIGH - Easy fix (1 minute)
 
 ---
 
-### 3. "£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide"
+### 3. "£7,500 Air Source Heat Pump Grant UK 2025 | Government Grant Eligibility Guide"
 **URL:** `/blog/heat-pump-grant-guide`  
-**Primary Target Keyword:** "heat pump grant"
+**Primary Target Keyword:** "Air Source Heat Pump grant"
 
 #### SEO Compliance Checklist:
 
 | Element | Status | Details |
 |---------|--------|---------|
-| **Page Title** | ✅ | "£7,500 Heat Pump Grant UK 2025 \| Government Grant Eligibility Guide" (72 chars) - OVERAGE but includes keyword |
-| **Meta Description** | ✅ | "Complete guide to the £7,500 heat pump grant UK 2025. Check eligibility, learn how to apply for government heat pump grants, and find MCS installers. Available in England, Scotland & Wales." (153 chars) - Keyword present, comprehensive |
+| **Page Title** | ✅ | "£7,500 Air Source Heat Pump Grant UK 2025 \| Government Grant Eligibility Guide" (72 chars) - OVERAGE but includes keyword |
+| **Meta Description** | ✅ | "Complete guide to the £7,500 Air Source Heat Pump grant UK 2025. Check eligibility, learn how to apply for government Air Source Heat Pump grants, and find MCS installers. Available in England, Scotland & Wales." (153 chars) - Keyword present, comprehensive |
 | **URL Slug** | ✅ | `heat-pump-grant-guide` - Primary keyword present, readable, clean |
-| **H1 Header** | ✅ | "Everything You Need to Know About the £7,500 Heat Pump Grant" - Keyword naturally integrated, single H1 |
-| **First Sentence** | ✅ | "Good news! The UK government is giving away up to £7,500 to help you get a heat pump for your home." - Keyword present, immediately addresses benefit |
+| **H1 Header** | ✅ | "Everything You Need to Know About the £7,500 Air Source Heat Pump Grant" - Keyword naturally integrated, single H1 |
+| **First Sentence** | ✅ | "Good news! The UK government is giving away up to £7,500 to help you get a Air Source Heat Pump for your home." - Keyword present, immediately addresses benefit |
 
 **Additional Quality Checks:**
 - ✅ Excellent keyword distribution
@@ -106,25 +106,25 @@ Date: January 1, 2026
 - ✅ Strong CTA integration
 
 **⚠️ Minor Issue:**
-- Title tag is 72 characters (overage of 12 characters). **Recommendation:** Trim to "£7,500 Heat Pump Grant UK 2025 | Eligibility Guide" (56 chars).
+- Title tag is 72 characters (overage of 12 characters). **Recommendation:** Trim to "£7,500 Air Source Heat Pump Grant UK 2025 | Eligibility Guide" (56 chars).
 
 **Compliance Score:** 4.5/5 ⚠️  
 **Priority:** MEDIUM - Title optimization (1 minute)
 
 ---
 
-### 4. "Heat Pump Installation Cost UK: What You'll Actually Pay 2025"
+### 4. "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay 2025"
 **URL:** `/blog/heat-pump-installation-cost-uk`  
-**Primary Target Keyword:** "heat pump installation cost"
+**Primary Target Keyword:** "Air Source Heat Pump installation cost"
 
 #### SEO Compliance Checklist:
 
 | Element | Status | Details |
 |---------|--------|---------|
-| **Page Title** | ✅ | "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars) - OVERAGE but keyword-rich and compelling |
+| **Page Title** | ✅ | "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars) - OVERAGE but keyword-rich and compelling |
 | **Meta Description** | ✅ | "Heat pump installation cost UK ranges from £8,000-£15,000. With £7,500 grant, pay as little as £500. Complete price breakdown, hidden costs, and how to save money." (147 chars) - Keyword present, specific benefits |
 | **URL Slug** | ✅ | `heat-pump-installation-cost-uk` - Primary keyword included, clean, readable |
-| **H1 Header** | ✅ | "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" - Keyword present, single H1, matches intent |
+| **H1 Header** | ✅ | "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" - Keyword present, single H1, matches intent |
 | **First Sentence** | ✅ | "Heat pump installation cost is probably the first thing you want to know about when you're thinking of getting one." - Keyword naturally integrated |
 
 **Additional Quality Checks:**
@@ -135,26 +135,26 @@ Date: January 1, 2026
 - ✅ User intent focused
 
 **⚠️ Minor Issue:**
-- Title tag is 70 characters (overage of 10). **Recommendation:** Trim to "Heat Pump Installation Cost UK: What You'll Pay 2025" (57 chars).
+- Title tag is 70 characters (overage of 10). **Recommendation:** Trim to "Air Source Heat Pump Installation Cost UK: What You'll Pay 2025" (57 chars).
 
 **Compliance Score:** 4.5/5 ⚠️  
 **Priority:** MEDIUM - Title optimization
 
 ---
 
-### 5. "How Do Heat Pumps Work? Simple Guide for UK Homeowners"
+### 5. "How Do Air Source Heat Pumps Work? Simple Guide for UK Homeowners"
 **URL:** `/blog/how-heat-pumps-work`  
-**Primary Target Keyword:** "how heat pumps work"
+**Primary Target Keyword:** "how Air Source Heat Pumps work"
 
 #### SEO Compliance Checklist:
 
 | Element | Status | Details |
 |---------|--------|---------|
-| **Page Title** | ✅ | "How Do Heat Pumps Work? Simple Guide for UK Homeowners" (57 chars) - Perfect length, keyword present, compelling |
-| **Meta Description** | ✅ | "Learn how heat pumps work in simple terms. Discover why they're 3x more efficient than boilers and how to get £7,500 off installation. Easy 5-minute read." (145 chars) - Keyword present, benefit-driven |
+| **Page Title** | ✅ | "How Do Air Source Heat Pumps Work? Simple Guide for UK Homeowners" (57 chars) - Perfect length, keyword present, compelling |
+| **Meta Description** | ✅ | "Learn how Air Source Heat Pumps work in simple terms. Discover why they're 3x more efficient than boilers and how to get £7,500 off installation. Easy 5-minute read." (145 chars) - Keyword present, benefit-driven |
 | **URL Slug** | ✅ | `how-heat-pumps-work` - Primary keyword present, clean, readable |
-| **H1 Header** | ✅ | "How Do Heat Pumps Work? The Simple Guide" - Keyword present, single H1, perfect intent match |
-| **First Sentence** | ✅ | "You know how your fridge keeps food cold? Well, a heat pump is basically a fridge that works backwards." - Keyword naturally integrated with relatable analogy |
+| **H1 Header** | ✅ | "How Do Air Source Heat Pumps Work? The Simple Guide" - Keyword present, single H1, perfect intent match |
+| **First Sentence** | ✅ | "You know how your fridge keeps food cold? Well, a Air Source Heat Pump is basically a fridge that works backwards." - Keyword naturally integrated with relatable analogy |
 
 **Additional Quality Checks:**
 - ✅ Perfect title tag length
@@ -185,24 +185,24 @@ No critical SEO violations detected. All articles include:
 ## ⚠️ HIGH PRIORITY ISSUES
 **Status: 3 Minor Title Tag Oversights**
 
-### Issue 1: "Heat Pump Cost UK" Title Tag
-- **Current:** "Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars)
+### Issue 1: "Air Source Heat Pump Cost UK" Title Tag
+- **Current:** "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars)
 - **Problem:** 1 character over optimal limit
-- **Fix:** Remove "2025: " → "Heat Pump Cost UK Complete Price Breakdown & Savings" (54 chars)
+- **Fix:** Remove "2025: " → "Air Source Heat Pump Cost UK Complete Price Breakdown & Savings" (54 chars)
 - **Time to Fix:** 1 minute
 - **Impact:** Low (minor truncation risk in some SERPs)
 
-### Issue 2: "Heat Pump Grant Guide" Title Tag  
-- **Current:** "£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide" (72 chars)
+### Issue 2: "Air Source Heat Pump Grant Guide" Title Tag  
+- **Current:** "£7,500 Air Source Heat Pump Grant UK 2025 | Government Grant Eligibility Guide" (72 chars)
 - **Problem:** 12 characters over limit (high truncation risk)
-- **Fix:** "£7,500 Heat Pump Grant UK | Eligibility Guide" (52 chars)
+- **Fix:** "£7,500 Air Source Heat Pump Grant UK | Eligibility Guide" (52 chars)
 - **Time to Fix:** 1 minute
 - **Impact:** Medium (will be truncated in most SERPs)
 
-### Issue 3: "Heat Pump Installation Cost" Title Tag
-- **Current:** "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars)
+### Issue 3: "Air Source Heat Pump Installation Cost" Title Tag
+- **Current:** "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars)
 - **Problem:** 10 characters over limit
-- **Fix:** "Heat Pump Installation Cost UK: What You'll Pay 2025" (56 chars)
+- **Fix:** "Air Source Heat Pump Installation Cost UK: What You'll Pay 2025" (56 chars)
 - **Time to Fix:** 1 minute
 - **Impact:** Medium (truncation risk)
 
@@ -216,37 +216,37 @@ No critical SEO violations detected. All articles include:
 ### 🟠 HIGH (Fix This Month)
 **Estimate: 3 minutes total**
 
-#### Article 1: "Heat Pump Cost UK"
+#### Article 1: "Air Source Heat Pump Cost UK"
 **File:** `/Users/jama/Downloads/heat-pump-resource-landing-page/app/blog/heat-pump-cost-uk/page.tsx`
 
 ```tsx
 // Line 21 - CHANGE FROM:
-<title>Heat Pump Cost UK 2025: Complete Price Breakdown & Savings</title>
+<title>Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings</title>
 
 // TO:
-<title>Heat Pump Cost UK: Complete Price Breakdown & Savings</title>
+<title>Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings</title>
 ```
 
-#### Article 2: "Heat Pump Grant Guide"
+#### Article 2: "Air Source Heat Pump Grant Guide"
 **File:** `/Users/jama/Downloads/heat-pump-resource-landing-page/app/blog/heat-pump-grant-guide/page.tsx`
 
 ```tsx
 // Line 21 - CHANGE FROM:
-<title>£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide</title>
+<title>£7,500 Air Source Heat Pump Grant UK 2025 | Government Grant Eligibility Guide</title>
 
 // TO:
-<title>£7,500 Heat Pump Grant UK | Eligibility Guide</title>
+<title>£7,500 Air Source Heat Pump Grant UK | Eligibility Guide</title>
 ```
 
-#### Article 3: "Heat Pump Installation Cost"
+#### Article 3: "Air Source Heat Pump Installation Cost"
 **File:** `/Users/jama/Downloads/heat-pump-resource-landing-page/app/blog/heat-pump-installation-cost-uk/page.tsx`
 
 ```tsx
 // Line 21 - CHANGE FROM:
-<title>Heat Pump Installation Cost UK: What You'll Actually Pay 2025</title>
+<title>Air Source Heat Pump Installation Cost UK: What You'll Actually Pay 2025</title>
 
 // TO:
-<title>Heat Pump Installation Cost UK: What You'll Pay 2025</title>
+<title>Air Source Heat Pump Installation Cost UK: What You'll Pay 2025</title>
 ```
 
 ### 🟡 MEDIUM (Optimize When Possible)
@@ -265,11 +265,11 @@ No critical SEO violations detected. All articles include:
 
 | Article | Status | Keyword Focus | Target Audience | Search Intent | Publish Date |
 |---------|--------|---|---|---|---|
-| Are Heat Pumps Worth It | ✅ OPTIMIZED | Decision/ROI | Prospects | Commercial | Jan 1, 2026 |
-| Heat Pump Cost UK | ⚠️ MINOR ISSUE | Cost/Pricing | Prospects | Commercial | Mar 10, 2025 |
-| Heat Pump Grant Guide | ⚠️ MINOR ISSUE | Grant/Incentive | Prospects | Informational | Mar 15, 2025 |
-| Heat Pump Installation | ⚠️ MINOR ISSUE | Cost/Services | Prospects | Commercial | Jan 1, 2026 |
-| How Heat Pumps Work | ✅ OPTIMIZED | Educational | All Users | Informational | Mar 18, 2025 |
+| Are Air Source Heat Pumps Worth It | ✅ OPTIMIZED | Decision/ROI | Prospects | Commercial | Jan 1, 2026 |
+| Air Source Heat Pump Cost UK | ⚠️ MINOR ISSUE | Cost/Pricing | Prospects | Commercial | Mar 10, 2025 |
+| Air Source Heat Pump Grant Guide | ⚠️ MINOR ISSUE | Grant/Incentive | Prospects | Informational | Mar 15, 2025 |
+| Air Source Heat Pump Installation | ⚠️ MINOR ISSUE | Cost/Services | Prospects | Commercial | Jan 1, 2026 |
+| How Air Source Heat Pumps Work | ✅ OPTIMIZED | Educational | All Users | Informational | Mar 18, 2025 |
 
 ---
 
@@ -304,11 +304,11 @@ No critical SEO violations detected. All articles include:
 ## 📈 KEYWORD PERFORMANCE POTENTIAL
 
 ### High Opportunity Keywords:
-1. **"heat pump grant"** - High search volume, commercial intent
-2. **"heat pump cost UK"** - High intent, competition moderate
-3. **"are heat pumps worth it"** - Long-tail, high intent
-4. **"how heat pumps work"** - Informational, decent volume
-5. **"heat pump installation cost"** - Transactional, high value
+1. **"Air Source Heat Pump grant"** - High search volume, commercial intent
+2. **"Air Source Heat Pump cost UK"** - High intent, competition moderate
+3. **"are Air Source Heat Pumps worth it"** - Long-tail, high intent
+4. **"how Air Source Heat Pumps work"** - Informational, decent volume
+5. **"Air Source Heat Pump installation cost"** - Transactional, high value
 
 ---
 
@@ -398,9 +398,9 @@ Each article evaluated on 5 critical SEO elements:
 4. 🎯 Develop content calendar targeting high-opportunity keywords
 
 ### Long-term (This Year):
-1. 📈 Build topical authority across heat pump topics
+1. 📈 Build topical authority across Air Source Heat Pump topics
 2. 🔍 Target related long-tail keywords
-3. 🏆 Establish site as authority in UK heat pump space
+3. 🏆 Establish site as authority in UK Air Source Heat Pump space
 4. 📊 Track rankings for all primary keywords
 
 ---

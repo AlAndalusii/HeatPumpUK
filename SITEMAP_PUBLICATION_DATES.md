@@ -12,11 +12,11 @@ Your sitemap now reflects the **actual publication dates** for each blog article
 
 | Article | URL | Published | Last Modified | Status |
 |---------|-----|-----------|---------------|--------|
-| **Are Heat Pumps Worth It?** | `/blog/are-heat-pumps-worth-it` | Jan 1, 2026 | 2026-01-01 | ✅ Current |
-| **How Heat Pumps Work?** | `/blog/how-heat-pumps-work` | Mar 18, 2025 | 2025-03-18 | ✅ Accurate |
-| **Heat Pump Cost UK** | `/blog/heat-pump-cost-uk` | Mar 10, 2025 | 2025-03-10 | ✅ Accurate |
-| **Heat Pump Grant Guide** | `/blog/heat-pump-grant-guide` | Mar 15, 2025 | 2025-03-15 | ✅ Accurate |
-| **Heat Pump Installation Cost UK** | `/blog/heat-pump-installation-cost-uk` | Jan 1, 2026 | 2026-01-01 | ✅ Current |
+| **Are Air Source Heat Pumps Worth It?** | `/blog/are-heat-pumps-worth-it` | Jan 1, 2026 | 2026-01-01 | ✅ Current |
+| **How Air Source Heat Pumps Work?** | `/blog/how-heat-pumps-work` | Mar 18, 2025 | 2025-03-18 | ✅ Accurate |
+| **Air Source Heat Pump Cost UK** | `/blog/heat-pump-cost-uk` | Mar 10, 2025 | 2025-03-10 | ✅ Accurate |
+| **Air Source Heat Pump Grant Guide** | `/blog/heat-pump-grant-guide` | Mar 15, 2025 | 2025-03-15 | ✅ Accurate |
+| **Air Source Heat Pump Installation Cost UK** | `/blog/heat-pump-installation-cost-uk` | Jan 1, 2026 | 2026-01-01 | ✅ Current |
 
 ---
 
@@ -24,13 +24,13 @@ Your sitemap now reflects the **actual publication dates** for each blog article
 
 ```
 March 2025:
-├─ Mar 10: Heat Pump Cost UK (first published)
-├─ Mar 15: Heat Pump Grant Guide
-└─ Mar 18: How Heat Pumps Work
+├─ Mar 10: Air Source Heat Pump Cost UK (first published)
+├─ Mar 15: Air Source Heat Pump Grant Guide
+└─ Mar 18: How Air Source Heat Pumps Work
 
 January 2026:
-├─ Jan 1: Are Heat Pumps Worth It?
-└─ Jan 1: Heat Pump Installation Cost UK
+├─ Jan 1: Are Air Source Heat Pumps Worth It?
+└─ Jan 1: Air Source Heat Pump Installation Cost UK
 ```
 
 ---
@@ -120,13 +120,13 @@ January 2026:
 
 ```
 March 2025:     3 articles
-├─ Heat Pump Cost UK (Mar 10)
-├─ Heat Pump Grant Guide (Mar 15)
-└─ How Heat Pumps Work (Mar 18)
+├─ Air Source Heat Pump Cost UK (Mar 10)
+├─ Air Source Heat Pump Grant Guide (Mar 15)
+└─ How Air Source Heat Pumps Work (Mar 18)
 
 January 2026:   2 articles
-├─ Are Heat Pumps Worth It? (Jan 1)
-└─ Heat Pump Installation Cost UK (Jan 1)
+├─ Are Air Source Heat Pumps Worth It? (Jan 1)
+└─ Air Source Heat Pump Installation Cost UK (Jan 1)
 ```
 
 **Result:** ✅ Natural publication timeline showing active content creation
@@ -185,7 +185,7 @@ January 2026:   2 articles
 
 ## 📋 Complete Article Timeline
 
-### Article 1: Are Heat Pumps Worth It?
+### Article 1: Are Air Source Heat Pumps Worth It?
 ```
 Published:    January 1, 2026
 URL:          /blog/are-heat-pumps-worth-it
@@ -193,7 +193,7 @@ Lastmod:      2026-01-01
 Status:       NEWEST ⭐
 ```
 
-### Article 2: Heat Pump Installation Cost UK
+### Article 2: Air Source Heat Pump Installation Cost UK
 ```
 Published:    January 1, 2026
 URL:          /blog/heat-pump-installation-cost-uk
@@ -201,7 +201,7 @@ Lastmod:      2026-01-01
 Status:       NEWEST ⭐
 ```
 
-### Article 3: How Heat Pumps Work?
+### Article 3: How Air Source Heat Pumps Work?
 ```
 Published:    March 18, 2025
 URL:          /blog/how-heat-pumps-work
@@ -209,7 +209,7 @@ Lastmod:      2025-03-18
 Status:       OLDER (9-10 months)
 ```
 
-### Article 4: Heat Pump Grant Guide
+### Article 4: Air Source Heat Pump Grant Guide
 ```
 Published:    March 15, 2025
 URL:          /blog/heat-pump-grant-guide
@@ -217,7 +217,7 @@ Lastmod:      2025-03-15
 Status:       OLDER (9-10 months)
 ```
 
-### Article 5: Heat Pump Cost UK
+### Article 5: Air Source Heat Pump Cost UK
 ```
 Published:    March 10, 2025
 URL:          /blog/heat-pump-cost-uk
@@ -306,19 +306,19 @@ Keep a simple list:
 When Google crawls your sitemap, it will see:
 
 ```
-Are Heat Pumps Worth It?
+Are Air Source Heat Pumps Worth It?
   └─ Published: January 1, 2026 ← NEWEST
 
-Heat Pump Installation Cost UK
+Air Source Heat Pump Installation Cost UK
   └─ Published: January 1, 2026 ← NEWEST
 
-How Heat Pumps Work?
+How Air Source Heat Pumps Work?
   └─ Published: March 18, 2025 ← 9+ months old
 
-Heat Pump Grant Guide
+Air Source Heat Pump Grant Guide
   └─ Published: March 15, 2025 ← 9+ months old
 
-Heat Pump Cost UK
+Air Source Heat Pump Cost UK
   └─ Published: March 10, 2025 ← 10 months old
 ```
 

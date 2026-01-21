@@ -53,8 +53,8 @@ export default function NorthLondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installers North London | Local MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in North London. Serving Islington, Camden, Hampstead, Barnet and all N postcodes. £7,500 grant support." />
+        <title>Air Source Heat Pump Installers North London | Local MCS Quotes</title>
+        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in North London. Serving Islington, Camden, Hampstead, Barnet and all N postcodes. £7,500 grant support." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london/north-london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -139,16 +139,16 @@ export default function NorthLondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#5856d6]">North London Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#5856d6]">North London Air Source Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Heat Pump Installers North London: Local MCS-Certified Quotes
+                Air Source Heat Pump Installers North London: Local MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                Looking for heat pump installers in North London? We connect homeowners across N postcodes with vetted, MCS-certified installers who understand North London properties. Check your £7,500 grant eligibility and compare quotes from local professionals.
+                Looking for Air Source Heat Pump installers in North London? We connect homeowners across N postcodes with vetted, MCS-certified installers who understand North London properties. Check your £7,500 grant eligibility and compare quotes from local professionals.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -167,7 +167,7 @@ export default function NorthLondonInstallersPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll">
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-6">
-                North London has some of the UK's most expensive property and strongest environmental awareness. Hampstead, Highgate, Islington, Camden – these areas are leading the way on heat pump adoption.
+                North London has some of the UK's most expensive property and strongest environmental awareness. Hampstead, Highgate, Islington, Camden – these areas are leading the way on Air Source Heat Pump adoption.
               </p>
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7]">
                 Properties here are typically well-maintained with good insulation already in place. Conservation areas are common, but local installers know how to navigate planning requirements.
@@ -180,7 +180,7 @@ export default function NorthLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Heat Pump Installation Costs in North London
+              Air Source Heat Pump Installation Costs in North London
             </h2>
 
             <div className="max-w-5xl mx-auto">
@@ -251,10 +251,10 @@ export default function NorthLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Islington, Camden, Holloway</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Victorian and Edwardian houses converted into flats are common throughout North London. Each flat needs individual consideration for heat pump suitability.
+                  Victorian and Edwardian houses converted into flats are common throughout North London. Each flat needs individual consideration for Air Source Heat Pump suitability.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Ground floor and garden flats are easiest. Upper floors need outdoor space (balcony or roof access) and freeholder permission. Building management companies in Islington tend to be relatively progressive about heat pumps.
+                  Ground floor and garden flats are easiest. Upper floors need outdoor space (balcony or roof access) and freeholder permission. Building management companies in Islington tend to be relatively progressive about Air Source Heat Pumps.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £11,000 - £14,000</p>
@@ -269,7 +269,7 @@ export default function NorthLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">King's Cross, Camden, Finsbury Park</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  New developments around King's Cross and Finsbury Park offer good opportunities for heat pumps. Well-insulated buildings with underfloor heating are ideal candidates.
+                  New developments around King's Cross and Finsbury Park offer good opportunities for Air Source Heat Pumps. Well-insulated buildings with underfloor heating are ideal candidates.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Balconies are usually suitable for outdoor units. Main challenge is getting management company approval and finding space for the hot water cylinder.
@@ -287,7 +287,7 @@ export default function NorthLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Hampstead, Highgate, Kentish Town</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Many North London areas have conservation status. This doesn't mean you can't get a heat pump, but positioning matters.
+                  Many North London areas have conservation status. This doesn't mean you can't get a Air Source Heat Pump, but positioning matters.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Side or rear walls usually fine. Front-facing installations need planning permission. Our installers have extensive experience working with Camden and Barnet planning departments.
@@ -343,21 +343,21 @@ export default function NorthLondonInstallersPage() {
 
             <div className="space-y-8">
               <div className="opacity-0 animate-fade-in-up-scroll">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are heat pumps suitable for large Hampstead and Highgate homes?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps suitable for large Hampstead and Highgate homes?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Yes, very much so. Larger properties might need bigger units or multiple heat pumps to cover the whole house. The key is proper heat loss calculations during the survey. Many Hampstead homes already have good insulation, which helps enormously. Running costs can actually be lower than gas heating because of how efficient heat pumps are.
+                  Yes, very much so. Larger properties might need bigger units or multiple Air Source Heat Pumps to cover the whole house. The key is proper heat loss calculations during the survey. Many Hampstead homes already have good insulation, which helps enormously. Running costs can actually be lower than gas heating because of how efficient Air Source Heat Pumps are.
                 </p>
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">What about conservation areas common in North London?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Conservation areas don't automatically mean no heat pump. It depends where the outdoor unit goes. Rear walls not visible from the street usually don't need planning permission. Front walls probably will. Our installers know Camden and Barnet planning rules well and can advise on positioning that's likely to be approved.
+                  Conservation areas don't automatically mean no Air Source Heat Pump. It depends where the outdoor unit goes. Rear walls not visible from the street usually don't need planning permission. Front walls probably will. Our installers know Camden and Barnet planning rules well and can advise on positioning that's likely to be approved.
                 </p>
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do converted flats in Islington work for heat pumps?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do converted flats in Islington work for Air Source Heat Pumps?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Many do. Ground floor flats with garden access are straightforward. Upper floor flats need either balcony space or roof access for the outdoor unit. You'll need permission from all freeholders in the building, which can take time. Islington freeholders tend to be more progressive than some other boroughs, but it's not guaranteed.
                 </p>

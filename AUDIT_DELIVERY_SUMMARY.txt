@@ -3,7 +3,7 @@
          GetHeatPumpQuotes.co.uk
 ================================================================================
 
-PROJECT: Heat Pump Resource Landing Page
+PROJECT: Air Source Heat Pump Resource Landing Page
 AUDIT SCOPE: Phase 1 - Technical SEO Foundation (9-Point Audit)
 DELIVERY DATE: January 1, 2026
 STATUS: ✅ COMPLETE & READY FOR IMPLEMENTATION
@@ -342,7 +342,7 @@ The audit covers:
 
 FINDING #1: Excellent Technical Foundation
 └─ Next.js 16 + Vercel = best-in-class setup
-└─ Better than 90% of heat pump websites
+└─ Better than 90% of Air Source Heat Pump websites
 └─ Ready for serious SEO work
 
 FINDING #2: Critical Gaps in Indexing Setup

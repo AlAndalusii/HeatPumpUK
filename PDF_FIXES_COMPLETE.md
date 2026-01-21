@@ -72,7 +72,7 @@ PDF opens/downloads
 
 ### User Thank You Email
 
-**Subject**: Your Heat Pump Guide is Ready
+**Subject**: Your Air Source Heat Pump Guide is Ready
 
 **Contains**:
 - Thank you message
@@ -122,7 +122,7 @@ RESEND_API_KEY=re_your_api_key_here
 
 Optional (for production with verified domain):
 ```bash
-EMAIL_FROM=Get Heat Pump Quotes <noreply@getheatpumpquotes.co.uk>
+EMAIL_FROM=Get Air Source Heat Pump Quotes <noreply@getheatpumpquotes.co.uk>
 ```
 
 ### Step 3: Restart Server

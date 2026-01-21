@@ -183,11 +183,11 @@ STATUS:       ✅ READY FOR GOOGLE
     └─ Secondary conversions, frequently updated
 
 0.85 (SEO Content - 5 URLs):
-    ├─ Are Heat Pumps Worth It?
-    ├─ How Heat Pumps Work?
-    ├─ Heat Pump Cost UK
-    ├─ Heat Pump Grant Guide
-    ├─ Heat Pump Installation Cost UK
+    ├─ Are Air Source Heat Pumps Worth It?
+    ├─ How Air Source Heat Pumps Work?
+    ├─ Air Source Heat Pump Cost UK
+    ├─ Air Source Heat Pump Grant Guide
+    ├─ Air Source Heat Pump Installation Cost UK
     └─ High-value content for rankings
 
 0.8 (Important Info - 2 URLs):

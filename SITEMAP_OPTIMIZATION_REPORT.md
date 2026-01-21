@@ -96,11 +96,11 @@
 ### Tier 4: SEO Content (0.85)
 ```
 5 URLs: Blog articles
-├─ Are Heat Pumps Worth It?
-├─ How Heat Pumps Work?
-├─ Heat Pump Cost UK
-├─ Heat Pump Grant Guide
-└─ Heat Pump Installation Cost UK
+├─ Are Air Source Heat Pumps Worth It?
+├─ How Air Source Heat Pumps Work?
+├─ Air Source Heat Pump Cost UK
+├─ Air Source Heat Pump Grant Guide
+└─ Air Source Heat Pump Installation Cost UK
 └─ Priority: 0.85 each (high-value SEO content)
 ```
 

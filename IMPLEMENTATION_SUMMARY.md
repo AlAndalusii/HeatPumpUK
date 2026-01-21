@@ -1,12 +1,12 @@
-# Heat Pump Lead Capture - Implementation Summary
+# Air Source Heat Pump Lead Capture - Implementation Summary
 
 ## Overview
-Transformed the website into a world-class lead capture system for UK heat pump customers, capturing both grant-eligible and direct installation leads.
+Transformed the website into a world-class lead capture system for UK Air Source Heat Pump customers, capturing both grant-eligible and direct installation leads.
 
 ## ✅ Homepage Changes Implemented
 
 ### Hero Section
-- **New Main Headline**: "Get Heat Pump Quotes - Compare Prices & Save"
+- **New Main Headline**: "Get Air Source Heat Pump Quotes - Compare Prices & Save"
 - **New Subheadline**: "Free quotes from vetted installers. Most customers qualify for £7,500 grant."
 - **Single CTA Button**: "Get Free Quotes" - prominent, impossible to miss
 - Simplified navigation to reduce friction
@@ -195,7 +195,7 @@ Successfully transformed the website into a lead generation machine that:
 - ✅ Provides intelligent qualification logic
 - ✅ Sets clear expectations (24-hour response)
 
-The website is now ready to capture high-quality heat pump leads!
+The website is now ready to capture high-quality Air Source Heat Pump leads!
 
 
 

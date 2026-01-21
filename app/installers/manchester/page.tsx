@@ -53,9 +53,9 @@ export default function ManchesterInstallersPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installers Manchester | Compare MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in Manchester. Check £7,500 grant eligibility. Serving all Greater Manchester areas." />
-        <meta name="keywords" content="heat pump installers Manchester, heat pump Manchester, air source heat pump Manchester, heat pump installation Manchester, heat pumps Manchester, MCS certified Manchester" />
+        <title>Air Source Heat Pump Installers Manchester | Compare MCS Quotes</title>
+        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in Manchester. Check £7,500 grant eligibility. Serving all Greater Manchester areas." />
+        <meta name="keywords" content="Air Source Heat Pump installers Manchester, Air Source Heat Pump Manchester, Air Source Heat Pump Manchester, Air Source Heat Pump installation Manchester, Air Source Heat Pumps Manchester, MCS certified Manchester" />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/manchester" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -141,30 +141,30 @@ export default function ManchesterInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#0071e3]">Compare Heat Pump Installers in Manchester</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#0071e3]">Compare Air Source Heat Pump Installers in Manchester</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Air Source Heat Pump Installers in Manchester
+                Compare Air Source Heat Pump Installers in Manchester
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-4">
-                Sarah from Manchester just checked her eligibility and qualified for £7,500!
+                Sarah from Manchester just checked her eligibility and qualified for £7,500.
               </p>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-4">
-                <Link href="/quiz" className="text-[#0071e3] hover:underline">Check your eligibility in 90 seconds</Link> and compare free quotes from 3 vetted air source heat pump installers in Manchester.
+                <Link href="/quiz" className="text-[#0071e3] hover:underline">Check your eligibility in 90 seconds</Link> and compare free quotes from up to 3 vetted air source heat pump installers in Manchester.
               </p>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                We don't install heat pumps — we help Manchester homeowners find trusted installers.
+                We don't install heat pumps ourselves – we're an independent comparison service that helps Manchester homeowners find trusted, MCS-certified installers.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/quiz">
                   <Button className="w-full sm:w-auto bg-[#0071e3] hover:bg-[#0077ed] text-white px-10 py-4 text-[17px] rounded-full font-semibold transition-all duration-300 hover:scale-[1.03] shadow-lg min-h-[52px]">
-                    Get Free Quotes - Check Grant Eligibility
+                    Get Free Quotes – Check Grant Eligibility
                   </Button>
                 </Link>
               </div>
@@ -172,63 +172,6 @@ export default function ManchesterInstallersPage() {
           </div>
         </section>
 
-        {/* SEO Report Section */}
-        <section className="py-16 sm:py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-4xl mx-auto opacity-0 animate-fade-in-up-scroll">
-              <h2 className="text-[28px] sm:text-[32px] md:text-[36px] font-semibold text-[#1d1d1f] tracking-tight mb-6">
-                SEO Report: Content Type Analysis for [air source heat pump installation manchester]
-              </h2>
-              
-              <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-4">
-                What this report does: The Content Type Analysis report looks at the top webpages ranking in Google on the first page and tries to classify the content based on type. It then presents this data categorized in a table.
-              </p>
-              
-              <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-8">
-                When to use this report: The Content Type Analysis report should be used when you want to figure out the type of content that is shown by Google to satisfy the search query. If Google always shows a particular type of content for this query, then you may want to create content of the same type.
-              </p>
-
-              <div className="overflow-x-auto mb-8">
-                <table className="w-full border-collapse">
-                  <thead>
-                    <tr className="border-b-2 border-gray-300">
-                      <th className="text-left py-4 px-4 text-[16px] font-semibold text-[#1d1d1f]">Content Type</th>
-                      <th className="text-left py-4 px-4 text-[16px] font-semibold text-[#1d1d1f]">Pages</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b border-gray-200">
-                      <td className="py-4 px-4 text-[16px] text-[#1d1d1f]">Category pages (2)</td>
-                      <td className="py-4 px-4 text-[16px] text-[#6e6e73]">
-                        <a href="https://www.renewableenergyhub.co.uk/heat-pump-ashp-gshp-ground-and-air-source-installers-in-manchester" className="text-[#0071e3] hover:underline">1</a>
-                        , <a href="https://www.checkatrade.com/Search/Air-Source-Heat-Pump-Installation-Ashp/in/Manchester" className="text-[#0071e3] hover:underline">2</a>
-                      </td>
-                    </tr>
-                    <tr className="border-b border-gray-200">
-                      <td className="py-4 px-4 text-[16px] text-[#1d1d1f]">Landing pages for a service (3)</td>
-                      <td className="py-4 px-4 text-[16px] text-[#6e6e73]">
-                        <a href="https://renewableplanet.co.uk/air-source-heat-pump-manchester/" className="text-[#0071e3] hover:underline">3</a>
-                        , <a href="https://boxergy.co.uk/heat-pump-installation-manchester/" className="text-[#0071e3] hover:underline">4</a>
-                        , <a href="https://amellorplumbingandheating.co.uk/air-source-heat-pumps-manchester/" className="text-[#0071e3] hover:underline">5</a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Why Use Our Service */}
-        <section className="py-16 sm:py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto text-center mb-12 opacity-0 animate-fade-in-up-scroll">
-              <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7]">
-                We're an independent installer comparison service helping Manchester homeowners compare heat pump installers — we don't install heat pumps ourselves.
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Cost Section */}
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
@@ -243,15 +186,15 @@ export default function ManchesterInstallersPage() {
               </p>
 
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-8 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
-                Air source heat pump installation costs in Manchester are typically more affordable than London. The city's mix of Victorian terraces, 1930s semis, and modern developments means Manchester installers here have experience with all property types. Average air source heat pump costs range from £9,000 to £13,000 before the grant.
+                Air source heat pump installation costs in Manchester are usually lower than in London. The city has a mix of Victorian terraces, 1930s semis, and modern flats, so local installers are used to all property types. Average air source heat pump costs range from £9,000 to £13,000 before the grant.
               </p>
 
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-12 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                The £7,500 government grant applies to all Manchester homeowners, making air source heat pump installation more affordable than ever. After the grant, most Manchester properties pay between £1,500 and £5,500.
+                The £7,500 Boiler Upgrade Scheme grant is available to Manchester homeowners, which makes air source heat pump installation much more affordable. After the grant, most homes pay between £1,500 and £5,500.
               </p>
 
               <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-lg mb-12 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-                <h3 className="text-[24px] sm:text-[28px] font-semibold text-[#1d1d1f] mb-8">Manchester Heat Pump Costs Breakdown</h3>
+                <h3 className="text-[24px] sm:text-[28px] font-semibold text-[#1d1d1f] mb-8">Manchester Air Source Heat Pump Cost Breakdown</h3>
                 
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -263,24 +206,24 @@ export default function ManchesterInstallersPage() {
                     </thead>
                     <tbody>
                       <tr className="border-b border-gray-100">
-                        <td className="py-4 px-4 text-[16px] font-bold text-[#1d1d1f]">Air Source Heat Pump Installation in Manchester</td>
-                        <td className="py-4 px-4 text-right text-[16px] font-medium text-[#1d1d1f]">£9,000 - £13,000</td>
+                        <td className="py-4 px-4 text-[16px] font-bold text-[#1d1d1f]">Air source heat pump installation in Manchester</td>
+                        <td className="py-4 px-4 text-right text-[16px] font-medium text-[#1d1d1f]">£9,000 – £13,000</td>
                       </tr>
                       <tr className="border-b border-gray-100">
-                        <td className="py-4 px-4 text-[16px] font-bold text-[#1d1d1f]">Ground Source Heat Pump Installation in Manchester</td>
-                        <td className="py-4 px-4 text-right text-[16px] font-medium text-[#1d1d1f]">£16,000 - £30,000</td>
+                        <td className="py-4 px-4 text-[16px] font-bold text-[#1d1d1f]">Ground source heat pump installation in Manchester</td>
+                        <td className="py-4 px-4 text-right text-[16px] font-medium text-[#1d1d1f]">£16,000 – £30,000</td>
                       </tr>
                       <tr className="border-b border-gray-100 bg-[#34c759]/5">
-                        <td className="py-4 px-4 text-[16px] font-semibold text-[#34c759]">Government Grant Deduction</td>
-                        <td className="py-4 px-4 text-right text-[16px] font-semibold text-[#34c759]">-£7,500</td>
+                        <td className="py-4 px-4 text-[16px] font-semibold text-[#34c759]">Government grant (Boiler Upgrade Scheme)</td>
+                        <td className="py-4 px-4 text-right text-[16px] font-semibold text-[#34c759]">–£7,500</td>
                       </tr>
                       <tr className="border-b border-gray-100 bg-[#0071e3]/5">
-                        <td className="py-4 px-4 text-[17px] font-bold text-[#0071e3]">Your Final Cost (Air Source)</td>
-                        <td className="py-4 px-4 text-right text-[17px] font-bold text-[#0071e3]">£1,500 - £5,500</td>
+                        <td className="py-4 px-4 text-[17px] font-bold text-[#0071e3]">Your final cost (air source)</td>
+                        <td className="py-4 px-4 text-right text-[17px] font-bold text-[#0071e3]">£1,500 – £5,500</td>
                       </tr>
                       <tr className="bg-[#0071e3]/5">
-                        <td className="py-4 px-4 text-[17px] font-bold text-[#0071e3]">Your Final Cost (Ground Source)</td>
-                        <td className="py-4 px-4 text-right text-[17px] font-bold text-[#0071e3]">£8,500 - £22,500</td>
+                        <td className="py-4 px-4 text-[17px] font-bold text-[#0071e3]">Your final cost (ground source)</td>
+                        <td className="py-4 px-4 text-right text-[17px] font-bold text-[#0071e3]">£8,500 – £22,500</td>
                       </tr>
                     </tbody>
                   </table>
@@ -288,23 +231,23 @@ export default function ManchesterInstallersPage() {
               </div>
 
               <div className="bg-[#ff9500]/10 border-l-4 border-[#ff9500] rounded-r-2xl p-6 sm:p-8 mb-8 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.25s" }}>
-                <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Typical Manchester Air Source Heat Pump Costs & Installer Competition</h4>
+                <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Why Manchester Prices Are Competitive</h4>
                 <p className="text-[16px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Manchester heat pump installers benefit from:
+                  Manchester air source heat pump installers benefit from:
                 </p>
                 <ul className="space-y-2 text-[16px] text-[#6e6e73] leading-[1.7]">
-                  <li>• Lower labor costs compared to London and the South</li>
-                  <li>• Experienced installers familiar with Manchester property types</li>
-                  <li>• Good access to properties (less congestion than major cities)</li>
-                  <li>• Strong competition between local installers keeps prices fair</li>
-                  <li>• Many properties already have good insulation from previous upgrades</li>
+                  <li>• Lower labour costs than London and the South</li>
+                  <li>• Lots of experience with local property types</li>
+                  <li>• Easier access to many properties (less congestion)</li>
+                  <li>• Strong competition between local installers</li>
+                  <li>• Many homes already upgraded with better insulation</li>
                 </ul>
               </div>
 
               <div className="text-center">
                 <Link href="/quiz">
                   <Button className="bg-[#34c759] hover:bg-[#30b350] text-white px-10 py-4 text-[17px] rounded-full font-semibold transition-all duration-300 hover:scale-[1.03] shadow-lg min-h-[52px]">
-                    Check If You Qualify for £7,500 Grant
+                    Check If You Qualify for the £7,500 Grant
                   </Button>
                 </Link>
               </div>
@@ -314,12 +257,12 @@ export default function ManchesterInstallersPage() {
 
         {/* Why Choose Our Manchester Installers */}
         <section className="py-20 sm:py-28 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 text-center opacity-0 animate-fade-in-up-scroll">
-              Why Compare Heat Pump Installers in Manchester With Us?
+              Why Compare Air Source Heat Pump Installers in Manchester With Us?
             </h2>
             <p className="text-[17px] sm:text-[19px] text-[#6e6e73] text-center mb-12 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
-              As an independent installer comparison service, we help Manchester homeowners compare vetted MCS-certified installers with no installer sales calls or pressure.
+              We are an independent installer comparison service. We help Manchester homeowners compare vetted, MCS-certified installers with no sales pressure or pushy calls.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -334,7 +277,7 @@ export default function ManchesterInstallersPage() {
                   MCS-Certified Professionals
                 </h3>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7]">
-                  All installers are vetted and MCS-certified. All Manchester installers in our network hold MCS certification. That's not optional – it's required to access the £7,500 grant. MCS certification means the installer has met strict quality standards and their work is independently inspected.
+                  All Manchester installers in our network hold MCS certification. This is required for the £7,500 Boiler Upgrade Scheme grant. MCS certification means the installer has met strict quality standards and their work can be independently checked.
                 </p>
               </div>
 
@@ -349,7 +292,11 @@ export default function ManchesterInstallersPage() {
                   Local Manchester Expertise
                 </h3>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Our installers understand Manchester property types intimately. They've worked on Victorian terraces in Chorlton, 1930s semis in Didsbury, and modern apartments in the city centre. They know local planning requirements and understand Manchester's climate considerations for heat pump performance.
+                  Our installers understand Manchester homes. They've worked on:
+                  <br />• Victorian terraces in Chorlton and Didsbury<br />
+                  • 1930s semis in Sale, Altrincham and Stockport<br />
+                  • Modern city centre flats and new builds<br />
+                  They know local planning rules and how heat pumps perform in Manchester's climate.
                 </p>
               </div>
 
@@ -365,7 +312,7 @@ export default function ManchesterInstallersPage() {
                   Competitive Manchester Pricing
                 </h3>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7]">
-                  When you compare up to 3 installers, you're creating competition for your business. That competition drives better prices. You're under no obligation to accept any quote. If the numbers don't work for you, walk away.
+                  When you compare quotes from up to 3 installers, they compete for your business. That often means better prices and better service. You are never forced to choose anyone. If the quote doesn't feel right, you can walk away.
                 </p>
               </div>
 
@@ -380,7 +327,7 @@ export default function ManchesterInstallersPage() {
                   Grant Application Support
                 </h3>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7]">
-                  The installers handle the entire £7,500 grant process for you. You don't need to understand the paperwork or navigate government websites. They submit everything, chase approvals, and the grant gets paid directly to them, reducing your final bill.
+                  Installers handle the full £7,500 grant application for you. You don't need to fill in government forms yourself. The grant is paid directly to the installer and taken off your final bill.
                 </p>
               </div>
             </div>
@@ -391,10 +338,10 @@ export default function ManchesterInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 text-center opacity-0 animate-fade-in-up-scroll">
-              How to Get Heat Pump Quotes in Manchester
+              How to Get Air Source Heat Pump Quotes in Manchester
             </h2>
             <p className="text-[18px] sm:text-[20px] text-[#6e6e73] text-center mb-16 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
-              Three simple steps to compare installers and get your heat pump installed
+              Three simple steps to compare installers and get your air source heat pump installed:
             </p>
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -403,9 +350,9 @@ export default function ManchesterInstallersPage() {
                 <div className="w-16 h-16 bg-[#0071e3] rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <span className="text-[28px] font-bold text-white">1</span>
                 </div>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4">Answer 10 Questions</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4">Answer 10 Quick Questions</h3>
                 <p className="text-[16px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Tell us about your Manchester property, what kind of heating you have now, and when you want air source heat pump installation. Takes about 2 minutes.
+                  Tell us about your Manchester property, your current heating system, and when you'd like installation. This takes about 2 minutes.
                 </p>
                 <p className="text-[15px] text-[#86868b]">
                   No credit card required • No commitment • No installer sales calls
@@ -419,7 +366,7 @@ export default function ManchesterInstallersPage() {
                 </div>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4">Compare Up to 3 Manchester Installers</h3>
                 <p className="text-[16px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Up to 3 MCS-certified professionals contact you within 24 hours. All based in or serving Greater Manchester. All vetted for quality and reliability.
+                  Up to 3 MCS-certified installers contact you within 24 hours. All are based in or serve Greater Manchester and have been vetted for quality and reliability.
                 </p>
                 <p className="text-[15px] text-[#86868b]">
                   Usually get responses same day
@@ -431,12 +378,12 @@ export default function ManchesterInstallersPage() {
                 <div className="w-16 h-16 bg-[#ff9500] rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <span className="text-[28px] font-bold text-white">3</span>
                 </div>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4">Compare and Choose an Installer</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4">Compare Quotes and Choose an Installer</h3>
                 <p className="text-[16px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Review quotes from Manchester installers, ask questions, and choose the best installer for your home. We only help you compare installers – we don't install anything ourselves. Or walk away – no obligation.
+                  Review your quotes, ask questions, and choose the installer that feels right for you. We only help you compare – we don't install anything ourselves. You're free to say no.
                 </p>
                 <p className="text-[15px] text-[#86868b]">
-                  Most people save £1,500-£3,000 by comparing
+                  Most people save £1,500–£3,000 by comparing
                 </p>
               </div>
             </div>
@@ -465,20 +412,14 @@ export default function ManchesterInstallersPage() {
                   Victorian Terraces
                 </h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Manchester has thousands of Victorian terraces. You'll find them in areas like Chorlton, Didsbury, and Withington.
+                  Manchester has thousands of Victorian terraces in areas like Chorlton, Didsbury and Withington. These homes often have solid brick walls and may need insulation upgrades before an air source heat pump is installed.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  These beautiful properties often have solid brick walls. They usually need insulation upgrades before heat pump installation.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Your radiators probably need upgrading too. Heat pumps work at lower temperatures than gas boilers. You need bigger radiators to compensate.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Many Manchester Victorian properties have already had insulation work done. This makes heat pump installation more straightforward.
+                  Radiators may also need upgrading because heat pumps run at lower water temperatures than gas boilers. Many Victorian homes in Manchester have already had insulation work done, which makes installation easier.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-2xl p-6">
-                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £10,000 - £13,000 (before grant)</p>
-                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £2,500 - £5,500</p>
+                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £10,000 – £13,000 (before grant)</p>
+                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £2,500 – £5,500</p>
                 </div>
               </div>
 
@@ -488,20 +429,11 @@ export default function ManchesterInstallersPage() {
                   1930s Semi-Detached Houses
                 </h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  These are perfect candidates for heat pumps. You'll find them in areas like Sale, Altrincham, and Stockport.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  They have cavity walls. This makes insulation easy.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Gardens provide good positioning options for outdoor units.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Installation is typically straightforward and cost-effective. No conservation concerns in most cases. These installations tend to be the most straightforward in Manchester.
+                  These homes, common in places like Sale, Altrincham and Stockport, are ideal for air source heat pumps. They often have cavity walls, which are easier to insulate, and decent garden space for the outdoor unit.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-2xl p-6">
-                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £9,000 - £12,000 (before grant)</p>
-                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £1,500 - £4,500</p>
+                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £9,000 – £12,000 (before grant)</p>
+                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £1,500 – £4,500</p>
                 </div>
               </div>
 
@@ -511,20 +443,11 @@ export default function ManchesterInstallersPage() {
                   Modern Apartments and New Builds
                 </h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  New developments in Manchester city centre, Salford Quays, and MediaCityUK offer good heat pump potential.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  They're well-insulated. Many have underfloor heating already installed.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Building management approval is needed. Space for hot water cylinders can be tight.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  But many succeed with heat pump installations. Balconies work well for outdoor units.
+                  New developments in Manchester city centre, Salford Quays and MediaCityUK are usually well insulated and sometimes already have underfloor heating. These are great for heat pumps, as long as there is space for a hot water cylinder and outdoor unit (often on a balcony).
                 </p>
                 <div className="bg-[#f5f5f7] rounded-2xl p-6">
-                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £9,000 - £12,000 (before grant)</p>
-                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £1,500 - £4,500</p>
+                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £9,000 – £12,000 (before grant)</p>
+                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £1,500 – £4,500</p>
                 </div>
               </div>
 
@@ -534,23 +457,14 @@ export default function ManchesterInstallersPage() {
                   Period Properties and Conservation Areas
                 </h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Some Manchester areas like Didsbury and Chorlton have conservation areas.
+                  Areas like Didsbury and Chorlton include conservation zones and some listed buildings. In these cases, you may need planning permission or listed building consent. The outdoor unit must be placed carefully so it does not harm the look of the building.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  You might need planning permission. It depends on where the outdoor unit goes.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Listed buildings definitely need listed building consent.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  The outdoor unit needs to be positioned carefully. It shouldn't affect the building's character.
-                </p>
-                <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Our installers have done this many times. They know how to work with local planning departments. They know what's likely to get approved.
+                  Our installers are used to working with local planning departments and can advise what is likely to be approved.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-2xl p-6">
-                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £11,000 - £14,000 (before grant)</p>
-                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £3,500 - £6,500</p>
+                  <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £11,000 – £14,000 (before grant)</p>
+                  <p className="text-[16px] text-[#34c759] font-semibold">After £7,500 grant: £3,500 – £6,500</p>
                 </div>
               </div>
             </div>
@@ -561,10 +475,10 @@ export default function ManchesterInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Heat Pump Installers Serving All Greater Manchester Areas
+              Air Source Heat Pump Installers Serving All Greater Manchester Areas
             </h2>
             <p className="text-[18px] text-[#6e6e73] mb-12 max-w-3xl opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
-              Our network of MCS-certified installers serves all Greater Manchester areas including:
+              Our network of MCS-certified air source heat pump installers covers all of Greater Manchester, including:
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
@@ -641,7 +555,7 @@ export default function ManchesterInstallersPage() {
             </div>
 
             <p className="text-[17px] text-[#6e6e73] mt-8 text-center opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-              And all surrounding Greater Manchester areas. Enter your postcode in our quote form to check coverage.
+              And all surrounding Greater Manchester areas. Enter your postcode in the quote form to check coverage.
             </p>
           </div>
         </section>
@@ -656,9 +570,9 @@ export default function ManchesterInstallersPage() {
             <div className="space-y-8">
               {/* FAQ 1 */}
               <div className="opacity-0 animate-fade-in-up-scroll">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do I qualify for the £7,500 grant for air source heat pump installation in Manchester?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do I qualify for the £7,500 grant for Air Source Heat Pump installation in Manchester?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Yes, if you own your property (houses or flats work) and you're replacing gas, oil, or LPG heating. The grant is available across all Greater Manchester areas for air source heat pump installation.
+                  Yes, if you own your property (houses or flats work) and you're replacing gas, oil, or LPG heating. The grant is available across all Greater Manchester areas for Air Source Heat Pump installation.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   <Link href="/quiz" className="text-[#0071e3] hover:underline">Check eligibility in 90 seconds</Link> with our quiz. Most Manchester homeowners qualify but don't know it.
@@ -667,9 +581,9 @@ export default function ManchesterInstallersPage() {
 
               {/* FAQ 2 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does air source heat pump installation take in Manchester?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does Air Source Heat Pump installation take in Manchester?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Survey: 1-2 hours. Grant application: 2-4 weeks. Installation: 2-3 days. Total timeline from quote to completion: 4-8 weeks. Manchester air source heat pump installs are typically straightforward with good access to properties.
+                  Survey: 1-2 hours. Grant application: 2-4 weeks. Installation: 2-3 days. Total timeline from quote to completion: 4-8 weeks. Manchester Air Source Heat Pump installs are typically straightforward with good access to properties.
                 </p>
               </div>
 
@@ -686,9 +600,9 @@ export default function ManchesterInstallersPage() {
 
               {/* FAQ 4 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do heat pumps work in Manchester's climate?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do Air Source Heat Pumps work in Manchester's climate?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Yes, absolutely. Air source heat pumps work efficiently in Manchester's climate. They extract heat from the air even when temperatures drop. Modern heat pumps are designed to work effectively in UK conditions, including Manchester's cooler winters.
+                  Yes, absolutely. Air source Air Source Heat Pumps work efficiently in Manchester's climate. They extract heat from the air even when temperatures drop. Modern Air Source Heat Pumps are designed to work effectively in UK conditions, including Manchester's cooler winters.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Many Manchester homeowners have already made the switch and are seeing lower running costs.
@@ -697,7 +611,7 @@ export default function ManchesterInstallersPage() {
 
               {/* FAQ 5 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are heat pumps worth it with Manchester energy prices?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps worth it with Manchester energy prices?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, especially with the £7,500 grant. Heat pumps are 300 percent efficient (gas boilers 90 percent). Lower running costs if on the right tariff. Increases property value. Future-proof as gas boilers are being phased out.
                 </p>
@@ -725,17 +639,17 @@ export default function ManchesterInstallersPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <div className="opacity-0 animate-fade-in-up-scroll">
               <h2 className="text-[44px] sm:text-[56px] md:text-[64px] font-semibold text-white tracking-tight leading-[1.1] mb-6">
-                Ready to Compare Heat Pump Quotes in Manchester?
+                Ready to Compare Air Source Heat Pump Quotes in Manchester?
               </h2>
 
               <p className="text-[18px] sm:text-[20px] text-white/90 mb-8 max-w-3xl mx-auto leading-[1.6]">
-                Free, no-obligation quotes from MCS-certified air source heat pump installers in Manchester only. £7,500 grant support included. Most Manchester homeowners qualify. Takes 90 seconds to check eligibility.
+                Get free, no-obligation quotes from MCS-certified air source heat pump installers in Manchester. £7,500 grant support included. Most Manchester homeowners qualify.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-10">
                 <Link href="/quiz">
                   <Button className="w-full sm:w-auto bg-white hover:bg-gray-50 text-[#0071e3] px-12 py-4 text-[17px] rounded-full font-bold transition-all duration-300 hover:scale-[1.05] shadow-2xl min-h-[52px]">
-                    Get Free Quotes - Check Grant Eligibility
+                    Get Free Quotes – Check Grant Eligibility
                   </Button>
                 </Link>
               </div>
@@ -757,17 +671,13 @@ export default function ManchesterInstallersPage() {
                   <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>90 Seconds</span>
+                  <span>Takes 90 Seconds</span>
                 </div>
               </div>
 
-              <p className="text-[16px] text-white/80 mb-6">
-                We are not heat pump installers — we help Manchester homeowners compare vetted MCS-certified installers.
+              <p className="text-[16px] text-white/80 mt-8">
+                We are not installers – we help Manchester homeowners compare vetted MCS-certified installers.
               </p>
-
-              <div className="mt-10 flex flex-col items-center gap-4">
-                <p className="text-[15px] text-white/70">10,000+ UK Homeowners Helped • 4.8★ Average Installer Rating</p>
-              </div>
             </div>
           </div>
         </section>
@@ -776,8 +686,8 @@ export default function ManchesterInstallersPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Service",
-          "name": "Heat Pump Installer Comparison - Manchester",
-          "description": "Compare MCS-certified heat pump installers in Manchester. Free quotes, £7,500 grant support.",
+          "name": "Air Source Heat Pump Installer Comparison - Manchester",
+          "description": "Compare MCS-certified Air Source Heat Pump installers in Manchester. Free quotes, £7,500 grant support.",
           "provider": {
             "@type": "Organization",
             "name": "GetHeatPumpQuotes",
@@ -801,7 +711,7 @@ export default function ManchesterInstallersPage() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "GBP",
-            "description": "Free heat pump installer comparison service"
+            "description": "Free Air Source Heat Pump installer comparison service"
           }
         }) }} />
 

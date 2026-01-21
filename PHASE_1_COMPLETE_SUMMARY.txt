@@ -3,7 +3,7 @@
               GetHeatPumpQuotes.co.uk - Technical SEO Foundation
 ================================================================================
 
-PROJECT: Heat Pump Resource Landing Page
+PROJECT: Air Source Heat Pump Resource Landing Page
 DOMAIN: GetHeatPumpQuotes.co.uk
 AUDIT DATE: January 1, 2026
 AUDIT PHASE: 1 of 6 (Technical SEO - Defensive Foundation)
@@ -316,7 +316,7 @@ OVERALL: 67% (6/10 in broader categories)
 
 ADVANTAGES YOU HAVE:
 ✓ Modern framework (Next.js 16) - 95% of competitors using older tech
-✓ Global CDN (Vercel) - Faster than 80% of UK heat pump sites
+✓ Global CDN (Vercel) - Faster than 80% of UK Air Source Heat Pump sites
 ✓ Server-side rendering - Better than 70% of competitors
 ✓ Schema markup - Better than 60% of UK local sites
 ✓ SSL/HTTPS - Standard now, but you have it ✓
@@ -519,7 +519,7 @@ AUDIT FINDINGS:
 └─ You need 15 specific actions for Phase 1 completion
 
 INDUSTRY CONTEXT:
-├─ Most heat pump companies have poor SEO
+├─ Most Air Source Heat Pump companies have poor SEO
 ├─ You're starting with massive technical advantage
 ├─ Content and links matter more than technical foundation
 ├─ But technical foundation must be solid first

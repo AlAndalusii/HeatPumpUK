@@ -19,9 +19,9 @@ export default function HeatPumpInstallationCostPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installation Cost UK: What You'll Pay 2025</title>
+        <title>Air Source Heat Pump Installation Cost UK: What You'll Pay 2025</title>
         <meta name="description" content="Heat pump installation cost UK ranges from £8,000-£15,000. With £7,500 grant, pay as little as £500. Complete price breakdown, hidden costs, and how to save money." />
-        <meta name="keywords" content="heat pump installation cost UK, heat pump cost, installation price, air source heat pump cost, ground source cost, heat pump grant" />
+        <meta name="keywords" content="Air Source Heat Pump installation cost UK, Air Source Heat Pump cost, installation price, Air Source Heat Pump cost, ground source cost, Air Source Heat Pump grant" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
@@ -65,7 +65,7 @@ export default function HeatPumpInstallationCostPage() {
             <span className="text-[13px] font-medium text-white uppercase tracking-wide">Installation Costs</span>
           </div>
           <h1 className="text-[40px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-6 tracking-tight leading-[1.1]">
-            Heat Pump Installation Cost UK: What You'll Actually Pay in 2025
+            Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025
           </h1>
           <div className="flex items-center gap-4 text-white/80">
             <span className="text-[15px]">October 26, 2025</span>
@@ -84,7 +84,7 @@ export default function HeatPumpInstallationCostPage() {
               Heat pump installation cost is probably the first thing you want to know about when you're thinking of getting one. And honestly, it's not cheap. But let me break down exactly what you'll pay, where the money goes, and how you can keep costs down.
             </p>
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              I'm going to be completely straight with you. No fancy talk. No hiding the real numbers. Just the honest truth about how much it costs to get a heat pump installed in your home.
+              I'm going to be completely straight with you. No fancy talk. No hiding the real numbers. Just the honest truth about how much it costs to get a Air Source Heat Pump installed in your home.
             </p>
           </div>
 
@@ -95,7 +95,7 @@ export default function HeatPumpInstallationCostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              Right, let's start with the big question. How much does it actually cost to install a heat pump in the UK?
+              Right, let's start with the big question. How much does it actually cost to install a Air Source Heat Pump in the UK?
             </p>
 
             <div className="space-y-4 mb-8">
@@ -107,7 +107,7 @@ export default function HeatPumpInstallationCostPage() {
               </div>
 
               <div className="bg-[#f5f5f7] rounded-2xl p-8 border-l-4 border-[#34c759]">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Ground Source Heat Pump</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Ground Source Air Source Heat Pump</h3>
                 <p className="text-[17px] text-[#6e6e73] mb-4">Which goes underground</p>
                 <p className="text-[32px] font-bold text-[#34c759] mb-4">£15,000 – £35,000</p>
                 <p className="text-[15px] text-[#6e6e73]">Way more expensive because they have to dig up your garden</p>
@@ -120,7 +120,7 @@ export default function HeatPumpInstallationCostPage() {
                 I know those numbers probably made your eyes water a bit. They're not small amounts. But remember, there's a <strong>seven and a half thousand pound government grant</strong> available right now.
               </p>
               <p className="text-[17px] leading-[1.6] mb-6">
-                So if your air source heat pump costs £12,000 and you get the grant, you're actually paying £4,500. Still a chunk of money, but not as scary as twelve grand.
+                So if your Air Source Heat Pump costs £12,000 and you get the grant, you're actually paying £4,500. Still a chunk of money, but not as scary as twelve grand.
               </p>
               <Link href="/quiz">
                 <Button className="bg-white hover:bg-gray-100 text-[#34c759] px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105">
@@ -147,7 +147,7 @@ export default function HeatPumpInstallationCostPage() {
                   <span className="text-[24px] font-bold text-[#0071e3]">£3,000 – £5,000</span>
                 </div>
                 <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                  That's the big metal box that sits outside and does all the work. Better brands cost more, cheaper ones cost less. You get what you pay for with heat pumps.
+                  That's the big metal box that sits outside and does all the work. Better brands cost more, cheaper ones cost less. You get what you pay for with Air Source Heat Pumps.
                 </p>
               </div>
 
@@ -167,7 +167,7 @@ export default function HeatPumpInstallationCostPage() {
                   <span className="text-[24px] font-bold text-[#0071e3]">£2,000 – £3,000</span>
                 </div>
                 <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                  This is what you pay the installers for their time. A proper installation takes 2-3 days with a team of 2-3 people. They're not just plumbers—they need special training to work with heat pumps.
+                  This is what you pay the installers for their time. A proper installation takes 2-3 days with a team of 2-3 people. They're not just plumbers—they need special training to work with Air Source Heat Pumps.
                 </p>
               </div>
 
@@ -184,7 +184,7 @@ export default function HeatPumpInstallationCostPage() {
 
             <div className="bg-[#fff3cd] border-l-4 border-[#ff9500] rounded-xl p-6">
               <p className="text-[15px] text-[#856404] leading-[1.6]">
-                <strong>Important:</strong> Some houses are dead easy to install a heat pump in. Everything's already perfect. Those installations might only cost £8,000 or £9,000. Other houses are a nightmare—old electrics, tiny radiators, no space for a cylinder, poor insulation. Those can easily hit £15,000 or more.
+                <strong>Important:</strong> Some houses are dead easy to install a Air Source Heat Pump in. Everything's already perfect. Those installations might only cost £8,000 or £9,000. Other houses are a nightmare—old electrics, tiny radiators, no space for a cylinder, poor insulation. Those can easily hit £15,000 or more.
               </p>
             </div>
           </div>
@@ -199,7 +199,7 @@ export default function HeatPumpInstallationCostPage() {
               <div className="bg-gradient-to-br from-[#0071e3] to-[#0056b3] rounded-2xl p-8 text-white">
                 <h3 className="text-[24px] font-bold mb-4">Air Source</h3>
                 <p className="text-[15px] leading-[1.6] mb-4 opacity-90">
-                  Air source heat pumps are way cheaper to install. The outdoor unit sits on a concrete pad or brackets on your wall. The installers run pipes through your wall into the house. Job done in 2-3 days.
+                  Air source Air Source Heat Pumps are way cheaper to install. The outdoor unit sits on a concrete pad or brackets on your wall. The installers run pipes through your wall into the house. Job done in 2-3 days.
                 </p>
                 <div className="bg-white/10 rounded-xl p-4">
                   <p className="text-[13px] font-semibold uppercase tracking-wide mb-2">Installation Time</p>
@@ -210,7 +210,7 @@ export default function HeatPumpInstallationCostPage() {
               <div className="bg-gradient-to-br from-[#34c759] to-[#28a745] rounded-2xl p-8 text-white">
                 <h3 className="text-[24px] font-bold mb-4">Ground Source</h3>
                 <p className="text-[15px] leading-[1.6] mb-4 opacity-90">
-                  Ground source heat pumps need massive holes dug in your garden. Either they dig trenches about 2 metres deep across your whole lawn, or they drill really deep boreholes straight down. Both options are expensive and messy.
+                  Ground source Air Source Heat Pumps need massive holes dug in your garden. Either they dig trenches about 2 metres deep across your whole lawn, or they drill really deep boreholes straight down. Both options are expensive and messy.
                 </p>
                 <div className="bg-white/10 rounded-xl p-4">
                   <p className="text-[13px] font-semibold uppercase tracking-wide mb-2">Digging Cost Alone</p>
@@ -220,7 +220,7 @@ export default function HeatPumpInstallationCostPage() {
             </div>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
-              But here's the thing. Ground source heat pumps are more efficient once they're in. The ground temperature is more stable than air temperature, so they work better in really cold weather. Over 20 years, you might save enough on running costs to make up for the higher installation cost.
+              But here's the thing. Ground source Air Source Heat Pumps are more efficient once they're in. The ground temperature is more stable than air temperature, so they work better in really cold weather. Over 20 years, you might save enough on running costs to make up for the higher installation cost.
             </p>
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
               Most people go for air source though. It's just simpler and cheaper to get installed.
@@ -265,7 +265,7 @@ export default function HeatPumpInstallationCostPage() {
               <div className="bg-[#f5f5f7] rounded-xl p-6">
                 <h3 className="text-[18px] font-semibold text-[#1d1d1f] mb-3">Insulation Improvements</h3>
                 <p className="text-[15px] text-[#6e6e73] leading-[1.6] mb-3">
-                  If your house is really draughty, a heat pump will struggle. Getting proper insulation done first could be necessary.
+                  If your house is really draughty, a Air Source Heat Pump will struggle. Getting proper insulation done first could be necessary.
                 </p>
                 <p className="text-[17px] font-bold text-[#ff9500]">£2,000 – £5,000 depending on what you need</p>
               </div>
@@ -319,7 +319,7 @@ export default function HeatPumpInstallationCostPage() {
               <div className="border-l-4 border-[#34c759] pl-6">
                 <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Use the grant</h3>
                 <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                  Seriously, the £7,500 Boiler Upgrade Scheme grant makes a massive difference. Don't try to install a heat pump without claiming it. You'd be throwing away free money.
+                  Seriously, the £7,500 Boiler Upgrade Scheme grant makes a massive difference. Don't try to install a Air Source Heat Pump without claiming it. You'd be throwing away free money.
                 </p>
               </div>
 
@@ -347,10 +347,10 @@ export default function HeatPumpInstallationCostPage() {
 
             <div className="bg-[#f5f5f7] rounded-2xl p-8 mb-8">
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
-                A new gas boiler costs about <strong>£2,500 – £4,500</strong> installed. Way cheaper than a heat pump.
+                A new gas boiler costs about <strong>£2,500 – £4,500</strong> installed. Way cheaper than a Air Source Heat Pump.
               </p>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-                So why would anyone pay three times more for a heat pump?
+                So why would anyone pay three times more for a Air Source Heat Pump?
               </p>
             </div>
 
@@ -398,7 +398,7 @@ export default function HeatPumpInstallationCostPage() {
                 <div>
                   <h3 className="text-[18px] font-semibold text-[#1d1d1f] mb-2">House Value</h3>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                    Having a heat pump might make your house worth more when you sell it. Buyers are starting to care about energy efficiency.
+                    Having a Air Source Heat Pump might make your house worth more when you sell it. Buyers are starting to care about energy efficiency.
                   </p>
                 </div>
               </div>
@@ -461,7 +461,7 @@ export default function HeatPumpInstallationCostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              Most people can't just drop £10,000 on a heat pump. So there are ways to spread the cost.
+              Most people can't just drop £10,000 on a Air Source Heat Pump. So there are ways to spread the cost.
             </p>
 
             <div className="space-y-4">
@@ -553,7 +553,7 @@ export default function HeatPumpInstallationCostPage() {
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0071e3] flex items-center justify-center text-white text-[12px] font-bold mt-1">
                   ?
                 </div>
-                <p className="text-[15px] text-[#1d1d1f]">What brand of heat pump are you installing? Daikin, Mitsubishi, and Vaillant are generally reliable.</p>
+                <p className="text-[15px] text-[#1d1d1f]">What brand of Air Source Heat Pump are you installing? Daikin, Mitsubishi, and Vaillant are generally reliable.</p>
               </div>
 
               <div className="flex items-start gap-3">
@@ -574,7 +574,7 @@ export default function HeatPumpInstallationCostPage() {
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0071e3] flex items-center justify-center text-white text-[12px] font-bold mt-1">
                   ?
                 </div>
-                <p className="text-[15px] text-[#1d1d1f]">How many heat pumps have you actually installed? You want someone with proper experience.</p>
+                <p className="text-[15px] text-[#1d1d1f]">How many Air Source Heat Pumps have you actually installed? You want someone with proper experience.</p>
               </div>
 
               <div className="flex items-start gap-3">
@@ -623,7 +623,7 @@ export default function HeatPumpInstallationCostPage() {
 
           {/* CTA */}
           <div className="bg-gradient-to-br from-[#34c759] to-[#28a745] rounded-2xl p-8 text-center text-white">
-            <h2 className="text-[28px] md:text-[32px] font-bold mb-4">Ready to Get Heat Pump Quotes?</h2>
+            <h2 className="text-[28px] md:text-[32px] font-bold mb-4">Ready to Get Air Source Heat Pump Quotes?</h2>
             <p className="text-[17px] leading-[1.6] mb-6 opacity-90">
               Compare prices from vetted installers. Check your grant eligibility. Get the best deal for your home.
             </p>

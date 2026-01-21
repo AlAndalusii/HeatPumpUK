@@ -49,7 +49,7 @@ Contains:
 
 1. Go to [API Keys](https://resend.com/api-keys)
 2. Click "Create API Key"
-3. Name it: "Heat Pump PDF Downloads"
+3. Name it: "Air Source Heat Pump PDF Downloads"
 4. Copy the API key
 
 ### Step 3: Add Environment Variable
@@ -89,7 +89,7 @@ If domain not verified yet, update the API route:
 // In app/api/pdf-download/route.ts
 from: "onboarding@resend.dev",  // For testing
 // OR
-from: "Get Heat Pump Quotes <noreply@getheatpumpquotes.co.uk>",  // After domain verified
+from: "Get Air Source Heat Pump Quotes <noreply@getheatpumpquotes.co.uk>",  // After domain verified
 ```
 
 ---

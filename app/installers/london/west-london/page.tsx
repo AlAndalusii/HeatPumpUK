@@ -53,8 +53,8 @@ export default function WestLondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installers West London | Local MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in West London. Serving Ealing, Richmond, Chiswick, Hounslow and all W postcodes. £7,500 grant support." />
+        <title>Air Source Heat Pump Installers West London | Local MCS Quotes</title>
+        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in West London. Serving Ealing, Richmond, Chiswick, Hounslow and all W postcodes. £7,500 grant support." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london/west-london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -139,16 +139,16 @@ export default function WestLondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#af52de]">West London Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#af52de]">West London Air Source Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Heat Pump Installers West London: Local MCS-Certified Quotes
+                Air Source Heat Pump Installers West London: Local MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                Looking for heat pump installers in West London? We connect homeowners across W postcodes with vetted, MCS-certified installers. Check your £7,500 grant eligibility and compare quotes from professionals serving Ealing, Richmond, Chiswick, and beyond.
+                Looking for Air Source Heat Pump installers in West London? We connect homeowners across W postcodes with vetted, MCS-certified installers. Check your £7,500 grant eligibility and compare quotes from professionals serving Ealing, Richmond, Chiswick, and beyond.
               </p>
 
               <Link href="/quiz">
@@ -168,7 +168,7 @@ export default function WestLondonInstallersPage() {
                 West London offers a mix of expensive areas like Kensington and Chelsea alongside more affordable spots like Ealing and Acton. Property types range from premium townhouses to suburban semis.
               </p>
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7]">
-                Richmond, Kew, and Chiswick have strong green credentials and high heat pump adoption rates. Conservation areas are common, but installers here know the planning system well.
+                Richmond, Kew, and Chiswick have strong green credentials and high Air Source Heat Pump adoption rates. Conservation areas are common, but installers here know the planning system well.
               </p>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function WestLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Heat Pump Installation Costs in West London
+              Air Source Heat Pump Installation Costs in West London
             </h2>
 
             <div className="max-w-5xl mx-auto">
@@ -252,7 +252,7 @@ export default function WestLondonInstallersPage() {
                   These make up much of outer West London. 1930s and 1950s semi-detached houses with gardens. Cavity walls, decent space, straightforward installations.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Perfect candidates for heat pumps. Good value for money in these areas. Less planning restrictions than central locations.
+                  Perfect candidates for Air Source Heat Pumps. Good value for money in these areas. Less planning restrictions than central locations.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £10,000 - £13,000</p>
@@ -267,7 +267,7 @@ export default function WestLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Richmond, Kew, Chiswick</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  These areas have strong environmental awareness and high heat pump adoption. Mix of period properties and modern developments along the Thames.
+                  These areas have strong environmental awareness and high Air Source Heat Pump adoption. Mix of period properties and modern developments along the Thames.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
                   Conservation areas are common (especially in Kew and Richmond Green). Planning is usually manageable with experienced installers who know local requirements.
@@ -285,10 +285,10 @@ export default function WestLondonInstallersPage() {
                 </h3>
                 <p className="text-[15px] text-[#86868b] mb-4">Hammersmith, Shepherd's Bush</p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  New developments in Hammersmith and around Westfield offer good heat pump potential. Well-insulated, often with balconies for outdoor units.
+                  New developments in Hammersmith and around Westfield offer good Air Source Heat Pump potential. Well-insulated, often with balconies for outdoor units.
                 </p>
                 <p className="text-[16px] sm:text-[17px] text-[#6e6e73] leading-[1.7] mb-4">
-                  Building management approval needed. Space for hot water cylinders can be tight. But many succeed with heat pump installations.
+                  Building management approval needed. Space for hot water cylinders can be tight. But many succeed with Air Source Heat Pump installations.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-xl p-4">
                   <p className="text-[15px] text-[#1d1d1f] font-semibold">Typical cost: £10,000 - £13,000</p>
@@ -340,7 +340,7 @@ export default function WestLondonInstallersPage() {
 
             <div className="space-y-8">
               <div className="opacity-0 animate-fade-in-up-scroll">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are heat pumps suitable for large townhouses in Kensington?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps suitable for large townhouses in Kensington?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Yes, absolutely. These properties might need larger systems or multiple units to heat the whole house. Listed buildings need special consideration for unit positioning and any building fabric changes. Our installers have worked on many high-end properties and understand the requirements. The £7,500 grant applies regardless of property value.
                 </p>
@@ -349,12 +349,12 @@ export default function WestLondonInstallersPage() {
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">What about conservation areas in Richmond and Kew?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Richmond and Kew have extensive conservation areas, but heat pumps are absolutely possible. The key is positioning the outdoor unit where it's not prominent from the street. Rear walls usually don't need permission. Our installers work regularly with Richmond Council and know what gets approved. Many properties in these areas already have heat pumps successfully installed.
+                  Richmond and Kew have extensive conservation areas, but Air Source Heat Pumps are absolutely possible. The key is positioning the outdoor unit where it's not prominent from the street. Rear walls usually don't need permission. Our installers work regularly with Richmond Council and know what gets approved. Many properties in these areas already have Air Source Heat Pumps successfully installed.
                 </p>
               </div>
 
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do suburban homes in Ealing work well for heat pumps?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do suburban homes in Ealing work well for Air Source Heat Pumps?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Perfectly. Semi-detached houses in Ealing, Acton, and Hounslow are ideal candidates. Cavity walls make insulation easy. Gardens provide good positioning options. No conservation concerns in most cases. These installations tend to be straightforward and cost-effective.
                 </p>

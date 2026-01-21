@@ -289,11 +289,11 @@
 - ✅ `/app/blog/heat-pump-installation-cost-uk/page.tsx` - Title tag fixed
 
 ### Audit Scope (5 articles analyzed)
-- ✅ "Are Heat Pumps Worth It?"
-- ✅ "How Do Heat Pumps Work?"
-- ✅ "Heat Pump Cost UK"
-- ✅ "Heat Pump Grant Guide"
-- ✅ "Heat Pump Installation Cost"
+- ✅ "Are Air Source Heat Pumps Worth It?"
+- ✅ "How Do Air Source Heat Pumps Work?"
+- ✅ "Air Source Heat Pump Cost UK"
+- ✅ "Air Source Heat Pump Grant Guide"
+- ✅ "Air Source Heat Pump Installation Cost"
 
 ---
 

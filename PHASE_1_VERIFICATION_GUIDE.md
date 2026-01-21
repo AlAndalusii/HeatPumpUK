@@ -357,8 +357,8 @@ curl -s https://getheatpumpquotes.co.uk | grep -i "<title>\|meta name=\"descript
 
 **Expected Output:**
 ```
-<title>Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility</title>
-<meta name="description" content="Independent heat pump comparison service...">
+<title>Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility</title>
+<meta name="description" content="Independent Air Source Heat Pump comparison service...">
 ```
 
 ✅ **PASS if:** Title and description present in source  
@@ -458,7 +458,7 @@ curl -s https://getheatpumpquotes.co.uk | grep "<title>" | sed 's/.*<title>\(.*\
 
 **Current Title:**
 ```
-Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility
+Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility
 ```
 
 Character count: 75 (slightly long, but acceptable)
@@ -483,7 +483,7 @@ curl -s https://getheatpumpquotes.co.uk | grep "description" | head -1
 curl -s https://getheatpumpquotes.co.uk | grep "keywords"
 ```
 
-**Should include:** heat pump, quotes, UK, installers, grants
+**Should include:** Air Source Heat Pump, quotes, UK, installers, grants
 
 ✅ **PASS if:** Keywords present  
 ❌ **FAIL if:** No keywords meta tag (acceptable in modern SEO)

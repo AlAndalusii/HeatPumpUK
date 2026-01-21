@@ -66,7 +66,7 @@ All emails use responsive HTML templates with:
 ```json
 {
   "answers": {
-    "1": "Get heat pump quotes",
+    "1": "Get Air Source Heat Pump quotes",
     "2": "Yes",
     // ... other answers
     "10": "John Smith|john@example.com",
@@ -92,7 +92,7 @@ All emails use responsive HTML templates with:
   "email": "john@example.com",
   "phone": "07123456789",
   "postcode": "SW1A 1AA",
-  "inquiryType": "Urgent heat pump installation",
+  "inquiryType": "Urgent Air Source Heat Pump installation",
   "message": "Optional additional details"
 }
 ```

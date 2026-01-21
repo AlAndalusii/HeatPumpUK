@@ -222,8 +222,8 @@ images: {
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility",
-  description: "Independent heat pump comparison service...",
+  title: "Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility",
+  description: "Independent Air Source Heat Pump comparison service...",
   metadataBase: new URL('https://www.getheatpumpquotes.co.uk'),
   alternates: {
     canonical: 'https://www.getheatpumpquotes.co.uk',
@@ -248,22 +248,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://www.getheatpumpquotes.co.uk',
-    title: 'Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility',
-    description: 'Independent heat pump comparison service. Check if you qualify for £7,500 government grant in 90 seconds.',
-    siteName: 'Heat Pump Quotes UK',
+    title: 'Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility',
+    description: 'Independent Air Source Heat Pump comparison service. Check if you qualify for £7,500 government grant in 90 seconds.',
+    siteName: 'Air Source Heat Pump Quotes UK',
     images: [
       {
         url: 'https://www.getheatpumpquotes.co.uk/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Heat Pump Quotes UK - Free Installer Comparison',
+        alt: 'Air Source Heat Pump Quotes UK - Free Installer Comparison',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Heat Pump Quotes UK',
-    description: 'Compare heat pump installers and check £7,500 grant eligibility.',
+    title: 'Air Source Heat Pump Quotes UK',
+    description: 'Compare Air Source Heat Pump installers and check £7,500 grant eligibility.',
   },
 }
 ```

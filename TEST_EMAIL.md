@@ -47,7 +47,7 @@ This allows you to send test emails without verifying the domain first.
 ## For Production (After Domain Verification)
 
 ```typescript
-from: "Get Heat Pump Quotes <noreply@getheatpumpquotes.co.uk>",
+from: "Get Air Source Heat Pump Quotes <noreply@getheatpumpquotes.co.uk>",
 ```
 
 

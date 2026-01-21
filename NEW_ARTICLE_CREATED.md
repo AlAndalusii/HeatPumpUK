@@ -2,13 +2,13 @@
 
 ## Article Details
 
-**Title:** Heat Pump Installation Cost UK: What You'll Actually Pay in 2025
+**Title:** Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025
 
 **URL:** `/blog/heat-pump-installation-cost-uk`
 
 **File Location:** `/app/blog/heat-pump-installation-cost-uk/page.tsx`
 
-**Meta Title:** Heat Pump Installation Cost UK: What You'll Actually Pay 2025
+**Meta Title:** Air Source Heat Pump Installation Cost UK: What You'll Actually Pay 2025
 
 **Meta Description:** Heat pump installation cost UK ranges from £8,000-£15,000. With £7,500 grant, pay as little as £500. Complete price breakdown, hidden costs, and how to save money.
 
@@ -57,7 +57,7 @@
 
 6. **Comparing Installation Costs to Gas Boilers**
    - Gas boiler: £2,500 – £4,500
-   - Why pay more for heat pump:
+   - Why pay more for Air Source Heat Pump:
      1. The grant
      2. Running costs
      3. Future proofing
@@ -145,12 +145,12 @@
 ## SEO Optimization
 
 ### Keywords Targeted
-- heat pump installation cost UK
-- heat pump cost
+- Air Source Heat Pump installation cost UK
+- Air Source Heat Pump cost
 - installation price
-- air source heat pump cost
+- Air Source Heat Pump cost
 - ground source cost
-- heat pump grant
+- Air Source Heat Pump grant
 
 ### Structure
 - ✅ H1: Main title

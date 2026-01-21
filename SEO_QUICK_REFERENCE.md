@@ -41,26 +41,26 @@
 
 ### 3 Title Tags Need Optimization (3 minutes total)
 
-#### Issue #1: "Heat Pump Cost UK"
+#### Issue #1: "Air Source Heat Pump Cost UK"
 ```
-CURRENT: "Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars)
-TARGET:  "Heat Pump Cost UK: Complete Price Breakdown & Savings" (54 chars)
+CURRENT: "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars)
+TARGET:  "Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings" (54 chars)
 FILE:    app/blog/heat-pump-cost-uk/page.tsx (Line 21)
 TIME:    1 minute
 ```
 
-#### Issue #2: "Heat Pump Grant Guide"  
+#### Issue #2: "Air Source Heat Pump Grant Guide"  
 ```
-CURRENT: "£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide" (72 chars)
-TARGET:  "£7,500 Heat Pump Grant UK | Eligibility Guide" (52 chars)
+CURRENT: "£7,500 Air Source Heat Pump Grant UK 2025 | Government Grant Eligibility Guide" (72 chars)
+TARGET:  "£7,500 Air Source Heat Pump Grant UK | Eligibility Guide" (52 chars)
 FILE:    app/blog/heat-pump-grant-guide/page.tsx (Line 21)
 TIME:    1 minute
 ```
 
-#### Issue #3: "Heat Pump Installation Cost"
+#### Issue #3: "Air Source Heat Pump Installation Cost"
 ```
-CURRENT: "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars)
-TARGET:  "Heat Pump Installation Cost UK: What You'll Pay 2025" (56 chars)
+CURRENT: "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars)
+TARGET:  "Air Source Heat Pump Installation Cost UK: What You'll Pay 2025" (56 chars)
 FILE:    app/blog/heat-pump-installation-cost-uk/page.tsx (Line 21)
 TIME:    1 minute
 ```
@@ -71,11 +71,11 @@ TIME:    1 minute
 
 | # | Article | Primary Keyword | Compliance | Status |
 |---|---------|---|---|---|
-| 1 | Are Heat Pumps Worth It | are heat pumps worth it | 5/5 ✅ | OPTIMIZED |
-| 2 | How Heat Pumps Work | how heat pumps work | 5/5 ✅ | OPTIMIZED |
-| 3 | Heat Pump Cost UK | heat pump cost UK | 4.5/5 ⚠️ | FIX TITLE |
-| 4 | Heat Pump Grant Guide | heat pump grant | 4.5/5 ⚠️ | FIX TITLE |
-| 5 | Heat Pump Installation Cost | heat pump installation cost | 4.5/5 ⚠️ | FIX TITLE |
+| 1 | Are Air Source Heat Pumps Worth It | are Air Source Heat Pumps worth it | 5/5 ✅ | OPTIMIZED |
+| 2 | How Air Source Heat Pumps Work | how Air Source Heat Pumps work | 5/5 ✅ | OPTIMIZED |
+| 3 | Air Source Heat Pump Cost UK | Air Source Heat Pump cost UK | 4.5/5 ⚠️ | FIX TITLE |
+| 4 | Air Source Heat Pump Grant Guide | Air Source Heat Pump grant | 4.5/5 ⚠️ | FIX TITLE |
+| 5 | Air Source Heat Pump Installation Cost | Air Source Heat Pump installation cost | 4.5/5 ⚠️ | FIX TITLE |
 
 ---
 
@@ -84,7 +84,7 @@ TIME:    1 minute
 ### Title Tag Guidelines
 - **Length:** 45-59 characters (Google typically shows 60)
 - **Format:** "[Primary Keyword]: [Benefit/Value Proposition]"
-- **Example:** "Heat Pump Cost UK: Complete Price Breakdown & Savings"
+- **Example:** "Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings"
 
 ### Meta Description Guidelines
 - **Length:** 150-160 characters (Google shows ~155)
@@ -99,18 +99,18 @@ TIME:    1 minute
 ### H1 Header Guidelines
 - **Count:** Exactly ONE per page
 - **Format:** Include primary keyword naturally
-- **Example:** "Heat Pump Cost UK 2025: Complete Price Breakdown"
+- **Example:** "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown"
 
 ### First Sentence Guidelines
 - **Length:** 1-3 sentences
 - **Rule:** Include primary keyword naturally (not forced)
-- **Example:** "Thinking about installing a heat pump? One question probably keeps you up at night: 'How much is this actually going to cost?'"
+- **Example:** "Thinking about installing a Air Source Heat Pump? One question probably keeps you up at night: 'How much is this actually going to cost?'"
 
 ---
 
 ## ✅ ARTICLE SCORECARD
 
-### 1. "Are Heat Pumps Worth It? The Honest Answer for UK Homes"
+### 1. "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes"
 ```
 📊 SCORE: 5/5 ✅ PERFECT
 ├─ Title: ✅ (55 chars - perfect)
@@ -120,7 +120,7 @@ TIME:    1 minute
 └─ First Sentence: ✅ (naturally integrated)
 ```
 
-### 2. "How Do Heat Pumps Work? Simple Guide for UK Homeowners"
+### 2. "How Do Air Source Heat Pumps Work? Simple Guide for UK Homeowners"
 ```
 📊 SCORE: 5/5 ✅ PERFECT
 ├─ Title: ✅ (57 chars - perfect)
@@ -130,7 +130,7 @@ TIME:    1 minute
 └─ First Sentence: ✅ (naturally integrated)
 ```
 
-### 3. "Heat Pump Cost UK 2025: Complete Price Breakdown & Savings"
+### 3. "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings"
 ```
 📊 SCORE: 4.5/5 ⚠️ NEEDS MINOR FIX
 ├─ Title: ⚠️ (61 chars - REMOVE "2025: ")
@@ -140,7 +140,7 @@ TIME:    1 minute
 └─ First Sentence: ✅ (naturally integrated)
 ```
 
-### 4. "£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide"
+### 4. "£7,500 Air Source Heat Pump Grant UK 2025 | Government Grant Eligibility Guide"
 ```
 📊 SCORE: 4.5/5 ⚠️ NEEDS MINOR FIX
 ├─ Title: ⚠️ (72 chars - SHORTEN significantly)
@@ -150,7 +150,7 @@ TIME:    1 minute
 └─ First Sentence: ✅ (naturally integrated)
 ```
 
-### 5. "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025"
+### 5. "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025"
 ```
 📊 SCORE: 4.5/5 ⚠️ NEEDS MINOR FIX
 ├─ Title: ⚠️ (70 chars - REMOVE "Actually" or year)
@@ -165,9 +165,9 @@ TIME:    1 minute
 ## 🎯 NEXT STEPS (Priority Order)
 
 ### Step 1: Fix Title Tags (3 min)
-- [ ] Update Heat Pump Cost UK title
-- [ ] Update Heat Pump Grant Guide title  
-- [ ] Update Heat Pump Installation Cost title
+- [ ] Update Air Source Heat Pump Cost UK title
+- [ ] Update Air Source Heat Pump Grant Guide title  
+- [ ] Update Air Source Heat Pump Installation Cost title
 - [ ] Deploy changes
 
 ### Step 2: Verify Changes (5 min)

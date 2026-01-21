@@ -33,7 +33,7 @@ This document provides a quick reference for all email templates used in the app
 **Style:** Professional, informative
 
 ### User Email
-**Subject:** `Thank You - Your Heat Pump Quote Request`
+**Subject:** `Thank You - Your Air Source Heat Pump Quote Request`
 
 **Contains:**
 - Personalized greeting
@@ -63,7 +63,7 @@ This document provides a quick reference for all email templates used in the app
 **Style:** Clean, easy to read
 
 ### User Email
-**Subject:** `We Received Your Message - Heat Pump Resource`
+**Subject:** `We Received Your Message - Air Source Heat Pump Resource`
 
 **Contains:**
 - Personalized greeting
@@ -108,7 +108,7 @@ Importance: high
 **Style:** Urgent, attention-grabbing, red accents
 
 ### User Email
-**Subject:** `✓ Urgent Callback Request Received - Heat Pump Resource`
+**Subject:** `✓ Urgent Callback Request Received - Air Source Heat Pump Resource`
 
 **Contains:**
 - ✓ Urgent request received header (red)

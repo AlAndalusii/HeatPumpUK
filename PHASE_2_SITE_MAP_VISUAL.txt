@@ -10,7 +10,7 @@ CURRENT SITE ARCHITECTURE (BEFORE OPTIMIZATION)
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                          HOMEPAGE (/)                                   │
-│                "Heat Pump Quotes UK - Compare Installers"               │
+│                "Air Source Heat Pump Quotes UK - Compare Installers"               │
 │                    Primary Conversion Hub                               │
 │                    Title: ✅ Optimized (75 chars)                       │
 │                    H1: ✅ Present & unique                              │
@@ -64,7 +64,7 @@ CURRENT SITE ARCHITECTURE (BEFORE OPTIMIZATION)
            │                            │
            │        ┌─────────────────────────────────────────────────┐
            │        │        /blog/are-heat-pumps-worth-it             │
-           │        │    "Are Heat Pumps Worth It? Honest Answer"     │
+           │        │    "Are Air Source Heat Pumps Worth It? Honest Answer"     │
            │        │    ✅ Title: Optimized & unique                 │
            │        │    ✅ H1: Unique to this article                │
            │        │    ✅ Meta: Unique & descriptive                │
@@ -73,7 +73,7 @@ CURRENT SITE ARCHITECTURE (BEFORE OPTIMIZATION)
            │                            │
            │        ┌─────────────────────────────────────────────────┐
            │        │      /blog/how-heat-pumps-work                   │
-           │        │    "How Heat Pumps Work? Simple Guide"          │
+           │        │    "How Air Source Heat Pumps Work? Simple Guide"          │
            │        │    ✅ Title: Optimized                          │
            │        │    ✅ H1: Unique                                │
            │        │    ✅ Meta: Educational focus                   │
@@ -82,7 +82,7 @@ CURRENT SITE ARCHITECTURE (BEFORE OPTIMIZATION)
            │                            │
            │        ┌─────────────────────────────────────────────────┐
            │        │    /blog/heat-pump-grant-guide                   │
-           │        │    "Everything About £7,500 Heat Pump Grant"    │
+           │        │    "Everything About £7,500 Air Source Heat Pump Grant"    │
            │        │    ✅ Title: Optimized                          │
            │        │    ✅ H1: Unique                                │
            │        │    ✅ Meta: Grant information focus             │
@@ -106,7 +106,7 @@ PROBLEMS FOUND - EMPTY & BROKEN PAGES
 
 ❌ /blog/best-tumble-dryers-uk/
    ├─ Status: EMPTY (no page.tsx)
-   ├─ Issue: Off-topic (tumble dryers ≠ heat pumps)
+   ├─ Issue: Off-topic (tumble dryers ≠ Air Source Heat Pumps)
    ├─ Impact: Wasted crawl budget, confusing structure
    ├─ Priority: 🔴 CRITICAL
    └─ Action: DELETE IMMEDIATELY
@@ -212,7 +212,7 @@ TITLE TAG QUALITY
 
 ┌──────────────────────────────────────────────┐
 │ Homepage                                     │
-│ "Heat Pump Quotes UK - Compare Installers   │
+│ "Air Source Heat Pump Quotes UK - Compare Installers   │
 │  & Check £7,500 Grant Eligibility"          │
 │ Length: 75 chars (Slightly long)            │
 │ Keywords: ✅ Heat pump quotes, compare,     │
@@ -222,7 +222,7 @@ TITLE TAG QUALITY
 
 ┌──────────────────────────────────────────────┐
 │ Blog: Installation Cost UK                  │
-│ "Heat Pump Installation Cost UK: What       │
+│ "Air Source Heat Pump Installation Cost UK: What       │
 │  You'll Actually Pay 2025"                  │
 │ Length: 65 chars ✅ Perfect                 │
 │ Keywords: ✅ Installation, cost, UK, 2025  │

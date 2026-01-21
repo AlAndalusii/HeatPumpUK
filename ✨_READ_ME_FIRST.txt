@@ -429,7 +429,7 @@ Everything is documented, tested, and ready for production deployment.
 
 DEPLOYMENT IS OPTIONAL - The page is ready NOW.
 
-Good luck with your heat pump resource platform! 🚀
+Good luck with your Air Source Heat Pump resource platform! 🚀
 
 ================================================================================
 Generated: January 1, 2026

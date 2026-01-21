@@ -49,9 +49,9 @@ Critical Issues:              0
    └─ Zero critical compliance violations
 
 3. ✅ APPLIED ALL FIXES
-   ├─ Updated "Heat Pump Cost UK" title (61→54 chars)
-   ├─ Updated "Heat Pump Grant Guide" title (72→52 chars)
-   ├─ Updated "Heat Pump Installation Cost" title (70→56 chars)
+   ├─ Updated "Air Source Heat Pump Cost UK" title (61→54 chars)
+   ├─ Updated "Air Source Heat Pump Grant Guide" title (72→52 chars)
+   ├─ Updated "Air Source Heat Pump Installation Cost" title (70→56 chars)
    ├─ Verified all changes in source code
    └─ Confirmed keyword preservation
 
@@ -77,33 +77,33 @@ Critical Issues:              0
 ┃                        ARTICLES ANALYZED & STATUS                            ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-1. "Are Heat Pumps Worth It? The Honest Answer for UK Homes"
+1. "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes"
    Status:   ✅ 5/5 PERFECT (No changes needed)
-   Keyword:  "are heat pumps worth it"
+   Keyword:  "are Air Source Heat Pumps worth it"
    Title:    55 chars ✓
    Meta:     153 chars ✓
 
-2. "How Do Heat Pumps Work? Simple Guide for UK Homeowners"
+2. "How Do Air Source Heat Pumps Work? Simple Guide for UK Homeowners"
    Status:   ✅ 5/5 PERFECT (No changes needed)
-   Keyword:  "how heat pumps work"
+   Keyword:  "how Air Source Heat Pumps work"
    Title:    57 chars ✓
    Meta:     145 chars ✓
 
-3. "Heat Pump Cost UK: Complete Price Breakdown & Savings"
+3. "Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings"
    Status:   ✅ 5/5 FIXED ⚡
-   Keyword:  "heat pump cost UK"
+   Keyword:  "Air Source Heat Pump cost UK"
    Title:    54 chars ✓ (was 61)
    Meta:     151 chars ✓
 
-4. "£7,500 Heat Pump Grant UK | Eligibility Guide"
+4. "£7,500 Air Source Heat Pump Grant UK | Eligibility Guide"
    Status:   ✅ 5/5 FIXED ⚡
-   Keyword:  "heat pump grant"
+   Keyword:  "Air Source Heat Pump grant"
    Title:    52 chars ✓ (was 72)
    Meta:     153 chars ✓
 
-5. "Heat Pump Installation Cost UK: What You'll Pay 2025"
+5. "Air Source Heat Pump Installation Cost UK: What You'll Pay 2025"
    Status:   ✅ 5/5 FIXED ⚡
-   Keyword:  "heat pump installation cost"
+   Keyword:  "Air Source Heat Pump installation cost"
    Title:    56 chars ✓ (was 70)
    Meta:     147 chars ✓
 
@@ -148,22 +148,22 @@ Critical Issues:              0
 ✅ File 1: /app/blog/heat-pump-cost-uk/page.tsx
    Line:     21
    Change:   Title tag optimized
-   Before:   "Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars)
-   After:    "Heat Pump Cost UK: Complete Price Breakdown & Savings" (54 chars)
+   Before:   "Air Source Heat Pump Cost UK 2025: Complete Price Breakdown & Savings" (61 chars)
+   After:    "Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings" (54 chars)
    Status:   ✓ Verified
 
 ✅ File 2: /app/blog/heat-pump-grant-guide/page.tsx
    Line:     21
    Change:   Title tag optimized
-   Before:   "£7,500 Heat Pump Grant UK 2025 | Government Grant Eligibility Guide" (72 chars)
-   After:    "£7,500 Heat Pump Grant UK | Eligibility Guide" (52 chars)
+   Before:   "£7,500 Air Source Heat Pump Grant UK 2025 | Government Grant Eligibility Guide" (72 chars)
+   After:    "£7,500 Air Source Heat Pump Grant UK | Eligibility Guide" (52 chars)
    Status:   ✓ Verified
 
 ✅ File 3: /app/blog/heat-pump-installation-cost-uk/page.tsx
    Line:     21
    Change:   Title tag optimized
-   Before:   "Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars)
-   After:    "Heat Pump Installation Cost UK: What You'll Pay 2025" (56 chars)
+   Before:   "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025" (70 chars)
+   After:    "Air Source Heat Pump Installation Cost UK: What You'll Pay 2025" (56 chars)
    Status:   ✓ Verified
 
 

@@ -197,7 +197,7 @@ The redesigned About Us page now reflects:
 ---
 
 **Design System:** Apple-inspired, modern, premium
-**Target Audience:** UK homeowners seeking professional heat pump guidance
+**Target Audience:** UK homeowners seeking professional Air Source Heat Pump guidance
 **Overall Aesthetic:** British premium energy company (British Gas, etc.)
 
 

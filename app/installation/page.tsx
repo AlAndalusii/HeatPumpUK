@@ -35,7 +35,7 @@ export default function InstallationPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Request Received!</h1>
           <p className="text-xl text-gray-600 mb-8">
             Thank you for your interest. A certified installer will contact you shortly with a free, no-obligation quote
-            for your heat pump installation.
+            for your Air Source Heat Pump installation.
           </p>
           <Link href="/">
             <Button size="lg" className="bg-[#007AFF] hover:bg-[#0051D5] text-white">
@@ -50,9 +50,9 @@ export default function InstallationPage() {
   return (
     <>
       <Head>
-        <title>Heat Pump Installation Service | Professional MCS Installers | Heat Pump Resource</title>
-        <meta name="description" content="Professional heat pump installation service from MCS-certified installers. Get quotes for air source and ground source heat pump installation. Expert fitting, commissioning, and aftercare support across the UK." />
-        <meta name="keywords" content="heat pump installation, MCS installers, air source heat pump fitting, ground source installation, professional heat pump service, heat pump commissioning" />
+        <title>Air Source Heat Pump Installation Service | Professional MCS Installers | Air Source Heat Pump Resource</title>
+        <meta name="description" content="Professional Air Source Heat Pump installation service from MCS-certified installers. Get quotes for air source and ground source Air Source Heat Pump installation. Expert fitting, commissioning, and aftercare support across the UK." />
+        <meta name="keywords" content="Air Source Heat Pump installation, MCS installers, Air Source Heat Pump fitting, ground source installation, professional Air Source Heat Pump service, Air Source Heat Pump commissioning" />
       </Head>
       <div className="min-h-screen bg-white">
       {/* Header */}
@@ -72,7 +72,7 @@ export default function InstallationPage() {
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-balance">Get Your Free Quote</h1>
             <p className="text-xl text-gray-600 text-pretty">
-              Fill in your details and we'll connect you with a certified heat pump installer
+              Fill in your details and we'll connect you with a certified Air Source Heat Pump installer
             </p>
           </div>
 

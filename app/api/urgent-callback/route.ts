@@ -69,7 +69,7 @@ export async function POST(request: NextRequest) {
 
     // Send urgent email to admin with high priority
     const { data: adminEmailData, error: adminError } = await resend.emails.send({
-      from: process.env.FROM_EMAIL || 'Heat Pump Resource <onboarding@resend.dev>',
+      from: process.env.FROM_EMAIL || 'Air Source Heat Pump Resource <onboarding@resend.dev>',
       to: [process.env.ADMIN_EMAIL || 'info@heatpumpresource.co.uk'],
       subject: `🚨 URGENT CALLBACK: ${inquiryType} - ${name}`,
       html: emailContent,
@@ -134,7 +134,7 @@ export async function POST(request: NextRequest) {
         
         <p style="font-size: 16px; line-height: 1.5; color: #1d1d1f;">
           Best regards,<br/>
-          <strong>Heat Pump Resource Team</strong>
+          <strong>Air Source Heat Pump Resource Team</strong>
         </p>
         
         <hr style="border: none; border-top: 1px solid #d2d2d7; margin: 30px 0;" />
@@ -146,9 +146,9 @@ export async function POST(request: NextRequest) {
     `;
 
     const { data: userEmailData, error: userError } = await resend.emails.send({
-      from: process.env.FROM_EMAIL || 'Heat Pump Resource <onboarding@resend.dev>',
+      from: process.env.FROM_EMAIL || 'Air Source Heat Pump Resource <onboarding@resend.dev>',
       to: [email],
-      subject: '✓ Urgent Callback Request Received - Heat Pump Resource',
+      subject: '✓ Urgent Callback Request Received - Air Source Heat Pump Resource',
       html: userConfirmation,
     });
 
