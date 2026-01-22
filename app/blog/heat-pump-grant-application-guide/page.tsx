@@ -81,7 +81,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
         {/* Hero Section - Apple Style */}
         <section className="relative pt-32 pb-24 md:pb-32 overflow-hidden">
           {/* Subtle gradient background */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#f5f5f7] via-white to-[#fbfbfd]" />
+          <div className="absolute inset-0 bg-linear-to-b from-[#f5f5f7] via-white to-[#fbfbfd]" />
           
           {/* Floating orbs */}
           <div className="absolute top-20 left-1/4 w-[500px] h-[500px] bg-[#34c759]/5 rounded-full blur-3xl" />
@@ -98,7 +98,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             
             {/* Main heading */}
             <h1 className="text-center text-[44px] sm:text-[56px] md:text-[72px] lg:text-[80px] font-semibold tracking-tight leading-[1.05] mb-6">
-              <span className="bg-gradient-to-r from-[#1d1d1f] via-[#1d1d1f] to-[#6e6e73] bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#1d1d1f] via-[#1d1d1f] to-[#6e6e73] bg-clip-text text-transparent">
                 £7,500 Heat Pump Grant
               </span>
               <br />
@@ -168,7 +168,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             {/* Section 1: Eligibility */}
             <section id="eligibility" data-section="eligibility" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#34c759] to-[#30d158] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#34c759]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#34c759] to-[#30d158] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#34c759]/20">
                   1
                 </div>
                 <div>
@@ -211,7 +211,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
               </div>
 
               {/* Result indicator */}
-              <div className="mt-8 p-6 rounded-2xl bg-gradient-to-r from-[#34c759]/10 to-[#30d158]/5 border border-[#34c759]/20">
+              <div className="mt-8 p-6 rounded-2xl bg-linear-to-r from-[#34c759]/10 to-[#30d158]/5 border border-[#34c759]/20">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-[#34c759] flex items-center justify-center text-white">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -246,7 +246,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             {/* Section 2: Documents */}
             <section id="documents" data-section="documents" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0071e3] to-[#0077ed] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#0071e3]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#0071e3] to-[#0077ed] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#0071e3]/20">
                   2
                 </div>
                 <div>
@@ -281,7 +281,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             {/* Section 3: Process */}
             <section id="process" data-section="process" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#ff9500] to-[#ff9f0a] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#ff9500]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#ff9500] to-[#ff9f0a] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#ff9500]/20">
                   3
                 </div>
                 <div>
@@ -292,7 +292,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
 
               <div className="relative">
                 {/* Timeline line */}
-                <div className="absolute left-6 top-8 bottom-8 w-px bg-gradient-to-b from-[#0071e3] via-[#0071e3] to-[#34c759]" />
+                <div className="absolute left-6 top-8 bottom-8 w-px bg-linear-to-b from-[#0071e3] via-[#0071e3] to-[#34c759]" />
                 
                 <div className="space-y-8">
                   {[
@@ -324,7 +324,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             {/* Section 4: Timeline */}
             <section id="timeline" data-section="timeline" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#5856d6] to-[#5e5ce6] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#5856d6]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#5856d6] to-[#5e5ce6] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#5856d6]/20">
                   4
                 </div>
                 <div>
@@ -376,7 +376,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             {/* Section 5: Common Mistakes */}
             <section id="mistakes" data-section="mistakes" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#ff3b30] to-[#ff453a] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#ff3b30]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#ff3b30] to-[#ff453a] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#ff3b30]/20">
                   5
                 </div>
                 <div>
@@ -432,7 +432,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
             {/* Section 6: Template Email */}
             <section id="template" data-section="template" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#af52de] to-[#bf5af2] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#af52de]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#af52de] to-[#bf5af2] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#af52de]/20">
                   6
                 </div>
                 <div>
@@ -442,7 +442,7 @@ export default function HeatPumpGrantApplicationGuidePage() {
               </div>
 
               <div className="relative">
-                <div className="absolute -inset-1 bg-gradient-to-r from-[#af52de]/20 to-[#0071e3]/20 rounded-3xl blur-xl opacity-50" />
+                <div className="absolute -inset-1 bg-linear-to-r from-[#af52de]/20 to-[#0071e3]/20 rounded-3xl blur-xl opacity-50" />
                 <div className="relative bg-white rounded-2xl p-6 md:p-8 border border-[#f5f5f7] shadow-sm">
                   <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#f5f5f7]">
                     <div className="flex items-center gap-3">
@@ -496,7 +496,7 @@ Thank you,
             {/* Section 7: Follow-up Checklist */}
             <section id="checklist" data-section="checklist" className="mb-24 animate-on-scroll opacity-0">
               <div className="flex items-center gap-4 mb-8">
-                <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#00c7be] to-[#30d158] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#00c7be]/20">
+                <div className="w-12 h-12 rounded-2xl bg-linear-to-br from-[#00c7be] to-[#30d158] flex items-center justify-center text-white text-xl font-bold shadow-lg shadow-[#00c7be]/20">
                   7
                 </div>
                 <div>
@@ -535,7 +535,7 @@ Thank you,
             {/* Final Tip */}
             <div className="mb-16 animate-on-scroll opacity-0">
               <div className="relative overflow-hidden rounded-3xl">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#34c759] to-[#30d158]" />
+                <div className="absolute inset-0 bg-linear-to-br from-[#34c759] to-[#30d158]" />
                 <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.05%22%3E%3Cpath%20d%3D%22M36%2034v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6%2034v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6%204V0H4v4H0v2h4v4h2V6h4V4H6z%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E')] opacity-50" />
                 <div className="relative p-8 md:p-12 text-center text-white">
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 mb-6">
@@ -555,7 +555,7 @@ Thank you,
             <div className="animate-on-scroll opacity-0">
               <div className="relative">
                 {/* Ambient background glow */}
-                <div className="absolute -inset-4 bg-gradient-to-r from-[#0071e3]/10 via-[#34c759]/10 to-[#0071e3]/10 rounded-[40px] blur-2xl opacity-60" />
+                <div className="absolute -inset-4 bg-linear-to-r from-[#0071e3]/10 via-[#34c759]/10 to-[#0071e3]/10 rounded-[40px] blur-2xl opacity-60" />
                 
                 <div className="relative bg-white rounded-[32px] border border-[#e5e5e5] shadow-2xl shadow-black/5 overflow-hidden">
                   {/* Top section */}
@@ -605,7 +605,7 @@ Thank you,
                   </div>
 
                   {/* CTA area */}
-                  <div className="px-8 md:px-16 py-10 md:py-12 text-center bg-gradient-to-b from-white to-[#f5f5f7]/50">
+                  <div className="px-8 md:px-16 py-10 md:py-12 text-center bg-linear-to-b from-white to-[#f5f5f7]/50">
                     <Link href="/quiz">
                       <button className="group relative inline-flex items-center justify-center">
                         {/* Button glow */}
