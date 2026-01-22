@@ -3,6 +3,7 @@
 import { Footer } from "@/components/footer"
 import { Navbar } from "@/components/navbar"
 import Head from "next/head"
+import Link from "next/link"
 
 export default function PrivacyPage() {
   return (
