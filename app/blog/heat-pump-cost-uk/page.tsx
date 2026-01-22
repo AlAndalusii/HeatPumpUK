@@ -1,62 +1,22 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
-import { useState, useEffect } from "react"
 import Head from "next/head"
 
 export default function HeatPumpCostPage() {
-  const [scrollY, setScrollY] = useState(0)
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
   return (
     <>
       <Head>
         <title>Air Source Heat Pump Cost UK: Complete Price Breakdown & Savings</title>
-        <meta name="description" content="Air source Air Source Heat Pump installation costs, running costs, and £7,500 grant deductions explained. Real examples from UK homes. Calculate your total cost and savings." />
+        <meta name="description" content="Air source heat pump installation costs, running costs, and £7,500 grant deductions explained. Real examples from UK homes. Calculate your total cost and savings." />
         <meta name="keywords" content="Air Source Heat Pump cost UK, Air Source Heat Pump installation cost, Air Source Heat Pump running costs, Air Source Heat Pump price, Air Source Heat Pump cost, Air Source Heat Pump grant savings" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
-      <header
-        className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-        style={{
-          backgroundColor: scrollY > 50 ? "rgba(255, 255, 255, 0.95)" : "rgba(255, 255, 255, 0.95)",
-          backdropFilter: "saturate(180%) blur(20px)",
-          borderBottom: "1px solid rgba(0, 0, 0, 0.08)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 group">
-              <Logo className="h-11 w-auto transition-transform duration-300 group-hover:scale-105" />
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How It Works
-              </Link>
-              <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                FAQ
-              </Link>
-              <Link href="/blog" className="text-sm font-medium text-[#0071e3]">
-                Blog
-              </Link>
-              <Link href="/quiz">
-                <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-sm px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
-                  Get Free Quotes
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="resources" />
 
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-6 bg-linear-to-br from-[#ff9500] to-[#e68600]">
@@ -81,10 +41,10 @@ export default function HeatPumpCostPage() {
           {/* Introduction */}
           <div className="prose prose-lg mb-12">
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Thinking about installing a Air Source Heat Pump? One question probably keeps you up at night: "How much is this actually going to cost?"
+              Thinking about installing an air source heat pump? One question probably keeps you up at night: "How much is this actually going to cost?"
             </p>
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Good news: the £7,500 government grant makes Air Source Heat Pumps much more affordable than they used to be. But let's break down the real numbers — installation costs, running costs, and what you'll actually pay after the grant.
+              Good news: the £7,500 government grant makes air source heat pumps much more affordable than they used to be. But let's break down the real numbers — installation costs, running costs, and what you'll actually pay after the grant.
             </p>
           </div>
 
@@ -112,7 +72,7 @@ export default function HeatPumpCostPage() {
               </div>
 
               <div className="border border-gray-200 rounded-xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Ground Source Air Source Heat Pump</h3>
+                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Ground Source Heat Pump</h3>
                 <p className="text-[17px] text-[#6e6e73] mb-3">Extracts heat from ground beneath your property</p>
                 <p className="text-[24px] font-bold text-[#34c759]">£12,000 – £25,000+</p>
                 <p className="text-[15px] text-[#6e6e73] mt-3">Most expensive, most efficient, requires garden space, longer payback period</p>
@@ -129,37 +89,37 @@ export default function HeatPumpCostPage() {
             <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4 mt-8">What's Included in Installation Costs?</h3>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#34c759] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-[17px] text-[#1d1d1f]">Heat pump unit (outdoor box)</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#34c759] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-[17px] text-[#1d1d1f]">Internal unit (typically a hot water tank or fan coil)</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#34c759] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-[17px] text-[#1d1d1f]">Pipework and connections</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#34c759] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-[17px] text-[#1d1d1f]">New radiators (if needed) or underfloor heating</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#34c759] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-[17px] text-[#1d1d1f]">Installation labor (typically 2-3 days)</span>
               </li>
               <li className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-[#34c759] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-5 h-5 text-[#34c759] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <span className="text-[17px] text-[#1d1d1f]">MCS certification and compliance testing</span>
@@ -174,7 +134,7 @@ export default function HeatPumpCostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              Here's where Air Source Heat Pumps shine. They're <strong>3x more efficient</strong> than gas boilers, which means much lower heating bills.
+              Here's where air source heat pumps shine. They're <strong>3x more efficient</strong> than gas boilers, which means much lower heating bills.
             </p>
 
             <div className="bg-[#f5f5f7] rounded-2xl p-8 mb-8">
@@ -218,7 +178,7 @@ export default function HeatPumpCostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              The government's Boiler Upgrade Scheme gives you £7,500 off a new Air Source Heat Pump. This dramatically changes the cost equation.
+              The government's Boiler Upgrade Scheme gives you £7,500 off a new air source heat pump. This dramatically changes the cost equation.
             </p>
 
             <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-4">Real Cost Breakdown (Air Source Heat Pump)</h3>
@@ -310,10 +270,10 @@ export default function HeatPumpCostPage() {
           </div>
 
           {/* Key Takeaway */}
-          <div className="bg-gradient-to-br from-[#0071e3]/10 to-[#34c759]/10 rounded-2xl p-8 mb-16 border border-[#0071e3]/20">
+          <div className="bg-linear-to-br from-[#0071e3]/10 to-[#34c759]/10 rounded-2xl p-8 mb-16 border border-[#0071e3]/20">
             <h3 className="text-[24px] font-semibold text-[#1d1d1f] mb-4">Key Takeaway</h3>
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-              Heat pump installation costs £8,000-£15,000. With the £7,500 grant, you typically pay £2,500-£7,500. Running cost savings of £400-700/year mean most homeowners break even in 3-6 years. After that, you have cheaper heating for the next 15+ years of the Air Source Heat Pump's lifespan.
+              Heat pump installation costs £8,000-£15,000. With the £7,500 grant, you typically pay £2,500-£7,500. Running cost savings of £400-700/year mean most homeowners break even in 3-6 years. After that, you have cheaper heating for the next 15+ years of the air source heat pump's lifespan.
             </p>
           </div>
 

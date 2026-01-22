@@ -104,6 +104,15 @@ export default function QuizPage() {
   const currentQuestion = questions[currentStep]
   const progress = ((currentStep + 1) / questions.length) * 100
 
+  // Check for pre-filled postcode from hero section
+  useEffect(() => {
+    const heroPostcode = sessionStorage.getItem("heroPostcode")
+    if (heroPostcode && !answers[9]) {
+      setAnswers(prev => ({ ...prev, 9: heroPostcode }))
+      sessionStorage.removeItem("heroPostcode")
+    }
+  }, [])
+
   // Restore previous answers when navigating back
   useEffect(() => {
     const currentAnswer = answers[currentQuestion.id]

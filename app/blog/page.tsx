@@ -1,36 +1,68 @@
 "use client"
 
-import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import Head from "next/head"
 
 const guides = [
   {
-    id: "heat-pump-installation-cost-uk",
-    title: "Air Source Heat Pump Installation Cost UK: What You'll Actually Pay in 2025",
-    excerpt: "Complete breakdown of Air Source Heat Pump installation costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
+    id: "heat-pump-grant-application-guide",
+    title: "£7,500 Heat Pump Grant – Simple Step-by-Step Guide (UK)",
+    excerpt: "Complete step-by-step guide to applying for the UK £7,500 heat pump grant. Eligibility checklist, documents needed, timeline, and template emails included.",
     image: "/modern-heat-pump-installation.jpg",
-    date: "January 1, 2026",
+    date: "June 15, 2025",
+    category: "Guides",
+  },
+  {
+    id: "heat-pump-quotes-manchester",
+    title: "Heat Pump Quotes Manchester: Real Costs 2026 | £2,500-£6,500",
+    excerpt: "Real Manchester heat pump quotes: £8K-£14K before grant, £2.5K-£6.5K after. See what's included, typical extras, and how quotes are presented locally.",
+    image: "/micheile-henderson-ZVprbBmT8QA-unsplash.jpg",
+    date: "January 22, 2026",
+    category: "Manchester",
+    path: "/heat-pump-quotes-manchester",
+  },
+  {
+    id: "air-source-heat-pump-disadvantages-uk",
+    title: "Air Source Heat Pump Disadvantages (UK) – Honest 2026 Guide",
+    excerpt: "Worried about the disadvantages of air source heat pumps in the UK? We explain the real problems – costs, noise, radiators, bills, space and installers – in simple language.",
+    image: "/julian-hochgesang-mk9kC-klh5o-unsplash.jpg",
+    date: "January 15, 2026",
+    category: "Guides",
+  },
+  {
+    id: "ground-source-heat-pump-cost-uk",
+    title: "Ground Source Heat Pump Cost in the UK (2026 Guide)",
+    excerpt: "Simple 2026 guide to ground source heat pump costs. See real price ranges, borehole vs trench costs, running costs, and how the £7,500 grant works.",
+    image: "/ticka-kao-1KNFO2dpoiM-unsplash.jpg",
+    date: "January 8, 2026",
+    category: "Guides",
+  },
+  {
+    id: "air-source-heat-pump-cost-uk",
+    title: "Air Source Heat Pump Cost in the UK (2026 Guide)",
+    excerpt: "Complete breakdown of Air Source Heat Pump costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
+    image: "/thisisengineering-vEoMKBdUIzs-unsplash.jpg",
+    date: "January 3, 2026",
     category: "Guides",
   },
   {
     id: "are-heat-pumps-worth-it",
     title: "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes",
     excerpt: "Get the straight answer about whether Air Source Heat Pumps are worth it. Real costs, genuine savings, and who they're perfect for.",
-    image: "/modern-heat-pump-installation.jpg",
-    date: "January 1, 2026",
+    image: "/fotos-k72xVjAmVHE-unsplash.jpg",
+    date: "August 23, 2025",
     category: "Guides",
   },
   {
     id: "how-heat-pumps-work",
     title: "How Do Air Source Heat Pumps Work? The Simple Guide",
     excerpt: "Understand how Air Source Heat Pumps work in plain English. Learn the simple steps from taking heat from outside air to warming your home efficiently.",
-    image: "/modern-heat-pump-installation.jpg",
-    date: "March 18, 2025",
+    image: "/emmanuel-ikwuegbu-_2AlIm-F6pw-unsplash.jpg",
+    date: "May 7, 2025",
     category: "Guides",
   },
   {
@@ -38,7 +70,7 @@ const guides = [
     title: "Everything You Need to Know About the £7,500 Air Source Heat Pump Grant",
     excerpt: "The UK government is giving away up to £7,500 to help you get a Air Source Heat Pump. Learn who qualifies, how to apply, and how much you could save.",
     image: "/modern-heat-pump-installation.jpg",
-    date: "March 15, 2025",
+    date: "February 19, 2025",
     category: "Guides",
   },
 ]
@@ -60,14 +92,7 @@ const cities = [
 type TabType = "guides" | "blogs" | "installers" | "cities"
 
 export default function ResourceHubPage() {
-  const [scrollY, setScrollY] = useState(0)
   const [activeTab, setActiveTab] = useState<TabType>("guides")
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
 
   // Intersection Observer for scroll animations
   useEffect(() => {
@@ -101,38 +126,7 @@ export default function ResourceHubPage() {
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
-      <header
-        className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-        style={{
-          backgroundColor: scrollY > 50 ? "rgba(255, 255, 255, 0.95)" : "rgba(255, 255, 255, 0.95)",
-          backdropFilter: "saturate(180%) blur(20px)",
-          borderBottom: "1px solid rgba(0, 0, 0, 0.08)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 group">
-              <Logo className="h-11 w-auto transition-transform duration-300 group-hover:scale-105" />
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How It Works
-              </Link>
-              <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                FAQ
-              </Link>
-              <Link href="/blog" className="text-sm font-medium text-[#0071e3]">
-                Resources
-              </Link>
-              <Link href="/quiz">
-                <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-sm px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
-                  Get Free Quotes
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="resources" />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 bg-linear-to-br from-[#f5f5f7] to-white">
@@ -203,8 +197,8 @@ export default function ResourceHubPage() {
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {guides.map((post, index) => (
-                  <Link href={`/blog/${post.id}`} key={post.id}>
-                    <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-white opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
+                  <Link href={post.path || `/blog/${post.id}`} key={post.id}>
+                    <div className="overflow-hidden rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-white border border-gray-100 shadow-sm opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
                       <div className="relative h-56 overflow-hidden">
                         <img 
                           src={post.image || "/placeholder.svg"} 
@@ -212,7 +206,7 @@ export default function ResourceHubPage() {
                           className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" 
                         />
                       </div>
-                      <div className="p-6">
+                      <div className="p-6 bg-white">
                         <p className="text-[13px] font-medium text-[#0071e3] mb-3 uppercase tracking-wide">{post.date}</p>
                         <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3 leading-tight text-balance">{post.title}</h3>
                         <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">{post.excerpt}</p>
@@ -223,7 +217,7 @@ export default function ResourceHubPage() {
                           </svg>
                         </div>
                       </div>
-                    </Card>
+                    </div>
                   </Link>
                 ))}
               </div>
@@ -263,7 +257,7 @@ export default function ResourceHubPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {installerLocations.map((location, index) => (
                   <Link href={location.path} key={location.name}>
-                    <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-gradient-to-br from-[#0071e3]/5 to-[#00a2ff]/5 border-2 border-[#0071e3]/20 opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <div className="overflow-hidden rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-white border-2 border-[#0071e3]/20 opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
                       <div className="p-8 h-full flex flex-col justify-between">
                         <div>
                           <div className="w-14 h-14 bg-[#0071e3]/10 rounded-2xl flex items-center justify-center mb-6">
@@ -281,7 +275,7 @@ export default function ResourceHubPage() {
                           </svg>
                         </div>
                       </div>
-                    </Card>
+                    </div>
                   </Link>
                 ))}
               </div>
@@ -297,7 +291,7 @@ export default function ResourceHubPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {cities.map((city, index) => (
                   <Link href={city.path} key={city.name}>
-                    <Card className="overflow-hidden border-0 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-gradient-to-br from-[#34c759]/5 to-[#30d158]/5 border-2 border-[#34c759]/20 opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
+                    <div className="overflow-hidden rounded-2xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer bg-white border-2 border-[#34c759]/20 opacity-0 animate-fade-in-up-scroll h-full" style={{ animationDelay: `${index * 0.1}s` }}>
                       <div className="p-8 h-full flex flex-col justify-between">
                         <div>
                           <div className="w-14 h-14 bg-[#34c759]/10 rounded-2xl flex items-center justify-center mb-6">
@@ -316,7 +310,7 @@ export default function ResourceHubPage() {
                           </svg>
                         </div>
                       </div>
-                    </Card>
+                    </div>
                   </Link>
                 ))}
               </div>

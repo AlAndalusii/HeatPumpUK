@@ -1,21 +1,12 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
-import { useState, useEffect } from "react"
 import Head from "next/head"
 
 export default function HowHeatPumpsWorkPage() {
-  const [scrollY, setScrollY] = useState(0)
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
   return (
     <>
       <Head>
@@ -25,38 +16,7 @@ export default function HowHeatPumpsWorkPage() {
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
-      <header
-        className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-        style={{
-          backgroundColor: scrollY > 50 ? "rgba(255, 255, 255, 0.95)" : "rgba(255, 255, 255, 0.95)",
-          backdropFilter: "saturate(180%) blur(20px)",
-          borderBottom: "1px solid rgba(0, 0, 0, 0.08)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 group">
-              <Logo className="h-11 w-auto transition-transform duration-300 group-hover:scale-105" />
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How It Works
-              </Link>
-              <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                FAQ
-              </Link>
-              <Link href="/blog" className="text-sm font-medium text-[#0071e3]">
-                Blog
-              </Link>
-              <Link href="/quiz">
-                <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-sm px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
-                  Get Free Quotes
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="resources" />
 
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-6 bg-linear-to-br from-[#34c759] to-[#30a14e]">
@@ -68,7 +28,7 @@ export default function HowHeatPumpsWorkPage() {
             How Do Air Source Heat Pumps Work? The Simple Guide
           </h1>
           <div className="flex items-center gap-4 text-white/80">
-            <span className="text-[15px]">March 18, 2025</span>
+            <span className="text-[15px]">May 7, 2025</span>
             <span>•</span>
             <span className="text-[15px]">7 min read</span>
           </div>
@@ -81,22 +41,22 @@ export default function HowHeatPumpsWorkPage() {
           {/* Introduction */}
           <div className="prose prose-lg mb-12">
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              You know how your fridge keeps food cold? Well, a Air Source Heat Pump is basically a fridge that works backwards. Instead of making things cold, it makes your house warm. Pretty clever, right?
+              You know how your fridge keeps food cold? Well, an air source heat pump is basically a fridge that works backwards. Instead of making things cold, it makes your house warm. Pretty clever, right?
             </p>
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Let me explain this properly, because understanding how Air Source Heat Pumps work isn't as complicated as it sounds. I promise.
+              Let me explain this properly, because understanding how air source heat pumps work isn't as complicated as it sounds. I promise.
             </p>
           </div>
 
-          {/* What Actually Is a Air Source Heat Pump? */}
+          {/* What Actually Is an Air Source Heat Pump? */}
           <div className="mb-16">
             <h2 className="text-[32px] md:text-[40px] font-semibold text-[#1d1d1f] mb-6 tracking-tight">
-              What Actually Is a Air Source Heat Pump?
+              What Actually Is an Air Source Heat Pump?
             </h2>
 
             <div className="bg-[#f5f5f7] rounded-2xl p-8 mb-8">
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
-                A Air Source Heat Pump is a machine that heats your home. But here's the cool part – it doesn't create heat like a normal boiler does. Instead, it <strong>steals heat from outside</strong> and brings it inside your house.
+                An air source heat pump is a machine that heats your home. But here's the cool part – it doesn't create heat like a normal boiler does. Instead, it <strong>steals heat from outside</strong> and brings it inside your house.
               </p>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
                 I know what you're thinking: "Wait, how can you steal heat from outside when it's freezing cold?" Great question!
@@ -112,10 +72,10 @@ export default function HowHeatPumpsWorkPage() {
             </p>
           </div>
 
-          {/* How Does a Air Source Heat Pump Actually Work? */}
+          {/* How Does an Air Source Heat Pump Actually Work? */}
           <div className="mb-16">
             <h2 className="text-[32px] md:text-[40px] font-semibold text-[#1d1d1f] mb-6 tracking-tight">
-              How Does a Air Source Heat Pump Actually Work?
+              How Does an Air Source Heat Pump Actually Work?
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
@@ -129,7 +89,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
               <div className="p-6">
                 <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-                  There's a big metal box that sits outside your house. This is called an <strong>Air Source Heat Pump</strong> (because it takes heat from the air). Inside this box, there's a special liquid that's really good at absorbing heat.
+                  There's a big metal box that sits outside your house. This is called an <strong>air source heat pump</strong> (because it takes heat from the air). Inside this box, there's a special liquid that's really good at absorbing heat.
                 </p>
                 <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mt-4">
                   When cold air blows past this liquid, the liquid soaks up any heat that's in the air – even if the air feels freezing to you and me.
@@ -144,7 +104,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
               <div className="p-6">
                 <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-                  Now here's where it gets interesting. The Air Source Heat Pump has a <strong>compressor</strong> inside it. This compressor squeezes the liquid really, really hard.
+                  Now here's where it gets interesting. The air source heat pump has a <strong>compressor</strong> inside it. This compressor squeezes the liquid really, really hard.
                 </p>
                 <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mt-4">
                   Why? Because <strong>when you squeeze things, they get hot</strong>. Try this: rub your hands together really fast. They get warm, right? That's kind of what the compressor does to the liquid.
@@ -159,7 +119,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
               <div className="p-6">
                 <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-                  Once the liquid is hot, the Air Source Heat Pump sends it into your house. The hot liquid flows through pipes in your radiators or underfloor heating, warming up your rooms.
+                  Once the liquid is hot, the air source heat pump sends it into your house. The hot liquid flows through pipes in your radiators or underfloor heating, warming up your rooms.
                 </p>
               </div>
             </div>
@@ -191,7 +151,7 @@ export default function HowHeatPumpsWorkPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              You might have noticed people talking about Air Source Heat Pumps a lot lately. There are a few reasons for this.
+              You might have noticed people talking about air source heat pumps a lot lately. There are a few reasons for this.
             </p>
 
             {/* Reason 1 */}
@@ -206,10 +166,10 @@ export default function HowHeatPumpsWorkPage() {
             <div className="bg-linear-to-r from-[#34c759]/10 to-[#ff9500]/10 rounded-2xl p-6 mb-6">
               <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">💷 Reason 2: The Government Is Giving Away Money</h3>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
-                This is a big one. <strong>Right now, the UK government is giving people £7,500 to help pay for a Air Source Heat Pump</strong>. That's a lot of money! It's called the Boiler Upgrade Scheme.
+                This is a big one. <strong>Right now, the UK government is giving people £7,500 to help pay for an air source heat pump</strong>. That's a lot of money! It's called the Boiler Upgrade Scheme.
               </p>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-                Why are they doing this? Because the government wants more homes to use Air Source Heat Pumps instead of gas boilers. It's part of their plan to reduce pollution. Not everyone can get this money though. You need to own your home and be replacing an old gas, oil, or LPG boiler.
+                Why are they doing this? Because the government wants more homes to use air source heat pumps instead of gas boilers. It's part of their plan to reduce pollution. Not everyone can get this money though. You need to own your home and be replacing an old gas, oil, or LPG boiler.
               </p>
             </div>
 
@@ -229,7 +189,7 @@ export default function HowHeatPumpsWorkPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              Yes! The most common type for homes is the <strong>Air Source Heat Pump</strong>. This is the one I've been describing – the one with the metal box outside that takes heat from the air.
+              Yes! The most common type for homes is the <strong>air source heat pump</strong>. This is the one I've been describing – the one with the metal box outside that takes heat from the air.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -241,7 +201,7 @@ export default function HowHeatPumpsWorkPage() {
               </div>
 
               <div className="bg-white border-2 border-gray-300 rounded-2xl p-6">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">🏗️ Ground Source Air Source Heat Pump</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">🏗️ Ground Source Heat Pump</h3>
                 <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
                   Gets heat from the ground. Works great, but you need to dig up your garden, which makes it more expensive.
                 </p>
@@ -249,7 +209,7 @@ export default function HowHeatPumpsWorkPage() {
             </div>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-              Most people go for Air Source Heat Pumps because they're simpler and cheaper to install.
+              Most people go for air source heat pumps because they're simpler and cheaper to install.
             </p>
           </div>
 
@@ -279,7 +239,7 @@ export default function HowHeatPumpsWorkPage() {
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">They Last a Long Time</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                    A good Air Source Heat Pump can last 20-25 years if you look after it properly. That's longer than most gas boilers, which usually last about 10-15 years.
+                    A good air source heat pump can last 20-25 years if you look after it properly. That's longer than most gas boilers, which usually last about 10-15 years.
                   </p>
                 </div>
               </div>
@@ -289,7 +249,7 @@ export default function HowHeatPumpsWorkPage() {
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">They Work as Air Conditioning Too</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                    Many Air Source Heat Pumps can run backwards in summer, cooling your house down instead of heating it up. So it's like getting air conditioning included.
+                    Many air source heat pumps can run backwards in summer, cooling your house down instead of heating it up. So it's like getting air conditioning included.
                   </p>
                 </div>
               </div>
@@ -299,7 +259,7 @@ export default function HowHeatPumpsWorkPage() {
                 <div>
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Lower Carbon Footprint</h4>
                   <p className="text-[15px] text-[#6e6e73] leading-[1.6]">
-                    If you care about reducing pollution (and let's be honest, we all should), Air Source Heat Pumps are much cleaner than burning gas or oil.
+                    If you care about reducing pollution (and let's be honest, we all should), air source heat pumps are much cleaner than burning gas or oil.
                   </p>
                 </div>
               </div>
@@ -323,7 +283,7 @@ export default function HowHeatPumpsWorkPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
-              I should be honest with you – Air Source Heat Pumps aren't perfect for everyone.
+              I should be honest with you – air source heat pumps aren't perfect for everyone.
             </p>
 
             <div className="bg-[#ff9500]/10 border-l-4 border-[#ff9500] rounded-r-xl p-6">
@@ -356,10 +316,10 @@ export default function HowHeatPumpsWorkPage() {
             </div>
           </div>
 
-          {/* Should You Get a Air Source Heat Pump? */}
+          {/* Should You Get an Air Source Heat Pump? */}
           <div className="mb-16">
             <h2 className="text-[32px] md:text-[40px] font-semibold text-[#1d1d1f] mb-6 tracking-tight">
-              Should You Get a Air Source Heat Pump?
+              Should You Get an Air Source Heat Pump?
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-8">
@@ -388,11 +348,11 @@ export default function HowHeatPumpsWorkPage() {
             </div>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              If you answered yes to most of these, a Air Source Heat Pump might be a great option for you. <strong>Especially with that £7,500 grant available.</strong>
+              If you answered yes to most of these, an air source heat pump might be a great option for you. <strong>Especially with that £7,500 grant available.</strong>
             </p>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-              The best way to find out is to check your eligibility for the grant and get some quotes from installers. They can look at your specific home and tell you if a Air Source Heat Pump makes sense.
+              The best way to find out is to check your eligibility for the grant and get some quotes from installers. They can look at your specific home and tell you if an air source heat pump makes sense.
             </p>
           </div>
 
@@ -440,7 +400,7 @@ export default function HowHeatPumpsWorkPage() {
             <h2 className="text-[28px] font-semibold text-[#1d1d1f] mb-6">The Bottom Line</h2>
             
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              So that's how Air Source Heat Pumps work. They're basically <strong>heat-stealing machines</strong> that are way more efficient than normal boilers, better for the environment, and might save you money – especially with the government grant.
+              So that's how air source heat pumps work. They're basically <strong>heat-stealing machines</strong> that are way more efficient than normal boilers, better for the environment, and might save you money – especially with the government grant.
             </p>
 
             <p className="text-[17px] leading-[1.6] font-semibold text-[#34c759]">

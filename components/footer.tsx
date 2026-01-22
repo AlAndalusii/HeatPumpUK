@@ -39,6 +39,9 @@ export function Footer() {
               <Link href="/installers/manchester" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
                 Manchester
               </Link>
+              <Link href="/installers/manchester/heating-engineers" className="block text-[13px] sm:text-[14px] text-[#6e6e73] hover:text-[#0071e3] transition-colors">
+                Heating Engineers Manchester
+              </Link>
             </div>
           </div>
 

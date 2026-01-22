@@ -2,7 +2,7 @@
 
 export function Logo({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 200 44" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+    <svg viewBox="0 0 280 44" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
       {/* Minimalist icon - circular energy flow with perfect geometry */}
       <g>
         {/* Outer circle - subtle background */}
@@ -65,25 +65,14 @@ export function Logo({ className = "" }: { className?: string }) {
       <g>
         <text
           x="52"
-          y="30"
-          fontFamily="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
-          fontSize="20"
-          fontWeight="600"
+          y="28"
+          fontFamily="'Poppins', sans-serif"
+          fontSize="17"
+          fontWeight="400"
           fill="#1d1d1f"
           letterSpacing="-0.5"
         >
-          HeatPump
-        </text>
-        <text
-          x="145"
-          y="30"
-          fontFamily="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
-          fontSize="20"
-          fontWeight="400"
-          fill="#86868b"
-          letterSpacing="-0.3"
-        >
-          UK
+          Get Heat Pump Quotes
         </text>
       </g>
 

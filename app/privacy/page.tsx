@@ -1,20 +1,10 @@
 "use client"
 
-import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
-import Link from "next/link"
+import { Navbar } from "@/components/navbar"
 import Head from "next/head"
-import { useState, useEffect } from "react"
 
 export default function PrivacyPage() {
-  const [scrollY, setScrollY] = useState(0)
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
   return (
     <>
       <Head>
@@ -24,27 +14,7 @@ export default function PrivacyPage() {
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
-      <header
-        className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-        style={{
-          backgroundColor: scrollY > 50 ? "rgba(255, 255, 255, 0.95)" : "rgba(255, 255, 255, 0.95)",
-          backdropFilter: "saturate(180%) blur(20px)",
-          borderBottom: "1px solid rgba(0, 0, 0, 0.08)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 group">
-              <Logo className="h-11 w-auto transition-transform duration-300 group-hover:scale-105" />
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                Home
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="privacy" />
 
       {/* Content */}
       <div className="pt-32 pb-20 px-6">

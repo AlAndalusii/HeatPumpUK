@@ -1,62 +1,22 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
-import { useState, useEffect } from "react"
 import Head from "next/head"
 
 export default function BlogPostPage() {
-  const [scrollY, setScrollY] = useState(0)
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
   return (
     <>
       <Head>
         <title>£7,500 Air Source Heat Pump Grant UK | Eligibility Guide</title>
-        <meta name="description" content="Complete guide to the £7,500 Air Source Heat Pump grant UK 2025. Check eligibility, learn how to apply for government Air Source Heat Pump grants, and find MCS installers. Available in England, Scotland & Wales." />
+        <meta name="description" content="Complete guide to the £7,500 air source heat pump grant in the UK. Check eligibility, learn how to apply for government grants, and find MCS installers in England, Scotland and Wales." />
         <meta name="keywords" content="£7500 Air Source Heat Pump grant, Air Source Heat Pump grant UK, government Air Source Heat Pump grant, Air Source Heat Pump grant eligibility, Air Source Heat Pump grant, Boiler Upgrade Scheme, MCS installers" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
-      <header
-        className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-        style={{
-          backgroundColor: scrollY > 50 ? "rgba(255, 255, 255, 0.95)" : "rgba(255, 255, 255, 0.95)",
-          backdropFilter: "saturate(180%) blur(20px)",
-          borderBottom: "1px solid rgba(0, 0, 0, 0.08)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3 group">
-              <Logo className="h-11 w-auto transition-transform duration-300 group-hover:scale-105" />
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                How It Works
-              </Link>
-              <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                FAQ
-              </Link>
-              <Link href="/blog" className="text-sm font-medium text-[#0071e3]">
-                Blog
-              </Link>
-              <Link href="/quiz">
-                <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-sm px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
-                  Get Free Quotes
-                </Button>
-              </Link>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="resources" />
 
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-6 bg-linear-to-br from-[#0071e3] to-[#0056b3]">
@@ -68,7 +28,7 @@ export default function BlogPostPage() {
             Everything You Need to Know About the £7,500 Air Source Heat Pump Grant
           </h1>
           <div className="flex items-center gap-4 text-white/80">
-            <span className="text-[15px]">March 15, 2025</span>
+            <span className="text-[15px]">February 19, 2025</span>
             <span>•</span>
             <span className="text-[15px]">8 min read</span>
           </div>
@@ -81,22 +41,22 @@ export default function BlogPostPage() {
           {/* Introduction */}
           <div className="prose prose-lg mb-12">
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Good news! The UK government is giving away up to <strong>£7,500</strong> to help you get a Air Source Heat Pump for your home. Think of it like getting a huge discount voucher for making your home warmer and greener!
+              Good news! The UK government is giving away up to <strong>£7,500</strong> to help you get an air source heat pump for your home. Think of it like getting a huge discount voucher for making your home warmer and greener!
             </p>
             <p className="text-[19px] md:text-[21px] text-[#1d1d1f] leading-[1.6] mb-6">
-              But how does this <strong>Air Source Heat Pump grant</strong> work? Who can get it? And how do you apply? Don't worry – we'll explain everything in simple words, just like we're chatting over a cup of tea.
+              But how does this <strong>air source heat pump grant</strong> work? Who can get it? And how do you apply? Don't worry – we'll explain everything in simple words, just like we're chatting over a cup of tea.
             </p>
           </div>
 
-          {/* What is a Air Source Heat Pump? */}
+          {/* What is an Air Source Heat Pump? */}
           <div className="mb-16">
             <h2 className="text-[32px] md:text-[40px] font-semibold text-[#1d1d1f] mb-6 tracking-tight">
-              What is a Air Source Heat Pump? (And Why Should You Care?)
+              What is an Air Source Heat Pump? (And Why Should You Care?)
             </h2>
             
             <div className="bg-[#f5f5f7] rounded-2xl p-8 mb-8">
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
-                Imagine your fridge, but working backwards. Instead of keeping things cold, a Air Source Heat Pump takes warmth from outside (even when it's freezing!) and brings it into your home. Pretty clever, right?
+                Imagine your fridge, but working backwards. Instead of keeping things cold, an air source heat pump takes warmth from outside (even when it's freezing!) and brings it into your home. Pretty clever, right?
               </p>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
                 Heat pumps are amazing because they use much less energy than old-fashioned boilers. This means lower bills for you and less pollution for our planet. It's like swapping a thirsty car for an electric one!
@@ -108,7 +68,7 @@ export default function BlogPostPage() {
               alt="Modern Air Source Heat Pump installation" 
               className="w-full h-[400px] object-cover rounded-2xl shadow-lg mb-6"
             />
-            <p className="text-[14px] text-[#6e6e73] text-center mb-8">A modern Air Source Heat Pump installed outside a UK home</p>
+            <p className="text-[14px] text-[#6e6e73] text-center mb-8">A modern air source heat pump installed outside a UK home</p>
           </div>
 
           {/* Understanding the Government Air Source Heat Pump Grant */}
@@ -118,7 +78,7 @@ export default function BlogPostPage() {
             </h2>
             
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              The <strong>government Air Source Heat Pump grant</strong> is officially called the "Boiler Upgrade Scheme" (or BUS for short). It's a program where the government chips in £7,500 towards your Air Source Heat Pump installation.
+              The <strong>government air source heat pump grant</strong> is officially called the "Boiler Upgrade Scheme" (or BUS for short). It's a program where the government chips in £7,500 towards your air source heat pump installation.
             </p>
 
             <div className="bg-[#0071e3]/5 border-l-4 border-[#0071e3] rounded-r-xl p-6 mb-8">
@@ -136,7 +96,7 @@ export default function BlogPostPage() {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
                 <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">🌬️ Air Source Heat Pumps</h4>
-                <p className="text-[15px] text-[#6e6e73] leading-[1.5] mb-3">
+                <p className="text-[15px] text-[#6e6e73] leading-normal mb-3">
                   These grab heat from the air outside. They're the most common type and easier to install.
                 </p>
                 <div className="text-[14px] text-[#0071e3] font-medium">
@@ -145,8 +105,8 @@ export default function BlogPostPage() {
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">🌍 Ground Source Air Source Heat Pumps</h4>
-                <p className="text-[15px] text-[#6e6e73] leading-[1.5] mb-3">
+                <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">🌍 Ground Source Heat Pumps</h4>
+                <p className="text-[15px] text-[#6e6e73] leading-normal mb-3">
                   These take heat from the ground using pipes buried in your garden. More expensive but super efficient.
                 </p>
                 <div className="text-[14px] text-[#0071e3] font-medium">
@@ -156,7 +116,7 @@ export default function BlogPostPage() {
             </div>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-              The <strong>Air Source Heat Pump grant</strong> is particularly popular because these systems work well for most homes and cost less to install than ground source systems.
+              The air source heat pump grant is particularly popular because these systems work well for most homes and cost less to install than ground source systems.
             </p>
           </div>
 
@@ -167,12 +127,12 @@ export default function BlogPostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Wondering about <strong>Air Source Heat Pump grant eligibility</strong>? Here's the simple checklist:
+              Wondering about air source heat pump grant eligibility? Here's the simple checklist:
             </p>
 
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-4 bg-[#f5f5f7] rounded-xl p-5">
-                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-lg font-bold">✓</span>
                 </div>
                 <div>
@@ -184,19 +144,19 @@ export default function BlogPostPage() {
               </div>
 
               <div className="flex items-start gap-4 bg-[#f5f5f7] rounded-xl p-5">
-                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-lg font-bold">✓</span>
                 </div>
                 <div>
                   <h4 className="text-[18px] font-semibold text-[#1d1d1f] mb-2">You Live in England, Scotland, or Wales</h4>
                   <p className="text-[15px] text-[#6e6e73]">
-                    The <strong>Air Source Heat Pump grant England</strong>, <strong>Air Source Heat Pump grant Wales</strong>, and <strong>Air Source Heat Pump grant Scotland</strong> are all part of the same scheme. Northern Ireland has different programs.
+                    The air source heat pump grant in England, Wales and Scotland all use the Boiler Upgrade Scheme. All three parts of the UK follow the same eligibility rules. Northern Ireland has different programs.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4 bg-[#f5f5f7] rounded-xl p-5">
-                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-lg font-bold">✓</span>
                 </div>
                 <div>
@@ -208,7 +168,7 @@ export default function BlogPostPage() {
               </div>
 
               <div className="flex items-start gap-4 bg-[#f5f5f7] rounded-xl p-5">
-                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-lg font-bold">✓</span>
                 </div>
                 <div>
@@ -220,7 +180,7 @@ export default function BlogPostPage() {
               </div>
 
               <div className="flex items-start gap-4 bg-[#f5f5f7] rounded-xl p-5">
-                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-8 h-8 rounded-full bg-[#34c759] flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-lg font-bold">✓</span>
                 </div>
                 <div>
@@ -240,14 +200,14 @@ export default function BlogPostPage() {
             </div>
           </div>
 
-          {/* How Much Does a Air Source Heat Pump Cost? */}
+          {/* How Much Does an air source heat pump Cost? */}
           <div className="mb-16">
             <h2 className="text-[32px] md:text-[40px] font-semibold text-[#1d1d1f] mb-6 tracking-tight">
-              How Much Does a Air Source Heat Pump Cost?
+              How Much Does an Air Source Heat Pump Cost?
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Let's talk numbers. Understanding <strong>Air Source Heat Pump cost</strong> helps you plan your budget:
+              Let's talk numbers. Understanding air source heat pump costs helps you plan your budget:
             </p>
 
             <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden mb-8">
@@ -272,7 +232,7 @@ export default function BlogPostPage() {
 
             <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden mb-8">
               <div className="bg-[#34c759] px-6 py-4">
-                <h3 className="text-[20px] font-semibold text-white">Ground Source Air Source Heat Pump Costs</h3>
+                <h3 className="text-[20px] font-semibold text-white">Ground Source Heat Pump Costs</h3>
               </div>
               <div className="p-6">
                 <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-200">
@@ -290,8 +250,12 @@ export default function BlogPostPage() {
               </div>
             </div>
 
-            <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
+            <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
               Remember, these are typical costs. Your actual price depends on your home's size, how well it's insulated, and which installer you choose. That's why it's smart to get quotes from multiple installers!
+            </p>
+
+            <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
+              For a full breakdown of prices, you can also read our <Link href="/blog/air-source-heat-pump-cost-uk" className="text-[#0071e3] hover:underline">air source heat pump cost guide</Link>.
             </p>
           </div>
 
@@ -302,24 +266,24 @@ export default function BlogPostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              Here's the good news: <strong>you don't actually apply yourself</strong>! Your MCS-certified installer does all the paperwork for you. Here's how it works:
+              Here's the good news: <strong>you don't actually apply yourself</strong>! Your <Link href="/" className="text-[#0071e3] hover:underline">MCS-certified installer</Link> does all the paperwork for you. Here's how it works:
             </p>
 
             <div className="space-y-6 mb-8">
               <div className="flex gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center shrink-0">
                   <span className="text-white text-[20px] font-bold">1</span>
                 </div>
                 <div className="flex-1 pt-2">
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Get Your Quotes</h4>
                   <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                    Contact 2-3 MCS-certified installers and ask for quotes. They'll visit your home for a free survey to check if a Air Source Heat Pump is right for you.
+                    Contact 2-3 <Link href="/" className="text-[#0071e3] hover:underline">MCS-certified installers</Link> and ask for quotes. They'll visit your home for a free survey to check if an air source heat pump is right for you.
                   </p>
                 </div>
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center shrink-0">
                   <span className="text-white text-[20px] font-bold">2</span>
                 </div>
                 <div className="flex-1 pt-2">
@@ -331,31 +295,31 @@ export default function BlogPostPage() {
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center shrink-0">
                   <span className="text-white text-[20px] font-bold">3</span>
                 </div>
                 <div className="flex-1 pt-2">
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Installer Applies for Grant</h4>
                   <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                    Your chosen installer applies for the grant through the official <strong>gov uk Air Source Heat Pump grant</strong> system. They do all the boring paperwork!
+                    Your chosen installer applies for the grant through the official <strong>gov uk air source heat pump grant</strong> system. They do all the boring paperwork!
                   </p>
                 </div>
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#0071e3] flex items-center justify-center shrink-0">
                   <span className="text-white text-[20px] font-bold">4</span>
                 </div>
                 <div className="flex-1 pt-2">
                   <h4 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Installation Day</h4>
                   <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                    Once approved, your installer will arrange a date to fit your new Air Source Heat Pump. Most installations take 1-2 days.
+                    Once approved, your installer will arrange a date to fit your new air source heat pump. Most installations take 1-2 days.
                   </p>
                 </div>
               </div>
 
               <div className="flex gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#34c759] flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-[#34c759] flex items-center justify-center shrink-0">
                   <span className="text-white text-[20px] font-bold">5</span>
                 </div>
                 <div className="flex-1 pt-2">
@@ -384,24 +348,24 @@ export default function BlogPostPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white border-2 border-[#0071e3] rounded-2xl p-6">
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</h3>
-                <p className="text-[15px] text-[#6e6e73] leading-[1.5] mb-4">
-                  The <strong>Air Source Heat Pump grant England</strong> is available to all homeowners through the Boiler Upgrade Scheme.
+                <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">
+                  Available to all homeowners in England through the Boiler Upgrade Scheme.
                 </p>
                 <div className="text-[20px] font-bold text-[#0071e3]">£7,500 Available</div>
               </div>
 
               <div className="bg-white border-2 border-[#0071e3] rounded-2xl p-6">
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales</h3>
-                <p className="text-[15px] text-[#6e6e73] leading-[1.5] mb-4">
-                  Welsh homeowners can claim <strong>Air Source Heat Pump grants Wales</strong> using the same BUS scheme.
+                <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">
+                  Welsh homeowners can claim the grant using the same BUS scheme.
                 </p>
                 <div className="text-[20px] font-bold text-[#0071e3]">£7,500 Available</div>
               </div>
 
               <div className="bg-white border-2 border-[#0071e3] rounded-2xl p-6">
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland</h3>
-                <p className="text-[15px] text-[#6e6e73] leading-[1.5] mb-4">
-                  <strong>Heat pump grants Scotland</strong> residents get the same £7,500 through BUS.
+                <p className="text-[15px] text-[#6e6e73] leading-normal mb-4">
+                  Scottish homeowners get the same £7,500 through BUS across each part of the UK.
                 </p>
                 <div className="text-[20px] font-bold text-[#0071e3]">£7,500 Available</div>
               </div>
@@ -410,7 +374,7 @@ export default function BlogPostPage() {
             <div className="bg-[#f5f5f7] rounded-2xl p-6">
               <h4 className="text-[18px] font-semibold text-[#1d1d1f] mb-3">What about Northern Ireland?</h4>
               <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                Northern Ireland has its own schemes. Check with local authorities for <strong>Air Source Heat Pump grant Northern Ireland</strong> options and eligibility.
+                Northern Ireland has its own schemes. Check with local authorities for grant options and eligibility.
               </p>
             </div>
           </div>
@@ -422,7 +386,7 @@ export default function BlogPostPage() {
             </h2>
 
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-6">
-              People often ask about the <strong>Air Source Heat Pump grant end date</strong>. Here's what you need to know:
+              People often ask about the air source heat pump grant end date. Here's what you need to know:
             </p>
 
             <div className="bg-[#ff9500]/10 border-2 border-[#ff9500] rounded-2xl p-8 mb-6">
@@ -436,7 +400,7 @@ export default function BlogPostPage() {
                 BUT (and this is important), the money is given out on a first-come, first-served basis. When the pot runs out each year, you'll have to wait for the next allocation.
               </p>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.6] font-medium">
-                Bottom line: Don't wait! The sooner you apply, the better your chances of getting the full <strong>£7,500 Air Source Heat Pump grant</strong>.
+                Bottom line: Don't wait! The sooner you apply, the better your chances of getting the full <strong>£7,500 air source heat pump grant</strong>.
               </p>
             </div>
           </div>
@@ -449,42 +413,42 @@ export default function BlogPostPage() {
 
             <div className="space-y-4">
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Can I get a Air Source Heat Pump grant if I live in a flat?</h3>
+                <h2 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Can I get an air source heat pump grant if I live in a flat?</h2>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                  It's tricky. Most flats don't have space for the outdoor unit. But if you own a flat with a garden or outdoor space, you might be able to get an Air Source Heat Pump. Ground floor flats and maisonettes have better chances.
+                  It's tricky. Most flats don't have space for the outdoor unit. But if you own a flat with a garden or outdoor space, you might be able to get an air source heat pump. Ground floor flats and maisonettes have better chances.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Do I need to improve my insulation first?</h3>
+                <h2 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Do I need better insulation before getting an air source heat pump?</h2>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                  Your home needs decent insulation for a Air Source Heat Pump to work well. If your EPC rating is below C, you might need to upgrade your insulation first. The good news? Your installer will tell you exactly what (if anything) you need to do during the survey.
+                  Your home needs decent insulation for an air source heat pump to work well. If your EPC rating is below C, you might need to upgrade your insulation first. The good news? Your installer will tell you exactly what (if anything) you need to do during the survey.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Will a Air Source Heat Pump work with my existing radiators?</h3>
+                <h2 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Will an air source heat pump work with my existing radiators?</h2>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                  Usually, yes! Modern Air Source Heat Pumps work fine with most radiators. You might need to upgrade to slightly larger radiators in some rooms, but your installer will check this during the survey.
+                  Usually, yes! Modern air source heat pumps work fine with most radiators. You might need to upgrade to slightly larger radiators in some rooms, but your installer will check this during the survey.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">How long does installation take?</h3>
+                <h2 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">How long does installation take?</h2>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                  An Air Source Heat Pump typically takes 1-2 days to install. Ground source systems take longer (3-5 days) because they need to dig trenches or bore holes in your garden.
+                  An air source heat pump typically takes 1-2 days to install. Ground source systems take longer (3-5 days) because they need to dig trenches or bore holes in your garden.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps noisy?</h3>
+                <h2 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Are air source heat pumps noisy?</h2>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
-                  Modern Air Source Heat Pumps are pretty quiet – about as loud as a fridge humming. Your installer will position the outdoor unit away from bedrooms and boundaries to keep everyone happy.
+                  Modern air source heat pumps are pretty quiet – about as loud as a fridge humming. Your installer will position the outdoor unit away from bedrooms and boundaries to keep everyone happy.
                 </p>
               </div>
 
               <div className="bg-white border-2 border-gray-200 rounded-2xl p-6">
-                <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Will I save money on my bills?</h3>
+                <h2 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Will I save money on my bills?</h2>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.6]">
                   If you're replacing an old gas or oil boiler, you should see savings on your energy bills. Heat pumps are 300-400% efficient, meaning they produce 3-4 units of heat for every 1 unit of electricity they use. That's way better than boilers!
                 </p>
@@ -503,28 +467,28 @@ export default function BlogPostPage() {
               
               <div className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                     <span className="text-white font-bold">1</span>
                   </div>
                   <p className="text-[17px]">Answer 10 quick questions about your home (takes 2 minutes)</p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                     <span className="text-white font-bold">2</span>
                   </div>
                   <p className="text-[17px]">Get matched with up to 3 vetted, MCS-certified installers</p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                     <span className="text-white font-bold">3</span>
                   </div>
                   <p className="text-[17px]">Compare quotes and choose the best deal</p>
                 </div>
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
                     <span className="text-white font-bold">4</span>
                   </div>
-                  <p className="text-[17px]">Your installer applies for the grant and fits your Air Source Heat Pump</p>
+                  <p className="text-[17px]">Your installer applies for the grant and fits your air source heat pump</p>
                 </div>
               </div>
 
@@ -533,12 +497,12 @@ export default function BlogPostPage() {
                   size="lg"
                   className="bg-white hover:bg-gray-100 text-[#0071e3] px-12 py-6 text-[19px] rounded-full h-auto font-semibold transition-all duration-300 hover:scale-[1.03] border-0 shadow-xl"
                 >
-                  Check My Eligibility Now →
+                  Check Your Eligibility in 90 Seconds →
                 </Button>
               </Link>
 
               <p className="text-[15px] text-white/80 mt-6">
-                100% free • No obligation • Takes 2 minutes
+                Compare free quotes from vetted MCS-certified installers • 100% free • No obligation
               </p>
             </div>
           </div>
@@ -547,10 +511,10 @@ export default function BlogPostPage() {
           <div className="bg-[#f5f5f7] rounded-2xl p-8">
             <h3 className="text-[24px] font-semibold text-[#1d1d1f] mb-4">Final Thoughts</h3>
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6] mb-4">
-              The <strong>Air Source Heat Pump grant UK</strong> scheme is one of the best deals the government has offered for home improvements. Getting £7,500 towards a Air Source Heat Pump means you can make your home more comfortable, slash your energy bills, and help the environment – all at the same time.
+              The air source heat pump grant scheme is one of the best deals the government has offered for home improvements. Getting £7,500 towards an air source heat pump means you can make your home more comfortable, slash your energy bills, and help the environment – all at the same time.
             </p>
             <p className="text-[17px] text-[#1d1d1f] leading-[1.6]">
-              Don't overthink it! Take our quick 2-minute quiz to see if you qualify. You've got nothing to lose and potentially thousands of pounds to save. Why not find out today?
+              Don't overthink it! Take our quick 2-minute quiz to see if you qualify. You've got nothing to lose and potentially thousands of pounds to save. If you're still unsure, you can also read <Link href="/blog/are-heat-pumps-worth-it" className="text-[#0071e3] hover:underline">our guide on whether air source heat pumps are worth it</Link>. Why not find out today?
             </p>
           </div>
         </div>
@@ -563,30 +527,30 @@ export default function BlogPostPage() {
             Read More
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/blog">
+            <Link href="/blog/air-source-heat-pump-cost-uk">
               <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="/energy-efficiency-comparison-chart.jpg" alt="Cost comparison" className="w-full h-48 object-cover" />
                 <div className="p-6">
-                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Air Source Heat Pumps vs Gas Boilers: Cost Comparison</h3>
-                  <p className="text-[15px] text-[#6e6e73]">See how much you could save by switching</p>
+                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Air Source Heat Pump Cost UK (2026 Guide)</h3>
+                  <p className="text-[15px] text-[#6e6e73]">Complete breakdown of what you'll actually pay in 2026</p>
                 </div>
               </div>
             </Link>
-            <Link href="/blog">
+            <Link href="/blog/are-heat-pumps-worth-it">
               <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer">
-                <img src="/heat-pump-in-winter-snow.jpg" alt="Winter performance" className="w-full h-48 object-cover" />
+                <img src="/heat-pump-in-winter-snow.jpg" alt="Worth it analysis" className="w-full h-48 object-cover" />
                 <div className="p-6">
-                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Do Air Source Heat Pumps Work in Cold Weather?</h3>
-                  <p className="text-[15px] text-[#6e6e73]">The truth about UK winters and Air Source Heat Pumps</p>
+                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Are air source heat pumps worth it?</h3>
+                  <p className="text-[15px] text-[#6e6e73]">The honest answer about costs, savings and whether they're right for your home</p>
                 </div>
               </div>
             </Link>
-            <Link href="/blog">
+            <Link href="/">
               <div className="bg-white rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer">
                 <img src="/modern-uk-house-exterior.jpg" alt="Home suitability" className="w-full h-48 object-cover" />
                 <div className="p-6">
-                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Is Your Home Suitable for a Air Source Heat Pump?</h3>
-                  <p className="text-[15px] text-[#6e6e73]">5 signs your property is ready</p>
+                  <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-2">Compare MCS-Certified Installers</h3>
+                  <p className="text-[15px] text-[#6e6e73]">Get quotes from vetted installers in 90 seconds</p>
                 </div>
               </div>
             </Link>

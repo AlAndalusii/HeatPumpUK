@@ -1,33 +1,13 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Logo } from "@/components/logo"
 import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
-import { useState, useEffect } from "react"
+import { useEffect } from "react"
 import Head from "next/head"
 
 export default function ManchesterInstallersPage() {
-  const [scrollY, setScrollY] = useState(0)
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
-  useEffect(() => {
-    if (mobileMenuOpen) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = 'unset'
-    }
-    return () => {
-      document.body.style.overflow = 'unset'
-    }
-  }, [mobileMenuOpen])
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -60,76 +40,7 @@ export default function ManchesterInstallersPage() {
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
         {/* Header */}
-        <header
-          className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
-          style={{
-            backgroundColor: scrollY > 50 ? "rgba(255, 255, 255, 0.95)" : "rgba(255, 255, 255, 0.95)",
-            backdropFilter: "saturate(180%) blur(20px)",
-            borderBottom: "1px solid rgba(0, 0, 0, 0.08)",
-          }}
-        >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
-              <Link href="/" className="flex items-center gap-3 group">
-                <Logo className="h-9 sm:h-11 w-auto transition-transform duration-300 group-hover:scale-105" />
-              </Link>
-              
-              <nav className="hidden md:flex items-center gap-8">
-                <Link href="/#how-it-works" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                  How it works
-                </Link>
-                <Link href="/#faq" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                  FAQ
-                </Link>
-                <Link href="/about" className="text-sm font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors duration-200">
-                  About
-                </Link>
-                <Link href="/quiz">
-                  <Button className="bg-[#0071e3] hover:bg-[#0077ed] text-white text-sm px-6 py-2 rounded-full transition-all duration-300 hover:scale-105 min-h-[44px]">
-                    Get Free Quotes
-                  </Button>
-                </Link>
-              </nav>
-
-              <button
-                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="md:hidden p-2 text-[#1d1d1f] hover:text-[#0071e3] transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
-                aria-label="Toggle menu"
-              >
-                {mobileMenuOpen ? (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                ) : (
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                )}
-              </button>
-            </div>
-          </div>
-
-          {mobileMenuOpen && (
-            <div className="md:hidden fixed inset-0 top-16 bg-white z-40 animate-fade-in-up">
-              <nav className="flex flex-col px-4 py-6 gap-4">
-                <Link href="/#how-it-works" className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>
-                  How it works
-                </Link>
-                <Link href="/#faq" className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>
-                  FAQ
-                </Link>
-                <Link href="/about" className="text-base font-normal text-[#1d1d1f] hover:text-[#0071e3] transition-colors py-3 border-b border-gray-100" onClick={() => setMobileMenuOpen(false)}>
-                  About
-                </Link>
-                <Link href="/quiz" className="mt-4" onClick={() => setMobileMenuOpen(false)}>
-                  <Button className="w-full bg-[#0071e3] hover:bg-[#0077ed] text-white text-base px-6 py-3 rounded-full transition-all duration-300 min-h-[44px]">
-                    Get Free Quotes
-                  </Button>
-                </Link>
-              </nav>
-            </div>
-          )}
-        </header>
+        <Navbar activePage="other" />
 
         {/* Hero Section */}
         <section className="pt-32 pb-16 sm:pt-40 sm:pb-20 relative overflow-hidden">
@@ -154,7 +65,7 @@ export default function ManchesterInstallersPage() {
               </p>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-4">
-                <Link href="/quiz" className="text-[#0071e3] hover:underline">Check your eligibility in 90 seconds</Link> and compare free quotes from up to 3 vetted air source heat pump installers in Manchester.
+                <Link href="/quiz" className="text-[#0071e3] hover:underline">Check your eligibility in 90 seconds</Link> and compare free quotes from up to 3 vetted air source heat pump installers and heating engineers in Manchester.
               </p>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
@@ -262,7 +173,7 @@ export default function ManchesterInstallersPage() {
               Why Compare Air Source Heat Pump Installers in Manchester With Us?
             </h2>
             <p className="text-[17px] sm:text-[19px] text-[#6e6e73] text-center mb-12 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
-              We are an independent installer comparison service. We help Manchester homeowners compare vetted, MCS-certified installers with no sales pressure or pushy calls.
+              We match Manchester homeowners with vetted air source heat pump installers and qualified heating engineers – not salespeople.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -412,7 +323,7 @@ export default function ManchesterInstallersPage() {
                   Victorian Terraces
                 </h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Manchester has thousands of Victorian terraces in areas like Chorlton, Didsbury and Withington. These homes often have solid brick walls and may need insulation upgrades before an air source heat pump is installed.
+                  Manchester has thousands of Victorian terraces in areas like Chorlton, Didsbury and Withington. Local heating engineers and air source heat pump specialists in Manchester often work on these homes. These properties usually have solid brick walls and may need insulation upgrades before installation.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Radiators may also need upgrading because heat pumps run at lower water temperatures than gas boilers. Many Victorian homes in Manchester have already had insulation work done, which makes installation easier.
@@ -429,7 +340,7 @@ export default function ManchesterInstallersPage() {
                   1930s Semi-Detached Houses
                 </h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  These homes, common in places like Sale, Altrincham and Stockport, are ideal for air source heat pumps. They often have cavity walls, which are easier to insulate, and decent garden space for the outdoor unit.
+                  These homes, common in places like Sale, Altrincham and Stockport, are ideal for air source heat pumps. Local heating engineers and installers find these properties straightforward to work with – they often have cavity walls, which are easier to insulate, and decent garden space for the outdoor unit.
                 </p>
                 <div className="bg-[#f5f5f7] rounded-2xl p-6">
                   <p className="text-[16px] text-[#1d1d1f] font-semibold mb-2">Typical cost: £9,000 – £12,000 (before grant)</p>
@@ -572,7 +483,7 @@ export default function ManchesterInstallersPage() {
               <div className="opacity-0 animate-fade-in-up-scroll">
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do I qualify for the £7,500 grant for Air Source Heat Pump installation in Manchester?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Yes, if you own your property (houses or flats work) and you're replacing gas, oil, or LPG heating. The grant is available across all Greater Manchester areas for Air Source Heat Pump installation.
+                  Yes, if you own your property (houses or flats work) and you're replacing gas, oil, or LPG heating. The grant is available across all Greater Manchester areas for air source heat pump installation.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   <Link href="/quiz" className="text-[#0071e3] hover:underline">Check eligibility in 90 seconds</Link> with our quiz. Most Manchester homeowners qualify but don't know it.
@@ -583,7 +494,7 @@ export default function ManchesterInstallersPage() {
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does Air Source Heat Pump installation take in Manchester?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
-                  Survey: 1-2 hours. Grant application: 2-4 weeks. Installation: 2-3 days. Total timeline from quote to completion: 4-8 weeks. Manchester Air Source Heat Pump installs are typically straightforward with good access to properties.
+                  Survey: 1-2 hours. Grant application: 2-4 weeks. Installation: 2-3 days. Total timeline from quote to completion: 4-8 weeks. Manchester air source heat pump installs are typically straightforward with good access to properties.
                 </p>
               </div>
 
@@ -602,7 +513,7 @@ export default function ManchesterInstallersPage() {
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
                 <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do Air Source Heat Pumps work in Manchester's climate?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
-                  Yes, absolutely. Air source Air Source Heat Pumps work efficiently in Manchester's climate. They extract heat from the air even when temperatures drop. Modern Air Source Heat Pumps are designed to work effectively in UK conditions, including Manchester's cooler winters.
+                  Yes, absolutely. Air source heat pumps work efficiently in Manchester's climate. They extract heat from the air even when temperatures drop. Modern air source heat pumps are designed to work effectively in UK conditions, including Manchester's cooler winters.
                 </p>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Many Manchester homeowners have already made the switch and are seeing lower running costs.

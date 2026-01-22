@@ -113,6 +113,14 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- Blog Article 6: Ground Source Heat Pump Cost UK (Published: Jan 21, 2026) -->
+  <url>
+    <loc>https://www.getheatpumpquotes.co.uk/blog/ground-source-heat-pump-cost-uk</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- ============================================================================
        LONDON INSTALLER PAGES - LOCAL SEO
        ============================================================================ -->
@@ -202,8 +210,8 @@
        ============================================================================
        
        Sitemap Specification: 1.0 (Google Standard)
-       Last Updated: January 1, 2026
-       Total URLs: 24
+       Last Updated: January 21, 2026
+       Total URLs: 25
        
        PRIORITY GUIDELINES USED:
        - 1.0:   Homepage (entry point)

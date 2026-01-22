@@ -5,6 +5,8 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
 import Head from "next/head"
 
@@ -25,24 +27,28 @@ export default function InstallationPage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-white flex items-center justify-center px-6">
-        <div className="max-w-2xl mx-auto text-center">
-          <div className="w-16 h-16 rounded-full bg-[#34C759] flex items-center justify-center mx-auto mb-6">
-            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
+      <div className="min-h-screen bg-white">
+        <Navbar activePage="installation" />
+        <div className="min-h-screen flex items-center justify-center px-6 pt-16">
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="w-16 h-16 rounded-full bg-[#34c759] flex items-center justify-center mx-auto mb-6">
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#1d1d1f] mb-4">Request Received!</h1>
+            <p className="text-xl text-[#6e6e73] mb-8">
+              Thank you for your interest. A certified installer will contact you shortly with a free, no-obligation quote
+              for your Air Source Heat Pump installation.
+            </p>
+            <Link href="/">
+              <Button size="lg" className="bg-[#0071e3] hover:bg-[#0077ed] text-white rounded-full">
+                Return Home
+              </Button>
+            </Link>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Request Received!</h1>
-          <p className="text-xl text-gray-600 mb-8">
-            Thank you for your interest. A certified installer will contact you shortly with a free, no-obligation quote
-            for your Air Source Heat Pump installation.
-          </p>
-          <Link href="/">
-            <Button size="lg" className="bg-[#007AFF] hover:bg-[#0051D5] text-white">
-              Return Home
-            </Button>
-          </Link>
         </div>
+        <Footer />
       </div>
     )
   }
@@ -56,15 +62,7 @@ export default function InstallationPage() {
       </Head>
       <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="text-xl font-semibold text-gray-900">
-              HeatPumpResource
-            </Link>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="installation" />
 
       {/* Form Content */}
       <div className="flex items-center justify-center min-h-screen px-6 py-24">
@@ -144,7 +142,7 @@ export default function InstallationPage() {
 
               <Button
                 type="submit"
-                className="w-full bg-[#34C759] hover:bg-[#2AB74A] text-white py-6 text-lg rounded-xl font-medium"
+                className="w-full bg-[#34c759] hover:bg-[#30a14e] text-white py-6 text-lg rounded-xl font-medium"
               >
                 Get Free Quote
               </Button>
@@ -152,6 +150,7 @@ export default function InstallationPage() {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
     </>
   )

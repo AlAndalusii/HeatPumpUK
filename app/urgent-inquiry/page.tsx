@@ -2,6 +2,8 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
+import { Footer } from "@/components/footer"
+import { Navbar } from "@/components/navbar"
 import Link from "next/link"
 import Head from "next/head"
 
@@ -99,54 +101,58 @@ export default function UrgentInquiryPage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-[#FF3B30] to-[#FF2D1F] flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20">
-        <div className="max-w-2xl mx-auto text-center">
-          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white flex items-center justify-center mx-auto mb-6 sm:mb-8 shadow-2xl">
-            <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#34C759]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          
-          <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-4 sm:mb-6 tracking-tight leading-[1.1]">
-            We'll contact you ASAP!
-          </h1>
-          <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-8 sm:mb-10 md:mb-12 leading-[1.4]">
-            Thank you for your urgent inquiry. Our team will contact you as soon as possible during business hours (Mon-Fri 9am-6pm).
-          </p>
+      <div className="min-h-screen bg-white">
+        <Navbar activePage="other" />
+        <div className="min-h-screen bg-gradient-to-br from-[#FF3B30] to-[#FF2D1F] flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20 pt-24">
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white flex items-center justify-center mx-auto mb-6 sm:mb-8 shadow-2xl">
+              <svg className="w-8 h-8 sm:w-10 sm:h-10 text-[#34c759]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            
+            <h1 className="text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-white mb-4 sm:mb-6 tracking-tight leading-[1.1]">
+              We'll contact you ASAP!
+            </h1>
+            <p className="text-[17px] sm:text-[19px] md:text-[21px] lg:text-[24px] text-white/90 mb-8 sm:mb-10 md:mb-12 leading-[1.4]">
+              Thank you for your urgent inquiry. Our team will contact you as soon as possible during business hours (Mon-Fri 9am-6pm).
+            </p>
 
-          <div className="bg-white/10 backdrop-blur-lg rounded-xl sm:rounded-2xl p-6 sm:p-8 mb-6 sm:mb-8 border border-white/20">
-            <h3 className="text-[18px] sm:text-[20px] font-semibold text-white mb-3 sm:mb-4">What happens next?</h3>
-            <div className="space-y-3 sm:space-y-4 text-left">
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm font-semibold">1</span>
+            <div className="bg-white/10 backdrop-blur-lg rounded-xl sm:rounded-2xl p-6 sm:p-8 mb-6 sm:mb-8 border border-white/20">
+              <h3 className="text-[18px] sm:text-[20px] font-semibold text-white mb-3 sm:mb-4">What happens next?</h3>
+              <div className="space-y-3 sm:space-y-4 text-left">
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white text-sm font-semibold">1</span>
+                  </div>
+                  <p className="text-[15px] sm:text-[17px] text-white/90">A specialist will review your inquiry immediately</p>
                 </div>
-                <p className="text-[15px] sm:text-[17px] text-white/90">A specialist will review your inquiry immediately</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm font-semibold">2</span>
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white text-sm font-semibold">2</span>
+                  </div>
+                  <p className="text-[15px] sm:text-[17px] text-white/90">We'll call you as soon as possible (during business hours)</p>
                 </div>
-                <p className="text-[15px] sm:text-[17px] text-white/90">We'll call you as soon as possible (during business hours)</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm font-semibold">3</span>
+                <div className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white text-sm font-semibold">3</span>
+                  </div>
+                  <p className="text-[15px] sm:text-[17px] text-white/90">We'll arrange the fastest possible solution for your needs</p>
                 </div>
-                <p className="text-[15px] sm:text-[17px] text-white/90">We'll arrange the fastest possible solution for your needs</p>
               </div>
             </div>
-          </div>
 
-          <Link href="/" className="inline-block w-full sm:w-auto">
-            <Button 
-              size="lg" 
-              className="w-full sm:w-auto bg-white hover:bg-gray-100 text-[#FF3B30] px-8 sm:px-10 py-3 sm:py-5 text-[17px] rounded-full h-auto font-semibold transition-all duration-300 hover:scale-[1.03] border-0 shadow-lg min-h-[44px]"
-            >
-              Return Home
-            </Button>
-          </Link>
+            <Link href="/" className="inline-block w-full sm:w-auto">
+              <Button 
+                size="lg" 
+                className="w-full sm:w-auto bg-white hover:bg-gray-100 text-[#FF3B30] px-8 sm:px-10 py-3 sm:py-5 text-[17px] rounded-full h-auto font-semibold transition-all duration-300 hover:scale-[1.03] border-0 shadow-lg min-h-[44px]"
+              >
+                Return Home
+              </Button>
+            </Link>
+          </div>
         </div>
+        <Footer />
       </div>
     )
   }
@@ -160,15 +166,7 @@ export default function UrgentInquiryPage() {
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14 sm:h-16">
-            <Link href="/" className="text-base sm:text-lg md:text-xl font-semibold text-[#1d1d1f] py-2 min-h-[44px] flex items-center">
-              ← Back
-            </Link>
-          </div>
-        </div>
-      </header>
+      <Navbar activePage="other" />
 
       {/* Form Content */}
       <div className="flex items-center justify-center min-h-screen px-4 sm:px-6 pt-20 sm:pt-24 pb-8 sm:pb-12">
@@ -325,6 +323,7 @@ export default function UrgentInquiryPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
     </>
   )
