@@ -10,7 +10,7 @@ export function Footer() {
           <div className="sm:col-span-2 md:col-span-1">
             <Logo className="h-10 sm:h-11 w-auto mb-3 sm:mb-4" />
             <p className="text-[13px] sm:text-[14px] font-semibold text-[#1d1d1f] mb-2">Get Heat Pump Quotes</p>
-            <p className="text-[12px] sm:text-[13px] text-[#6e6e73]">Independent Air Source Heat Pump Comparison Service</p>
+            <p className="text-[12px] sm:text-[13px] text-[#6e6e73]">Independent Heat Pump Comparison Service</p>
           </div>
 
           {/* Quick links */}

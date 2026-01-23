@@ -57,17 +57,17 @@ export default function AboutPage() {
               {/* Main headline with premium spacing */}
               <h1 className="text-[44px] sm:text-[56px] md:text-[72px] lg:text-[80px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6 sm:mb-8">
                 <span className="block">Your Trusted Guide to</span>
-                <span className="block bg-linear-to-r from-[#0071e3] via-[#00a2ff] to-[#34c759] bg-clip-text text-transparent">Air Source Heat Pump Installation</span>
+                <span className="block bg-linear-to-r from-[#0071e3] via-[#00a2ff] to-[#34c759] bg-clip-text text-transparent">Heat Pump Installation</span>
               </h1>
 
               {/* Premium subheading */}
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] max-w-3xl mx-auto font-light mb-4 sm:mb-5">
-                We help UK homeowners compare air source heat pump installers and heating engineers, check if they can get the £7,500 Boiler Upgrade Scheme grant, and get free quotes from trusted companies.
+                We help UK homeowners compare heat pump installers and heating engineers, check if they can get the £7,500 Boiler Upgrade Scheme grant, and get free quotes from trusted companies.
               </p>
 
               {/* Clear "not installers" statement */}
               <p className="text-[17px] sm:text-[19px] text-[#1d1d1f] leading-[1.6] max-w-3xl mx-auto font-medium mb-8 sm:mb-10">
-                We don't install heat pumps ourselves – we're an independent comparison service for air source heat pumps.
+                We don't install heat pumps ourselves – we're an independent comparison service.
               </p>
 
               {/* Enhanced trust indicators */}
@@ -104,11 +104,11 @@ export default function AboutPage() {
                 </h2>
                 
                 <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-6">
-                  Get Heat Pump Quotes is an independent comparison service for UK homeowners. We don't install heat pumps. We don't sell equipment. We explain air source heat pumps in simple language and connect you with vetted, MCS-certified installers and heating engineers.
+                  Get Heat Pump Quotes is an independent comparison service for UK homeowners. We don't install heat pumps. We don't sell equipment. We explain low-carbon heating in simple language and connect you with vetted, MCS-certified installers and heating engineers.
                 </p>
 
                 <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-6">
-                  We help you get and compare air source heat pump quotes from trusted UK installers.
+                  We help you get and compare heat pump quotes from trusted UK installers.
                 </p>
                 
                 <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.8] mb-10">
@@ -123,7 +123,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <div className="text-[28px] sm:text-[32px] font-bold text-[#34c759] mb-2">Mission</div>
-                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">Make the switch to air source heat pumps simple, fair, and affordable for UK homeowners</p>
+                    <p className="text-[14px] sm:text-[15px] text-[#6e6e73]">Make the switch to low-carbon heating simple, fair, and affordable for UK homeowners</p>
                   </div>
                 </div>
 
@@ -411,7 +411,7 @@ export default function AboutPage() {
                 Our Commitment
               </h2>
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.6] max-w-2xl mx-auto">
-                We're dedicated to making Air Source Heat Pump installation transparent, fair, and homeowner-first.
+                We're dedicated to making heat pump installation transparent, fair, and homeowner-first.
               </p>
             </div>
 
@@ -420,7 +420,7 @@ export default function AboutPage() {
                 <div className="bg-white rounded-2xl p-7 sm:p-8 border border-[#e5e5e7] h-full">
                   <h3 className="text-[20px] font-semibold text-[#1d1d1f] mb-3">Transparency</h3>
                   <p className="text-[16px] text-[#6e6e73] leading-[1.7]">
-                    No hidden costs. No jargon. We explain how air source heat pumps work, what they cost, and what the government grant covers. You make informed decisions.
+                    No hidden costs. No jargon. We explain how heat pumps work, what they cost, and what the government grant covers. You make informed decisions.
                   </p>
                 </div>
               </div>

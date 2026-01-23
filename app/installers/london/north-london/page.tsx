@@ -33,8 +33,8 @@ export default function NorthLondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Air Source Heat Pump Installers North London | Local MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in North London. Serving Islington, Camden, Hampstead, Barnet and all N postcodes. £7,500 grant support." />
+        <title>Heat Pump Installers North London | Local MCS Quotes | £7,500 Grant</title>
+        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in North London. Serving Islington, Camden, Hampstead, Barnet and all N postcodes. £7,500 grant support." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london/north-london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -50,16 +50,16 @@ export default function NorthLondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#5856d6]">North London Air Source Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#5856d6]">North London Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Air Source Heat Pump Installers North London: Local MCS-Certified Quotes
+                Heat Pump Installers North London: Local MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                Looking for Air Source Heat Pump installers in North London? We connect homeowners across N postcodes with vetted, MCS-certified installers who understand North London properties. Check your £7,500 grant eligibility and compare quotes from local professionals.
+                Looking for heat pump installers in North London? We connect homeowners across N postcodes with vetted, MCS-certified installers who understand North London properties. Check your £7,500 grant eligibility and compare quotes from local professionals.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -91,7 +91,7 @@ export default function NorthLondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Air Source Heat Pump Installation Costs in North London
+              Heat Pump Installation Costs in North London
             </h2>
 
             <div className="max-w-5xl mx-auto">
@@ -104,7 +104,7 @@ export default function NorthLondonInstallersPage() {
                 
                 <div className="space-y-4">
                   <div className="flex justify-between items-center pb-4 border-b border-gray-100">
-                    <span className="text-[16px] text-[#6e6e73]">Air Source Heat Pump</span>
+                    <span className="text-[16px] text-[#6e6e73]">Heat Pump</span>
                     <span className="text-[16px] font-medium text-[#1d1d1f]">£12,000 - £16,000</span>
                   </div>
                   <div className="flex justify-between items-center pb-4 border-b border-gray-100 bg-[#34c759]/5 px-4 py-2 rounded-xl">
@@ -254,7 +254,7 @@ export default function NorthLondonInstallersPage() {
 
             <div className="space-y-8">
               <div className="opacity-0 animate-fade-in-up-scroll">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps suitable for large Hampstead and Highgate homes?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are heat pumps suitable for large Hampstead and Highgate homes?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Yes, very much so. Larger properties might need bigger units or multiple Air Source Heat Pumps to cover the whole house. The key is proper heat loss calculations during the survey. Many Hampstead homes already have good insulation, which helps enormously. Running costs can actually be lower than gas heating because of how efficient Air Source Heat Pumps are.
                 </p>

@@ -33,7 +33,7 @@ export default function ManchesterHeatingEngineersPage() {
   return (
     <>
       <Head>
-        <title>Heating Engineers in Manchester – Air Source Heat Pump Specialists</title>
+        <title>Heating Engineers in Manchester – Heat Pump Specialists</title>
         <meta name="description" content="Compare heating engineers in Manchester for boilers and air source heat pumps. Get free quotes from vetted Gas Safe and MCS-certified installers and check if you can get the £7,500 Boiler Upgrade Scheme grant." />
         <meta name="keywords" content="heating engineer Manchester, heating engineers Manchester, boiler repair Manchester, heat pump installer Manchester, Gas Safe engineer Manchester, MCS certified Manchester" />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/manchester/heating-engineers" />
@@ -57,7 +57,7 @@ export default function ManchesterHeatingEngineersPage() {
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Heating Engineers in Manchester – Air Source Heat Pump Specialists
+                Heating Engineers in Manchester – Heat Pump Specialists
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-4">
@@ -749,7 +749,7 @@ export default function ManchesterHeatingEngineersPage() {
               }
             }
           },
-          "serviceType": ["Heating Engineer Services", "Air Source Heat Pump Installation", "Boiler Installation"],
+          "serviceType": ["Heating Engineer Services", "Heat Pump Installation", "Boiler Installation"],
           "offers": {
             "@type": "Offer",
             "price": "0",

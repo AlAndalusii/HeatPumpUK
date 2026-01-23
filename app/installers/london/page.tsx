@@ -33,8 +33,8 @@ export default function LondonInstallersPage() {
   return (
     <>
       <Head>
-        <title>Air Source Heat Pump Installers London | Compare MCS-Certified Quotes</title>
-        <meta name="description" content="Get free quotes from vetted Air Source Heat Pump installers in London. Check £7,500 grant eligibility and compare local MCS-certified installer prices. Serving all Greater London." />
+        <title>Heat Pump Installers London | Compare MCS-Certified Quotes | £7,500 Grant</title>
+        <meta name="description" content="Get free quotes from vetted heat pump installers in London. Check £7,500 grant eligibility and compare local MCS-certified installer prices. Serving all Greater London." />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/london" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -51,16 +51,16 @@ export default function LondonInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#0071e3]">London Air Source Heat Pump Installers</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#0071e3]">London Heat Pump Installers</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Air Source Heat Pump Installers London: Compare MCS-Certified Quotes
+                Heat Pump Installers London: Compare MCS-Certified Quotes
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-10">
-                If you're looking for Air Source Heat Pump installers in London, you've come to the right place. We connect homeowners across London with vetted, MCS-certified Air Source Heat Pump installers who can help you access the £7,500 government grant.
+                If you're looking for heat pump installers in London, you've come to the right place. We connect homeowners across London with vetted, MCS-certified installers who can help you access the £7,500 government grant.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -90,7 +90,7 @@ export default function LondonInstallersPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 opacity-0 animate-fade-in-up-scroll">
-                How Much Does Air Source Heat Pump Installation Cost in London?
+                How Much Does Heat Pump Installation Cost in London?
               </h2>
 
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-8 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
@@ -102,7 +102,7 @@ export default function LondonInstallersPage() {
               </p>
 
               <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-lg mb-12 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-                <h3 className="text-[24px] sm:text-[28px] font-semibold text-[#1d1d1f] mb-8">London Air Source Heat Pump Costs Breakdown</h3>
+                <h3 className="text-[24px] sm:text-[28px] font-semibold text-[#1d1d1f] mb-8">London Heat Pump Costs Breakdown</h3>
                 
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -167,7 +167,7 @@ export default function LondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-12 text-center opacity-0 animate-fade-in-up-scroll">
-              Why Choose Our Air Source Heat Pump Installers in London?
+              Why Choose Our Heat Pump Installers in London?
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -239,7 +239,7 @@ export default function LondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 text-center opacity-0 animate-fade-in-up-scroll">
-              How to Get Air Source Heat Pump Quotes in London
+              How to Get Heat Pump Quotes in London
             </h2>
             <p className="text-[18px] sm:text-[20px] text-[#6e6e73] text-center mb-16 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
               Three simple steps to compare installers and get your Air Source Heat Pump installed
@@ -303,7 +303,7 @@ export default function LondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-12 opacity-0 animate-fade-in-up-scroll">
-              Air Source Heat Pumps for Different London Properties
+              Heat Pumps for Different London Properties
             </h2>
 
             <div className="space-y-12 max-w-5xl mx-auto">
@@ -388,7 +388,7 @@ export default function LondonInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Air Source Heat Pump Installers Serving All London Areas
+              Heat Pump Installers Serving All London Areas
             </h2>
             <p className="text-[18px] text-[#6e6e73] mb-12 max-w-3xl opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
               Our network of MCS-certified installers serves all London areas including:
@@ -523,7 +523,7 @@ export default function LondonInstallersPage() {
 
               {/* FAQ 2 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does Air Source Heat Pump installation take in London?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does heat pump installation take in London?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Survey: 1-2 hours. Grant application: 2-4 weeks. Installation: 2-3 days. Total timeline from quote to completion: 4-8 weeks. London installs sometimes take an extra week due to access challenges and traffic.
                 </p>
@@ -542,7 +542,7 @@ export default function LondonInstallersPage() {
 
               {/* FAQ 4 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do Air Source Heat Pumps work in London flats?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do heat pumps work in London flats?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, but with conditions. You need outdoor space for the unit (balcony, roof, ground level). Freeholder permission is required. Noise considerations for neighbors matter. You need space for a hot water cylinder inside.
                 </p>
@@ -561,7 +561,7 @@ export default function LondonInstallersPage() {
 
               {/* FAQ 6 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.25s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps worth it with London energy prices?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are heat pumps worth it with London energy prices?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, especially with the £7,500 grant. Heat pumps are 300 percent efficient (gas boilers 90 percent). Lower running costs if on the right tariff. Increases property value. Future-proof as gas boilers are being phased out.
                 </p>
@@ -581,7 +581,7 @@ export default function LondonInstallersPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <div className="opacity-0 animate-fade-in-up-scroll">
               <h2 className="text-[44px] sm:text-[56px] md:text-[64px] font-semibold text-white tracking-tight leading-[1.1] mb-6">
-                Ready to Compare Air Source Heat Pump Quotes in London?
+                Ready to Compare Heat Pump Quotes in London?
               </h2>
 
               <p className="text-[18px] sm:text-[20px] text-white/90 mb-8 max-w-3xl mx-auto leading-[1.6]">

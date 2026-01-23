@@ -21,7 +21,7 @@ export default function UrgentInquiryPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
 
   const inquiryTypes = [
-    "Urgent Air Source Heat Pump installation",
+    "Urgent heat pump installation",
     "Emergency repair needed",
     "Grant eligibility check",
     "System replacement ASAP",
@@ -160,9 +160,9 @@ export default function UrgentInquiryPage() {
   return (
     <>
       <Head>
-        <title>Urgent Air Source Heat Pump Inquiry | Emergency Callback Request | Air Source Heat Pump Resource</title>
-        <meta name="description" content="Need urgent Air Source Heat Pump assistance? Request an emergency callback from our MCS-certified installers. Fast response for Air Source Heat Pump repairs, breakdowns, and urgent installations across the UK." />
-        <meta name="keywords" content="urgent Air Source Heat Pump repair, emergency Air Source Heat Pump service, Air Source Heat Pump breakdown, urgent callback, emergency heating repair, Air Source Heat Pump emergency" />
+        <title>Urgent Heat Pump Inquiry | Emergency Callback Request | Get Heat Pump Quotes</title>
+        <meta name="description" content="Need urgent heat pump assistance? Request an emergency callback from our MCS-certified installers. Fast response for repairs, breakdowns, and urgent installations across the UK." />
+        <meta name="keywords" content="urgent heat pump repair, emergency heating service, heat pump breakdown, urgent callback, emergency heating repair" />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
       {/* Header */}

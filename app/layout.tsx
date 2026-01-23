@@ -4,11 +4,11 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Air Source Heat Pump Quotes UK - Compare Installers & Check £7,500 Grant Eligibility",
+  title: "Heat Pump Quotes UK | £7,500 Grant Check",
   description:
-    "Independent Air Source Heat Pump comparison service. Check if you qualify for £7,500 government grant in 90 seconds, then compare free quotes from vetted MCS installers across the UK.",
+    "Independent UK service helping you check if you can get the £7,500 heat pump grant in 90 seconds, then compare free quotes from vetted MCS-certified installers.",
   keywords:
-    "Air Source Heat Pump quotes UK, Air Source Heat Pump installers, Air Source Heat Pump comparison, £7,500 Air Source Heat Pump grant, MCS certified installers, Air Source Heat Pumps, Air Source Heat Pump installation costs, Air Source Heat Pump grant eligibility",
+    "heat pump quotes UK, heat pump installers, heat pump comparison, £7,500 grant, MCS certified installers, low-carbon heating, heat pump installation costs, boiler upgrade scheme",
   icons: {
     icon: [
       {
@@ -21,6 +21,9 @@ export const metadata: Metadata = {
       },
     ],
     apple: "/apple-touch-icon.png",
+  },
+  alternates: {
+    canonical: "https://www.getheatpumpquotes.co.uk/",
   },
 }
 
@@ -36,7 +39,7 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "HeatPump UK",
-  "description": "Independent Air Source Heat Pump comparison service helping UK homeowners find vetted installers and qualify for £7,500 government grants",
+  "description": "Independent heat pump comparison service helping UK homeowners find vetted installers and qualify for £7,500 government grants",
   "url": "https://www.getheatpumpquotes.co.uk",
   "logo": "https://www.getheatpumpquotes.co.uk/logo.png",
   "contactPoint": {
@@ -53,14 +56,14 @@ const websiteSchema = {
   "@type": "WebSite",
   "name": "HeatPump UK",
   "url": "https://www.getheatpumpquotes.co.uk",
-  "description": "Compare Air Source Heat Pump installers and check £7,500 grant eligibility. Free, independent comparison service for UK homeowners."
+  "description": "Compare heat pump installers and check £7,500 grant eligibility. Free, independent comparison service for UK homeowners."
 }
 
 // Service Schema
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Air Source Heat Pump Installer Comparison",
+  "serviceType": "Heat Pump Installer Comparison",
   "provider": {
     "@type": "Organization",
     "name": "HeatPump UK"
@@ -73,7 +76,7 @@ const serviceSchema = {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "GBP",
-    "description": "Free Air Source Heat Pump installer comparison and grant eligibility checking"
+    "description": "Free heat pump installer comparison and grant eligibility checking"
   }
 }
 

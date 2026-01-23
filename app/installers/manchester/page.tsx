@@ -33,9 +33,9 @@ export default function ManchesterInstallersPage() {
   return (
     <>
       <Head>
-        <title>Air Source Heat Pump Installers Manchester | Compare MCS Quotes</title>
-        <meta name="description" content="Get free quotes from MCS-certified Air Source Heat Pump installers in Manchester. Check £7,500 grant eligibility. Serving all Greater Manchester areas." />
-        <meta name="keywords" content="Air Source Heat Pump installers Manchester, Air Source Heat Pump Manchester, Air Source Heat Pump Manchester, Air Source Heat Pump installation Manchester, Air Source Heat Pumps Manchester, MCS certified Manchester" />
+        <title>Heat Pump Installers Manchester | Compare MCS Quotes | £7,500 Grant</title>
+        <meta name="description" content="Get free quotes from MCS-certified heat pump installers in Manchester. Check £7,500 grant eligibility. Serving all Greater Manchester areas." />
+        <meta name="keywords" content="heat pump installers Manchester, heat pump Manchester, MCS certified installers, boiler upgrade scheme Manchester" />
         <link rel="canonical" href="https://getheatpumpquotes.co.uk/installers/manchester" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
@@ -52,12 +52,12 @@ export default function ManchesterInstallersPage() {
             <div className="max-w-4xl opacity-0 animate-fade-in-up">
               <div className="inline-block mb-6">
                 <div className="px-4 py-2 rounded-full bg-white/60 backdrop-blur-md border border-white/40 shadow-sm">
-                  <p className="text-[13px] sm:text-[14px] font-medium text-[#0071e3]">Compare Air Source Heat Pump Installers in Manchester</p>
+                  <p className="text-[13px] sm:text-[14px] font-medium text-[#0071e3]">Compare Heat Pump Installers in Manchester</p>
                 </div>
               </div>
 
               <h1 className="text-[40px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] tracking-tight leading-[1.05] mb-6">
-                Compare Air Source Heat Pump Installers in Manchester
+                Heat Pump Installers in Manchester
               </h1>
 
               <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#6e6e73] leading-[1.6] mb-4">
@@ -89,7 +89,7 @@ export default function ManchesterInstallersPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 opacity-0 animate-fade-in-up-scroll">
-                How Much Does Air Source Heat Pump Installation Cost in Manchester?
+                How Much Does Heat Pump Installation Cost in Manchester?
               </h2>
 
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-8 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
@@ -97,7 +97,7 @@ export default function ManchesterInstallersPage() {
               </p>
 
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-8 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
-                Air source heat pump installation costs in Manchester are usually lower than in London. The city has a mix of Victorian terraces, 1930s semis, and modern flats, so local installers are used to all property types. Average air source heat pump costs range from £9,000 to £13,000 before the grant.
+                Heat pump installation costs in Manchester are usually lower than in London. The city has a mix of Victorian terraces, 1930s semis, and modern flats, so local installers are used to all property types. Average costs range from £9,000 to £13,000 before the grant.
               </p>
 
               <p className="text-[17px] sm:text-[19px] text-[#6e6e73] leading-[1.7] mb-12 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
@@ -105,7 +105,7 @@ export default function ManchesterInstallersPage() {
               </p>
 
               <div className="bg-white rounded-3xl p-8 sm:p-12 shadow-lg mb-12 opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-                <h3 className="text-[24px] sm:text-[28px] font-semibold text-[#1d1d1f] mb-8">Manchester Air Source Heat Pump Cost Breakdown</h3>
+                <h3 className="text-[24px] sm:text-[28px] font-semibold text-[#1d1d1f] mb-8">Manchester Heat Pump Cost Breakdown</h3>
                 
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -170,7 +170,7 @@ export default function ManchesterInstallersPage() {
         <section className="py-20 sm:py-28 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 text-center opacity-0 animate-fade-in-up-scroll">
-              Why Compare Air Source Heat Pump Installers in Manchester With Us?
+              Why Compare Heat Pump Installers in Manchester With Us?
             </h2>
             <p className="text-[17px] sm:text-[19px] text-[#6e6e73] text-center mb-12 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
               We match Manchester homeowners with vetted air source heat pump installers and qualified heating engineers – not salespeople.
@@ -249,7 +249,7 @@ export default function ManchesterInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-6 text-center opacity-0 animate-fade-in-up-scroll">
-              How to Get Air Source Heat Pump Quotes in Manchester
+              How to Get Heat Pump Quotes in Manchester
             </h2>
             <p className="text-[18px] sm:text-[20px] text-[#6e6e73] text-center mb-16 max-w-3xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
               Three simple steps to compare installers and get your air source heat pump installed:
@@ -313,7 +313,7 @@ export default function ManchesterInstallersPage() {
         <section className="py-20 sm:py-28 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-12 opacity-0 animate-fade-in-up-scroll">
-              Air Source Heat Pumps for Different Manchester Properties
+              Heat Pumps for Different Manchester Properties
             </h2>
 
             <div className="space-y-12 max-w-5xl mx-auto">
@@ -386,7 +386,7 @@ export default function ManchesterInstallersPage() {
         <section className="py-20 sm:py-28 bg-[#f5f5f7]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-[36px] sm:text-[44px] md:text-[52px] font-semibold text-[#1d1d1f] tracking-tight mb-8 opacity-0 animate-fade-in-up-scroll">
-              Air Source Heat Pump Installers Serving All Greater Manchester Areas
+              Heat Pump Installers Serving All Greater Manchester Areas
             </h2>
             <p className="text-[18px] text-[#6e6e73] mb-12 max-w-3xl opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.1s" }}>
               Our network of MCS-certified air source heat pump installers covers all of Greater Manchester, including:
@@ -481,7 +481,7 @@ export default function ManchesterInstallersPage() {
             <div className="space-y-8">
               {/* FAQ 1 */}
               <div className="opacity-0 animate-fade-in-up-scroll">
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do I qualify for the £7,500 grant for Air Source Heat Pump installation in Manchester?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do I qualify for the £7,500 grant for heat pump installation in Manchester?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, if you own your property (houses or flats work) and you're replacing gas, oil, or LPG heating. The grant is available across all Greater Manchester areas for air source heat pump installation.
                 </p>
@@ -492,7 +492,7 @@ export default function ManchesterInstallersPage() {
 
               {/* FAQ 2 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.05s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does Air Source Heat Pump installation take in Manchester?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">How long does heat pump installation take in Manchester?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7]">
                   Survey: 1-2 hours. Grant application: 2-4 weeks. Installation: 2-3 days. Total timeline from quote to completion: 4-8 weeks. Manchester air source heat pump installs are typically straightforward with good access to properties.
                 </p>
@@ -511,7 +511,7 @@ export default function ManchesterInstallersPage() {
 
               {/* FAQ 4 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do Air Source Heat Pumps work in Manchester's climate?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Do heat pumps work in Manchester's climate?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, absolutely. Air source heat pumps work efficiently in Manchester's climate. They extract heat from the air even when temperatures drop. Modern air source heat pumps are designed to work effectively in UK conditions, including Manchester's cooler winters.
                 </p>
@@ -522,7 +522,7 @@ export default function ManchesterInstallersPage() {
 
               {/* FAQ 5 */}
               <div className="opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.2s" }}>
-                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are Air Source Heat Pumps worth it with Manchester energy prices?</h3>
+                <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">Are heat pumps worth it with Manchester energy prices?</h3>
                 <p className="text-[17px] text-[#6e6e73] leading-[1.7] mb-3">
                   Yes, especially with the £7,500 grant. Heat pumps are 300 percent efficient (gas boilers 90 percent). Lower running costs if on the right tariff. Increases property value. Future-proof as gas boilers are being phased out.
                 </p>
@@ -550,7 +550,7 @@ export default function ManchesterInstallersPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <div className="opacity-0 animate-fade-in-up-scroll">
               <h2 className="text-[44px] sm:text-[56px] md:text-[64px] font-semibold text-white tracking-tight leading-[1.1] mb-6">
-                Ready to Compare Air Source Heat Pump Quotes in Manchester?
+                Ready to Compare Heat Pump Quotes in Manchester?
               </h2>
 
               <p className="text-[18px] sm:text-[20px] text-white/90 mb-8 max-w-3xl mx-auto leading-[1.6]">

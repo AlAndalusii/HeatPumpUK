@@ -44,31 +44,31 @@ const guides = [
   {
     id: "air-source-heat-pump-cost-uk",
     title: "Air Source Heat Pump Cost in the UK (2026 Guide)",
-    excerpt: "Complete breakdown of Air Source Heat Pump costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
+    excerpt: "Complete breakdown of heat pump costs. Learn the real prices, hidden costs, and how to save thousands with the £7,500 grant.",
     image: "/thisisengineering-vEoMKBdUIzs-unsplash.jpg",
     date: "January 3, 2026",
     category: "Guides",
   },
   {
     id: "are-heat-pumps-worth-it",
-    title: "Are Air Source Heat Pumps Worth It? The Honest Answer for UK Homes",
-    excerpt: "Get the straight answer about whether Air Source Heat Pumps are worth it. Real costs, genuine savings, and who they're perfect for.",
+    title: "Are Heat Pumps Worth It? The Honest Answer for UK Homes",
+    excerpt: "Get the straight answer about whether heat pumps are worth it. Real costs, genuine savings, and who they're perfect for.",
     image: "/fotos-k72xVjAmVHE-unsplash.jpg",
     date: "August 23, 2025",
     category: "Guides",
   },
   {
     id: "how-heat-pumps-work",
-    title: "How Do Air Source Heat Pumps Work? The Simple Guide",
-    excerpt: "Understand how Air Source Heat Pumps work in plain English. Learn the simple steps from taking heat from outside air to warming your home efficiently.",
+    title: "How Do Heat Pumps Work? The Simple Guide",
+    excerpt: "Understand how heat pumps work in plain English. Learn the simple steps from taking heat from outside air to warming your home efficiently.",
     image: "/emmanuel-ikwuegbu-_2AlIm-F6pw-unsplash.jpg",
     date: "May 7, 2025",
     category: "Guides",
   },
   {
     id: "heat-pump-grant-guide",
-    title: "Everything You Need to Know About the £7,500 Air Source Heat Pump Grant",
-    excerpt: "The UK government is giving away up to £7,500 to help you get a Air Source Heat Pump. Learn who qualifies, how to apply, and how much you could save.",
+    title: "Everything You Need to Know About the £7,500 Heat Pump Grant",
+    excerpt: "The UK government is giving away up to £7,500 to help you get a heat pump. Learn who qualifies, how to apply, and how much you could save.",
     image: "/modern-heat-pump-installation.jpg",
     date: "February 19, 2025",
     category: "Guides",
@@ -76,17 +76,17 @@ const guides = [
 ]
 
 const installerLocations = [
-  { name: "London", path: "/installers/london", description: "Find vetted Air Source Heat Pump installers across all London areas" },
+  { name: "London", path: "/installers/london", description: "Find vetted heat pump installers across all London areas" },
   { name: "Manchester", path: "/installers/manchester", description: "Compare MCS-certified installers serving Greater Manchester" },
 ]
 
 const cities = [
-  { name: "South London", path: "/installers/london/south-london", description: "Air source heat pump installers in South London" },
-  { name: "North London", path: "/installers/london/north-london", description: "Air source heat pump installers in North London" },
-  { name: "East London", path: "/installers/london/east-london", description: "Air source heat pump installers in East London" },
-  { name: "West London", path: "/installers/london/west-london", description: "Air source heat pump installers in West London" },
-  { name: "South East London", path: "/installers/london/south-east-london", description: "Air source heat pump installers in South East London" },
-  { name: "South West London", path: "/installers/london/south-west-london", description: "Air source heat pump installers in South West London" },
+  { name: "South London", path: "/installers/london/south-london", description: "Heat pump installers in South London" },
+  { name: "North London", path: "/installers/london/north-london", description: "Heat pump installers in North London" },
+  { name: "East London", path: "/installers/london/east-london", description: "Heat pump installers in East London" },
+  { name: "West London", path: "/installers/london/west-london", description: "Heat pump installers in West London" },
+  { name: "South East London", path: "/installers/london/south-east-london", description: "Heat pump installers in South East London" },
+  { name: "South West London", path: "/installers/london/south-west-london", description: "Heat pump installers in South West London" },
 ]
 
 type TabType = "guides" | "blogs" | "installers" | "cities"

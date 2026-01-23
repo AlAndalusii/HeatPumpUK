@@ -108,9 +108,9 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contact Air Source Heat Pump Resource | Get Expert Air Source Heat Pump Advice | Free Consultation</title>
-        <meta name="description" content="Contact Air Source Heat Pump Resource for expert advice on Air Source Heat Pumps and government grants. Get free consultation from MCS-certified installers. Call, email, or use our contact form for personalized Air Source Heat Pump guidance." />
-        <meta name="keywords" content="contact Air Source Heat Pump experts, Air Source Heat Pump advice, Air Source Heat Pump consultation, MCS installers contact, Air Source Heat Pump support, Air Source Heat Pump questions" />
+        <title>Contact Get Heat Pump Quotes | Expert Advice | Free Consultation</title>
+        <meta name="description" content="Contact us for expert advice on heat pumps and the £7,500 government grant. Free consultation from MCS-certified installers. Call, email, or use our contact form." />
+        <meta name="keywords" content="contact heat pump experts, heat pump advice, consultation, MCS installers contact, heat pump support" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
@@ -124,7 +124,7 @@ export default function ContactPage() {
               Let's Connect
             </h1>
             <p className="text-[19px] sm:text-[21px] md:text-[24px] text-[#6e6e73] leading-[1.4] max-w-3xl mx-auto opacity-0 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-              Have questions about Air Source Heat Pumps? Our team is here to help you every step of the way.
+              Have questions about heat pumps or the £7,500 grant? Our team is here to help you every step of the way.
             </p>
           </div>
 

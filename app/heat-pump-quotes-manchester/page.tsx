@@ -11,7 +11,7 @@ export default function HeatPumpQuotesManchesterPage() {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Air Source Heat Pump Installation Manchester",
+    "name": "Heat Pump Installation Manchester",
     "description": "Professional heat pump installation in Greater Manchester",
     "offers": {
       "@type": "AggregateOffer",

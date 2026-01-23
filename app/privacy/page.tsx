@@ -9,9 +9,9 @@ export default function PrivacyPage() {
   return (
     <>
       <Head>
-        <title>Privacy Policy | Air Source Heat Pump Resource | Data Protection & Privacy</title>
-        <meta name="description" content="Air Source Heat Pump Resource privacy policy. Learn how we protect your personal data, use cookies, and handle information when you request Air Source Heat Pump quotes and use our services." />
-        <meta name="keywords" content="privacy policy, data protection, GDPR compliance, Air Source Heat Pump data privacy, personal information security" />
+        <title>Privacy Policy | Get Heat Pump Quotes | Data Protection & Privacy</title>
+        <meta name="description" content="Privacy policy for Get Heat Pump Quotes. Learn how we protect your personal data, use cookies, and handle information when you request quotes and use our services." />
+        <meta name="keywords" content="privacy policy, data protection, GDPR compliance, personal information security" />
       </Head>
       <div className="min-h-screen bg-white text-[#1d1d1f]">
       {/* Header */}
@@ -88,9 +88,9 @@ export default function PrivacyPage() {
                 We use the information we collect for the following purposes:
               </p>
               <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li className="text-[17px] text-[#1d1d1f]">To connect you with MCS-certified Air Source Heat Pump installers in your area</li>
+                <li className="text-[17px] text-[#1d1d1f]">To connect you with MCS-certified heat pump installers in your area</li>
                 <li className="text-[17px] text-[#1d1d1f]">To process and respond to your inquiries and requests</li>
-                <li className="text-[17px] text-[#1d1d1f]">To provide information about government Air Source Heat Pump grants and eligibility</li>
+                <li className="text-[17px] text-[#1d1d1f]">To provide information about government heat pump grants and eligibility</li>
                 <li className="text-[17px] text-[#1d1d1f]">To send you marketing communications (with your consent)</li>
                 <li className="text-[17px] text-[#1d1d1f]">To improve our website and services</li>
                 <li className="text-[17px] text-[#1d1d1f]">To analyse usage patterns and trends</li>
@@ -108,7 +108,7 @@ export default function PrivacyPage() {
 
               <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">4.1 With Installers</h3>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.7] mb-4">
-                When you request quotes, we share your contact details and property information with up to 3 vetted, MCS-certified Air Source Heat Pump installers in your area. These installers will contact you to arrange surveys and provide quotes.
+                When you request quotes, we share your contact details and property information with up to 3 vetted, MCS-certified heat pump installers in your area. These installers will contact you to arrange surveys and provide quotes.
               </p>
 
               <h3 className="text-[22px] font-semibold text-[#1d1d1f] mb-3">4.2 With Service Providers</h3>
@@ -189,7 +189,7 @@ export default function PrivacyPage() {
             <section className="mb-12">
               <h2 className="text-[28px] font-semibold text-[#1d1d1f] mb-4">10. Marketing Communications</h2>
               <p className="text-[17px] text-[#1d1d1f] leading-[1.7] mb-4">
-                With your consent, we may send you marketing emails about our services, Air Source Heat Pump grants, and related offers. You can opt out of marketing communications at any time by:
+                With your consent, we may send you marketing emails about our services, heat pump grants, and related offers. You can opt out of marketing communications at any time by:
               </p>
               <ul className="list-disc pl-6 mb-4 space-y-2">
                 <li className="text-[17px] text-[#1d1d1f]">Clicking the "unsubscribe" link in any marketing email</li>

@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
 
     // Send email to admin
     const { data: adminEmailData, error: adminError } = await resend.emails.send({
-      from: process.env.FROM_EMAIL || 'Air Source Heat Pump Resource <onboarding@resend.dev>',
+      from: process.env.FROM_EMAIL || 'Heat Pump Quotes UK <onboarding@resend.dev>',
       to: [process.env.ADMIN_EMAIL || 'info@heatpumpresource.co.uk'],
       subject: `New Quiz Submission - ${name}`,
       html: answersSummary,
@@ -93,7 +93,7 @@ export async function POST(request: NextRequest) {
     `;
 
     const { data: userEmailData, error: userError } = await resend.emails.send({
-      from: process.env.FROM_EMAIL || 'Air Source Heat Pump Resource <onboarding@resend.dev>',
+      from: process.env.FROM_EMAIL || 'Heat Pump Quotes UK <onboarding@resend.dev>',
       to: [email],
       subject: 'Thank You - Your Air Source Heat Pump Quote Request',
       html: userConfirmation,
