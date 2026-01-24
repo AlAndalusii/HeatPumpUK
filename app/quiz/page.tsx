@@ -5,6 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { Logo } from "@/components/logo"
 import Link from "next/link"
 import Head from "next/head"
 
@@ -281,7 +282,7 @@ export default function QuizPage() {
     const hasEligibleHeating = answers[4] === "Gas boiler" || answers[4] === "Oil" || answers[4] === "LPG" || answers[4] === "Electric"
     
     return (
-      <div className="min-h-screen bg-gradient-to-br from-[#0071e3] to-[#0056b3] flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20">
+      <div className="min-h-screen bg-linear-to-br from-[#0071e3] to-[#0056b3] flex items-center justify-center px-4 sm:px-6 py-16 sm:py-20">
         <div className="max-w-2xl mx-auto text-center">
           <div className={`w-16 h-16 sm:w-20 sm:h-20 rounded-full ${isPotentiallyEligible ? 'bg-white' : 'bg-white/90'} flex items-center justify-center mx-auto mb-6 sm:mb-8 shadow-2xl`}>
             {isPotentiallyEligible ? (
@@ -356,7 +357,7 @@ export default function QuizPage() {
             <h3 className="text-[18px] sm:text-[20px] font-semibold text-white mb-3 sm:mb-4">What happens next?</h3>
             <div className="space-y-3 sm:space-y-4 text-left">
               <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-sm font-semibold">1</span>
                 </div>
                 <p className="text-[15px] sm:text-[17px] text-white/90">
@@ -367,7 +368,7 @@ export default function QuizPage() {
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-sm font-semibold">2</span>
                 </div>
                 <p className="text-[15px] sm:text-[17px] text-white/90">
@@ -378,7 +379,7 @@ export default function QuizPage() {
                 </p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center shrink-0 mt-1">
                   <span className="text-white text-sm font-semibold">3</span>
                 </div>
                 <p className="text-[15px] sm:text-[17px] text-white/90">Compare quotes and choose the best option for your home</p>
@@ -406,13 +407,16 @@ export default function QuizPage() {
         <meta name="description" content="Take our 2-minute eligibility quiz to check if you qualify for the £7,500 government grant. Get matched with MCS-certified installers and receive free quotes for your home." />
         <meta name="keywords" content="heat pump eligibility quiz, grant eligibility, £7500 grant quiz, boiler upgrade scheme checker, MCS installers" />
       </Head>
-      <div className="min-h-screen bg-gradient-to-br from-[#f5f5f7] to-white">
+      <div className="min-h-screen bg-linear-to-br from-[#f5f5f7] to-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-14 sm:h-16">
-            <Link href="/" className="text-base sm:text-lg md:text-xl font-semibold text-[#1d1d1f] py-2 min-h-[44px] flex items-center">
-              ← Back
+            <Link href="/" className="flex items-center gap-3 group">
+              <Logo className="h-8 sm:h-10 w-auto transition-transform duration-300 group-hover:scale-105" />
+            </Link>
+            <Link href="/" className="text-sm sm:text-base font-medium text-[#0071e3] hover:text-[#0056b3] py-2 min-h-[44px] flex items-center transition-colors">
+              ← Back to Home
             </Link>
           </div>
         </div>
@@ -421,7 +425,7 @@ export default function QuizPage() {
       {/* Progress Bar */}
       <div className="fixed top-14 sm:top-16 left-0 right-0 h-1.5 sm:h-2 bg-gray-200 z-40">
         <div 
-          className="h-full bg-gradient-to-r from-[#0071e3] to-[#0056b3] transition-all duration-500 ease-out" 
+          className="h-full bg-linear-to-r from-[#0071e3] to-[#0056b3] transition-all duration-500 ease-out" 
           style={{ width: `${progress}%` }} 
         />
       </div>
@@ -493,7 +497,7 @@ export default function QuizPage() {
                   <p className="text-[14px] sm:text-[15px] text-[#6e6e73] text-center mb-4">Want to see preliminary results now?</p>
                   <Button
                     onClick={handleEarlyResults}
-                    className="w-full bg-gradient-to-r from-[#34c759] to-[#30a14e] hover:from-[#2eb350] hover:to-[#289645] text-white py-3 sm:py-4 text-[15px] sm:text-[16px] rounded-xl sm:rounded-2xl font-semibold transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] min-h-[44px]"
+                    className="w-full bg-linear-to-r from-[#34c759] to-[#30a14e] hover:from-[#2eb350] hover:to-[#289645] text-white py-3 sm:py-4 text-[15px] sm:text-[16px] rounded-xl sm:rounded-2xl font-semibold transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] min-h-[44px]"
                   >
                     {currentStep === 2 ? "See Preliminary Results →" : "Get Personalized Report →"}
                   </Button>
@@ -580,7 +584,7 @@ export default function QuizPage() {
           {/* Trust indicator */}
           <div className="text-center mt-8 sm:mt-10 md:mt-12 px-4">
             <div className="inline-flex items-start sm:items-center gap-2 text-[13px] sm:text-[14px] text-[#6e6e73] max-w-md">
-              <svg className="w-4 h-4 text-[#34c759] flex-shrink-0 mt-0.5 sm:mt-0" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-4 h-4 text-[#34c759] shrink-0 mt-0.5 sm:mt-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
               </svg>
               <span className="text-left sm:text-center">Your information is secure and will only be shared with vetted installers</span>

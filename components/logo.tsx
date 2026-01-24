@@ -2,79 +2,77 @@
 
 export function Logo({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 280 44" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-      {/* Minimalist icon - circular energy flow with perfect geometry */}
-      <g>
+    <svg viewBox="0 0 240 36" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+      {/* Original icon - circular energy flow with perfect geometry */}
+      <g transform="translate(0, 0)">
         {/* Outer circle - subtle background */}
         <circle 
-          cx="22" 
-          cy="22" 
-          r="20" 
+          cx="18" 
+          cy="18" 
+          r="16" 
           fill="url(#iconBg)" 
           opacity="0.08"
         />
         
         {/* Main icon shape - three-quarter circle representing continuous energy flow */}
         <circle 
-          cx="22" 
-          cy="22" 
-          r="14" 
+          cx="18" 
+          cy="18" 
+          r="11" 
           stroke="url(#mainGradient)" 
-          strokeWidth="2.5"
+          strokeWidth="2"
           strokeLinecap="round"
           fill="none"
-          strokeDasharray="66 22"
+          strokeDasharray="52 17"
           strokeDashoffset="0"
-          transform="rotate(-90 22 22)"
+          transform="rotate(-90 18 18)"
         />
         
         {/* Inner accent circle - represents core efficiency */}
         <circle 
-          cx="22" 
-          cy="22" 
-          r="8" 
+          cx="18" 
+          cy="18" 
+          r="6.5" 
           stroke="url(#innerGradient)" 
-          strokeWidth="2"
+          strokeWidth="1.6"
           strokeLinecap="round"
           fill="none"
-          strokeDasharray="38 12"
+          strokeDasharray="30 10"
           strokeDashoffset="0"
-          transform="rotate(45 22 22)"
+          transform="rotate(45 18 18)"
         />
         
         {/* Center dot - focal point */}
         <circle 
-          cx="22" 
-          cy="22" 
-          r="2.5" 
+          cx="18" 
+          cy="18" 
+          r="2" 
           fill="url(#centerGradient)"
         />
         
         {/* Elegant arrow indicator - subtle directional element */}
         <path
-          d="M 28 15 L 31 12 L 28 9"
+          d="M 23 12 L 25.5 9.5 L 23 7"
           stroke="url(#accentGradient)"
-          strokeWidth="2"
+          strokeWidth="1.6"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
         />
       </g>
 
-      {/* Wordmark - Apple-style typography */}
-      <g>
-        <text
-          x="52"
-          y="28"
-          fontFamily="'Poppins', sans-serif"
-          fontSize="17"
-          fontWeight="400"
-          fill="#1d1d1f"
-          letterSpacing="-0.5"
-        >
-          Get Heat Pump Quotes
-        </text>
-      </g>
+      {/* Wordmark - getheatpumpquotes in Poppins */}
+      <text
+        x="44"
+        y="23"
+        fontFamily="var(--font-poppins), 'Poppins', system-ui, sans-serif"
+        fontSize="15"
+        fontWeight="500"
+        letterSpacing="-0.2"
+      >
+        <tspan fill="#1a2b49">getheatpump</tspan>
+        <tspan fill="#0071e3">quotes</tspan>
+      </text>
 
       {/* Gradient definitions - Premium and refined */}
       <defs>

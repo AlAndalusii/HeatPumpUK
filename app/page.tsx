@@ -642,7 +642,7 @@ export default function HomePage() {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
                   </svg>
-                  <span className="text-[14px] font-medium">MCS Certified</span>
+                  <span className="text-[14px] font-medium">Certified Pros</span>
                 </div>
                 <div className="flex items-center gap-2 text-white/80">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
@@ -667,79 +667,99 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Us Section - Apple-Inspired Minimal Design */}
-      <section className="py-24 sm:py-28 md:py-32 bg-[#fbfbfd]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Headline & Subheadline */}
-          <div className="text-center mb-16 sm:mb-20 md:mb-24 opacity-0 animate-fade-in-up-scroll">
-            <h2 className="text-[36px] sm:text-[44px] md:text-[52px] lg:text-[56px] font-semibold text-[#1d1d1f] mb-5 sm:mb-6 tracking-tight leading-[1.1]">
+      {/* About Us Section - Premium Apple-Inspired Design */}
+      <section className="relative py-28 sm:py-32 md:py-40 overflow-hidden">
+        {/* Animated gradient background */}
+        <div className="absolute inset-0 bg-[#fafafa]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(0,113,227,0.03)_0%,transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(52,199,89,0.03)_0%,transparent_50%)]" />
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          {/* Headline with premium typography */}
+          <div className="text-center mb-20 sm:mb-24 md:mb-28 opacity-0 animate-fade-in-up-scroll">
+            <h2 className="text-[42px] sm:text-[52px] md:text-[64px] lg:text-[72px] font-semibold text-[#1d1d1f] mb-6 sm:mb-8 tracking-[-0.03em] leading-[1.05]">
               Independent. Trusted. Free.
             </h2>
-            <p className="text-[17px] sm:text-[19px] md:text-[21px] text-[#86868b] leading-relaxed max-w-xl mx-auto">
+            <p className="text-[18px] sm:text-[20px] md:text-[22px] text-[#86868b] leading-normal max-w-2xl mx-auto font-normal">
               We help UK homeowners compare heat pump installers and access government grants — without pressure or bias.
             </p>
           </div>
 
-          {/* Features Grid - Clean Apple Style */}
+          {/* Premium Features Grid */}
           <div className="max-w-5xl mx-auto opacity-0 animate-fade-in-up-scroll" style={{ animationDelay: "0.15s" }}>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-6">
-              {/* Item 1 */}
-              <div className="flex flex-col items-center text-center group">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 mb-4 rounded-2xl bg-[#0071e3]/8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#0071e3]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                  </svg>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10">
+              {/* Item 1 - Independent */}
+              <div className="group flex flex-col items-center text-center">
+                <div className="relative mb-5 sm:mb-6">
+                  <div className="absolute inset-0 bg-[#0071e3] rounded-[20px] blur-xl opacity-0 group-hover:opacity-20 transition-all duration-500 scale-90 group-hover:scale-110" />
+                  <div className="relative w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-[18px] bg-linear-to-br from-white to-[#f5f5f7] border border-[#e5e5e7]/60 shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_1px_rgba(255,255,255,0.8)] flex items-center justify-center transition-all duration-500 group-hover:scale-105 group-hover:shadow-[0_8px_40px_rgba(0,113,227,0.15)]">
+                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#0071e3] transition-transform duration-500 group-hover:scale-110" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                    </svg>
+                  </div>
                 </div>
-                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-snug">
-                  Independent<br />comparison
+                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-[1.4] tracking-[-0.01em]">
+                  Independent<br /><span className="text-[#86868b] font-normal">comparison</span>
                 </p>
               </div>
 
-              {/* Item 2 */}
-              <div className="flex flex-col items-center text-center group">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 mb-4 rounded-2xl bg-[#34c759]/8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#34c759]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
-                  </svg>
+              {/* Item 2 - No Pressure */}
+              <div className="group flex flex-col items-center text-center">
+                <div className="relative mb-5 sm:mb-6">
+                  <div className="absolute inset-0 bg-[#34c759] rounded-[20px] blur-xl opacity-0 group-hover:opacity-20 transition-all duration-500 scale-90 group-hover:scale-110" />
+                  <div className="relative w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-[18px] bg-linear-to-br from-white to-[#f5f5f7] border border-[#e5e5e7]/60 shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_1px_rgba(255,255,255,0.8)] flex items-center justify-center transition-all duration-500 group-hover:scale-105 group-hover:shadow-[0_8px_40px_rgba(52,199,89,0.15)]">
+                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#34c759] transition-transform duration-500 group-hover:scale-110" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                    </svg>
+                  </div>
                 </div>
-                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-snug">
-                  No sales<br />pressure
+                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-[1.4] tracking-[-0.01em]">
+                  No sales<br /><span className="text-[#86868b] font-normal">pressure</span>
                 </p>
               </div>
 
-              {/* Item 3 */}
-              <div className="flex flex-col items-center text-center group">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 mb-4 rounded-2xl bg-[#ff9500]/8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#ff9500]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
-                  </svg>
+              {/* Item 3 - Certified Installers */}
+              <div className="group flex flex-col items-center text-center">
+                <div className="relative mb-5 sm:mb-6">
+                  <div className="absolute inset-0 bg-[#ff9500] rounded-[20px] blur-xl opacity-0 group-hover:opacity-20 transition-all duration-500 scale-90 group-hover:scale-110" />
+                  <div className="relative w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-[18px] bg-linear-to-br from-white to-[#f5f5f7] border border-[#e5e5e7]/60 shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_1px_rgba(255,255,255,0.8)] flex items-center justify-center transition-all duration-500 group-hover:scale-105 group-hover:shadow-[0_8px_40px_rgba(255,149,0,0.15)]">
+                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#ff9500] transition-transform duration-500 group-hover:scale-110" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                    </svg>
+                  </div>
                 </div>
-                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-snug">
-                  MCS-certified<br />installers
+                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-[1.4] tracking-[-0.01em]">
+                  Certified<br /><span className="text-[#86868b] font-normal">installers</span>
                 </p>
               </div>
 
-              {/* Item 4 */}
-              <div className="flex flex-col items-center text-center group">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 mb-4 rounded-2xl bg-[#5856d6]/8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#5856d6]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
-                  </svg>
+              {/* Item 4 - Grant Guidance */}
+              <div className="group flex flex-col items-center text-center">
+                <div className="relative mb-5 sm:mb-6">
+                  <div className="absolute inset-0 bg-[#5856d6] rounded-[20px] blur-xl opacity-0 group-hover:opacity-20 transition-all duration-500 scale-90 group-hover:scale-110" />
+                  <div className="relative w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-[18px] bg-linear-to-br from-white to-[#f5f5f7] border border-[#e5e5e7]/60 shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_1px_rgba(255,255,255,0.8)] flex items-center justify-center transition-all duration-500 group-hover:scale-105 group-hover:shadow-[0_8px_40px_rgba(88,86,214,0.15)]">
+                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#5856d6] transition-transform duration-500 group-hover:scale-110" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                    </svg>
+                  </div>
                 </div>
-                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-snug">
-                  £7,500 grant<br />guidance
+                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-[1.4] tracking-[-0.01em]">
+                  £7,500 grant<br /><span className="text-[#86868b] font-normal">guidance</span>
                 </p>
               </div>
 
-              {/* Item 5 */}
-              <div className="flex flex-col items-center text-center group">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 mb-4 rounded-2xl bg-[#30d158]/8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#30d158]" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-                  </svg>
+              {/* Item 5 - Free Service */}
+              <div className="group flex flex-col items-center text-center col-span-2 sm:col-span-1">
+                <div className="relative mb-5 sm:mb-6">
+                  <div className="absolute inset-0 bg-[#30d158] rounded-[20px] blur-xl opacity-0 group-hover:opacity-20 transition-all duration-500 scale-90 group-hover:scale-110" />
+                  <div className="relative w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-[18px] bg-linear-to-br from-white to-[#f5f5f7] border border-[#e5e5e7]/60 shadow-[0_4px_24px_rgba(0,0,0,0.06),inset_0_1px_1px_rgba(255,255,255,0.8)] flex items-center justify-center transition-all duration-500 group-hover:scale-105 group-hover:shadow-[0_8px_40px_rgba(48,209,88,0.15)]">
+                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-[#30d158] transition-transform duration-500 group-hover:scale-110" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                    </svg>
+                  </div>
                 </div>
-                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-snug">
-                  100% free<br />service
+                <p className="text-[14px] sm:text-[15px] text-[#1d1d1f] font-medium leading-[1.4] tracking-[-0.01em]">
+                  100% free<br /><span className="text-[#86868b] font-normal">service</span>
                 </p>
               </div>
             </div>
@@ -773,7 +793,7 @@ export default function HomePage() {
               <svg className="w-5 h-5 sm:w-6 sm:h-6 text-[#34c759] shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <span className="text-[13px] sm:text-[14px] md:text-[15px] font-medium text-[#1d1d1f]">MCS Certified</span>
+              <span className="text-[13px] sm:text-[14px] md:text-[15px] font-medium text-[#1d1d1f]">Certified Pros</span>
             </div>
           </div>
         </div>
